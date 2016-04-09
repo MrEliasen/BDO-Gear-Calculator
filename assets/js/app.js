@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-09 18:53:04
+* @Last Modified time: 2016-04-09 19:27:44
 */
 
 /* global BDOdatabase, BDOcalculator */
