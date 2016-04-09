@@ -1,0 +1,23 @@
+{
+    "name": "BDO-Calculator",
+    "description": "A calculator for all the things (at some point maybe?) in BDO.",
+    "version": "0.1.0",
+    "author": "Mark Eliasen <hello@sirmre.com>",
+    "contributors": [
+        {
+            "name": "<your Eame>",
+            "email": "<your Email>",
+            "url": "<your website/git profile>"
+        }
+    ],
+    "dependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MrEliasen/bdo-calculator"
+    },
+    "bugs": {
+        "url": "https://github.com/MrEliasen/bdo-calculator/issues"
+    },
+    "private": true,
+    "license": "CC-BY-NC-3.0"
+}

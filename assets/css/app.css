@@ -1,0 +1,27 @@
+body.debug div {
+  outline: 1px #f10000; }
+
+#calculator-section,
+#player-class-section {
+  display: none; }
+
+#player-class {
+  min-width: 220px; }
+
+#equipment,
+#stats {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+
+.select2-container {
+  width: 100%; }
+
+div.enhancement {
+  width: 100%; }
+
+#calculator-section .clearfix {
+  margin-bottom: 10px; }
+
+.inline-text {
+  line-height: 28px; }

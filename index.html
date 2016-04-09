@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BDO Calculator</title>
+        <meta name="description" content="A calculator for all the things (at some point maybe?) in BDO.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Include the required libraries' css where applicable -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" integrity="sha384-Ht93LqjcTGHUlOarg7/xId0W82So5GT7HWRqFLNJsLvBf+4foNA0oe/lziqrR6Xd" crossorigin="anonymous">
+
+        <!-- The actual "app" css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    </head>
+    <body class="debug">
+        <!--[if lt IE 9]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>BDO Calculator</h1>
+                    <p>Mix and match gear and see the results.</p>
+                    <hr>
+                </div>
+            </div>
+            <div id="player-class-section" class="row">
+                <div class="col-xs-12 col-sm-5 col-md-4">
+                    <select id="player-class" data-itemset="classes" placeholder="Choose Class"></select>
+                    <hr>
+                </div>
+            </div>
+            <div id="calculator-section" class="row">
+                <div class="col-sm-7 col-md-7">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-4">
+                            <legend>Gear</legend>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <legend>Ench.</legend>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <legend>Item</legend>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Helmet:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="helmet"></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="helmets" data-type="helmet" placeholder="Choose Helmet"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Armor:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="armor"></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="armor" data-type="armor" placeholder="Choose Armor"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Boots:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="shoes"></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="shoes" data-type="shoes" placeholder="Choose Shoes"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Gloves:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="gloves"></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="gloves" data-type="gloves" placeholder="Choose Gloves"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Ring 1:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="rings" data-item="1"></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="rings" data-type="rings" data-item="1" placeholder="Choose Ring"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Ring 2:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="rings" data-item="2"></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="rings" data-type="rings" data-item="2" placeholder="Choose Ring"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Earring 1:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="earrings" data-item="1
+                                "></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="earrings" data-type="earrings" data-item="1" placeholder="Choose Earring"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Earring 2:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="earrings" data-item="2
+                                "></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="earrings" data-type="earrings" data-item="2" placeholder="Choose Earring"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Necklace:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="necklace"></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="necklaces" data-type="necklace" placeholder="Choose Necklace"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Belt:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="belt"></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="belts" data-type="belt" placeholder="Choose Belt"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Main Weapon:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="main-weapon"></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="main-weapons" data-type="main-weapon" placeholder="Choose Weapon"></select>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-4 inline-text">Snd. Weapon:</div>
+                        <div class="col-xs-2 col-sm-2 col-md-2">
+                            <div class="enhancement">
+                                <select data-type="secondary-weapon"></select>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6">
+                            <select data-itemset="secondary-weapons" data-type="secondary-weapon" placeholder="Choose Off-hand"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5 col-md-5">
+                    <div class="visible-xs-block"><hr></div>
+                    <legend>Stats From Gear</legend>
+                    <ul id="stats"></ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Include the required libraries -->
+        <!-- Generate the integrity hashes using https://www.srihash.org/ -->
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.full.min.js" integrity="sha384-rJEcWVwrUb505DMqXEuRq+QacfKf8EzSI7X9rmNvwnwiKZJB7ptEQWFyzWdVhiWi" crossorigin="anonymous"></script>
+
+        <!-- The actual "app" js -->
+        <script type="text/javascript" src="assets/js/bdo_database.js"></script>
+        <script type="text/javascript" src="assets/js/bdo_calculator.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+    </body>
+</html>
