@@ -4,14 +4,31 @@ BDO Gear Calculator
 A gear/equipment calculator for Black Desert Online ([Demo Here](https://www.sirmre.com/bdo-gear-calculator)).
 
 
+## Current Version: 0.1.1
+
+See [the changelog](https://github.com/MrEliasen/BDO-Gear-Calculator/blob/master/CHANGELOG.md) for details.
+
+
 ## Status
 
 The code should work, but the item database is being built (this is the boring and time consuming part). The missing items are primarity Main and Off hand weapons (only added few berserker weapons for testing).
 
 
+## Hidden Stats
+
+Hidden stats (like accuracy increase on Yuria) will not be included in the calculation as I don't know where I can find information on how it scales.
+
+
 ## Support / Feedback / Issues
 
 Please open a new issue "ticket" [here](https://github.com/MrEliasen/bdo-calculator/issues).
+
+
+## Data / Resources
+
+The data/information used to make this calculator comes from:
+
+ * [BDDatabase.net](http://bddatabase.net).
 
 
 ## Copyright & License

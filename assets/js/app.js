@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-09 19:27:44
+* @Last Modified time: 2016-04-10 10:52:46
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -60,6 +60,32 @@
         });
 
         callback();
+    }
+
+    function updateEnchantDropdown (itemObj, ddelement) {
+        var enhancement_levels = Object.keys(itemObj.enhancement).length;
+
+        if (enhancement_levels === 0) {
+            ddelement.val("0").trigger('change').prop("disabled", true);
+        } else {
+            ddelement.prop("disabled", false);
+            if ($(ddelement)[0].childElementCount - 1 !== enhancement_levels) {
+                ddelement.select2("destroy").html('');
+                if (enhancement_levels > BDOdatabase.max_gear_enhancement) {
+                    enhancement_levels = BDOdatabase.max_gear_enhancement;
+                }
+
+                initDropDown(
+                    ddelement,
+                    Array.apply(
+                        null,
+                        {
+                            length: enhancement_levels + 1
+                        }
+                    ).map(Number.call, Number)
+                );
+            }
+        }
     }
 
     $(document).ready(function() {
@@ -117,6 +143,7 @@
             }
 
             item = item[$(this).val()];
+            updateEnchantDropdown(item, $('div.enhancement select[data-type="' + type + '"]' + (typeof item_no !== 'undefined' ? '[data-item="' + item_no + '"]' : '')));
 
             BDOcalculator.setGear(item, type, item_no, 0, function() {
                 BDOcalculator.calculate();

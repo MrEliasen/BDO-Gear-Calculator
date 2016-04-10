@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 21:40:17
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-09 18:53:14
+* @Last Modified time: 2016-04-10 13:23:44
 */
 
 /* Data from http://bddatabase.net */
@@ -166,6 +166,10 @@ var BDOdatabase = {
             "title": "Damage Against Every Species",
             "total": 0,
             "symbol": ""
+        },
+        "special": {
+            "title": "Gear Specials",
+            "specials": []
         }
     },
     "rarity": {
@@ -316,6 +320,34 @@ var BDOdatabase = {
                     ],
                     "effects": {
                         "hp": 150
+                    }
+                }
+            ]
+        },
+        "Rosar": {
+            "pieces": {},
+            "combos": [
+                {
+                    "pieces": [
+                        "main-weapon",
+                        "secondary-weapon"
+                    ],
+                    "effects": {
+                        "ar": 10
+                    }
+                }
+            ]
+        },
+        "Krea": {
+            "pieces": {},
+            "combos": [
+                {
+                    "pieces": [
+                        "main-weapon",
+                        "secondary-weapon"
+                    ],
+                    "effects": {
+                        "acc": 5
                     }
                 }
             ]
@@ -4524,6 +4556,853 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Styd Axe": {
+                    "set": "Styd",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Seleth Axe": {
+                    "set": "Seleth",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Rosar Axe": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 82
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 90
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 102
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 110
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 118
+                        }
+                    }
+                },
+                "Raell Axe": {
+                    "set": "Raell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "hp": -100,
+                        "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Krea Axe": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 19,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 23
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 29
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 31
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 33
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 36
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 39
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 43
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 47
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 51
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 55
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 59
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 63
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 67
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 71
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 79
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 87
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 99
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 107
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 115
+                        }
+                    }
+                },
+                "Kalis Axe": {
+                    "set": "Kalis",
+                    "ap_min": 13,
+                    "ap_max": 27,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 17,
+                            "ap-max": 31
+                        },
+                        "2": {
+                            "ap-min": 20,
+                            "ap-max": 34
+                        },
+                        "3": {
+                            "ap-min": 23,
+                            "ap-max": 37
+                        },
+                        "4": {
+                            "ap-min": 25,
+                            "ap-max": 39
+                        },
+                        "5": {
+                            "ap-min": 27,
+                            "ap-max": 41
+                        },
+                        "6": {
+                            "ap-min": 30,
+                            "ap-max": 44
+                        },
+                        "7": {
+                            "ap-min": 33,
+                            "ap-max": 47
+                        },
+                        "8": {
+                            "ap-min": 37,
+                            "ap-max": 51
+                        },
+                        "9": {
+                            "ap-min": 41,
+                            "ap-max": 55
+                        },
+                        "10": {
+                            "ap-min": 45,
+                            "ap-max": 59
+                        },
+                        "11": {
+                            "ap-min": 49,
+                            "ap-max": 63
+                        },
+                        "12": {
+                            "ap-min": 53,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 57,
+                            "ap-max": 71
+                        },
+                        "14": {
+                            "ap-min": 61,
+                            "ap-max": 75
+                        },
+                        "15": {
+                            "ap-min": 65,
+                            "ap-max": 79
+                        },
+                        "16": {
+                            "ap-min": 73,
+                            "ap-max": 87
+                        },
+                        "17": {
+                            "ap-min": 81,
+                            "ap-max": 95
+                        },
+                        "18": {
+                            "ap-min": 93,
+                            "ap-max": 107
+                        },
+                        "19": {
+                            "ap-min": 101,
+                            "ap-max": 115
+                        },
+                        "20": {
+                            "ap-min": 109,
+                            "ap-max": 123
+                        }
+                    }
+                },
+                "Elsh Axe": {
+                    "set": "Elsh",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Demihuman Axe": {
+                    "set": "Demihuman",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgtdh": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Basteer Axe": {
+                    "set": "Basteer",
+                    "ap_min": 20,
+                    "ap_max": 24,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Bares Axe": {
+                    "set": "Bares",
+                    "ap_min": 11,
+                    "ap_max": 15,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 15,
+                            "ap-max": 19
+                        },
+                        "2": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "3": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "4": {
+                            "ap-min": 23,
+                            "ap-max": 27
+                        },
+                        "5": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "6": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "7": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "8": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "9": {
+                            "ap-min": 39,
+                            "ap-max": 43
+                        },
+                        "10": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "11": {
+                            "ap-min": 47,
+                            "ap-max": 51
+                        },
+                        "12": {
+                            "ap-min": 51,
+                            "ap-max": 55
+                        },
+                        "13": {
+                            "ap-min": 55,
+                            "ap-max": 59
+                        },
+                        "14": {
+                            "ap-min": 59,
+                            "ap-max": 63
+                        },
+                        "15": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "16": {
+                            "ap-min": 71,
+                            "ap-max": 75
+                        },
+                        "17": {
+                            "ap-min": 79,
+                            "ap-max": 83
+                        },
+                        "18": {
+                            "ap-min": 91,
+                            "ap-max": 95
+                        },
+                        "19": {
+                            "ap-min": 99,
+                            "ap-max": 103
+                        },
+                        "20": {
+                            "ap-min": 107,
+                            "ap-max": 111
+                        }
+                    }
+                },
+                "Azwell Axe": {
+                    "set": "Azwell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
                 "Liverto Axe": {
                     "set": "Liverto",
                     "ap_min": 18,
@@ -4615,32 +5494,6568 @@ var BDOdatabase = {
                             "ap_max": 126
                         }
                     }
+                },
+                "Veid Axe": {
+                    "set": "Veid",
+                    "ap_min": 16,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "Enhancement Limit increase"
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 20,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 23,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 26,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 28,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 30,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 33,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 36,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 40,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 44,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 48,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 52,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 56,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 60,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 64,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 68,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 72,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 76,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 88,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 92,
+                            "ap-max": 98
+                        },
+                        "20": {
+                            "ap-min": 96,
+                            "ap-max": 102
+                        }
+                    }
+                },
+                "Kzarka Axe": {
+                    "set": "Kzarka",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "as": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 32,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "9": {
+                            "ap-min": 48,
+                            "ap-max": 52
+                        },
+                        "10": {
+                            "ap-min": 53,
+                            "ap-max": 57
+                        },
+                        "11": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "12": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 68,
+                            "ap-max": 72
+                        },
+                        "14": {
+                            "ap-min": 73,
+                            "ap-max": 77
+                        },
+                        "15": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "16": {
+                            "ap-min": 86,
+                            "ap-max": 90
+                        },
+                        "17": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "18": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        },
+                        "19": {
+                            "ap-min": 114,
+                            "ap-max": 118
+                        },
+                        "20": {
+                            "ap-min": 122,
+                            "ap-max": 126
+                        }
+                    }
                 }
             },
             "ranger" :{
-
+                "Yuria Longbow": {
+                    "set": "Yuria",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 25
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 28
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 31
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 33
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 35
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 38
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 41
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 45
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 49
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 53
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 57
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 61
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 65
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 69
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 73
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 81
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 89
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 101
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 109
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 117
+                        }
+                    }
+                },
+                "Styd Longbow": {
+                    "set": "Styd",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Seleth Longbow": {
+                    "set": "Seleth",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Rosar Longbow": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 82
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 90
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 102
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 110
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 118
+                        }
+                    }
+                },
+                "Raell Longbow": {
+                    "set": "Raell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "hp": -100,
+                        "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Krea Longbow": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 19,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 23
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 29
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 31
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 33
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 36
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 39
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 43
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 47
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 51
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 55
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 59
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 63
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 67
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 71
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 79
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 87
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 99
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 107
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 115
+                        }
+                    }
+                },
+                "Kalis Longbow": {
+                    "set": "Kalis",
+                    "ap_min": 13,
+                    "ap_max": 27,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 17,
+                            "ap-max": 31
+                        },
+                        "2": {
+                            "ap-min": 20,
+                            "ap-max": 34
+                        },
+                        "3": {
+                            "ap-min": 23,
+                            "ap-max": 37
+                        },
+                        "4": {
+                            "ap-min": 25,
+                            "ap-max": 39
+                        },
+                        "5": {
+                            "ap-min": 27,
+                            "ap-max": 41
+                        },
+                        "6": {
+                            "ap-min": 30,
+                            "ap-max": 44
+                        },
+                        "7": {
+                            "ap-min": 33,
+                            "ap-max": 47
+                        },
+                        "8": {
+                            "ap-min": 37,
+                            "ap-max": 51
+                        },
+                        "9": {
+                            "ap-min": 41,
+                            "ap-max": 55
+                        },
+                        "10": {
+                            "ap-min": 45,
+                            "ap-max": 59
+                        },
+                        "11": {
+                            "ap-min": 49,
+                            "ap-max": 63
+                        },
+                        "12": {
+                            "ap-min": 53,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 57,
+                            "ap-max": 71
+                        },
+                        "14": {
+                            "ap-min": 61,
+                            "ap-max": 75
+                        },
+                        "15": {
+                            "ap-min": 65,
+                            "ap-max": 79
+                        },
+                        "16": {
+                            "ap-min": 73,
+                            "ap-max": 87
+                        },
+                        "17": {
+                            "ap-min": 81,
+                            "ap-max": 95
+                        },
+                        "18": {
+                            "ap-min": 93,
+                            "ap-max": 107
+                        },
+                        "19": {
+                            "ap-min": 101,
+                            "ap-max": 115
+                        },
+                        "20": {
+                            "ap-min": 109,
+                            "ap-max": 123
+                        }
+                    }
+                },
+                "Elsh Longbow": {
+                    "set": "Elsh",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Demihuman Longbow": {
+                    "set": "Demihuman",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgtdh": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Basteer Longbow": {
+                    "set": "Basteer",
+                    "ap_min": 20,
+                    "ap_max": 24,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Bares Longbow": {
+                    "set": "Bares",
+                    "ap_min": 11,
+                    "ap_max": 15,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 15,
+                            "ap-max": 19
+                        },
+                        "2": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "3": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "4": {
+                            "ap-min": 23,
+                            "ap-max": 27
+                        },
+                        "5": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "6": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "7": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "8": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "9": {
+                            "ap-min": 39,
+                            "ap-max": 43
+                        },
+                        "10": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "11": {
+                            "ap-min": 47,
+                            "ap-max": 51
+                        },
+                        "12": {
+                            "ap-min": 51,
+                            "ap-max": 55
+                        },
+                        "13": {
+                            "ap-min": 55,
+                            "ap-max": 59
+                        },
+                        "14": {
+                            "ap-min": 59,
+                            "ap-max": 63
+                        },
+                        "15": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "16": {
+                            "ap-min": 71,
+                            "ap-max": 75
+                        },
+                        "17": {
+                            "ap-min": 79,
+                            "ap-max": 83
+                        },
+                        "18": {
+                            "ap-min": 91,
+                            "ap-max": 95
+                        },
+                        "19": {
+                            "ap-min": 99,
+                            "ap-max": 103
+                        },
+                        "20": {
+                            "ap-min": 107,
+                            "ap-max": 111
+                        }
+                    }
+                },
+                "Azwell Longbow": {
+                    "set": "Azwell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Liverto Longbow": {
+                    "set": "Liverto",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 32,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "9": {
+                            "ap_min": 48,
+                            "ap_max": 52
+                        },
+                        "10": {
+                            "ap_min": 53,
+                            "ap_max": 57
+                        },
+                        "11": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "12": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 68,
+                            "ap_max": 72
+                        },
+                        "14": {
+                            "ap_min": 73,
+                            "ap_max": 77
+                        },
+                        "15": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "16": {
+                            "ap_min": 86,
+                            "ap_max": 90
+                        },
+                        "17": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "18": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        },
+                        "19": {
+                            "ap_min": 114,
+                            "ap_max": 118
+                        },
+                        "20": {
+                            "ap_min": 122,
+                            "ap_max": 126
+                        }
+                    }
+                },
+                "Veid Longbow": {
+                    "set": "Veid",
+                    "ap_min": 16,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "Enhancement Limit increase"
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 20,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 23,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 26,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 28,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 30,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 33,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 36,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 40,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 44,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 48,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 52,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 56,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 60,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 64,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 68,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 72,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 76,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 88,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 92,
+                            "ap-max": 98
+                        },
+                        "20": {
+                            "ap-min": 96,
+                            "ap-max": 102
+                        }
+                    }
+                },
+                "Kzarka Longbow": {
+                    "set": "Kzarka",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "as": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 32,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "9": {
+                            "ap-min": 48,
+                            "ap-max": 52
+                        },
+                        "10": {
+                            "ap-min": 53,
+                            "ap-max": 57
+                        },
+                        "11": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "12": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 68,
+                            "ap-max": 72
+                        },
+                        "14": {
+                            "ap-min": 73,
+                            "ap-max": 77
+                        },
+                        "15": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "16": {
+                            "ap-min": 86,
+                            "ap-max": 90
+                        },
+                        "17": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "18": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        },
+                        "19": {
+                            "ap-min": 114,
+                            "ap-max": 118
+                        },
+                        "20": {
+                            "ap-min": 122,
+                            "ap-max": 126
+                        }
+                    }
+                }
             },
             "sorceress" :{
-
+                "Yuria Amulet": {
+                    "set": "Yuria",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 25
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 28
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 31
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 33
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 35
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 38
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 41
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 45
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 49
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 53
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 57
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 61
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 65
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 69
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 73
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 81
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 89
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 101
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 109
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 117
+                        }
+                    }
+                },
+                "Styd Amulet": {
+                    "set": "Styd",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Seleth Amulet": {
+                    "set": "Seleth",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Rosar Amulet": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 82
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 90
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 102
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 110
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 118
+                        }
+                    }
+                },
+                "Raell Amulet": {
+                    "set": "Raell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "hp": -100,
+                        "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Krea Amulet": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 19,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 23
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 29
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 31
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 33
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 36
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 39
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 43
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 47
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 51
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 55
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 59
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 63
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 67
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 71
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 79
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 87
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 99
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 107
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 115
+                        }
+                    }
+                },
+                "Kalis Amulet": {
+                    "set": "Kalis",
+                    "ap_min": 13,
+                    "ap_max": 27,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 17,
+                            "ap-max": 31
+                        },
+                        "2": {
+                            "ap-min": 20,
+                            "ap-max": 34
+                        },
+                        "3": {
+                            "ap-min": 23,
+                            "ap-max": 37
+                        },
+                        "4": {
+                            "ap-min": 25,
+                            "ap-max": 39
+                        },
+                        "5": {
+                            "ap-min": 27,
+                            "ap-max": 41
+                        },
+                        "6": {
+                            "ap-min": 30,
+                            "ap-max": 44
+                        },
+                        "7": {
+                            "ap-min": 33,
+                            "ap-max": 47
+                        },
+                        "8": {
+                            "ap-min": 37,
+                            "ap-max": 51
+                        },
+                        "9": {
+                            "ap-min": 41,
+                            "ap-max": 55
+                        },
+                        "10": {
+                            "ap-min": 45,
+                            "ap-max": 59
+                        },
+                        "11": {
+                            "ap-min": 49,
+                            "ap-max": 63
+                        },
+                        "12": {
+                            "ap-min": 53,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 57,
+                            "ap-max": 71
+                        },
+                        "14": {
+                            "ap-min": 61,
+                            "ap-max": 75
+                        },
+                        "15": {
+                            "ap-min": 65,
+                            "ap-max": 79
+                        },
+                        "16": {
+                            "ap-min": 73,
+                            "ap-max": 87
+                        },
+                        "17": {
+                            "ap-min": 81,
+                            "ap-max": 95
+                        },
+                        "18": {
+                            "ap-min": 93,
+                            "ap-max": 107
+                        },
+                        "19": {
+                            "ap-min": 101,
+                            "ap-max": 115
+                        },
+                        "20": {
+                            "ap-min": 109,
+                            "ap-max": 123
+                        }
+                    }
+                },
+                "Elsh Amulet": {
+                    "set": "Elsh",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Demihuman Amulet": {
+                    "set": "Demihuman",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgtdh": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Basteer Amulet": {
+                    "set": "Basteer",
+                    "ap_min": 20,
+                    "ap_max": 24,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Bares Amulet": {
+                    "set": "Bares",
+                    "ap_min": 11,
+                    "ap_max": 15,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 15,
+                            "ap-max": 19
+                        },
+                        "2": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "3": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "4": {
+                            "ap-min": 23,
+                            "ap-max": 27
+                        },
+                        "5": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "6": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "7": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "8": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "9": {
+                            "ap-min": 39,
+                            "ap-max": 43
+                        },
+                        "10": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "11": {
+                            "ap-min": 47,
+                            "ap-max": 51
+                        },
+                        "12": {
+                            "ap-min": 51,
+                            "ap-max": 55
+                        },
+                        "13": {
+                            "ap-min": 55,
+                            "ap-max": 59
+                        },
+                        "14": {
+                            "ap-min": 59,
+                            "ap-max": 63
+                        },
+                        "15": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "16": {
+                            "ap-min": 71,
+                            "ap-max": 75
+                        },
+                        "17": {
+                            "ap-min": 79,
+                            "ap-max": 83
+                        },
+                        "18": {
+                            "ap-min": 91,
+                            "ap-max": 95
+                        },
+                        "19": {
+                            "ap-min": 99,
+                            "ap-max": 103
+                        },
+                        "20": {
+                            "ap-min": 107,
+                            "ap-max": 111
+                        }
+                    }
+                },
+                "Azwell Amulet": {
+                    "set": "Azwell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Liverto Amulet": {
+                    "set": "Liverto",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 32,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "9": {
+                            "ap_min": 48,
+                            "ap_max": 52
+                        },
+                        "10": {
+                            "ap_min": 53,
+                            "ap_max": 57
+                        },
+                        "11": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "12": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 68,
+                            "ap_max": 72
+                        },
+                        "14": {
+                            "ap_min": 73,
+                            "ap_max": 77
+                        },
+                        "15": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "16": {
+                            "ap_min": 86,
+                            "ap_max": 90
+                        },
+                        "17": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "18": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        },
+                        "19": {
+                            "ap_min": 114,
+                            "ap_max": 118
+                        },
+                        "20": {
+                            "ap_min": 122,
+                            "ap_max": 126
+                        }
+                    }
+                },
+                "Veid Amulet": {
+                    "set": "Veid",
+                    "ap_min": 16,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "Enhancement Limit increase"
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 20,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 23,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 26,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 28,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 30,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 33,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 36,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 40,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 44,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 48,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 52,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 56,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 60,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 64,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 68,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 72,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 76,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 88,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 92,
+                            "ap-max": 98
+                        },
+                        "20": {
+                            "ap-min": 96,
+                            "ap-max": 102
+                        }
+                    }
+                },
+                "Kzarka Amulet": {
+                    "set": "Kzarka",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "cs": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 32,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "9": {
+                            "ap-min": 48,
+                            "ap-max": 52
+                        },
+                        "10": {
+                            "ap-min": 53,
+                            "ap-max": 57
+                        },
+                        "11": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "12": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 68,
+                            "ap-max": 72
+                        },
+                        "14": {
+                            "ap-min": 73,
+                            "ap-max": 77
+                        },
+                        "15": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "16": {
+                            "ap-min": 86,
+                            "ap-max": 90
+                        },
+                        "17": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "18": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        },
+                        "19": {
+                            "ap-min": 114,
+                            "ap-max": 118
+                        },
+                        "20": {
+                            "ap-min": 122,
+                            "ap-max": 126
+                        }
+                    }
+                }
             },
             "tamer" :{
-
+                "Yuria Shortsword": {
+                    "set": "Yuria",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 25
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 28
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 31
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 33
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 35
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 38
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 41
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 45
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 49
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 53
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 57
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 61
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 65
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 69
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 73
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 81
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 89
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 101
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 109
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 117
+                        }
+                    }
+                },
+                "Styd Shortsword": {
+                    "set": "Styd",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Seleth Shortsword": {
+                    "set": "Seleth",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Rosar Shortsword": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 82
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 90
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 102
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 110
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 118
+                        }
+                    }
+                },
+                "Raell Shortsword": {
+                    "set": "Raell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "hp": -100,
+                        "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Krea Shortsword": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 19,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 23
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 29
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 31
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 33
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 36
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 39
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 43
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 47
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 51
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 55
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 59
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 63
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 67
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 71
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 79
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 87
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 99
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 107
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 115
+                        }
+                    }
+                },
+                "Kalis Shortsword": {
+                    "set": "Kalis",
+                    "ap_min": 13,
+                    "ap_max": 27,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 17,
+                            "ap-max": 31
+                        },
+                        "2": {
+                            "ap-min": 20,
+                            "ap-max": 34
+                        },
+                        "3": {
+                            "ap-min": 23,
+                            "ap-max": 37
+                        },
+                        "4": {
+                            "ap-min": 25,
+                            "ap-max": 39
+                        },
+                        "5": {
+                            "ap-min": 27,
+                            "ap-max": 41
+                        },
+                        "6": {
+                            "ap-min": 30,
+                            "ap-max": 44
+                        },
+                        "7": {
+                            "ap-min": 33,
+                            "ap-max": 47
+                        },
+                        "8": {
+                            "ap-min": 37,
+                            "ap-max": 51
+                        },
+                        "9": {
+                            "ap-min": 41,
+                            "ap-max": 55
+                        },
+                        "10": {
+                            "ap-min": 45,
+                            "ap-max": 59
+                        },
+                        "11": {
+                            "ap-min": 49,
+                            "ap-max": 63
+                        },
+                        "12": {
+                            "ap-min": 53,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 57,
+                            "ap-max": 71
+                        },
+                        "14": {
+                            "ap-min": 61,
+                            "ap-max": 75
+                        },
+                        "15": {
+                            "ap-min": 65,
+                            "ap-max": 79
+                        },
+                        "16": {
+                            "ap-min": 73,
+                            "ap-max": 87
+                        },
+                        "17": {
+                            "ap-min": 81,
+                            "ap-max": 95
+                        },
+                        "18": {
+                            "ap-min": 93,
+                            "ap-max": 107
+                        },
+                        "19": {
+                            "ap-min": 101,
+                            "ap-max": 115
+                        },
+                        "20": {
+                            "ap-min": 109,
+                            "ap-max": 123
+                        }
+                    }
+                },
+                "Elsh Shortsword": {
+                    "set": "Elsh",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Demihuman Shortsword": {
+                    "set": "Demihuman",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgtdh": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Basteer Shortsword": {
+                    "set": "Basteer",
+                    "ap_min": 20,
+                    "ap_max": 24,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Bares Shortsword": {
+                    "set": "Bares",
+                    "ap_min": 11,
+                    "ap_max": 15,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 15,
+                            "ap-max": 19
+                        },
+                        "2": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "3": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "4": {
+                            "ap-min": 23,
+                            "ap-max": 27
+                        },
+                        "5": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "6": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "7": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "8": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "9": {
+                            "ap-min": 39,
+                            "ap-max": 43
+                        },
+                        "10": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "11": {
+                            "ap-min": 47,
+                            "ap-max": 51
+                        },
+                        "12": {
+                            "ap-min": 51,
+                            "ap-max": 55
+                        },
+                        "13": {
+                            "ap-min": 55,
+                            "ap-max": 59
+                        },
+                        "14": {
+                            "ap-min": 59,
+                            "ap-max": 63
+                        },
+                        "15": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "16": {
+                            "ap-min": 71,
+                            "ap-max": 75
+                        },
+                        "17": {
+                            "ap-min": 79,
+                            "ap-max": 83
+                        },
+                        "18": {
+                            "ap-min": 91,
+                            "ap-max": 95
+                        },
+                        "19": {
+                            "ap-min": 99,
+                            "ap-max": 103
+                        },
+                        "20": {
+                            "ap-min": 107,
+                            "ap-max": 111
+                        }
+                    }
+                },
+                "Azwell Shortsword": {
+                    "set": "Azwell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Liverto Shortsword": {
+                    "set": "Liverto",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 32,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "9": {
+                            "ap_min": 48,
+                            "ap_max": 52
+                        },
+                        "10": {
+                            "ap_min": 53,
+                            "ap_max": 57
+                        },
+                        "11": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "12": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 68,
+                            "ap_max": 72
+                        },
+                        "14": {
+                            "ap_min": 73,
+                            "ap_max": 77
+                        },
+                        "15": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "16": {
+                            "ap_min": 86,
+                            "ap_max": 90
+                        },
+                        "17": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "18": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        },
+                        "19": {
+                            "ap_min": 114,
+                            "ap_max": 118
+                        },
+                        "20": {
+                            "ap_min": 122,
+                            "ap_max": 126
+                        }
+                    }
+                },
+                "Veid Shortsword": {
+                    "set": "Veid",
+                    "ap_min": 16,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "Enhancement Limit increase"
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 20,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 23,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 26,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 28,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 30,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 33,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 36,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 40,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 44,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 48,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 52,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 56,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 60,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 64,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 68,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 72,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 76,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 88,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 92,
+                            "ap-max": 98
+                        },
+                        "20": {
+                            "ap-min": 96,
+                            "ap-max": 102
+                        }
+                    }
+                },
+                "Kzarka Shortsword": {
+                    "set": "Kzarka",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "as": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 32,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "9": {
+                            "ap-min": 48,
+                            "ap-max": 52
+                        },
+                        "10": {
+                            "ap-min": 53,
+                            "ap-max": 57
+                        },
+                        "11": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "12": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 68,
+                            "ap-max": 72
+                        },
+                        "14": {
+                            "ap-min": 73,
+                            "ap-max": 77
+                        },
+                        "15": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "16": {
+                            "ap-min": 86,
+                            "ap-max": 90
+                        },
+                        "17": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "18": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        },
+                        "19": {
+                            "ap-min": 114,
+                            "ap-max": 118
+                        },
+                        "20": {
+                            "ap-min": 122,
+                            "ap-max": 126
+                        }
+                    }
+                }
             },
             "valkyrie" :{
-
-            },
-            "warrior" :{
-
+                "Yuria Longsword": {
+                    "set": "Yuria",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 25
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 28
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 31
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 33
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 35
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 38
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 41
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 45
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 49
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 53
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 57
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 61
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 65
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 69
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 73
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 81
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 89
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 101
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 109
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 117
+                        }
+                    }
+                },
+                "Styd Longsword": {
+                    "set": "Styd",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Seleth Longsword": {
+                    "set": "Seleth",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Rosar Longsword": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 82
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 90
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 102
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 110
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 118
+                        }
+                    }
+                },
+                "Raell Longsword": {
+                    "set": "Raell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "hp": -100,
+                        "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Krea Longsword": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 19,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 23
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 29
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 31
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 33
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 36
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 39
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 43
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 47
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 51
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 55
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 59
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 63
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 67
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 71
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 79
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 87
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 99
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 107
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 115
+                        }
+                    }
+                },
+                "Kalis Longsword": {
+                    "set": "Kalis",
+                    "ap_min": 13,
+                    "ap_max": 27,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 17,
+                            "ap-max": 31
+                        },
+                        "2": {
+                            "ap-min": 20,
+                            "ap-max": 34
+                        },
+                        "3": {
+                            "ap-min": 23,
+                            "ap-max": 37
+                        },
+                        "4": {
+                            "ap-min": 25,
+                            "ap-max": 39
+                        },
+                        "5": {
+                            "ap-min": 27,
+                            "ap-max": 41
+                        },
+                        "6": {
+                            "ap-min": 30,
+                            "ap-max": 44
+                        },
+                        "7": {
+                            "ap-min": 33,
+                            "ap-max": 47
+                        },
+                        "8": {
+                            "ap-min": 37,
+                            "ap-max": 51
+                        },
+                        "9": {
+                            "ap-min": 41,
+                            "ap-max": 55
+                        },
+                        "10": {
+                            "ap-min": 45,
+                            "ap-max": 59
+                        },
+                        "11": {
+                            "ap-min": 49,
+                            "ap-max": 63
+                        },
+                        "12": {
+                            "ap-min": 53,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 57,
+                            "ap-max": 71
+                        },
+                        "14": {
+                            "ap-min": 61,
+                            "ap-max": 75
+                        },
+                        "15": {
+                            "ap-min": 65,
+                            "ap-max": 79
+                        },
+                        "16": {
+                            "ap-min": 73,
+                            "ap-max": 87
+                        },
+                        "17": {
+                            "ap-min": 81,
+                            "ap-max": 95
+                        },
+                        "18": {
+                            "ap-min": 93,
+                            "ap-max": 107
+                        },
+                        "19": {
+                            "ap-min": 101,
+                            "ap-max": 115
+                        },
+                        "20": {
+                            "ap-min": 109,
+                            "ap-max": 123
+                        }
+                    }
+                },
+                "Elsh Longsword": {
+                    "set": "Elsh",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Demihuman Longsword": {
+                    "set": "Demihuman",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgtdh": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Basteer Longsword": {
+                    "set": "Basteer",
+                    "ap_min": 20,
+                    "ap_max": 24,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Bares Longsword": {
+                    "set": "Bares",
+                    "ap_min": 11,
+                    "ap_max": 15,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 15,
+                            "ap-max": 19
+                        },
+                        "2": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "3": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "4": {
+                            "ap-min": 23,
+                            "ap-max": 27
+                        },
+                        "5": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "6": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "7": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "8": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "9": {
+                            "ap-min": 39,
+                            "ap-max": 43
+                        },
+                        "10": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "11": {
+                            "ap-min": 47,
+                            "ap-max": 51
+                        },
+                        "12": {
+                            "ap-min": 51,
+                            "ap-max": 55
+                        },
+                        "13": {
+                            "ap-min": 55,
+                            "ap-max": 59
+                        },
+                        "14": {
+                            "ap-min": 59,
+                            "ap-max": 63
+                        },
+                        "15": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "16": {
+                            "ap-min": 71,
+                            "ap-max": 75
+                        },
+                        "17": {
+                            "ap-min": 79,
+                            "ap-max": 83
+                        },
+                        "18": {
+                            "ap-min": 91,
+                            "ap-max": 95
+                        },
+                        "19": {
+                            "ap-min": 99,
+                            "ap-max": 103
+                        },
+                        "20": {
+                            "ap-min": 107,
+                            "ap-max": 111
+                        }
+                    }
+                },
+                "Azwell Longsword": {
+                    "set": "Azwell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Liverto Longsword": {
+                    "set": "Liverto",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 32,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "9": {
+                            "ap_min": 48,
+                            "ap_max": 52
+                        },
+                        "10": {
+                            "ap_min": 53,
+                            "ap_max": 57
+                        },
+                        "11": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "12": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 68,
+                            "ap_max": 72
+                        },
+                        "14": {
+                            "ap_min": 73,
+                            "ap_max": 77
+                        },
+                        "15": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "16": {
+                            "ap_min": 86,
+                            "ap_max": 90
+                        },
+                        "17": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "18": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        },
+                        "19": {
+                            "ap_min": 114,
+                            "ap_max": 118
+                        },
+                        "20": {
+                            "ap_min": 122,
+                            "ap_max": 126
+                        }
+                    }
+                },
+                "Veid Longsword": {
+                    "set": "Veid",
+                    "ap_min": 16,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "Enhancement Limit increase"
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 20,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 23,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 26,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 28,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 30,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 33,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 36,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 40,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 44,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 48,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 52,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 56,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 60,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 64,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 68,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 72,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 76,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 88,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 92,
+                            "ap-max": 98
+                        },
+                        "20": {
+                            "ap-min": 96,
+                            "ap-max": 102
+                        }
+                    }
+                },
+                "Kzarka Longsword": {
+                    "set": "Kzarka",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "as": 3,
+                        "cs": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 32,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "9": {
+                            "ap-min": 48,
+                            "ap-max": 52
+                        },
+                        "10": {
+                            "ap-min": 53,
+                            "ap-max": 57
+                        },
+                        "11": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "12": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 68,
+                            "ap-max": 72
+                        },
+                        "14": {
+                            "ap-min": 73,
+                            "ap-max": 77
+                        },
+                        "15": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "16": {
+                            "ap-min": 86,
+                            "ap-max": 90
+                        },
+                        "17": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "18": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        },
+                        "19": {
+                            "ap-min": 114,
+                            "ap-max": 118
+                        },
+                        "20": {
+                            "ap-min": 122,
+                            "ap-max": 126
+                        }
+                    }
+                }
             },
             "witch" :{
-
-            },
-            "wizard" :{
-
+                "Yuria Staff": {
+                    "set": "Yuria",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 25
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 28
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 31
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 33
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 35
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 38
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 41
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 45
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 49
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 53
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 57
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 61
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 65
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 69
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 73
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 81
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 89
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 101
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 109
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 117
+                        }
+                    }
+                },
+                "Styd Staff": {
+                    "set": "Styd",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Seleth Staff": {
+                    "set": "Seleth",
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Rosar Staff": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 82
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 90
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 102
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 110
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 118
+                        }
+                    }
+                },
+                "Raell Staff": {
+                    "set": "Raell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "hp": -100,
+                        "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Krea Staff": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 19,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 21,
+                            "ap-max": 23
+                        },
+                        "2": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "3": {
+                            "ap-min": 27,
+                            "ap-max": 29
+                        },
+                        "4": {
+                            "ap-min": 29,
+                            "ap-max": 31
+                        },
+                        "5": {
+                            "ap-min": 31,
+                            "ap-max": 33
+                        },
+                        "6": {
+                            "ap-min": 34,
+                            "ap-max": 36
+                        },
+                        "7": {
+                            "ap-min": 37,
+                            "ap-max": 39
+                        },
+                        "8": {
+                            "ap-min": 41,
+                            "ap-max": 43
+                        },
+                        "9": {
+                            "ap-min": 45,
+                            "ap-max": 47
+                        },
+                        "10": {
+                            "ap-min": 49,
+                            "ap-max": 51
+                        },
+                        "11": {
+                            "ap-min": 53,
+                            "ap-max": 55
+                        },
+                        "12": {
+                            "ap-min": 57,
+                            "ap-max": 59
+                        },
+                        "13": {
+                            "ap-min": 61,
+                            "ap-max": 63
+                        },
+                        "14": {
+                            "ap-min": 65,
+                            "ap-max": 67
+                        },
+                        "15": {
+                            "ap-min": 69,
+                            "ap-max": 71
+                        },
+                        "16": {
+                            "ap-min": 77,
+                            "ap-max": 79
+                        },
+                        "17": {
+                            "ap-min": 85,
+                            "ap-max": 87
+                        },
+                        "18": {
+                            "ap-min": 97,
+                            "ap-max": 99
+                        },
+                        "19": {
+                            "ap-min": 105,
+                            "ap-max": 107
+                        },
+                        "20": {
+                            "ap-min": 113,
+                            "ap-max": 115
+                        }
+                    }
+                },
+                "Kalis Staff": {
+                    "set": "Kalis",
+                    "ap_min": 13,
+                    "ap_max": 27,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 17,
+                            "ap-max": 31
+                        },
+                        "2": {
+                            "ap-min": 20,
+                            "ap-max": 34
+                        },
+                        "3": {
+                            "ap-min": 23,
+                            "ap-max": 37
+                        },
+                        "4": {
+                            "ap-min": 25,
+                            "ap-max": 39
+                        },
+                        "5": {
+                            "ap-min": 27,
+                            "ap-max": 41
+                        },
+                        "6": {
+                            "ap-min": 30,
+                            "ap-max": 44
+                        },
+                        "7": {
+                            "ap-min": 33,
+                            "ap-max": 47
+                        },
+                        "8": {
+                            "ap-min": 37,
+                            "ap-max": 51
+                        },
+                        "9": {
+                            "ap-min": 41,
+                            "ap-max": 55
+                        },
+                        "10": {
+                            "ap-min": 45,
+                            "ap-max": 59
+                        },
+                        "11": {
+                            "ap-min": 49,
+                            "ap-max": 63
+                        },
+                        "12": {
+                            "ap-min": 53,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 57,
+                            "ap-max": 71
+                        },
+                        "14": {
+                            "ap-min": 61,
+                            "ap-max": 75
+                        },
+                        "15": {
+                            "ap-min": 65,
+                            "ap-max": 79
+                        },
+                        "16": {
+                            "ap-min": 73,
+                            "ap-max": 87
+                        },
+                        "17": {
+                            "ap-min": 81,
+                            "ap-max": 95
+                        },
+                        "18": {
+                            "ap-min": 93,
+                            "ap-max": 107
+                        },
+                        "19": {
+                            "ap-min": 101,
+                            "ap-max": 115
+                        },
+                        "20": {
+                            "ap-min": 109,
+                            "ap-max": 123
+                        }
+                    }
+                },
+                "Elsh Staff": {
+                    "set": "Elsh",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Demihuman Staff": {
+                    "set": "Demihuman",
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgtdh": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 14,
+                            "ap-max": 18
+                        },
+                        "2": {
+                            "ap-min": 17,
+                            "ap-max": 21
+                        },
+                        "3": {
+                            "ap-min": 20,
+                            "ap-max": 24
+                        },
+                        "4": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "5": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "6": {
+                            "ap-min": 27,
+                            "ap-max": 31
+                        },
+                        "7": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "8": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "9": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "10": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "11": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "12": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "13": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "14": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "15": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "16": {
+                            "ap-min": 70,
+                            "ap-max": 74
+                        },
+                        "17": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 90,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 98,
+                            "ap-max": 102
+                        },
+                        "20": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        }
+                    }
+                },
+                "Basteer Staff": {
+                    "set": "Basteer",
+                    "ap_min": 20,
+                    "ap_max": 24,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {}
+                },
+                "Bares Staff": {
+                    "set": "Bares",
+                    "ap_min": 11,
+                    "ap_max": 15,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 15,
+                            "ap-max": 19
+                        },
+                        "2": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "3": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "4": {
+                            "ap-min": 23,
+                            "ap-max": 27
+                        },
+                        "5": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "6": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "7": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "8": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "9": {
+                            "ap-min": 39,
+                            "ap-max": 43
+                        },
+                        "10": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "11": {
+                            "ap-min": 47,
+                            "ap-max": 51
+                        },
+                        "12": {
+                            "ap-min": 51,
+                            "ap-max": 55
+                        },
+                        "13": {
+                            "ap-min": 55,
+                            "ap-max": 59
+                        },
+                        "14": {
+                            "ap-min": 59,
+                            "ap-max": 63
+                        },
+                        "15": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "16": {
+                            "ap-min": 71,
+                            "ap-max": 75
+                        },
+                        "17": {
+                            "ap-min": 79,
+                            "ap-max": 83
+                        },
+                        "18": {
+                            "ap-min": 91,
+                            "ap-max": 95
+                        },
+                        "19": {
+                            "ap-min": 99,
+                            "ap-max": 103
+                        },
+                        "20": {
+                            "ap-min": 107,
+                            "ap-max": 111
+                        }
+                    }
+                },
+                "Azwell Staff": {
+                    "set": "Azwell",
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 18,
+                            "ap-max": 22
+                        },
+                        "2": {
+                            "ap-min": 21,
+                            "ap-max": 25
+                        },
+                        "3": {
+                            "ap-min": 24,
+                            "ap-max": 28
+                        },
+                        "4": {
+                            "ap-min": 26,
+                            "ap-max": 30
+                        },
+                        "5": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "6": {
+                            "ap-min": 31,
+                            "ap-max": 35
+                        },
+                        "7": {
+                            "ap-min": 34,
+                            "ap-max": 38
+                        },
+                        "8": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "9": {
+                            "ap-min": 42,
+                            "ap-max": 46
+                        },
+                        "10": {
+                            "ap-min": 46,
+                            "ap-max": 50
+                        },
+                        "11": {
+                            "ap-min": 50,
+                            "ap-max": 54
+                        },
+                        "12": {
+                            "ap-min": 54,
+                            "ap-max": 58
+                        },
+                        "13": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "14": {
+                            "ap-min": 62,
+                            "ap-max": 66
+                        },
+                        "15": {
+                            "ap-min": 66,
+                            "ap-max": 70
+                        },
+                        "16": {
+                            "ap-min": 74,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 82,
+                            "ap-max": 86
+                        },
+                        "18": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "19": {
+                            "ap-min": 102,
+                            "ap-max": 106
+                        },
+                        "20": {
+                            "ap-min": 110,
+                            "ap-max": 114
+                        }
+                    }
+                },
+                "Liverto Staff": {
+                    "set": "Liverto",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 32,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "9": {
+                            "ap_min": 48,
+                            "ap_max": 52
+                        },
+                        "10": {
+                            "ap_min": 53,
+                            "ap_max": 57
+                        },
+                        "11": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "12": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 68,
+                            "ap_max": 72
+                        },
+                        "14": {
+                            "ap_min": 73,
+                            "ap_max": 77
+                        },
+                        "15": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "16": {
+                            "ap_min": 86,
+                            "ap_max": 90
+                        },
+                        "17": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "18": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        },
+                        "19": {
+                            "ap_min": 114,
+                            "ap_max": 118
+                        },
+                        "20": {
+                            "ap_min": 122,
+                            "ap_max": 126
+                        }
+                    }
+                },
+                "Veid Staff": {
+                    "set": "Veid",
+                    "ap_min": 16,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "Enhancement Limit increase"
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 20,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 23,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 26,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 28,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 30,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 33,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 36,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 40,
+                            "ap-max": 46
+                        },
+                        "9": {
+                            "ap-min": 44,
+                            "ap-max": 50
+                        },
+                        "10": {
+                            "ap-min": 48,
+                            "ap-max": 54
+                        },
+                        "11": {
+                            "ap-min": 52,
+                            "ap-max": 58
+                        },
+                        "12": {
+                            "ap-min": 56,
+                            "ap-max": 62
+                        },
+                        "13": {
+                            "ap-min": 60,
+                            "ap-max": 66
+                        },
+                        "14": {
+                            "ap-min": 64,
+                            "ap-max": 70
+                        },
+                        "15": {
+                            "ap-min": 68,
+                            "ap-max": 74
+                        },
+                        "16": {
+                            "ap-min": 72,
+                            "ap-max": 78
+                        },
+                        "17": {
+                            "ap-min": 76,
+                            "ap-max": 82
+                        },
+                        "18": {
+                            "ap-min": 88,
+                            "ap-max": 94
+                        },
+                        "19": {
+                            "ap-min": 92,
+                            "ap-max": 98
+                        },
+                        "20": {
+                            "ap-min": 96,
+                            "ap-max": 102
+                        }
+                    }
+                },
+                "Kzarka Staff": {
+                    "set": "Kzarka",
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "cs": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 22,
+                            "ap-max": 26
+                        },
+                        "2": {
+                            "ap-min": 25,
+                            "ap-max": 29
+                        },
+                        "3": {
+                            "ap-min": 28,
+                            "ap-max": 32
+                        },
+                        "4": {
+                            "ap-min": 30,
+                            "ap-max": 34
+                        },
+                        "5": {
+                            "ap-min": 32,
+                            "ap-max": 36
+                        },
+                        "6": {
+                            "ap-min": 35,
+                            "ap-max": 39
+                        },
+                        "7": {
+                            "ap-min": 38,
+                            "ap-max": 42
+                        },
+                        "8": {
+                            "ap-min": 43,
+                            "ap-max": 47
+                        },
+                        "9": {
+                            "ap-min": 48,
+                            "ap-max": 52
+                        },
+                        "10": {
+                            "ap-min": 53,
+                            "ap-max": 57
+                        },
+                        "11": {
+                            "ap-min": 58,
+                            "ap-max": 62
+                        },
+                        "12": {
+                            "ap-min": 63,
+                            "ap-max": 67
+                        },
+                        "13": {
+                            "ap-min": 68,
+                            "ap-max": 72
+                        },
+                        "14": {
+                            "ap-min": 73,
+                            "ap-max": 77
+                        },
+                        "15": {
+                            "ap-min": 78,
+                            "ap-max": 82
+                        },
+                        "16": {
+                            "ap-min": 86,
+                            "ap-max": 90
+                        },
+                        "17": {
+                            "ap-min": 94,
+                            "ap-max": 98
+                        },
+                        "18": {
+                            "ap-min": 106,
+                            "ap-max": 110
+                        },
+                        "19": {
+                            "ap-min": 114,
+                            "ap-max": 118
+                        },
+                        "20": {
+                            "ap-min": 122,
+                            "ap-max": 126
+                        }
+                    }
+                }
             }
         },
         "secondary-weapons": {
             "berserker" :{
+                "Theos Ornamental Knot": {
+                    "set": "Theos",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 7,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 1,
+                        "dr": 5,
+                        "hp": 50
+                    },
+                    "enhancement": {
+                        "1": {
+                            "dp": 8
+                        },
+                        "2": {
+                            "dp": 9
+                        },
+                        "3": {
+                            "dp": 10
+                        },
+                        "4": {
+                            "dp": 11
+                        },
+                        "5": {
+                            "dp": 12
+                        },
+                        "6": {
+                            "dp": 13
+                        },
+                        "7": {
+                            "dp": 14
+                        },
+                        "8": {
+                            "dp": 15
+                        },
+                        "9": {
+                            "dp": 16
+                        },
+                        "10": {
+                            "dp": 17
+                        },
+                        "11": {
+                            "dp": 18
+                        },
+                        "12": {
+                            "dp": 19
+                        },
+                        "13": {
+                            "dp": 20
+                        },
+                        "14": {
+                            "dp": 21
+                        },
+                        "15": {
+                            "dp": 22
+                        },
+                        "16": {
+                            "ap-min": 1,
+                            "ap-max": 1,
+                            "dp": 24
+                        },
+                        "17": {
+                            "ap-min": 2,
+                            "ap-max": 2,
+                            "dp": 26
+                        },
+                        "18": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 31
+                        },
+                        "19": {
+                            "ap-min": 4,
+                            "ap-max": 4,
+                            "dp": 33
+                        },
+                        "20": {
+                            "ap-min": 5,
+                            "ap-max": 5,
+                            "dp": 35
+                        }
+                    }
+                },
+                "Saiyer Ornamental Knot": {
+                    "set": "Saiyer",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "ev": 2,
+                        "dr": 2
+                    },
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 4,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 5,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 6,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 7,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 8,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Ornamental Knot": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap-min": 1,
+                            "ap-max": 4,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 5,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 6,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 7,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 8,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 9,
+                            "dp": 32
+                        }
+                    }
+                },
                 "Oros Ornamental Knot": {
                     "set": "Oros",
                     "ap_min": 4,
@@ -4654,104 +12069,180 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap_min": 5,
-                            "ap_max": 7,
-                            "dp": 4
+                            "ap-min": 5,
+                            "ap-max": 7
                         },
                         "2": {
-                            "ap_min": 5,
-                            "ap_max": 8,
-                            "dp": 4
+                            "ap-min": 5,
+                            "ap-max": 8
                         },
                         "3": {
-                            "ap_min": 5,
-                            "ap_max": 9,
-                            "dp": 4
+                            "ap-min": 5,
+                            "ap-max": 9
                         },
                         "4": {
-                            "ap_min": 5,
-                            "ap_max": 10,
-                            "dp": 4
+                            "ap-min": 5,
+                            "ap-max": 10
                         },
                         "5": {
-                            "ap_min": 6,
-                            "ap_max": 11,
-                            "dp": 4
+                            "ap-min": 6,
+                            "ap-max": 11
                         },
                         "6": {
-                            "ap_min": 6,
-                            "ap_max": 12,
-                            "dp": 4
+                            "ap-min": 6,
+                            "ap-max": 12
                         },
                         "7": {
-                            "ap_min": 6,
-                            "ap_max": 13,
-                            "dp": 4
+                            "ap-min": 6,
+                            "ap-max": 13
                         },
                         "8": {
-                            "ap_min": 6,
-                            "ap_max": 14,
-                            "dp": 4
+                            "ap-min": 6,
+                            "ap-max": 14
                         },
                         "9": {
-                            "ap_min": 6,
-                            "ap_max": 15,
-                            "dp": 4
+                            "ap-min": 6,
+                            "ap-max": 15
                         },
                         "10": {
-                            "ap_min": 7,
-                            "ap_max": 16,
-                            "dp": 4
+                            "ap-min": 7,
+                            "ap-max": 16
                         },
                         "11": {
-                            "ap_min": 7,
-                            "ap_max": 17,
-                            "dp": 4
+                            "ap-min": 7,
+                            "ap-max": 17
                         },
                         "12": {
-                            "ap_min": 7,
-                            "ap_max": 18,
-                            "dp": 4
+                            "ap-min": 7,
+                            "ap-max": 18
                         },
                         "13": {
-                            "ap_min": 7,
-                            "ap_max": 19,
-                            "dp": 4
+                            "ap-min": 7,
+                            "ap-max": 19
                         },
                         "14": {
-                            "ap_min": 7,
-                            "ap_max": 20,
-                            "dp": 4
+                            "ap-min": 7,
+                            "ap-max": 20
                         },
                         "15": {
-                            "ap_min": 8,
-                            "ap_max": 21,
-                            "dp": 4
+                            "ap-min": 8,
+                            "ap-max": 21
                         },
                         "16": {
-                            "ap_min": 11,
-                            "ap_max": 24,
-                            "dp": 4
+                            "ap-min": 11,
+                            "ap-max": 24
                         },
                         "17": {
-                            "ap_min": 14,
-                            "ap_max": 27,
-                            "dp": 4
+                            "ap-min": 14,
+                            "ap-max": 27
                         },
                         "18": {
-                            "ap_min": 20,
-                            "ap_max": 33,
-                            "dp": 4
+                            "ap-min": 20,
+                            "ap-max": 33
                         },
                         "19": {
-                            "ap_min": 23,
-                            "ap_max": 36,
-                            "dp": 4
+                            "ap-min": 23,
+                            "ap-max": 36
                         },
                         "20": {
-                            "ap_min": 26,
-                            "ap_max": 39,
-                            "dp": 4
+                            "ap-min": 26,
+                            "ap-max": 39
+                        }
+                    }
+                },
+                "Krea Ornamental Knot": {
+                    "set": "Krea",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 5,
+                            "ap-max": 7
+                        },
+                        "2": {
+                            "ap-min": 5,
+                            "ap-max": 8
+                        },
+                        "3": {
+                            "ap-min": 5,
+                            "ap-max": 9
+                        },
+                        "4": {
+                            "ap-min": 5,
+                            "ap-max": 10
+                        },
+                        "5": {
+                            "ap-min": 6,
+                            "ap-max": 11
+                        },
+                        "6": {
+                            "ap-min": 6,
+                            "ap-max": 12
+                        },
+                        "7": {
+                            "ap-min": 6,
+                            "ap-max": 13
+                        },
+                        "8": {
+                            "ap-min": 6,
+                            "ap-max": 14
+                        },
+                        "9": {
+                            "ap-min": 6,
+                            "ap-max": 15
+                        },
+                        "10": {
+                            "ap-min": 7,
+                            "ap-max": 16
+                        },
+                        "11": {
+                            "ap-min": 7,
+                            "ap-max": 17
+                        },
+                        "12": {
+                            "ap-min": 7,
+                            "ap-max": 18
+                        },
+                        "13": {
+                            "ap-min": 7,
+                            "ap-max": 19
+                        },
+                        "14": {
+                            "ap-min": 7,
+                            "ap-max": 20
+                        },
+                        "15": {
+                            "ap-min": 8,
+                            "ap-max": 21
+                        },
+                        "16": {
+                            "ap-min": 9,
+                            "ap-max": 22,
+                            "dp": 5
+                        },
+                        "17": {
+                            "ap-min": 10,
+                            "ap-max": 23,
+                            "dp": 6
+                        },
+                        "18": {
+                            "ap-min": 14,
+                            "ap-max": 27,
+                            "dp": 7
+                        },
+                        "19": {
+                            "ap-min": 15,
+                            "ap-max": 28,
+                            "dp": 8
+                        },
+                        "20": {
+                            "ap-min": 16,
+                            "ap-max": 29,
+                            "dp": 9
                         }
                     }
                 },
@@ -4766,109 +12257,2125 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap_min": 7,
-                            "ap_max": 9
+                            "ap-min": 7,
+                            "ap-max": 9
                         },
                         "2": {
-                            "ap_min": 8,
-                            "ap_max": 10
+                            "ap-min": 8,
+                            "ap-max": 10
                         },
                         "3": {
-                            "ap_min": 9,
-                            "ap_max": 11
+                            "ap-min": 9,
+                            "ap-max": 11
                         },
                         "4": {
-                            "ap_min": 10,
-                            "ap_max": 12
+                            "ap-min": 10,
+                            "ap-max": 12
                         },
                         "5": {
-                            "ap_min": 11,
-                            "ap_max": 13
+                            "ap-min": 11,
+                            "ap-max": 13
                         },
                         "6": {
-                            "ap_min": 12,
-                            "ap_max": 14
+                            "ap-min": 12,
+                            "ap-max": 14
                         },
                         "7": {
-                            "ap_min": 13,
-                            "ap_max": 15
+                            "ap-min": 13,
+                            "ap-max": 15
                         },
                         "8": {
-                            "ap_min": 14,
-                            "ap_max": 16
+                            "ap-min": 14,
+                            "ap-max": 16
                         },
                         "9": {
-                            "ap_min": 15,
-                            "ap_max": 17
+                            "ap-min": 15,
+                            "ap-max": 17
                         },
                         "10": {
-                            "ap_min": 16,
-                            "ap_max": 18
+                            "ap-min": 16,
+                            "ap-max": 18
                         },
                         "11": {
-                            "ap_min": 18,
-                            "ap_max": 20
+                            "ap-min": 18,
+                            "ap-max": 20
                         },
                         "12": {
-                            "ap_min": 20,
-                            "ap_max": 22
+                            "ap-min": 20,
+                            "ap-max": 22
                         },
                         "13": {
-                            "ap_min": 22,
-                            "ap_max": 24
+                            "ap-min": 22,
+                            "ap-max": 24
                         },
                         "14": {
-                            "ap_min": 24,
-                            "ap_max": 26
+                            "ap-min": 24,
+                            "ap-max": 26
                         },
                         "15": {
-                            "ap_min": 26,
-                            "ap_max": 28
+                            "ap-min": 26,
+                            "ap-max": 28
                         },
                         "16": {
-                            "ap_min": 29,
-                            "ap_max": 31
+                            "ap-min": 29,
+                            "ap-max": 31
                         },
                         "17": {
-                            "ap_min": 32,
-                            "ap_max": 34
+                            "ap-min": 32,
+                            "ap-max": 34
                         },
                         "18": {
-                            "ap_min": 38,
-                            "ap_max": 40
+                            "ap-min": 38,
+                            "ap-max": 40
                         },
                         "19": {
-                            "ap_min": 41,
-                            "ap_max": 43
+                            "ap-min": 41,
+                            "ap-max": 43
                         },
                         "20": {
-                            "ap_min": 44,
-                            "ap_max": 46
+                            "ap-min": 44,
+                            "ap-max": 46
                         }
                     }
                 }
             },
             "ranger" :{
-
+                "Steel Dagger": {
+                    "set": "Steel",
+                    "ap_min": 6,
+                    "ap_max": 6,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 7,
+                            "ap-max": 7
+                        },
+                        "2": {
+                            "ap-min": 8,
+                            "ap-max": 8
+                        },
+                        "3": {
+                            "ap-min": 9,
+                            "ap-max": 9
+                        },
+                        "4": {
+                            "ap-min": 10,
+                            "ap-max": 10
+                        },
+                        "5": {
+                            "ap-min": 11,
+                            "ap-max": 11
+                        },
+                        "6": {
+                            "ap-min": 12,
+                            "ap-max": 12
+                        },
+                        "7": {
+                            "ap-min": 13,
+                            "ap-max": 13
+                        },
+                        "8": {
+                            "ap-min": 14,
+                            "ap-max": 14
+                        },
+                        "9": {
+                            "ap-min": 15,
+                            "ap-max": 15
+                        },
+                        "10": {
+                            "ap-min": 16,
+                            "ap-max": 16
+                        },
+                        "11": {
+                            "ap-min": 17,
+                            "ap-max": 17
+                        },
+                        "12": {
+                            "ap-min": 18,
+                            "ap-max": 18
+                        },
+                        "13": {
+                            "ap-min": 19,
+                            "ap-max": 19
+                        },
+                        "14": {
+                            "ap-min": 20,
+                            "ap-max": 20
+                        },
+                        "15": {
+                            "ap-min": 21,
+                            "ap-max": 21
+                        },
+                        "16": {
+                            "ap-min": 24,
+                            "ap-max": 24
+                        },
+                        "17": {
+                            "ap-min": 27,
+                            "ap-max": 27
+                        },
+                        "18": {
+                            "ap-min": 33,
+                            "ap-max": 33
+                        },
+                        "19": {
+                            "ap-min": 36,
+                            "ap-max": 36
+                        },
+                        "20": {
+                            "ap-min": 39,
+                            "ap-max": 39
+                        }
+                    }
+                },
+                "Rosar Dagger": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 5,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 6,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 7,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 8,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 9,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Parrying Dagger": {
+                    "set": "Parrying",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 3,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "hp": 50
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 4
+                        },
+                        "2": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 5
+                        },
+                        "3": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 6
+                        },
+                        "4": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 7
+                        },
+                        "5": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 8
+                        },
+                        "6": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 9
+                        },
+                        "7": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 10
+                        },
+                        "8": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 11
+                        },
+                        "9": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 12
+                        },
+                        "10": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 13
+                        },
+                        "11": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 14
+                        },
+                        "12": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 15
+                        },
+                        "13": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 16
+                        },
+                        "14": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 17
+                        },
+                        "15": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 18
+                        },
+                        "16": {
+                            "ap-min": 4,
+                            "ap-max": 4,
+                            "dp": 20
+                        },
+                        "17": {
+                            "ap-min": 5,
+                            "ap-max": 5,
+                            "dp": 22
+                        },
+                        "18": {
+                            "ap-min": 6,
+                            "ap-max": 6,
+                            "dp": 27
+                        },
+                        "19": {
+                            "ap-min": 7,
+                            "ap-max": 7,
+                            "dp": 29
+                        },
+                        "20": {
+                            "ap-min": 8,
+                            "ap-max": 8,
+                            "dp": 31
+                        }
+                    }
+                },
+                "Krea Dagger": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 4,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 5,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 6,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 7,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 8,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Bronze Dagger": {
+                    "set": "Bronze",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5
+                    },
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {},
+                        "9": {},
+                        "10": {},
+                        "11": {},
+                        "12": {},
+                        "13": {},
+                        "14": {},
+                        "15": {},
+                        "16": {
+                            "ap-min": 4,
+                            "ap-max": 4
+                        },
+                        "17": {
+                            "ap-min": 5,
+                            "ap-max": 5
+                        },
+                        "18": {
+                            "ap-min": 9,
+                            "ap-max": 9
+                        },
+                        "19": {
+                            "ap-min": 10,
+                            "ap-max": 10
+                        },
+                        "20": {
+                            "ap-min": 11,
+                            "ap-max": 11
+                        }
+                    }
+                },
+                "Nouver Dagger": {
+                    "set": "Nouver",
+                    "ap_min": 6,
+                    "ap_max": 8,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "ar": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 7,
+                            "ap-max": 9
+                        },
+                        "2": {
+                            "ap-min": 8,
+                            "ap-max": 10
+                        },
+                        "3": {
+                            "ap-min": 9,
+                            "ap-max": 11
+                        },
+                        "4": {
+                            "ap-min": 10,
+                            "ap-max": 12
+                        },
+                        "5": {
+                            "ap-min": 11,
+                            "ap-max": 13
+                        },
+                        "6": {
+                            "ap-min": 12,
+                            "ap-max": 14
+                        },
+                        "7": {
+                            "ap-min": 13,
+                            "ap-max": 15
+                        },
+                        "8": {
+                            "ap-min": 14,
+                            "ap-max": 16
+                        },
+                        "9": {
+                            "ap-min": 15,
+                            "ap-max": 17
+                        },
+                        "10": {
+                            "ap-min": 16,
+                            "ap-max": 18
+                        },
+                        "11": {
+                            "ap-min": 18,
+                            "ap-max": 20
+                        },
+                        "12": {
+                            "ap-min": 20,
+                            "ap-max": 22
+                        },
+                        "13": {
+                            "ap-min": 22,
+                            "ap-max": 24
+                        },
+                        "14": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "15": {
+                            "ap-min": 26,
+                            "ap-max": 28
+                        },
+                        "16": {
+                            "ap-min": 29,
+                            "ap-max": 31
+                        },
+                        "17": {
+                            "ap-min": 32,
+                            "ap-max": 34
+                        },
+                        "18": {
+                            "ap-min": 38,
+                            "ap-max": 40
+                        },
+                        "19": {
+                            "ap-min": 41,
+                            "ap-max": 43
+                        },
+                        "20": {
+                            "ap-min": 44,
+                            "ap-max": 46
+                        }
+                    }
+                }
             },
             "sorceress" :{
-
+                "Rosar Talisman": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 5,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 6,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 7,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 8,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 9,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rhik Talisman": {
+                    "set": "Rhik",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 3,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {
+                        "ev": 3,
+                        "hp": 50
+                    },
+                    "enhancement": {
+                        "1": {
+                            "dp": 4
+                        },
+                        "2": {
+                            "dp": 5
+                        },
+                        "3": {
+                            "dp": 6
+                        },
+                        "4": {
+                            "dp": 7
+                        },
+                        "5": {
+                            "dp": 8
+                        },
+                        "6": {
+                            "dp": 9
+                        },
+                        "7": {
+                            "dp": 10
+                        },
+                        "8": {
+                            "dp": 11
+                        },
+                        "9": {
+                            "dp": 12
+                        },
+                        "10": {
+                            "dp": 13
+                        },
+                        "11": {
+                            "dp": 14
+                        },
+                        "12": {
+                            "dp": 15
+                        },
+                        "13": {
+                            "dp": 16
+                        },
+                        "14": {
+                            "dp": 17
+                        },
+                        "15": {
+                            "dp": 18
+                        },
+                        "16": {
+                            "ap-min": 1,
+                            "ap-max": 1,
+                            "dp": 20
+                        },
+                        "17": {
+                            "ap-min": 2,
+                            "ap-max": 2,
+                            "dp": 22
+                        },
+                        "18": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 27
+                        },
+                        "19": {
+                            "ap-min": 4,
+                            "ap-max": 4,
+                            "dp": 29
+                        },
+                        "20": {
+                            "ap-min": 5,
+                            "ap-max": 5,
+                            "dp": 31
+                        }
+                    }
+                },
+                "Krea Talisman": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 4,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 5,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 6,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 7,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 8,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Jubre Talisman": {
+                    "set": "Jubre",
+                    "ap_min": 6,
+                    "ap_max": 8,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 7,
+                            "ap-max": 9
+                        },
+                        "2": {
+                            "ap-min": 8,
+                            "ap-max": 10
+                        },
+                        "3": {
+                            "ap-min": 9,
+                            "ap-max": 11
+                        },
+                        "4": {
+                            "ap-min": 10,
+                            "ap-max": 12
+                        },
+                        "5": {
+                            "ap-min": 11,
+                            "ap-max": 13
+                        },
+                        "6": {
+                            "ap-min": 12,
+                            "ap-max": 14
+                        },
+                        "7": {
+                            "ap-min": 13,
+                            "ap-max": 15
+                        },
+                        "8": {
+                            "ap-min": 14,
+                            "ap-max": 16
+                        },
+                        "9": {
+                            "ap-min": 15,
+                            "ap-max": 17
+                        },
+                        "10": {
+                            "ap-min": 16,
+                            "ap-max": 18
+                        },
+                        "11": {
+                            "ap-min": 17,
+                            "ap-max": 19
+                        },
+                        "12": {
+                            "ap-min": 18,
+                            "ap-max": 20
+                        },
+                        "13": {
+                            "ap-min": 19,
+                            "ap-max": 21
+                        },
+                        "14": {
+                            "ap-min": 20,
+                            "ap-max": 22
+                        },
+                        "15": {
+                            "ap-min": 21,
+                            "ap-max": 23
+                        },
+                        "16": {
+                            "ap-min": 23,
+                            "ap-max": 25
+                        },
+                        "17": {
+                            "ap-min": 25,
+                            "ap-max": 27
+                        },
+                        "18": {
+                            "ap-min": 30,
+                            "ap-max": 32
+                        },
+                        "19": {
+                            "ap-min": 32,
+                            "ap-max": 34
+                        },
+                        "20": {
+                            "ap-min": 34,
+                            "ap-max": 36
+                        }
+                    }
+                },
+                "Helrick Talisman": {
+                    "set": "Helrick",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5
+                    },
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {},
+                        "9": {},
+                        "10": {},
+                        "11": {},
+                        "12": {},
+                        "13": {},
+                        "14": {},
+                        "15": {},
+                        "16": {
+                            "ap-min": 4,
+                            "ap-max": 4
+                        },
+                        "17": {
+                            "ap-min": 5,
+                            "ap-max": 5
+                        },
+                        "18": {
+                            "ap-min": 9,
+                            "ap-max": 9
+                        },
+                        "19": {
+                            "ap-min": 10,
+                            "ap-max": 10
+                        },
+                        "20": {
+                            "ap-min": 11,
+                            "ap-max": 11
+                        }
+                    }
+                },
+                "Nouver Talisman": {
+                    "set": "Nouver",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "ar": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 7,
+                            "ap-max": 9
+                        },
+                        "2": {
+                            "ap-min": 8,
+                            "ap-max": 10
+                        },
+                        "3": {
+                            "ap-min": 9,
+                            "ap-max": 11
+                        },
+                        "4": {
+                            "ap-min": 10,
+                            "ap-max": 12
+                        },
+                        "5": {
+                            "ap-min": 11,
+                            "ap-max": 13
+                        },
+                        "6": {
+                            "ap-min": 12,
+                            "ap-max": 14
+                        },
+                        "7": {
+                            "ap-min": 13,
+                            "ap-max": 15
+                        },
+                        "8": {
+                            "ap-min": 14,
+                            "ap-max": 16
+                        },
+                        "9": {
+                            "ap-min": 15,
+                            "ap-max": 17
+                        },
+                        "10": {
+                            "ap-min": 16,
+                            "ap-max": 18
+                        },
+                        "11": {
+                            "ap-min": 18,
+                            "ap-max": 20
+                        },
+                        "12": {
+                            "ap-min": 20,
+                            "ap-max": 22
+                        },
+                        "13": {
+                            "ap-min": 22,
+                            "ap-max": 24
+                        },
+                        "14": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "15": {
+                            "ap-min": 26,
+                            "ap-max": 28
+                        },
+                        "16": {
+                            "ap-min": 29,
+                            "ap-max": 31
+                        },
+                        "17": {
+                            "ap-min": 32,
+                            "ap-max": 34
+                        },
+                        "18": {
+                            "ap-min": 38,
+                            "ap-max": 40
+                        },
+                        "19": {
+                            "ap-min": 41,
+                            "ap-max": 43
+                        },
+                        "20": {
+                            "ap-min": 44,
+                            "ap-max": 46
+                        }
+                    }
+                }
             },
             "tamer" :{
-
+                "Rosar Trinket": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 5,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 6,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 7,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 8,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 9,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Needle Trinket": {
+                    "set": "Needle",
+                    "ap_min": 6,
+                    "ap_max": 8,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 7,
+                            "ap-max": 9
+                        },
+                        "2": {
+                            "ap-min": 8,
+                            "ap-max": 10
+                        },
+                        "3": {
+                            "ap-min": 9,
+                            "ap-max": 11
+                        },
+                        "4": {
+                            "ap-min": 10,
+                            "ap-max": 12
+                        },
+                        "5": {
+                            "ap-min": 11,
+                            "ap-max": 13
+                        },
+                        "6": {
+                            "ap-min": 12,
+                            "ap-max": 14
+                        },
+                        "7": {
+                            "ap-min": 13,
+                            "ap-max": 15
+                        },
+                        "8": {
+                            "ap-min": 14,
+                            "ap-max": 16
+                        },
+                        "9": {
+                            "ap-min": 15,
+                            "ap-max": 17
+                        },
+                        "10": {
+                            "ap-min": 16,
+                            "ap-max": 18
+                        },
+                        "11": {
+                            "ap-min": 17,
+                            "ap-max": 19
+                        },
+                        "12": {
+                            "ap-min": 18,
+                            "ap-max": 20
+                        },
+                        "13": {
+                            "ap-min": 19,
+                            "ap-max": 21
+                        },
+                        "14": {
+                            "ap-min": 20,
+                            "ap-max": 22
+                        },
+                        "15": {
+                            "ap-min": 21,
+                            "ap-max": 23
+                        },
+                        "16": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "17": {
+                            "ap-min": 27,
+                            "ap-max": 29
+                        },
+                        "18": {
+                            "ap-min": 33,
+                            "ap-max": 35
+                        },
+                        "19": {
+                            "ap-min": 36,
+                            "ap-max": 38
+                        },
+                        "20": {
+                            "ap-min": 39,
+                            "ap-max": 41
+                        }
+                    }
+                },
+                "Krea Trinket": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 4,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 5,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 6,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 7,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 8,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Incense Trinket": {
+                    "set": "Incense",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "2": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "3": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "4": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "5": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "6": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "7": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "8": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "9": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "10": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "11": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "12": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "13": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "14": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "15": {
+                            "ap-min": 3,
+                            "ap-max": 3
+                        },
+                        "16": {
+                            "ap-min": 4,
+                            "ap-max": 4
+                        },
+                        "17": {
+                            "ap-min": 5,
+                            "ap-max": 5
+                        },
+                        "18": {
+                            "ap-min": 9,
+                            "ap-max": 9
+                        },
+                        "19": {
+                            "ap-min": 10,
+                            "ap-max": 10
+                        },
+                        "20": {
+                            "ap-min": 11,
+                            "ap-max": 11
+                        }
+                    }
+                },
+                "Blade Trinket": {
+                    "set": "Blade",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 3,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "hp": 50
+                    },
+                    "enhancement": {
+                        "1": {
+                            "dp": 4
+                        },
+                        "2": {
+                            "dp": 5
+                        },
+                        "3": {
+                            "dp": 6
+                        },
+                        "4": {
+                            "dp": 7
+                        },
+                        "5": {
+                            "dp": 8
+                        },
+                        "6": {
+                            "dp": 9
+                        },
+                        "7": {
+                            "dp": 10
+                        },
+                        "8": {
+                            "dp": 11
+                        },
+                        "9": {
+                            "dp": 12
+                        },
+                        "10": {
+                            "dp": 13
+                        },
+                        "11": {
+                            "dp": 14
+                        },
+                        "12": {
+                            "dp": 15
+                        },
+                        "13": {
+                            "dp": 16
+                        },
+                        "14": {
+                            "dp": 17
+                        },
+                        "15": {
+                            "dp": 18
+                        },
+                        "16": {
+                            "ap-min": 1,
+                            "ap-max": 1,
+                            "dp": 20
+                        },
+                        "17": {
+                            "ap-min": 2,
+                            "ap-max": 2,
+                            "dp": 22
+                        },
+                        "18": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 27
+                        },
+                        "19": {
+                            "ap-min": 4,
+                            "ap-max": 4,
+                            "dp": 29
+                        },
+                        "20": {
+                            "ap-min": 5,
+                            "ap-max": 5,
+                            "dp": 31
+                        }
+                    }
+                },
+                "Nouver Trinket": {
+                    "set": "Nouver",
+                    "ap_min": 6,
+                    "ap_max": 8,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "ar": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 7,
+                            "ap-max": 9
+                        },
+                        "2": {
+                            "ap-min": 8,
+                            "ap-max": 10
+                        },
+                        "3": {
+                            "ap-min": 9,
+                            "ap-max": 11
+                        },
+                        "4": {
+                            "ap-min": 10,
+                            "ap-max": 12
+                        },
+                        "5": {
+                            "ap-min": 11,
+                            "ap-max": 13
+                        },
+                        "6": {
+                            "ap-min": 12,
+                            "ap-max": 14
+                        },
+                        "7": {
+                            "ap-min": 13,
+                            "ap-max": 15
+                        },
+                        "8": {
+                            "ap-min": 14,
+                            "ap-max": 16
+                        },
+                        "9": {
+                            "ap-min": 15,
+                            "ap-max": 17
+                        },
+                        "10": {
+                            "ap-min": 16,
+                            "ap-max": 18
+                        },
+                        "11": {
+                            "ap-min": 18,
+                            "ap-max": 20
+                        },
+                        "12": {
+                            "ap-min": 20,
+                            "ap-max": 22
+                        },
+                        "13": {
+                            "ap-min": 22,
+                            "ap-max": 24
+                        },
+                        "14": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "15": {
+                            "ap-min": 26,
+                            "ap-max": 28
+                        },
+                        "16": {
+                            "ap-min": 29,
+                            "ap-max": 31
+                        },
+                        "17": {
+                            "ap-min": 32,
+                            "ap-max": 34
+                        },
+                        "18": {
+                            "ap-min": 38,
+                            "ap-max": 40
+                        },
+                        "19": {
+                            "ap-min": 41,
+                            "ap-max": 43
+                        },
+                        "20": {
+                            "ap-min": 44,
+                            "ap-max": 46
+                        }
+                    }
+                }
             },
             "valkyrie" :{
-
-            },
-            "warrior" :{
-
-            },
-            "witch" :{
-
-            },
-            "wizard" :{
-
+                "Vangertz Shield": {
+                    "set": "Vangertz",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "ev": 2,
+                        "dr": 2
+                    },
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 4,
+                            "dp": 20
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 5,
+                            "dp": 21
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 6,
+                            "dp": 25
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 7,
+                            "dp": 26
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 8,
+                            "dp": 27
+                        }
+                    }
+                },
+                "Rosar Shield": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 5,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 6,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 7,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 8,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 9,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Shield": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap-min": 2,
+                            "ap-max": 4,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap-min": 3,
+                            "ap-max": 5,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap-min": 4,
+                            "ap-max": 6,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap-min": 5,
+                            "ap-max": 7,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap-min": 6,
+                            "ap-max": 8,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Kite Shield": {
+                    "set": "Kite",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 7,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 2,
+                        "dr": 5,
+                        "hp": 50
+                    },
+                    "enhancement": {
+                        "1": {
+                            "dp": 8
+                        },
+                        "2": {
+                            "dp": 9
+                        },
+                        "3": {
+                            "dp": 10
+                        },
+                        "4": {
+                            "dp": 11
+                        },
+                        "5": {
+                            "dp": 12
+                        },
+                        "6": {
+                            "dp": 13
+                        },
+                        "7": {
+                            "dp": 14
+                        },
+                        "8": {
+                            "dp": 15
+                        },
+                        "9": {
+                            "dp": 16
+                        },
+                        "10": {
+                            "dp": 17
+                        },
+                        "11": {
+                            "dp": 18
+                        },
+                        "12": {
+                            "dp": 19
+                        },
+                        "13": {
+                            "dp": 20
+                        },
+                        "14": {
+                            "dp": 21
+                        },
+                        "15": {
+                            "dp": 22
+                        },
+                        "16": {
+                            "ap-min": 1,
+                            "ap-max": 1,
+                            "dp": 24
+                        },
+                        "17": {
+                            "ap-min": 2,
+                            "ap-max": 2,
+                            "dp": 26
+                        },
+                        "18": {
+                            "ap-min": 3,
+                            "ap-max": 3,
+                            "dp": 31
+                        },
+                        "19": {
+                            "ap-min": 4,
+                            "ap-max": 4,
+                            "dp": 33
+                        },
+                        "20": {
+                            "ap-min": 5,
+                            "ap-max": 5,
+                            "dp": 35
+                        }
+                    }
+                },
+                "Axion Shield": {
+                    "set": "Axion",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 1,
+                        "dr": 3
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 5,
+                            "ap-max": 7
+                        },
+                        "2": {
+                            "ap-min": 5,
+                            "ap-max": 8
+                        },
+                        "3": {
+                            "ap-min": 5,
+                            "ap-max": 9
+                        },
+                        "4": {
+                            "ap-min": 5,
+                            "ap-max": 10
+                        },
+                        "5": {
+                            "ap-min": 6,
+                            "ap-max": 11
+                        },
+                        "6": {
+                            "ap-min": 6,
+                            "ap-max": 12
+                        },
+                        "7": {
+                            "ap-min": 6,
+                            "ap-max": 13
+                        },
+                        "8": {
+                            "ap-min": 6,
+                            "ap-max": 14
+                        },
+                        "9": {
+                            "ap-min": 6,
+                            "ap-max": 15
+                        },
+                        "10": {
+                            "ap-min": 7,
+                            "ap-max": 16
+                        },
+                        "11": {
+                            "ap-min": 7,
+                            "ap-max": 17
+                        },
+                        "12": {
+                            "ap-min": 7,
+                            "ap-max": 18
+                        },
+                        "13": {
+                            "ap-min": 7,
+                            "ap-max": 19
+                        },
+                        "14": {
+                            "ap-min": 7,
+                            "ap-max": 20
+                        },
+                        "15": {
+                            "ap-min": 8,
+                            "ap-max": 21
+                        },
+                        "16": {
+                            "ap-min": 11,
+                            "ap-max": 24
+                        },
+                        "17": {
+                            "ap-min": 14,
+                            "ap-max": 27
+                        },
+                        "18": {
+                            "ap-min": 20,
+                            "ap-max": 33
+                        },
+                        "19": {
+                            "ap-min": 23,
+                            "ap-max": 36
+                        },
+                        "20": {
+                            "ap-min": 26,
+                            "ap-max": 39
+                        }
+                    }
+                },
+                "Nouver Shield": {
+                    "set": "Nouver",
+                    "ap_min": 6,
+                    "ap_max": 8,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "ar": 10
+                    },
+                    "enhancement": {
+                        "1": {
+                            "ap-min": 7,
+                            "ap-max": 9
+                        },
+                        "2": {
+                            "ap-min": 8,
+                            "ap-max": 10
+                        },
+                        "3": {
+                            "ap-min": 9,
+                            "ap-max": 11
+                        },
+                        "4": {
+                            "ap-min": 10,
+                            "ap-max": 12
+                        },
+                        "5": {
+                            "ap-min": 11,
+                            "ap-max": 13
+                        },
+                        "6": {
+                            "ap-min": 12,
+                            "ap-max": 14
+                        },
+                        "7": {
+                            "ap-min": 13,
+                            "ap-max": 15
+                        },
+                        "8": {
+                            "ap-min": 14,
+                            "ap-max": 16
+                        },
+                        "9": {
+                            "ap-min": 15,
+                            "ap-max": 17
+                        },
+                        "10": {
+                            "ap-min": 16,
+                            "ap-max": 18
+                        },
+                        "11": {
+                            "ap-min": 18,
+                            "ap-max": 20
+                        },
+                        "12": {
+                            "ap-min": 20,
+                            "ap-max": 22
+                        },
+                        "13": {
+                            "ap-min": 22,
+                            "ap-max": 24
+                        },
+                        "14": {
+                            "ap-min": 24,
+                            "ap-max": 26
+                        },
+                        "15": {
+                            "ap-min": 26,
+                            "ap-max": 28
+                        },
+                        "16": {
+                            "ap-min": 29,
+                            "ap-max": 31
+                        },
+                        "17": {
+                            "ap-min": 32,
+                            "ap-max": 34
+                        },
+                        "18": {
+                            "ap-min": 38,
+                            "ap-max": 40
+                        },
+                        "19": {
+                            "ap-min": 41,
+                            "ap-max": 43
+                        },
+                        "20": {
+                            "ap-min": 44,
+                            "ap-max": 46
+                        }
+                    }
+                }
             }
         }
+    },
+    init: function() {
+        this.items["main-weapons"].warrior = this.items["main-weapons"].valkyrie;
+        this.items["main-weapons"].wizard = this.items["main-weapons"].witch;
+
+        this.items["secondary-weapons"].warrior = this.items["secondary-weapons"].valkyrie;
+        this.items["secondary-weapons"].witch = this.items["secondary-weapons"].ranger;
+        this.items["secondary-weapons"].wizard = this.items["secondary-weapons"].ranger;
     }
 };
+
+// a small "hack", but hey it works. 
+BDOdatabase.init();

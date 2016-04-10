@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-08 23:52:45
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-09 18:52:57
+* @Last Modified time: 2016-04-10 11:22:24
 */
 
 
@@ -118,6 +118,11 @@ var BDOcalculator = {
 
     addStat: function(stat_key, value) {
         if (stat_key in this.stats) {
+            if (stat_key === "special") {
+                this.stats.special.specials.push(value);
+                return;
+            }
+
             if (stat_key === "ap") {
                 if (parseInt(value) === value) {
                     value = [
@@ -306,7 +311,15 @@ var BDOcalculator = {
 
             var obj = this.stats[key];
 
-            $('#stats').append('<li><strong>' + obj.title + ':</strong> ' + (key === "ap" ? obj.min + ' ~ ' + obj.max : obj.total) + '' + obj.symbol + '</li>');
+            if (key !== "special") {
+                $('#stats').append('<li><strong>' + obj.title + ':</strong> ' + (key === "ap" ? obj.min + ' ~ ' + obj.max : obj.total) + '' + obj.symbol + '</li>');
+            } else {
+                $('#stats').append('<li><strong>' + obj.title + ':</strong></li>');
+                
+                for (var i = obj.specials.length - 1; i >= 0; i--) {
+                    $('#stats').append('<li>' + obj.specials[i] + '</li>');
+                }
+            }
         }
     }
 };
