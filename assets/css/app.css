@@ -1,6 +1,3 @@
-body.debug div {
-  outline: 1px #f10000; }
-
 #calculator-section,
 #player-class-section {
   display: none; }
