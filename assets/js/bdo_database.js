@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 21:40:17
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-10 13:23:44
+* @Last Modified time: 2016-04-11 22:08:28
 */
 
 /* Data from http://bddatabase.net */
@@ -49,6 +49,11 @@ var BDOdatabase = {
         },
         "sprc": {
             "title": "SP recovery",
+            "total": 0,
+            "symbol": ""
+        },
+        "mprc": {
+            "title": "MP recovery",
             "total": 0,
             "symbol": ""
         },
@@ -147,8 +152,18 @@ var BDOdatabase = {
             "total": 0,
             "symbol": ""
         },
+        "stam": {
+            "title": "Stamina",
+            "total": 0,
+            "symbol": ""
+        },
         "wgt": {
             "title": "Weight Limit",
+            "total": 0,
+            "symbol": ""
+        },
+        "jh": {
+            "title": "Jump Height",
             "total": 0,
             "symbol": ""
         },
@@ -172,7 +187,7 @@ var BDOdatabase = {
             "specials": []
         }
     },
-    "rarity": {
+    "rarities": {
         "common": "#ffffff",
         "uncommon": "#5ff369",
         "rare": "#0391c4",
@@ -189,11 +204,45 @@ var BDOdatabase = {
         "Witch",
         "Wizard"
     ],
+    "class_weapons": {
+        "berserker": {
+            "main-weapon": "Axe",
+            "secondary-weapon": "Sword Knot"
+        },
+        "ranger": {
+            "main-weapon": "Longbow",
+            "secondary-weapon": "Dagger"
+        },
+        "sorceress": {
+            "main-weapon": "Amulet",
+            "secondary-weapon": "Talisman"
+        },
+        "tamer": {
+            "main-weapon": "Shortsword",
+            "secondary-weapon": "Shortbow"
+        },
+        "valkyrie": {
+            "main-weapon": "Longsword",
+            "secondary-weapon": "Shield"
+        },
+        "warrior": {
+            "main-weapon": "Longsword",
+            "secondary-weapon": "Shield"
+        },
+        "witch": {
+            "main-weapon": "Staff",
+            "secondary-weapon": "Dagger"
+        },
+        "wizard": {
+            "main-weapon": "Staff",
+            "secondary-weapon": "Dagger"
+        }
+    },
     "set_effects": {
         "Agerian": {
             "pieces": {
                 "2": {
-                    "max-hp": 100
+                    "hp": 100
                 },
                 "3": {
                     "as": 2,
@@ -4576,84 +4625,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -4666,84 +4715,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 26
+                            "ap_min": 21,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 29
+                            "ap_min": 24,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 32
+                            "ap_min": 27,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 34
+                            "ap_min": 29,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 36
+                            "ap_min": 31,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 39
+                            "ap_min": 34,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 42
+                            "ap_min": 37,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 46
+                            "ap_min": 41,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 50
+                            "ap_min": 45,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 54
+                            "ap_min": 49,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 58
+                            "ap_min": 53,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 62
+                            "ap_min": 57,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 66
+                            "ap_min": 61,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 70
+                            "ap_min": 65,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 74
+                            "ap_min": 69,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 82
+                            "ap_min": 77,
+                            "ap_max": 82
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 90
+                            "ap_min": 85,
+                            "ap_max": 90
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 102
+                            "ap_min": 97,
+                            "ap_max": 102
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 110
+                            "ap_min": 105,
+                            "ap_max": 110
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 118
+                            "ap_min": 113,
+                            "ap_max": 118
                         }
                     }
                 },
@@ -4761,84 +4810,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -4851,84 +4900,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 23
+                            "ap_min": 21,
+                            "ap_max": 23
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 29
+                            "ap_min": 27,
+                            "ap_max": 29
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 33
+                            "ap_min": 31,
+                            "ap_max": 33
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 36
+                            "ap_min": 34,
+                            "ap_max": 36
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 39
+                            "ap_min": 37,
+                            "ap_max": 39
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 47
+                            "ap_min": 45,
+                            "ap_max": 47
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 51
+                            "ap_min": 49,
+                            "ap_max": 51
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 55
+                            "ap_min": 53,
+                            "ap_max": 55
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 59
+                            "ap_min": 57,
+                            "ap_max": 59
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 63
+                            "ap_min": 61,
+                            "ap_max": 63
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 67
+                            "ap_min": 65,
+                            "ap_max": 67
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 71
+                            "ap_min": 69,
+                            "ap_max": 71
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 79
+                            "ap_min": 77,
+                            "ap_max": 79
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 87
+                            "ap_min": 85,
+                            "ap_max": 87
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 99
+                            "ap_min": 97,
+                            "ap_max": 99
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 107
+                            "ap_min": 105,
+                            "ap_max": 107
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 115
+                            "ap_min": 113,
+                            "ap_max": 115
                         }
                     }
                 },
@@ -4941,84 +4990,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 17,
-                            "ap-max": 31
+                            "ap_min": 17,
+                            "ap_max": 31
                         },
                         "2": {
-                            "ap-min": 20,
-                            "ap-max": 34
+                            "ap_min": 20,
+                            "ap_max": 34
                         },
                         "3": {
-                            "ap-min": 23,
-                            "ap-max": 37
+                            "ap_min": 23,
+                            "ap_max": 37
                         },
                         "4": {
-                            "ap-min": 25,
-                            "ap-max": 39
+                            "ap_min": 25,
+                            "ap_max": 39
                         },
                         "5": {
-                            "ap-min": 27,
-                            "ap-max": 41
+                            "ap_min": 27,
+                            "ap_max": 41
                         },
                         "6": {
-                            "ap-min": 30,
-                            "ap-max": 44
+                            "ap_min": 30,
+                            "ap_max": 44
                         },
                         "7": {
-                            "ap-min": 33,
-                            "ap-max": 47
+                            "ap_min": 33,
+                            "ap_max": 47
                         },
                         "8": {
-                            "ap-min": 37,
-                            "ap-max": 51
+                            "ap_min": 37,
+                            "ap_max": 51
                         },
                         "9": {
-                            "ap-min": 41,
-                            "ap-max": 55
+                            "ap_min": 41,
+                            "ap_max": 55
                         },
                         "10": {
-                            "ap-min": 45,
-                            "ap-max": 59
+                            "ap_min": 45,
+                            "ap_max": 59
                         },
                         "11": {
-                            "ap-min": 49,
-                            "ap-max": 63
+                            "ap_min": 49,
+                            "ap_max": 63
                         },
                         "12": {
-                            "ap-min": 53,
-                            "ap-max": 67
+                            "ap_min": 53,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 57,
-                            "ap-max": 71
+                            "ap_min": 57,
+                            "ap_max": 71
                         },
                         "14": {
-                            "ap-min": 61,
-                            "ap-max": 75
+                            "ap_min": 61,
+                            "ap_max": 75
                         },
                         "15": {
-                            "ap-min": 65,
-                            "ap-max": 79
+                            "ap_min": 65,
+                            "ap_max": 79
                         },
                         "16": {
-                            "ap-min": 73,
-                            "ap-max": 87
+                            "ap_min": 73,
+                            "ap_max": 87
                         },
                         "17": {
-                            "ap-min": 81,
-                            "ap-max": 95
+                            "ap_min": 81,
+                            "ap_max": 95
                         },
                         "18": {
-                            "ap-min": 93,
-                            "ap-max": 107
+                            "ap_min": 93,
+                            "ap_max": 107
                         },
                         "19": {
-                            "ap-min": 101,
-                            "ap-max": 115
+                            "ap_min": 101,
+                            "ap_max": 115
                         },
                         "20": {
-                            "ap-min": 109,
-                            "ap-max": 123
+                            "ap_min": 109,
+                            "ap_max": 123
                         }
                     }
                 },
@@ -5036,84 +5085,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -5128,84 +5177,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -5229,84 +5278,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 15,
-                            "ap-max": 19
+                            "ap_min": 15,
+                            "ap_max": 19
                         },
                         "2": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "3": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "4": {
-                            "ap-min": 23,
-                            "ap-max": 27
+                            "ap_min": 23,
+                            "ap_max": 27
                         },
                         "5": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "6": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "7": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "8": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "9": {
-                            "ap-min": 39,
-                            "ap-max": 43
+                            "ap_min": 39,
+                            "ap_max": 43
                         },
                         "10": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "11": {
-                            "ap-min": 47,
-                            "ap-max": 51
+                            "ap_min": 47,
+                            "ap_max": 51
                         },
                         "12": {
-                            "ap-min": 51,
-                            "ap-max": 55
+                            "ap_min": 51,
+                            "ap_max": 55
                         },
                         "13": {
-                            "ap-min": 55,
-                            "ap-max": 59
+                            "ap_min": 55,
+                            "ap_max": 59
                         },
                         "14": {
-                            "ap-min": 59,
-                            "ap-max": 63
+                            "ap_min": 59,
+                            "ap_max": 63
                         },
                         "15": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "16": {
-                            "ap-min": 71,
-                            "ap-max": 75
+                            "ap_min": 71,
+                            "ap_max": 75
                         },
                         "17": {
-                            "ap-min": 79,
-                            "ap-max": 83
+                            "ap_min": 79,
+                            "ap_max": 83
                         },
                         "18": {
-                            "ap-min": 91,
-                            "ap-max": 95
+                            "ap_min": 91,
+                            "ap_max": 95
                         },
                         "19": {
-                            "ap-min": 99,
-                            "ap-max": 103
+                            "ap_min": 99,
+                            "ap_max": 103
                         },
                         "20": {
-                            "ap-min": 107,
-                            "ap-max": 111
+                            "ap_min": 107,
+                            "ap_max": 111
                         }
                     }
                 },
@@ -5322,84 +5371,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -5507,84 +5556,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 20,
-                            "ap-max": 26
+                            "ap_min": 20,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 23,
-                            "ap-max": 29
+                            "ap_min": 23,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 26,
-                            "ap-max": 32
+                            "ap_min": 26,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 28,
-                            "ap-max": 34
+                            "ap_min": 28,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 30,
-                            "ap-max": 36
+                            "ap_min": 30,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 33,
-                            "ap-max": 39
+                            "ap_min": 33,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 36,
-                            "ap-max": 42
+                            "ap_min": 36,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 40,
-                            "ap-max": 46
+                            "ap_min": 40,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 44,
-                            "ap-max": 50
+                            "ap_min": 44,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 48,
-                            "ap-max": 54
+                            "ap_min": 48,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 52,
-                            "ap-max": 58
+                            "ap_min": 52,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 56,
-                            "ap-max": 62
+                            "ap_min": 56,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 60,
-                            "ap-max": 66
+                            "ap_min": 60,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 64,
-                            "ap-max": 70
+                            "ap_min": 64,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 68,
-                            "ap-max": 74
+                            "ap_min": 68,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 72,
-                            "ap-max": 78
+                            "ap_min": 72,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 76,
-                            "ap-max": 82
+                            "ap_min": 76,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 88,
-                            "ap-max": 94
+                            "ap_min": 88,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 92,
-                            "ap-max": 98
+                            "ap_min": 92,
+                            "ap_max": 98
                         },
                         "20": {
-                            "ap-min": 96,
-                            "ap-max": 102
+                            "ap_min": 96,
+                            "ap_max": 102
                         }
                     }
                 },
@@ -5599,84 +5648,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 32,
-                            "ap-max": 36
+                            "ap_min": 32,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "9": {
-                            "ap-min": 48,
-                            "ap-max": 52
+                            "ap_min": 48,
+                            "ap_max": 52
                         },
                         "10": {
-                            "ap-min": 53,
-                            "ap-max": 57
+                            "ap_min": 53,
+                            "ap_max": 57
                         },
                         "11": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "12": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 68,
-                            "ap-max": 72
+                            "ap_min": 68,
+                            "ap_max": 72
                         },
                         "14": {
-                            "ap-min": 73,
-                            "ap-max": 77
+                            "ap_min": 73,
+                            "ap_max": 77
                         },
                         "15": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "16": {
-                            "ap-min": 86,
-                            "ap-max": 90
+                            "ap_min": 86,
+                            "ap_max": 90
                         },
                         "17": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "18": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         },
                         "19": {
-                            "ap-min": 114,
-                            "ap-max": 118
+                            "ap_min": 114,
+                            "ap_max": 118
                         },
                         "20": {
-                            "ap-min": 122,
-                            "ap-max": 126
+                            "ap_min": 122,
+                            "ap_max": 126
                         }
                     }
                 }
@@ -5794,84 +5843,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -5884,84 +5933,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 26
+                            "ap_min": 21,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 29
+                            "ap_min": 24,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 32
+                            "ap_min": 27,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 34
+                            "ap_min": 29,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 36
+                            "ap_min": 31,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 39
+                            "ap_min": 34,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 42
+                            "ap_min": 37,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 46
+                            "ap_min": 41,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 50
+                            "ap_min": 45,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 54
+                            "ap_min": 49,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 58
+                            "ap_min": 53,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 62
+                            "ap_min": 57,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 66
+                            "ap_min": 61,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 70
+                            "ap_min": 65,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 74
+                            "ap_min": 69,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 82
+                            "ap_min": 77,
+                            "ap_max": 82
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 90
+                            "ap_min": 85,
+                            "ap_max": 90
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 102
+                            "ap_min": 97,
+                            "ap_max": 102
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 110
+                            "ap_min": 105,
+                            "ap_max": 110
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 118
+                            "ap_min": 113,
+                            "ap_max": 118
                         }
                     }
                 },
@@ -5979,84 +6028,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -6069,84 +6118,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 23
+                            "ap_min": 21,
+                            "ap_max": 23
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 29
+                            "ap_min": 27,
+                            "ap_max": 29
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 33
+                            "ap_min": 31,
+                            "ap_max": 33
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 36
+                            "ap_min": 34,
+                            "ap_max": 36
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 39
+                            "ap_min": 37,
+                            "ap_max": 39
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 47
+                            "ap_min": 45,
+                            "ap_max": 47
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 51
+                            "ap_min": 49,
+                            "ap_max": 51
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 55
+                            "ap_min": 53,
+                            "ap_max": 55
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 59
+                            "ap_min": 57,
+                            "ap_max": 59
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 63
+                            "ap_min": 61,
+                            "ap_max": 63
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 67
+                            "ap_min": 65,
+                            "ap_max": 67
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 71
+                            "ap_min": 69,
+                            "ap_max": 71
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 79
+                            "ap_min": 77,
+                            "ap_max": 79
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 87
+                            "ap_min": 85,
+                            "ap_max": 87
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 99
+                            "ap_min": 97,
+                            "ap_max": 99
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 107
+                            "ap_min": 105,
+                            "ap_max": 107
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 115
+                            "ap_min": 113,
+                            "ap_max": 115
                         }
                     }
                 },
@@ -6159,84 +6208,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 17,
-                            "ap-max": 31
+                            "ap_min": 17,
+                            "ap_max": 31
                         },
                         "2": {
-                            "ap-min": 20,
-                            "ap-max": 34
+                            "ap_min": 20,
+                            "ap_max": 34
                         },
                         "3": {
-                            "ap-min": 23,
-                            "ap-max": 37
+                            "ap_min": 23,
+                            "ap_max": 37
                         },
                         "4": {
-                            "ap-min": 25,
-                            "ap-max": 39
+                            "ap_min": 25,
+                            "ap_max": 39
                         },
                         "5": {
-                            "ap-min": 27,
-                            "ap-max": 41
+                            "ap_min": 27,
+                            "ap_max": 41
                         },
                         "6": {
-                            "ap-min": 30,
-                            "ap-max": 44
+                            "ap_min": 30,
+                            "ap_max": 44
                         },
                         "7": {
-                            "ap-min": 33,
-                            "ap-max": 47
+                            "ap_min": 33,
+                            "ap_max": 47
                         },
                         "8": {
-                            "ap-min": 37,
-                            "ap-max": 51
+                            "ap_min": 37,
+                            "ap_max": 51
                         },
                         "9": {
-                            "ap-min": 41,
-                            "ap-max": 55
+                            "ap_min": 41,
+                            "ap_max": 55
                         },
                         "10": {
-                            "ap-min": 45,
-                            "ap-max": 59
+                            "ap_min": 45,
+                            "ap_max": 59
                         },
                         "11": {
-                            "ap-min": 49,
-                            "ap-max": 63
+                            "ap_min": 49,
+                            "ap_max": 63
                         },
                         "12": {
-                            "ap-min": 53,
-                            "ap-max": 67
+                            "ap_min": 53,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 57,
-                            "ap-max": 71
+                            "ap_min": 57,
+                            "ap_max": 71
                         },
                         "14": {
-                            "ap-min": 61,
-                            "ap-max": 75
+                            "ap_min": 61,
+                            "ap_max": 75
                         },
                         "15": {
-                            "ap-min": 65,
-                            "ap-max": 79
+                            "ap_min": 65,
+                            "ap_max": 79
                         },
                         "16": {
-                            "ap-min": 73,
-                            "ap-max": 87
+                            "ap_min": 73,
+                            "ap_max": 87
                         },
                         "17": {
-                            "ap-min": 81,
-                            "ap-max": 95
+                            "ap_min": 81,
+                            "ap_max": 95
                         },
                         "18": {
-                            "ap-min": 93,
-                            "ap-max": 107
+                            "ap_min": 93,
+                            "ap_max": 107
                         },
                         "19": {
-                            "ap-min": 101,
-                            "ap-max": 115
+                            "ap_min": 101,
+                            "ap_max": 115
                         },
                         "20": {
-                            "ap-min": 109,
-                            "ap-max": 123
+                            "ap_min": 109,
+                            "ap_max": 123
                         }
                     }
                 },
@@ -6254,84 +6303,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -6346,84 +6395,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -6447,84 +6496,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 15,
-                            "ap-max": 19
+                            "ap_min": 15,
+                            "ap_max": 19
                         },
                         "2": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "3": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "4": {
-                            "ap-min": 23,
-                            "ap-max": 27
+                            "ap_min": 23,
+                            "ap_max": 27
                         },
                         "5": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "6": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "7": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "8": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "9": {
-                            "ap-min": 39,
-                            "ap-max": 43
+                            "ap_min": 39,
+                            "ap_max": 43
                         },
                         "10": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "11": {
-                            "ap-min": 47,
-                            "ap-max": 51
+                            "ap_min": 47,
+                            "ap_max": 51
                         },
                         "12": {
-                            "ap-min": 51,
-                            "ap-max": 55
+                            "ap_min": 51,
+                            "ap_max": 55
                         },
                         "13": {
-                            "ap-min": 55,
-                            "ap-max": 59
+                            "ap_min": 55,
+                            "ap_max": 59
                         },
                         "14": {
-                            "ap-min": 59,
-                            "ap-max": 63
+                            "ap_min": 59,
+                            "ap_max": 63
                         },
                         "15": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "16": {
-                            "ap-min": 71,
-                            "ap-max": 75
+                            "ap_min": 71,
+                            "ap_max": 75
                         },
                         "17": {
-                            "ap-min": 79,
-                            "ap-max": 83
+                            "ap_min": 79,
+                            "ap_max": 83
                         },
                         "18": {
-                            "ap-min": 91,
-                            "ap-max": 95
+                            "ap_min": 91,
+                            "ap_max": 95
                         },
                         "19": {
-                            "ap-min": 99,
-                            "ap-max": 103
+                            "ap_min": 99,
+                            "ap_max": 103
                         },
                         "20": {
-                            "ap-min": 107,
-                            "ap-max": 111
+                            "ap_min": 107,
+                            "ap_max": 111
                         }
                     }
                 },
@@ -6540,84 +6589,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -6725,84 +6774,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 20,
-                            "ap-max": 26
+                            "ap_min": 20,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 23,
-                            "ap-max": 29
+                            "ap_min": 23,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 26,
-                            "ap-max": 32
+                            "ap_min": 26,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 28,
-                            "ap-max": 34
+                            "ap_min": 28,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 30,
-                            "ap-max": 36
+                            "ap_min": 30,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 33,
-                            "ap-max": 39
+                            "ap_min": 33,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 36,
-                            "ap-max": 42
+                            "ap_min": 36,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 40,
-                            "ap-max": 46
+                            "ap_min": 40,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 44,
-                            "ap-max": 50
+                            "ap_min": 44,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 48,
-                            "ap-max": 54
+                            "ap_min": 48,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 52,
-                            "ap-max": 58
+                            "ap_min": 52,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 56,
-                            "ap-max": 62
+                            "ap_min": 56,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 60,
-                            "ap-max": 66
+                            "ap_min": 60,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 64,
-                            "ap-max": 70
+                            "ap_min": 64,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 68,
-                            "ap-max": 74
+                            "ap_min": 68,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 72,
-                            "ap-max": 78
+                            "ap_min": 72,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 76,
-                            "ap-max": 82
+                            "ap_min": 76,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 88,
-                            "ap-max": 94
+                            "ap_min": 88,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 92,
-                            "ap-max": 98
+                            "ap_min": 92,
+                            "ap_max": 98
                         },
                         "20": {
-                            "ap-min": 96,
-                            "ap-max": 102
+                            "ap_min": 96,
+                            "ap_max": 102
                         }
                     }
                 },
@@ -6817,84 +6866,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 32,
-                            "ap-max": 36
+                            "ap_min": 32,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "9": {
-                            "ap-min": 48,
-                            "ap-max": 52
+                            "ap_min": 48,
+                            "ap_max": 52
                         },
                         "10": {
-                            "ap-min": 53,
-                            "ap-max": 57
+                            "ap_min": 53,
+                            "ap_max": 57
                         },
                         "11": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "12": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 68,
-                            "ap-max": 72
+                            "ap_min": 68,
+                            "ap_max": 72
                         },
                         "14": {
-                            "ap-min": 73,
-                            "ap-max": 77
+                            "ap_min": 73,
+                            "ap_max": 77
                         },
                         "15": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "16": {
-                            "ap-min": 86,
-                            "ap-max": 90
+                            "ap_min": 86,
+                            "ap_max": 90
                         },
                         "17": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "18": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         },
                         "19": {
-                            "ap-min": 114,
-                            "ap-max": 118
+                            "ap_min": 114,
+                            "ap_max": 118
                         },
                         "20": {
-                            "ap-min": 122,
-                            "ap-max": 126
+                            "ap_min": 122,
+                            "ap_max": 126
                         }
                     }
                 }
@@ -7012,84 +7061,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -7102,84 +7151,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 26
+                            "ap_min": 21,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 29
+                            "ap_min": 24,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 32
+                            "ap_min": 27,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 34
+                            "ap_min": 29,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 36
+                            "ap_min": 31,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 39
+                            "ap_min": 34,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 42
+                            "ap_min": 37,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 46
+                            "ap_min": 41,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 50
+                            "ap_min": 45,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 54
+                            "ap_min": 49,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 58
+                            "ap_min": 53,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 62
+                            "ap_min": 57,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 66
+                            "ap_min": 61,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 70
+                            "ap_min": 65,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 74
+                            "ap_min": 69,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 82
+                            "ap_min": 77,
+                            "ap_max": 82
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 90
+                            "ap_min": 85,
+                            "ap_max": 90
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 102
+                            "ap_min": 97,
+                            "ap_max": 102
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 110
+                            "ap_min": 105,
+                            "ap_max": 110
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 118
+                            "ap_min": 113,
+                            "ap_max": 118
                         }
                     }
                 },
@@ -7197,84 +7246,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -7287,84 +7336,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 23
+                            "ap_min": 21,
+                            "ap_max": 23
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 29
+                            "ap_min": 27,
+                            "ap_max": 29
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 33
+                            "ap_min": 31,
+                            "ap_max": 33
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 36
+                            "ap_min": 34,
+                            "ap_max": 36
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 39
+                            "ap_min": 37,
+                            "ap_max": 39
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 47
+                            "ap_min": 45,
+                            "ap_max": 47
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 51
+                            "ap_min": 49,
+                            "ap_max": 51
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 55
+                            "ap_min": 53,
+                            "ap_max": 55
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 59
+                            "ap_min": 57,
+                            "ap_max": 59
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 63
+                            "ap_min": 61,
+                            "ap_max": 63
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 67
+                            "ap_min": 65,
+                            "ap_max": 67
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 71
+                            "ap_min": 69,
+                            "ap_max": 71
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 79
+                            "ap_min": 77,
+                            "ap_max": 79
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 87
+                            "ap_min": 85,
+                            "ap_max": 87
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 99
+                            "ap_min": 97,
+                            "ap_max": 99
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 107
+                            "ap_min": 105,
+                            "ap_max": 107
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 115
+                            "ap_min": 113,
+                            "ap_max": 115
                         }
                     }
                 },
@@ -7377,84 +7426,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 17,
-                            "ap-max": 31
+                            "ap_min": 17,
+                            "ap_max": 31
                         },
                         "2": {
-                            "ap-min": 20,
-                            "ap-max": 34
+                            "ap_min": 20,
+                            "ap_max": 34
                         },
                         "3": {
-                            "ap-min": 23,
-                            "ap-max": 37
+                            "ap_min": 23,
+                            "ap_max": 37
                         },
                         "4": {
-                            "ap-min": 25,
-                            "ap-max": 39
+                            "ap_min": 25,
+                            "ap_max": 39
                         },
                         "5": {
-                            "ap-min": 27,
-                            "ap-max": 41
+                            "ap_min": 27,
+                            "ap_max": 41
                         },
                         "6": {
-                            "ap-min": 30,
-                            "ap-max": 44
+                            "ap_min": 30,
+                            "ap_max": 44
                         },
                         "7": {
-                            "ap-min": 33,
-                            "ap-max": 47
+                            "ap_min": 33,
+                            "ap_max": 47
                         },
                         "8": {
-                            "ap-min": 37,
-                            "ap-max": 51
+                            "ap_min": 37,
+                            "ap_max": 51
                         },
                         "9": {
-                            "ap-min": 41,
-                            "ap-max": 55
+                            "ap_min": 41,
+                            "ap_max": 55
                         },
                         "10": {
-                            "ap-min": 45,
-                            "ap-max": 59
+                            "ap_min": 45,
+                            "ap_max": 59
                         },
                         "11": {
-                            "ap-min": 49,
-                            "ap-max": 63
+                            "ap_min": 49,
+                            "ap_max": 63
                         },
                         "12": {
-                            "ap-min": 53,
-                            "ap-max": 67
+                            "ap_min": 53,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 57,
-                            "ap-max": 71
+                            "ap_min": 57,
+                            "ap_max": 71
                         },
                         "14": {
-                            "ap-min": 61,
-                            "ap-max": 75
+                            "ap_min": 61,
+                            "ap_max": 75
                         },
                         "15": {
-                            "ap-min": 65,
-                            "ap-max": 79
+                            "ap_min": 65,
+                            "ap_max": 79
                         },
                         "16": {
-                            "ap-min": 73,
-                            "ap-max": 87
+                            "ap_min": 73,
+                            "ap_max": 87
                         },
                         "17": {
-                            "ap-min": 81,
-                            "ap-max": 95
+                            "ap_min": 81,
+                            "ap_max": 95
                         },
                         "18": {
-                            "ap-min": 93,
-                            "ap-max": 107
+                            "ap_min": 93,
+                            "ap_max": 107
                         },
                         "19": {
-                            "ap-min": 101,
-                            "ap-max": 115
+                            "ap_min": 101,
+                            "ap_max": 115
                         },
                         "20": {
-                            "ap-min": 109,
-                            "ap-max": 123
+                            "ap_min": 109,
+                            "ap_max": 123
                         }
                     }
                 },
@@ -7472,84 +7521,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -7564,84 +7613,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -7665,84 +7714,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 15,
-                            "ap-max": 19
+                            "ap_min": 15,
+                            "ap_max": 19
                         },
                         "2": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "3": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "4": {
-                            "ap-min": 23,
-                            "ap-max": 27
+                            "ap_min": 23,
+                            "ap_max": 27
                         },
                         "5": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "6": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "7": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "8": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "9": {
-                            "ap-min": 39,
-                            "ap-max": 43
+                            "ap_min": 39,
+                            "ap_max": 43
                         },
                         "10": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "11": {
-                            "ap-min": 47,
-                            "ap-max": 51
+                            "ap_min": 47,
+                            "ap_max": 51
                         },
                         "12": {
-                            "ap-min": 51,
-                            "ap-max": 55
+                            "ap_min": 51,
+                            "ap_max": 55
                         },
                         "13": {
-                            "ap-min": 55,
-                            "ap-max": 59
+                            "ap_min": 55,
+                            "ap_max": 59
                         },
                         "14": {
-                            "ap-min": 59,
-                            "ap-max": 63
+                            "ap_min": 59,
+                            "ap_max": 63
                         },
                         "15": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "16": {
-                            "ap-min": 71,
-                            "ap-max": 75
+                            "ap_min": 71,
+                            "ap_max": 75
                         },
                         "17": {
-                            "ap-min": 79,
-                            "ap-max": 83
+                            "ap_min": 79,
+                            "ap_max": 83
                         },
                         "18": {
-                            "ap-min": 91,
-                            "ap-max": 95
+                            "ap_min": 91,
+                            "ap_max": 95
                         },
                         "19": {
-                            "ap-min": 99,
-                            "ap-max": 103
+                            "ap_min": 99,
+                            "ap_max": 103
                         },
                         "20": {
-                            "ap-min": 107,
-                            "ap-max": 111
+                            "ap_min": 107,
+                            "ap_max": 111
                         }
                     }
                 },
@@ -7758,84 +7807,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -7943,84 +7992,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 20,
-                            "ap-max": 26
+                            "ap_min": 20,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 23,
-                            "ap-max": 29
+                            "ap_min": 23,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 26,
-                            "ap-max": 32
+                            "ap_min": 26,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 28,
-                            "ap-max": 34
+                            "ap_min": 28,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 30,
-                            "ap-max": 36
+                            "ap_min": 30,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 33,
-                            "ap-max": 39
+                            "ap_min": 33,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 36,
-                            "ap-max": 42
+                            "ap_min": 36,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 40,
-                            "ap-max": 46
+                            "ap_min": 40,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 44,
-                            "ap-max": 50
+                            "ap_min": 44,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 48,
-                            "ap-max": 54
+                            "ap_min": 48,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 52,
-                            "ap-max": 58
+                            "ap_min": 52,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 56,
-                            "ap-max": 62
+                            "ap_min": 56,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 60,
-                            "ap-max": 66
+                            "ap_min": 60,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 64,
-                            "ap-max": 70
+                            "ap_min": 64,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 68,
-                            "ap-max": 74
+                            "ap_min": 68,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 72,
-                            "ap-max": 78
+                            "ap_min": 72,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 76,
-                            "ap-max": 82
+                            "ap_min": 76,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 88,
-                            "ap-max": 94
+                            "ap_min": 88,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 92,
-                            "ap-max": 98
+                            "ap_min": 92,
+                            "ap_max": 98
                         },
                         "20": {
-                            "ap-min": 96,
-                            "ap-max": 102
+                            "ap_min": 96,
+                            "ap_max": 102
                         }
                     }
                 },
@@ -8035,84 +8084,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 32,
-                            "ap-max": 36
+                            "ap_min": 32,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "9": {
-                            "ap-min": 48,
-                            "ap-max": 52
+                            "ap_min": 48,
+                            "ap_max": 52
                         },
                         "10": {
-                            "ap-min": 53,
-                            "ap-max": 57
+                            "ap_min": 53,
+                            "ap_max": 57
                         },
                         "11": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "12": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 68,
-                            "ap-max": 72
+                            "ap_min": 68,
+                            "ap_max": 72
                         },
                         "14": {
-                            "ap-min": 73,
-                            "ap-max": 77
+                            "ap_min": 73,
+                            "ap_max": 77
                         },
                         "15": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "16": {
-                            "ap-min": 86,
-                            "ap-max": 90
+                            "ap_min": 86,
+                            "ap_max": 90
                         },
                         "17": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "18": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         },
                         "19": {
-                            "ap-min": 114,
-                            "ap-max": 118
+                            "ap_min": 114,
+                            "ap_max": 118
                         },
                         "20": {
-                            "ap-min": 122,
-                            "ap-max": 126
+                            "ap_min": 122,
+                            "ap_max": 126
                         }
                     }
                 }
@@ -8230,84 +8279,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -8320,84 +8369,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 26
+                            "ap_min": 21,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 29
+                            "ap_min": 24,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 32
+                            "ap_min": 27,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 34
+                            "ap_min": 29,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 36
+                            "ap_min": 31,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 39
+                            "ap_min": 34,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 42
+                            "ap_min": 37,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 46
+                            "ap_min": 41,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 50
+                            "ap_min": 45,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 54
+                            "ap_min": 49,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 58
+                            "ap_min": 53,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 62
+                            "ap_min": 57,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 66
+                            "ap_min": 61,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 70
+                            "ap_min": 65,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 74
+                            "ap_min": 69,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 82
+                            "ap_min": 77,
+                            "ap_max": 82
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 90
+                            "ap_min": 85,
+                            "ap_max": 90
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 102
+                            "ap_min": 97,
+                            "ap_max": 102
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 110
+                            "ap_min": 105,
+                            "ap_max": 110
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 118
+                            "ap_min": 113,
+                            "ap_max": 118
                         }
                     }
                 },
@@ -8415,84 +8464,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -8505,84 +8554,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 23
+                            "ap_min": 21,
+                            "ap_max": 23
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 29
+                            "ap_min": 27,
+                            "ap_max": 29
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 33
+                            "ap_min": 31,
+                            "ap_max": 33
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 36
+                            "ap_min": 34,
+                            "ap_max": 36
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 39
+                            "ap_min": 37,
+                            "ap_max": 39
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 47
+                            "ap_min": 45,
+                            "ap_max": 47
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 51
+                            "ap_min": 49,
+                            "ap_max": 51
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 55
+                            "ap_min": 53,
+                            "ap_max": 55
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 59
+                            "ap_min": 57,
+                            "ap_max": 59
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 63
+                            "ap_min": 61,
+                            "ap_max": 63
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 67
+                            "ap_min": 65,
+                            "ap_max": 67
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 71
+                            "ap_min": 69,
+                            "ap_max": 71
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 79
+                            "ap_min": 77,
+                            "ap_max": 79
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 87
+                            "ap_min": 85,
+                            "ap_max": 87
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 99
+                            "ap_min": 97,
+                            "ap_max": 99
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 107
+                            "ap_min": 105,
+                            "ap_max": 107
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 115
+                            "ap_min": 113,
+                            "ap_max": 115
                         }
                     }
                 },
@@ -8595,84 +8644,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 17,
-                            "ap-max": 31
+                            "ap_min": 17,
+                            "ap_max": 31
                         },
                         "2": {
-                            "ap-min": 20,
-                            "ap-max": 34
+                            "ap_min": 20,
+                            "ap_max": 34
                         },
                         "3": {
-                            "ap-min": 23,
-                            "ap-max": 37
+                            "ap_min": 23,
+                            "ap_max": 37
                         },
                         "4": {
-                            "ap-min": 25,
-                            "ap-max": 39
+                            "ap_min": 25,
+                            "ap_max": 39
                         },
                         "5": {
-                            "ap-min": 27,
-                            "ap-max": 41
+                            "ap_min": 27,
+                            "ap_max": 41
                         },
                         "6": {
-                            "ap-min": 30,
-                            "ap-max": 44
+                            "ap_min": 30,
+                            "ap_max": 44
                         },
                         "7": {
-                            "ap-min": 33,
-                            "ap-max": 47
+                            "ap_min": 33,
+                            "ap_max": 47
                         },
                         "8": {
-                            "ap-min": 37,
-                            "ap-max": 51
+                            "ap_min": 37,
+                            "ap_max": 51
                         },
                         "9": {
-                            "ap-min": 41,
-                            "ap-max": 55
+                            "ap_min": 41,
+                            "ap_max": 55
                         },
                         "10": {
-                            "ap-min": 45,
-                            "ap-max": 59
+                            "ap_min": 45,
+                            "ap_max": 59
                         },
                         "11": {
-                            "ap-min": 49,
-                            "ap-max": 63
+                            "ap_min": 49,
+                            "ap_max": 63
                         },
                         "12": {
-                            "ap-min": 53,
-                            "ap-max": 67
+                            "ap_min": 53,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 57,
-                            "ap-max": 71
+                            "ap_min": 57,
+                            "ap_max": 71
                         },
                         "14": {
-                            "ap-min": 61,
-                            "ap-max": 75
+                            "ap_min": 61,
+                            "ap_max": 75
                         },
                         "15": {
-                            "ap-min": 65,
-                            "ap-max": 79
+                            "ap_min": 65,
+                            "ap_max": 79
                         },
                         "16": {
-                            "ap-min": 73,
-                            "ap-max": 87
+                            "ap_min": 73,
+                            "ap_max": 87
                         },
                         "17": {
-                            "ap-min": 81,
-                            "ap-max": 95
+                            "ap_min": 81,
+                            "ap_max": 95
                         },
                         "18": {
-                            "ap-min": 93,
-                            "ap-max": 107
+                            "ap_min": 93,
+                            "ap_max": 107
                         },
                         "19": {
-                            "ap-min": 101,
-                            "ap-max": 115
+                            "ap_min": 101,
+                            "ap_max": 115
                         },
                         "20": {
-                            "ap-min": 109,
-                            "ap-max": 123
+                            "ap_min": 109,
+                            "ap_max": 123
                         }
                     }
                 },
@@ -8690,84 +8739,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -8782,84 +8831,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -8883,84 +8932,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 15,
-                            "ap-max": 19
+                            "ap_min": 15,
+                            "ap_max": 19
                         },
                         "2": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "3": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "4": {
-                            "ap-min": 23,
-                            "ap-max": 27
+                            "ap_min": 23,
+                            "ap_max": 27
                         },
                         "5": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "6": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "7": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "8": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "9": {
-                            "ap-min": 39,
-                            "ap-max": 43
+                            "ap_min": 39,
+                            "ap_max": 43
                         },
                         "10": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "11": {
-                            "ap-min": 47,
-                            "ap-max": 51
+                            "ap_min": 47,
+                            "ap_max": 51
                         },
                         "12": {
-                            "ap-min": 51,
-                            "ap-max": 55
+                            "ap_min": 51,
+                            "ap_max": 55
                         },
                         "13": {
-                            "ap-min": 55,
-                            "ap-max": 59
+                            "ap_min": 55,
+                            "ap_max": 59
                         },
                         "14": {
-                            "ap-min": 59,
-                            "ap-max": 63
+                            "ap_min": 59,
+                            "ap_max": 63
                         },
                         "15": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "16": {
-                            "ap-min": 71,
-                            "ap-max": 75
+                            "ap_min": 71,
+                            "ap_max": 75
                         },
                         "17": {
-                            "ap-min": 79,
-                            "ap-max": 83
+                            "ap_min": 79,
+                            "ap_max": 83
                         },
                         "18": {
-                            "ap-min": 91,
-                            "ap-max": 95
+                            "ap_min": 91,
+                            "ap_max": 95
                         },
                         "19": {
-                            "ap-min": 99,
-                            "ap-max": 103
+                            "ap_min": 99,
+                            "ap_max": 103
                         },
                         "20": {
-                            "ap-min": 107,
-                            "ap-max": 111
+                            "ap_min": 107,
+                            "ap_max": 111
                         }
                     }
                 },
@@ -8976,84 +9025,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -9161,84 +9210,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 20,
-                            "ap-max": 26
+                            "ap_min": 20,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 23,
-                            "ap-max": 29
+                            "ap_min": 23,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 26,
-                            "ap-max": 32
+                            "ap_min": 26,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 28,
-                            "ap-max": 34
+                            "ap_min": 28,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 30,
-                            "ap-max": 36
+                            "ap_min": 30,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 33,
-                            "ap-max": 39
+                            "ap_min": 33,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 36,
-                            "ap-max": 42
+                            "ap_min": 36,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 40,
-                            "ap-max": 46
+                            "ap_min": 40,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 44,
-                            "ap-max": 50
+                            "ap_min": 44,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 48,
-                            "ap-max": 54
+                            "ap_min": 48,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 52,
-                            "ap-max": 58
+                            "ap_min": 52,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 56,
-                            "ap-max": 62
+                            "ap_min": 56,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 60,
-                            "ap-max": 66
+                            "ap_min": 60,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 64,
-                            "ap-max": 70
+                            "ap_min": 64,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 68,
-                            "ap-max": 74
+                            "ap_min": 68,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 72,
-                            "ap-max": 78
+                            "ap_min": 72,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 76,
-                            "ap-max": 82
+                            "ap_min": 76,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 88,
-                            "ap-max": 94
+                            "ap_min": 88,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 92,
-                            "ap-max": 98
+                            "ap_min": 92,
+                            "ap_max": 98
                         },
                         "20": {
-                            "ap-min": 96,
-                            "ap-max": 102
+                            "ap_min": 96,
+                            "ap_max": 102
                         }
                     }
                 },
@@ -9253,84 +9302,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 32,
-                            "ap-max": 36
+                            "ap_min": 32,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "9": {
-                            "ap-min": 48,
-                            "ap-max": 52
+                            "ap_min": 48,
+                            "ap_max": 52
                         },
                         "10": {
-                            "ap-min": 53,
-                            "ap-max": 57
+                            "ap_min": 53,
+                            "ap_max": 57
                         },
                         "11": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "12": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 68,
-                            "ap-max": 72
+                            "ap_min": 68,
+                            "ap_max": 72
                         },
                         "14": {
-                            "ap-min": 73,
-                            "ap-max": 77
+                            "ap_min": 73,
+                            "ap_max": 77
                         },
                         "15": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "16": {
-                            "ap-min": 86,
-                            "ap-max": 90
+                            "ap_min": 86,
+                            "ap_max": 90
                         },
                         "17": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "18": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         },
                         "19": {
-                            "ap-min": 114,
-                            "ap-max": 118
+                            "ap_min": 114,
+                            "ap_max": 118
                         },
                         "20": {
-                            "ap-min": 122,
-                            "ap-max": 126
+                            "ap_min": 122,
+                            "ap_max": 126
                         }
                     }
                 }
@@ -9448,84 +9497,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -9538,84 +9587,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 26
+                            "ap_min": 21,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 29
+                            "ap_min": 24,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 32
+                            "ap_min": 27,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 34
+                            "ap_min": 29,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 36
+                            "ap_min": 31,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 39
+                            "ap_min": 34,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 42
+                            "ap_min": 37,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 46
+                            "ap_min": 41,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 50
+                            "ap_min": 45,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 54
+                            "ap_min": 49,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 58
+                            "ap_min": 53,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 62
+                            "ap_min": 57,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 66
+                            "ap_min": 61,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 70
+                            "ap_min": 65,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 74
+                            "ap_min": 69,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 82
+                            "ap_min": 77,
+                            "ap_max": 82
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 90
+                            "ap_min": 85,
+                            "ap_max": 90
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 102
+                            "ap_min": 97,
+                            "ap_max": 102
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 110
+                            "ap_min": 105,
+                            "ap_max": 110
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 118
+                            "ap_min": 113,
+                            "ap_max": 118
                         }
                     }
                 },
@@ -9633,84 +9682,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -9723,84 +9772,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 23
+                            "ap_min": 21,
+                            "ap_max": 23
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 29
+                            "ap_min": 27,
+                            "ap_max": 29
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 33
+                            "ap_min": 31,
+                            "ap_max": 33
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 36
+                            "ap_min": 34,
+                            "ap_max": 36
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 39
+                            "ap_min": 37,
+                            "ap_max": 39
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 47
+                            "ap_min": 45,
+                            "ap_max": 47
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 51
+                            "ap_min": 49,
+                            "ap_max": 51
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 55
+                            "ap_min": 53,
+                            "ap_max": 55
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 59
+                            "ap_min": 57,
+                            "ap_max": 59
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 63
+                            "ap_min": 61,
+                            "ap_max": 63
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 67
+                            "ap_min": 65,
+                            "ap_max": 67
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 71
+                            "ap_min": 69,
+                            "ap_max": 71
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 79
+                            "ap_min": 77,
+                            "ap_max": 79
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 87
+                            "ap_min": 85,
+                            "ap_max": 87
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 99
+                            "ap_min": 97,
+                            "ap_max": 99
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 107
+                            "ap_min": 105,
+                            "ap_max": 107
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 115
+                            "ap_min": 113,
+                            "ap_max": 115
                         }
                     }
                 },
@@ -9813,84 +9862,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 17,
-                            "ap-max": 31
+                            "ap_min": 17,
+                            "ap_max": 31
                         },
                         "2": {
-                            "ap-min": 20,
-                            "ap-max": 34
+                            "ap_min": 20,
+                            "ap_max": 34
                         },
                         "3": {
-                            "ap-min": 23,
-                            "ap-max": 37
+                            "ap_min": 23,
+                            "ap_max": 37
                         },
                         "4": {
-                            "ap-min": 25,
-                            "ap-max": 39
+                            "ap_min": 25,
+                            "ap_max": 39
                         },
                         "5": {
-                            "ap-min": 27,
-                            "ap-max": 41
+                            "ap_min": 27,
+                            "ap_max": 41
                         },
                         "6": {
-                            "ap-min": 30,
-                            "ap-max": 44
+                            "ap_min": 30,
+                            "ap_max": 44
                         },
                         "7": {
-                            "ap-min": 33,
-                            "ap-max": 47
+                            "ap_min": 33,
+                            "ap_max": 47
                         },
                         "8": {
-                            "ap-min": 37,
-                            "ap-max": 51
+                            "ap_min": 37,
+                            "ap_max": 51
                         },
                         "9": {
-                            "ap-min": 41,
-                            "ap-max": 55
+                            "ap_min": 41,
+                            "ap_max": 55
                         },
                         "10": {
-                            "ap-min": 45,
-                            "ap-max": 59
+                            "ap_min": 45,
+                            "ap_max": 59
                         },
                         "11": {
-                            "ap-min": 49,
-                            "ap-max": 63
+                            "ap_min": 49,
+                            "ap_max": 63
                         },
                         "12": {
-                            "ap-min": 53,
-                            "ap-max": 67
+                            "ap_min": 53,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 57,
-                            "ap-max": 71
+                            "ap_min": 57,
+                            "ap_max": 71
                         },
                         "14": {
-                            "ap-min": 61,
-                            "ap-max": 75
+                            "ap_min": 61,
+                            "ap_max": 75
                         },
                         "15": {
-                            "ap-min": 65,
-                            "ap-max": 79
+                            "ap_min": 65,
+                            "ap_max": 79
                         },
                         "16": {
-                            "ap-min": 73,
-                            "ap-max": 87
+                            "ap_min": 73,
+                            "ap_max": 87
                         },
                         "17": {
-                            "ap-min": 81,
-                            "ap-max": 95
+                            "ap_min": 81,
+                            "ap_max": 95
                         },
                         "18": {
-                            "ap-min": 93,
-                            "ap-max": 107
+                            "ap_min": 93,
+                            "ap_max": 107
                         },
                         "19": {
-                            "ap-min": 101,
-                            "ap-max": 115
+                            "ap_min": 101,
+                            "ap_max": 115
                         },
                         "20": {
-                            "ap-min": 109,
-                            "ap-max": 123
+                            "ap_min": 109,
+                            "ap_max": 123
                         }
                     }
                 },
@@ -9908,84 +9957,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -10000,84 +10049,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -10101,84 +10150,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 15,
-                            "ap-max": 19
+                            "ap_min": 15,
+                            "ap_max": 19
                         },
                         "2": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "3": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "4": {
-                            "ap-min": 23,
-                            "ap-max": 27
+                            "ap_min": 23,
+                            "ap_max": 27
                         },
                         "5": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "6": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "7": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "8": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "9": {
-                            "ap-min": 39,
-                            "ap-max": 43
+                            "ap_min": 39,
+                            "ap_max": 43
                         },
                         "10": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "11": {
-                            "ap-min": 47,
-                            "ap-max": 51
+                            "ap_min": 47,
+                            "ap_max": 51
                         },
                         "12": {
-                            "ap-min": 51,
-                            "ap-max": 55
+                            "ap_min": 51,
+                            "ap_max": 55
                         },
                         "13": {
-                            "ap-min": 55,
-                            "ap-max": 59
+                            "ap_min": 55,
+                            "ap_max": 59
                         },
                         "14": {
-                            "ap-min": 59,
-                            "ap-max": 63
+                            "ap_min": 59,
+                            "ap_max": 63
                         },
                         "15": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "16": {
-                            "ap-min": 71,
-                            "ap-max": 75
+                            "ap_min": 71,
+                            "ap_max": 75
                         },
                         "17": {
-                            "ap-min": 79,
-                            "ap-max": 83
+                            "ap_min": 79,
+                            "ap_max": 83
                         },
                         "18": {
-                            "ap-min": 91,
-                            "ap-max": 95
+                            "ap_min": 91,
+                            "ap_max": 95
                         },
                         "19": {
-                            "ap-min": 99,
-                            "ap-max": 103
+                            "ap_min": 99,
+                            "ap_max": 103
                         },
                         "20": {
-                            "ap-min": 107,
-                            "ap-max": 111
+                            "ap_min": 107,
+                            "ap_max": 111
                         }
                     }
                 },
@@ -10194,84 +10243,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -10379,84 +10428,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 20,
-                            "ap-max": 26
+                            "ap_min": 20,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 23,
-                            "ap-max": 29
+                            "ap_min": 23,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 26,
-                            "ap-max": 32
+                            "ap_min": 26,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 28,
-                            "ap-max": 34
+                            "ap_min": 28,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 30,
-                            "ap-max": 36
+                            "ap_min": 30,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 33,
-                            "ap-max": 39
+                            "ap_min": 33,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 36,
-                            "ap-max": 42
+                            "ap_min": 36,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 40,
-                            "ap-max": 46
+                            "ap_min": 40,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 44,
-                            "ap-max": 50
+                            "ap_min": 44,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 48,
-                            "ap-max": 54
+                            "ap_min": 48,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 52,
-                            "ap-max": 58
+                            "ap_min": 52,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 56,
-                            "ap-max": 62
+                            "ap_min": 56,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 60,
-                            "ap-max": 66
+                            "ap_min": 60,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 64,
-                            "ap-max": 70
+                            "ap_min": 64,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 68,
-                            "ap-max": 74
+                            "ap_min": 68,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 72,
-                            "ap-max": 78
+                            "ap_min": 72,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 76,
-                            "ap-max": 82
+                            "ap_min": 76,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 88,
-                            "ap-max": 94
+                            "ap_min": 88,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 92,
-                            "ap-max": 98
+                            "ap_min": 92,
+                            "ap_max": 98
                         },
                         "20": {
-                            "ap-min": 96,
-                            "ap-max": 102
+                            "ap_min": 96,
+                            "ap_max": 102
                         }
                     }
                 },
@@ -10472,84 +10521,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 32,
-                            "ap-max": 36
+                            "ap_min": 32,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "9": {
-                            "ap-min": 48,
-                            "ap-max": 52
+                            "ap_min": 48,
+                            "ap_max": 52
                         },
                         "10": {
-                            "ap-min": 53,
-                            "ap-max": 57
+                            "ap_min": 53,
+                            "ap_max": 57
                         },
                         "11": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "12": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 68,
-                            "ap-max": 72
+                            "ap_min": 68,
+                            "ap_max": 72
                         },
                         "14": {
-                            "ap-min": 73,
-                            "ap-max": 77
+                            "ap_min": 73,
+                            "ap_max": 77
                         },
                         "15": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "16": {
-                            "ap-min": 86,
-                            "ap-max": 90
+                            "ap_min": 86,
+                            "ap_max": 90
                         },
                         "17": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "18": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         },
                         "19": {
-                            "ap-min": 114,
-                            "ap-max": 118
+                            "ap_min": 114,
+                            "ap_max": 118
                         },
                         "20": {
-                            "ap-min": 122,
-                            "ap-max": 126
+                            "ap_min": 122,
+                            "ap_max": 126
                         }
                     }
                 }
@@ -10667,84 +10716,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -10757,84 +10806,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 26
+                            "ap_min": 21,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 29
+                            "ap_min": 24,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 32
+                            "ap_min": 27,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 34
+                            "ap_min": 29,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 36
+                            "ap_min": 31,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 39
+                            "ap_min": 34,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 42
+                            "ap_min": 37,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 46
+                            "ap_min": 41,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 50
+                            "ap_min": 45,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 54
+                            "ap_min": 49,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 58
+                            "ap_min": 53,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 62
+                            "ap_min": 57,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 66
+                            "ap_min": 61,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 70
+                            "ap_min": 65,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 74
+                            "ap_min": 69,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 82
+                            "ap_min": 77,
+                            "ap_max": 82
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 90
+                            "ap_min": 85,
+                            "ap_max": 90
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 102
+                            "ap_min": 97,
+                            "ap_max": 102
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 110
+                            "ap_min": 105,
+                            "ap_max": 110
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 118
+                            "ap_min": 113,
+                            "ap_max": 118
                         }
                     }
                 },
@@ -10852,84 +10901,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -10942,84 +10991,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 23
+                            "ap_min": 21,
+                            "ap_max": 23
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 29
+                            "ap_min": 27,
+                            "ap_max": 29
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 33
+                            "ap_min": 31,
+                            "ap_max": 33
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 36
+                            "ap_min": 34,
+                            "ap_max": 36
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 39
+                            "ap_min": 37,
+                            "ap_max": 39
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 47
+                            "ap_min": 45,
+                            "ap_max": 47
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 51
+                            "ap_min": 49,
+                            "ap_max": 51
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 55
+                            "ap_min": 53,
+                            "ap_max": 55
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 59
+                            "ap_min": 57,
+                            "ap_max": 59
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 63
+                            "ap_min": 61,
+                            "ap_max": 63
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 67
+                            "ap_min": 65,
+                            "ap_max": 67
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 71
+                            "ap_min": 69,
+                            "ap_max": 71
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 79
+                            "ap_min": 77,
+                            "ap_max": 79
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 87
+                            "ap_min": 85,
+                            "ap_max": 87
                         },
                         "18": {
-                            "ap-min": 97,
-                            "ap-max": 99
+                            "ap_min": 97,
+                            "ap_max": 99
                         },
                         "19": {
-                            "ap-min": 105,
-                            "ap-max": 107
+                            "ap_min": 105,
+                            "ap_max": 107
                         },
                         "20": {
-                            "ap-min": 113,
-                            "ap-max": 115
+                            "ap_min": 113,
+                            "ap_max": 115
                         }
                     }
                 },
@@ -11032,84 +11081,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 17,
-                            "ap-max": 31
+                            "ap_min": 17,
+                            "ap_max": 31
                         },
                         "2": {
-                            "ap-min": 20,
-                            "ap-max": 34
+                            "ap_min": 20,
+                            "ap_max": 34
                         },
                         "3": {
-                            "ap-min": 23,
-                            "ap-max": 37
+                            "ap_min": 23,
+                            "ap_max": 37
                         },
                         "4": {
-                            "ap-min": 25,
-                            "ap-max": 39
+                            "ap_min": 25,
+                            "ap_max": 39
                         },
                         "5": {
-                            "ap-min": 27,
-                            "ap-max": 41
+                            "ap_min": 27,
+                            "ap_max": 41
                         },
                         "6": {
-                            "ap-min": 30,
-                            "ap-max": 44
+                            "ap_min": 30,
+                            "ap_max": 44
                         },
                         "7": {
-                            "ap-min": 33,
-                            "ap-max": 47
+                            "ap_min": 33,
+                            "ap_max": 47
                         },
                         "8": {
-                            "ap-min": 37,
-                            "ap-max": 51
+                            "ap_min": 37,
+                            "ap_max": 51
                         },
                         "9": {
-                            "ap-min": 41,
-                            "ap-max": 55
+                            "ap_min": 41,
+                            "ap_max": 55
                         },
                         "10": {
-                            "ap-min": 45,
-                            "ap-max": 59
+                            "ap_min": 45,
+                            "ap_max": 59
                         },
                         "11": {
-                            "ap-min": 49,
-                            "ap-max": 63
+                            "ap_min": 49,
+                            "ap_max": 63
                         },
                         "12": {
-                            "ap-min": 53,
-                            "ap-max": 67
+                            "ap_min": 53,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 57,
-                            "ap-max": 71
+                            "ap_min": 57,
+                            "ap_max": 71
                         },
                         "14": {
-                            "ap-min": 61,
-                            "ap-max": 75
+                            "ap_min": 61,
+                            "ap_max": 75
                         },
                         "15": {
-                            "ap-min": 65,
-                            "ap-max": 79
+                            "ap_min": 65,
+                            "ap_max": 79
                         },
                         "16": {
-                            "ap-min": 73,
-                            "ap-max": 87
+                            "ap_min": 73,
+                            "ap_max": 87
                         },
                         "17": {
-                            "ap-min": 81,
-                            "ap-max": 95
+                            "ap_min": 81,
+                            "ap_max": 95
                         },
                         "18": {
-                            "ap-min": 93,
-                            "ap-max": 107
+                            "ap_min": 93,
+                            "ap_max": 107
                         },
                         "19": {
-                            "ap-min": 101,
-                            "ap-max": 115
+                            "ap_min": 101,
+                            "ap_max": 115
                         },
                         "20": {
-                            "ap-min": 109,
-                            "ap-max": 123
+                            "ap_min": 109,
+                            "ap_max": 123
                         }
                     }
                 },
@@ -11127,84 +11176,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -11219,84 +11268,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
+                            "ap_min": 14,
+                            "ap_max": 18
                         },
                         "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
+                            "ap_min": 17,
+                            "ap_max": 21
                         },
                         "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
+                            "ap_min": 20,
+                            "ap_max": 24
                         },
                         "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
+                            "ap_min": 27,
+                            "ap_max": 31
                         },
                         "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 70,
+                            "ap_max": 74
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 90,
-                            "ap-max": 94
+                            "ap_min": 90,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 98,
-                            "ap-max": 102
+                            "ap_min": 98,
+                            "ap_max": 102
                         },
                         "20": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         }
                     }
                 },
@@ -11320,84 +11369,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 15,
-                            "ap-max": 19
+                            "ap_min": 15,
+                            "ap_max": 19
                         },
                         "2": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "3": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "4": {
-                            "ap-min": 23,
-                            "ap-max": 27
+                            "ap_min": 23,
+                            "ap_max": 27
                         },
                         "5": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "6": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "7": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "8": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "9": {
-                            "ap-min": 39,
-                            "ap-max": 43
+                            "ap_min": 39,
+                            "ap_max": 43
                         },
                         "10": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "11": {
-                            "ap-min": 47,
-                            "ap-max": 51
+                            "ap_min": 47,
+                            "ap_max": 51
                         },
                         "12": {
-                            "ap-min": 51,
-                            "ap-max": 55
+                            "ap_min": 51,
+                            "ap_max": 55
                         },
                         "13": {
-                            "ap-min": 55,
-                            "ap-max": 59
+                            "ap_min": 55,
+                            "ap_max": 59
                         },
                         "14": {
-                            "ap-min": 59,
-                            "ap-max": 63
+                            "ap_min": 59,
+                            "ap_max": 63
                         },
                         "15": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "16": {
-                            "ap-min": 71,
-                            "ap-max": 75
+                            "ap_min": 71,
+                            "ap_max": 75
                         },
                         "17": {
-                            "ap-min": 79,
-                            "ap-max": 83
+                            "ap_min": 79,
+                            "ap_max": 83
                         },
                         "18": {
-                            "ap-min": 91,
-                            "ap-max": 95
+                            "ap_min": 91,
+                            "ap_max": 95
                         },
                         "19": {
-                            "ap-min": 99,
-                            "ap-max": 103
+                            "ap_min": 99,
+                            "ap_max": 103
                         },
                         "20": {
-                            "ap-min": 107,
-                            "ap-max": 111
+                            "ap_min": 107,
+                            "ap_max": 111
                         }
                     }
                 },
@@ -11413,84 +11462,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 18,
+                            "ap_max": 22
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 21,
+                            "ap_max": 25
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 24,
+                            "ap_max": 28
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 26,
+                            "ap_max": 30
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 31,
+                            "ap_max": 35
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 34,
+                            "ap_max": 38
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 42,
+                            "ap_max": 46
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 46,
+                            "ap_max": 50
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 50,
+                            "ap_max": 54
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 54,
+                            "ap_max": 58
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 62,
+                            "ap_max": 66
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 66,
+                            "ap_max": 70
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 74,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 82,
+                            "ap_max": 86
                         },
                         "18": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "19": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 102,
+                            "ap_max": 106
                         },
                         "20": {
-                            "ap-min": 110,
-                            "ap-max": 114
+                            "ap_min": 110,
+                            "ap_max": 114
                         }
                     }
                 },
@@ -11598,84 +11647,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 20,
-                            "ap-max": 26
+                            "ap_min": 20,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 23,
-                            "ap-max": 29
+                            "ap_min": 23,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 26,
-                            "ap-max": 32
+                            "ap_min": 26,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 28,
-                            "ap-max": 34
+                            "ap_min": 28,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 30,
-                            "ap-max": 36
+                            "ap_min": 30,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 33,
-                            "ap-max": 39
+                            "ap_min": 33,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 36,
-                            "ap-max": 42
+                            "ap_min": 36,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 40,
-                            "ap-max": 46
+                            "ap_min": 40,
+                            "ap_max": 46
                         },
                         "9": {
-                            "ap-min": 44,
-                            "ap-max": 50
+                            "ap_min": 44,
+                            "ap_max": 50
                         },
                         "10": {
-                            "ap-min": 48,
-                            "ap-max": 54
+                            "ap_min": 48,
+                            "ap_max": 54
                         },
                         "11": {
-                            "ap-min": 52,
-                            "ap-max": 58
+                            "ap_min": 52,
+                            "ap_max": 58
                         },
                         "12": {
-                            "ap-min": 56,
-                            "ap-max": 62
+                            "ap_min": 56,
+                            "ap_max": 62
                         },
                         "13": {
-                            "ap-min": 60,
-                            "ap-max": 66
+                            "ap_min": 60,
+                            "ap_max": 66
                         },
                         "14": {
-                            "ap-min": 64,
-                            "ap-max": 70
+                            "ap_min": 64,
+                            "ap_max": 70
                         },
                         "15": {
-                            "ap-min": 68,
-                            "ap-max": 74
+                            "ap_min": 68,
+                            "ap_max": 74
                         },
                         "16": {
-                            "ap-min": 72,
-                            "ap-max": 78
+                            "ap_min": 72,
+                            "ap_max": 78
                         },
                         "17": {
-                            "ap-min": 76,
-                            "ap-max": 82
+                            "ap_min": 76,
+                            "ap_max": 82
                         },
                         "18": {
-                            "ap-min": 88,
-                            "ap-max": 94
+                            "ap_min": 88,
+                            "ap_max": 94
                         },
                         "19": {
-                            "ap-min": 92,
-                            "ap-max": 98
+                            "ap_min": 92,
+                            "ap_max": 98
                         },
                         "20": {
-                            "ap-min": 96,
-                            "ap-max": 102
+                            "ap_min": 96,
+                            "ap_max": 102
                         }
                     }
                 },
@@ -11690,84 +11739,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 32,
-                            "ap-max": 36
+                            "ap_min": 32,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "9": {
-                            "ap-min": 48,
-                            "ap-max": 52
+                            "ap_min": 48,
+                            "ap_max": 52
                         },
                         "10": {
-                            "ap-min": 53,
-                            "ap-max": 57
+                            "ap_min": 53,
+                            "ap_max": 57
                         },
                         "11": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "12": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 68,
-                            "ap-max": 72
+                            "ap_min": 68,
+                            "ap_max": 72
                         },
                         "14": {
-                            "ap-min": 73,
-                            "ap-max": 77
+                            "ap_min": 73,
+                            "ap_max": 77
                         },
                         "15": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "16": {
-                            "ap-min": 86,
-                            "ap-max": 90
+                            "ap_min": 86,
+                            "ap_max": 90
                         },
                         "17": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "18": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         },
                         "19": {
-                            "ap-min": 114,
-                            "ap-max": 118
+                            "ap_min": 114,
+                            "ap_max": 118
                         },
                         "20": {
-                            "ap-min": 122,
-                            "ap-max": 126
+                            "ap_min": 122,
+                            "ap_max": 126
                         }
                     }
                 }
@@ -11834,28 +11883,28 @@ var BDOdatabase = {
                             "dp": 22
                         },
                         "16": {
-                            "ap-min": 1,
-                            "ap-max": 1,
+                            "ap_min": 1,
+                            "ap_max": 1,
                             "dp": 24
                         },
                         "17": {
-                            "ap-min": 2,
-                            "ap-max": 2,
+                            "ap_min": 2,
+                            "ap_max": 2,
                             "dp": 26
                         },
                         "18": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 31
                         },
                         "19": {
-                            "ap-min": 4,
-                            "ap-max": 4,
+                            "ap_min": 4,
+                            "ap_max": 4,
                             "dp": 33
                         },
                         "20": {
-                            "ap-min": 5,
-                            "ap-max": 5,
+                            "ap_min": 5,
+                            "ap_max": 5,
                             "dp": 35
                         }
                     }
@@ -11919,28 +11968,28 @@ var BDOdatabase = {
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 4,
+                            "ap_min": 2,
+                            "ap_max": 4,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 5,
+                            "ap_min": 3,
+                            "ap_max": 5,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 6,
+                            "ap_min": 4,
+                            "ap_max": 6,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 7,
+                            "ap_min": 5,
+                            "ap_max": 7,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 8,
+                            "ap_min": 6,
+                            "ap_max": 8,
                             "dp": 32
                         }
                     }
@@ -11955,103 +12004,103 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 5
                         },
                         "2": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 6
                         },
                         "3": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 7
                         },
                         "4": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 8
                         },
                         "5": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 9
                         },
                         "6": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 10
                         },
                         "7": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 11
                         },
                         "8": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 12
                         },
                         "9": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 13
                         },
                         "10": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 14
                         },
                         "11": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 15
                         },
                         "12": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 16
                         },
                         "13": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 17
                         },
                         "14": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 18
                         },
                         "15": {
-                            "ap-min": 1,
-                            "ap-max": 4,
+                            "ap_min": 1,
+                            "ap_max": 4,
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 5,
+                            "ap_min": 2,
+                            "ap_max": 5,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 6,
+                            "ap_min": 3,
+                            "ap_max": 6,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 7,
+                            "ap_min": 4,
+                            "ap_max": 7,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 8,
+                            "ap_min": 5,
+                            "ap_max": 8,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 9,
+                            "ap_min": 6,
+                            "ap_max": 9,
                             "dp": 32
                         }
                     }
@@ -12069,84 +12118,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 5,
-                            "ap-max": 7
+                            "ap_min": 5,
+                            "ap_max": 7
                         },
                         "2": {
-                            "ap-min": 5,
-                            "ap-max": 8
+                            "ap_min": 5,
+                            "ap_max": 8
                         },
                         "3": {
-                            "ap-min": 5,
-                            "ap-max": 9
+                            "ap_min": 5,
+                            "ap_max": 9
                         },
                         "4": {
-                            "ap-min": 5,
-                            "ap-max": 10
+                            "ap_min": 5,
+                            "ap_max": 10
                         },
                         "5": {
-                            "ap-min": 6,
-                            "ap-max": 11
+                            "ap_min": 6,
+                            "ap_max": 11
                         },
                         "6": {
-                            "ap-min": 6,
-                            "ap-max": 12
+                            "ap_min": 6,
+                            "ap_max": 12
                         },
                         "7": {
-                            "ap-min": 6,
-                            "ap-max": 13
+                            "ap_min": 6,
+                            "ap_max": 13
                         },
                         "8": {
-                            "ap-min": 6,
-                            "ap-max": 14
+                            "ap_min": 6,
+                            "ap_max": 14
                         },
                         "9": {
-                            "ap-min": 6,
-                            "ap-max": 15
+                            "ap_min": 6,
+                            "ap_max": 15
                         },
                         "10": {
-                            "ap-min": 7,
-                            "ap-max": 16
+                            "ap_min": 7,
+                            "ap_max": 16
                         },
                         "11": {
-                            "ap-min": 7,
-                            "ap-max": 17
+                            "ap_min": 7,
+                            "ap_max": 17
                         },
                         "12": {
-                            "ap-min": 7,
-                            "ap-max": 18
+                            "ap_min": 7,
+                            "ap_max": 18
                         },
                         "13": {
-                            "ap-min": 7,
-                            "ap-max": 19
+                            "ap_min": 7,
+                            "ap_max": 19
                         },
                         "14": {
-                            "ap-min": 7,
-                            "ap-max": 20
+                            "ap_min": 7,
+                            "ap_max": 20
                         },
                         "15": {
-                            "ap-min": 8,
-                            "ap-max": 21
+                            "ap_min": 8,
+                            "ap_max": 21
                         },
                         "16": {
-                            "ap-min": 11,
-                            "ap-max": 24
+                            "ap_min": 11,
+                            "ap_max": 24
                         },
                         "17": {
-                            "ap-min": 14,
-                            "ap-max": 27
+                            "ap_min": 14,
+                            "ap_max": 27
                         },
                         "18": {
-                            "ap-min": 20,
-                            "ap-max": 33
+                            "ap_min": 20,
+                            "ap_max": 33
                         },
                         "19": {
-                            "ap-min": 23,
-                            "ap-max": 36
+                            "ap_min": 23,
+                            "ap_max": 36
                         },
                         "20": {
-                            "ap-min": 26,
-                            "ap-max": 39
+                            "ap_min": 26,
+                            "ap_max": 39
                         }
                     }
                 },
@@ -12160,88 +12209,88 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 5,
-                            "ap-max": 7
+                            "ap_min": 5,
+                            "ap_max": 7
                         },
                         "2": {
-                            "ap-min": 5,
-                            "ap-max": 8
+                            "ap_min": 5,
+                            "ap_max": 8
                         },
                         "3": {
-                            "ap-min": 5,
-                            "ap-max": 9
+                            "ap_min": 5,
+                            "ap_max": 9
                         },
                         "4": {
-                            "ap-min": 5,
-                            "ap-max": 10
+                            "ap_min": 5,
+                            "ap_max": 10
                         },
                         "5": {
-                            "ap-min": 6,
-                            "ap-max": 11
+                            "ap_min": 6,
+                            "ap_max": 11
                         },
                         "6": {
-                            "ap-min": 6,
-                            "ap-max": 12
+                            "ap_min": 6,
+                            "ap_max": 12
                         },
                         "7": {
-                            "ap-min": 6,
-                            "ap-max": 13
+                            "ap_min": 6,
+                            "ap_max": 13
                         },
                         "8": {
-                            "ap-min": 6,
-                            "ap-max": 14
+                            "ap_min": 6,
+                            "ap_max": 14
                         },
                         "9": {
-                            "ap-min": 6,
-                            "ap-max": 15
+                            "ap_min": 6,
+                            "ap_max": 15
                         },
                         "10": {
-                            "ap-min": 7,
-                            "ap-max": 16
+                            "ap_min": 7,
+                            "ap_max": 16
                         },
                         "11": {
-                            "ap-min": 7,
-                            "ap-max": 17
+                            "ap_min": 7,
+                            "ap_max": 17
                         },
                         "12": {
-                            "ap-min": 7,
-                            "ap-max": 18
+                            "ap_min": 7,
+                            "ap_max": 18
                         },
                         "13": {
-                            "ap-min": 7,
-                            "ap-max": 19
+                            "ap_min": 7,
+                            "ap_max": 19
                         },
                         "14": {
-                            "ap-min": 7,
-                            "ap-max": 20
+                            "ap_min": 7,
+                            "ap_max": 20
                         },
                         "15": {
-                            "ap-min": 8,
-                            "ap-max": 21
+                            "ap_min": 8,
+                            "ap_max": 21
                         },
                         "16": {
-                            "ap-min": 9,
-                            "ap-max": 22,
+                            "ap_min": 9,
+                            "ap_max": 22,
                             "dp": 5
                         },
                         "17": {
-                            "ap-min": 10,
-                            "ap-max": 23,
+                            "ap_min": 10,
+                            "ap_max": 23,
                             "dp": 6
                         },
                         "18": {
-                            "ap-min": 14,
-                            "ap-max": 27,
+                            "ap_min": 14,
+                            "ap_max": 27,
                             "dp": 7
                         },
                         "19": {
-                            "ap-min": 15,
-                            "ap-max": 28,
+                            "ap_min": 15,
+                            "ap_max": 28,
                             "dp": 8
                         },
                         "20": {
-                            "ap-min": 16,
-                            "ap-max": 29,
+                            "ap_min": 16,
+                            "ap_max": 29,
                             "dp": 9
                         }
                     }
@@ -12257,84 +12306,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 7,
-                            "ap-max": 9
+                            "ap_min": 7,
+                            "ap_max": 9
                         },
                         "2": {
-                            "ap-min": 8,
-                            "ap-max": 10
+                            "ap_min": 8,
+                            "ap_max": 10
                         },
                         "3": {
-                            "ap-min": 9,
-                            "ap-max": 11
+                            "ap_min": 9,
+                            "ap_max": 11
                         },
                         "4": {
-                            "ap-min": 10,
-                            "ap-max": 12
+                            "ap_min": 10,
+                            "ap_max": 12
                         },
                         "5": {
-                            "ap-min": 11,
-                            "ap-max": 13
+                            "ap_min": 11,
+                            "ap_max": 13
                         },
                         "6": {
-                            "ap-min": 12,
-                            "ap-max": 14
+                            "ap_min": 12,
+                            "ap_max": 14
                         },
                         "7": {
-                            "ap-min": 13,
-                            "ap-max": 15
+                            "ap_min": 13,
+                            "ap_max": 15
                         },
                         "8": {
-                            "ap-min": 14,
-                            "ap-max": 16
+                            "ap_min": 14,
+                            "ap_max": 16
                         },
                         "9": {
-                            "ap-min": 15,
-                            "ap-max": 17
+                            "ap_min": 15,
+                            "ap_max": 17
                         },
                         "10": {
-                            "ap-min": 16,
-                            "ap-max": 18
+                            "ap_min": 16,
+                            "ap_max": 18
                         },
                         "11": {
-                            "ap-min": 18,
-                            "ap-max": 20
+                            "ap_min": 18,
+                            "ap_max": 20
                         },
                         "12": {
-                            "ap-min": 20,
-                            "ap-max": 22
+                            "ap_min": 20,
+                            "ap_max": 22
                         },
                         "13": {
-                            "ap-min": 22,
-                            "ap-max": 24
+                            "ap_min": 22,
+                            "ap_max": 24
                         },
                         "14": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "15": {
-                            "ap-min": 26,
-                            "ap-max": 28
+                            "ap_min": 26,
+                            "ap_max": 28
                         },
                         "16": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "17": {
-                            "ap-min": 32,
-                            "ap-max": 34
+                            "ap_min": 32,
+                            "ap_max": 34
                         },
                         "18": {
-                            "ap-min": 38,
-                            "ap-max": 40
+                            "ap_min": 38,
+                            "ap_max": 40
                         },
                         "19": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "20": {
-                            "ap-min": 44,
-                            "ap-max": 46
+                            "ap_min": 44,
+                            "ap_max": 46
                         }
                     }
                 }
@@ -12349,84 +12398,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 7,
-                            "ap-max": 7
+                            "ap_min": 7,
+                            "ap_max": 7
                         },
                         "2": {
-                            "ap-min": 8,
-                            "ap-max": 8
+                            "ap_min": 8,
+                            "ap_max": 8
                         },
                         "3": {
-                            "ap-min": 9,
-                            "ap-max": 9
+                            "ap_min": 9,
+                            "ap_max": 9
                         },
                         "4": {
-                            "ap-min": 10,
-                            "ap-max": 10
+                            "ap_min": 10,
+                            "ap_max": 10
                         },
                         "5": {
-                            "ap-min": 11,
-                            "ap-max": 11
+                            "ap_min": 11,
+                            "ap_max": 11
                         },
                         "6": {
-                            "ap-min": 12,
-                            "ap-max": 12
+                            "ap_min": 12,
+                            "ap_max": 12
                         },
                         "7": {
-                            "ap-min": 13,
-                            "ap-max": 13
+                            "ap_min": 13,
+                            "ap_max": 13
                         },
                         "8": {
-                            "ap-min": 14,
-                            "ap-max": 14
+                            "ap_min": 14,
+                            "ap_max": 14
                         },
                         "9": {
-                            "ap-min": 15,
-                            "ap-max": 15
+                            "ap_min": 15,
+                            "ap_max": 15
                         },
                         "10": {
-                            "ap-min": 16,
-                            "ap-max": 16
+                            "ap_min": 16,
+                            "ap_max": 16
                         },
                         "11": {
-                            "ap-min": 17,
-                            "ap-max": 17
+                            "ap_min": 17,
+                            "ap_max": 17
                         },
                         "12": {
-                            "ap-min": 18,
-                            "ap-max": 18
+                            "ap_min": 18,
+                            "ap_max": 18
                         },
                         "13": {
-                            "ap-min": 19,
-                            "ap-max": 19
+                            "ap_min": 19,
+                            "ap_max": 19
                         },
                         "14": {
-                            "ap-min": 20,
-                            "ap-max": 20
+                            "ap_min": 20,
+                            "ap_max": 20
                         },
                         "15": {
-                            "ap-min": 21,
-                            "ap-max": 21
+                            "ap_min": 21,
+                            "ap_max": 21
                         },
                         "16": {
-                            "ap-min": 24,
-                            "ap-max": 24
+                            "ap_min": 24,
+                            "ap_max": 24
                         },
                         "17": {
-                            "ap-min": 27,
-                            "ap-max": 27
+                            "ap_min": 27,
+                            "ap_max": 27
                         },
                         "18": {
-                            "ap-min": 33,
-                            "ap-max": 33
+                            "ap_min": 33,
+                            "ap_max": 33
                         },
                         "19": {
-                            "ap-min": 36,
-                            "ap-max": 36
+                            "ap_min": 36,
+                            "ap_max": 36
                         },
                         "20": {
-                            "ap-min": 39,
-                            "ap-max": 39
+                            "ap_min": 39,
+                            "ap_max": 39
                         }
                     }
                 },
@@ -12485,28 +12534,28 @@ var BDOdatabase = {
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 5,
+                            "ap_min": 2,
+                            "ap_max": 5,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 6,
+                            "ap_min": 3,
+                            "ap_max": 6,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 7,
+                            "ap_min": 4,
+                            "ap_max": 7,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 8,
+                            "ap_min": 5,
+                            "ap_max": 8,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 9,
+                            "ap_min": 6,
+                            "ap_max": 9,
                             "dp": 32
                         }
                     }
@@ -12524,103 +12573,103 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 4
                         },
                         "2": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 5
                         },
                         "3": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 6
                         },
                         "4": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 7
                         },
                         "5": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 8
                         },
                         "6": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 9
                         },
                         "7": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 10
                         },
                         "8": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 11
                         },
                         "9": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 12
                         },
                         "10": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 13
                         },
                         "11": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 14
                         },
                         "12": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 15
                         },
                         "13": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 16
                         },
                         "14": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 17
                         },
                         "15": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 18
                         },
                         "16": {
-                            "ap-min": 4,
-                            "ap-max": 4,
+                            "ap_min": 4,
+                            "ap_max": 4,
                             "dp": 20
                         },
                         "17": {
-                            "ap-min": 5,
-                            "ap-max": 5,
+                            "ap_min": 5,
+                            "ap_max": 5,
                             "dp": 22
                         },
                         "18": {
-                            "ap-min": 6,
-                            "ap-max": 6,
+                            "ap_min": 6,
+                            "ap_max": 6,
                             "dp": 27
                         },
                         "19": {
-                            "ap-min": 7,
-                            "ap-max": 7,
+                            "ap_min": 7,
+                            "ap_max": 7,
                             "dp": 29
                         },
                         "20": {
-                            "ap-min": 8,
-                            "ap-max": 8,
+                            "ap_min": 8,
+                            "ap_max": 8,
                             "dp": 31
                         }
                     }
@@ -12680,28 +12729,28 @@ var BDOdatabase = {
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 4,
+                            "ap_min": 2,
+                            "ap_max": 4,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 5,
+                            "ap_min": 3,
+                            "ap_max": 5,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 6,
+                            "ap_min": 4,
+                            "ap_max": 6,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 7,
+                            "ap_min": 5,
+                            "ap_max": 7,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 8,
+                            "ap_min": 6,
+                            "ap_max": 8,
                             "dp": 32
                         }
                     }
@@ -12732,24 +12781,24 @@ var BDOdatabase = {
                         "14": {},
                         "15": {},
                         "16": {
-                            "ap-min": 4,
-                            "ap-max": 4
+                            "ap_min": 4,
+                            "ap_max": 4
                         },
                         "17": {
-                            "ap-min": 5,
-                            "ap-max": 5
+                            "ap_min": 5,
+                            "ap_max": 5
                         },
                         "18": {
-                            "ap-min": 9,
-                            "ap-max": 9
+                            "ap_min": 9,
+                            "ap_max": 9
                         },
                         "19": {
-                            "ap-min": 10,
-                            "ap-max": 10
+                            "ap_min": 10,
+                            "ap_max": 10
                         },
                         "20": {
-                            "ap-min": 11,
-                            "ap-max": 11
+                            "ap_min": 11,
+                            "ap_max": 11
                         }
                     }
                 },
@@ -12764,84 +12813,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 7,
-                            "ap-max": 9
+                            "ap_min": 7,
+                            "ap_max": 9
                         },
                         "2": {
-                            "ap-min": 8,
-                            "ap-max": 10
+                            "ap_min": 8,
+                            "ap_max": 10
                         },
                         "3": {
-                            "ap-min": 9,
-                            "ap-max": 11
+                            "ap_min": 9,
+                            "ap_max": 11
                         },
                         "4": {
-                            "ap-min": 10,
-                            "ap-max": 12
+                            "ap_min": 10,
+                            "ap_max": 12
                         },
                         "5": {
-                            "ap-min": 11,
-                            "ap-max": 13
+                            "ap_min": 11,
+                            "ap_max": 13
                         },
                         "6": {
-                            "ap-min": 12,
-                            "ap-max": 14
+                            "ap_min": 12,
+                            "ap_max": 14
                         },
                         "7": {
-                            "ap-min": 13,
-                            "ap-max": 15
+                            "ap_min": 13,
+                            "ap_max": 15
                         },
                         "8": {
-                            "ap-min": 14,
-                            "ap-max": 16
+                            "ap_min": 14,
+                            "ap_max": 16
                         },
                         "9": {
-                            "ap-min": 15,
-                            "ap-max": 17
+                            "ap_min": 15,
+                            "ap_max": 17
                         },
                         "10": {
-                            "ap-min": 16,
-                            "ap-max": 18
+                            "ap_min": 16,
+                            "ap_max": 18
                         },
                         "11": {
-                            "ap-min": 18,
-                            "ap-max": 20
+                            "ap_min": 18,
+                            "ap_max": 20
                         },
                         "12": {
-                            "ap-min": 20,
-                            "ap-max": 22
+                            "ap_min": 20,
+                            "ap_max": 22
                         },
                         "13": {
-                            "ap-min": 22,
-                            "ap-max": 24
+                            "ap_min": 22,
+                            "ap_max": 24
                         },
                         "14": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "15": {
-                            "ap-min": 26,
-                            "ap-max": 28
+                            "ap_min": 26,
+                            "ap_max": 28
                         },
                         "16": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "17": {
-                            "ap-min": 32,
-                            "ap-max": 34
+                            "ap_min": 32,
+                            "ap_max": 34
                         },
                         "18": {
-                            "ap-min": 38,
-                            "ap-max": 40
+                            "ap_min": 38,
+                            "ap_max": 40
                         },
                         "19": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "20": {
-                            "ap-min": 44,
-                            "ap-max": 46
+                            "ap_min": 44,
+                            "ap_max": 46
                         }
                     }
                 }
@@ -12902,28 +12951,28 @@ var BDOdatabase = {
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 5,
+                            "ap_min": 2,
+                            "ap_max": 5,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 6,
+                            "ap_min": 3,
+                            "ap_max": 6,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 7,
+                            "ap_min": 4,
+                            "ap_max": 7,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 8,
+                            "ap_min": 5,
+                            "ap_max": 8,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 9,
+                            "ap_min": 6,
+                            "ap_max": 9,
                             "dp": 32
                         }
                     }
@@ -12986,28 +13035,28 @@ var BDOdatabase = {
                             "dp": 18
                         },
                         "16": {
-                            "ap-min": 1,
-                            "ap-max": 1,
+                            "ap_min": 1,
+                            "ap_max": 1,
                             "dp": 20
                         },
                         "17": {
-                            "ap-min": 2,
-                            "ap-max": 2,
+                            "ap_min": 2,
+                            "ap_max": 2,
                             "dp": 22
                         },
                         "18": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 27
                         },
                         "19": {
-                            "ap-min": 4,
-                            "ap-max": 4,
+                            "ap_min": 4,
+                            "ap_max": 4,
                             "dp": 29
                         },
                         "20": {
-                            "ap-min": 5,
-                            "ap-max": 5,
+                            "ap_min": 5,
+                            "ap_max": 5,
                             "dp": 31
                         }
                     }
@@ -13067,28 +13116,28 @@ var BDOdatabase = {
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 4,
+                            "ap_min": 2,
+                            "ap_max": 4,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 5,
+                            "ap_min": 3,
+                            "ap_max": 5,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 6,
+                            "ap_min": 4,
+                            "ap_max": 6,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 7,
+                            "ap_min": 5,
+                            "ap_max": 7,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 8,
+                            "ap_min": 6,
+                            "ap_max": 8,
                             "dp": 32
                         }
                     }
@@ -13102,84 +13151,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 7,
-                            "ap-max": 9
+                            "ap_min": 7,
+                            "ap_max": 9
                         },
                         "2": {
-                            "ap-min": 8,
-                            "ap-max": 10
+                            "ap_min": 8,
+                            "ap_max": 10
                         },
                         "3": {
-                            "ap-min": 9,
-                            "ap-max": 11
+                            "ap_min": 9,
+                            "ap_max": 11
                         },
                         "4": {
-                            "ap-min": 10,
-                            "ap-max": 12
+                            "ap_min": 10,
+                            "ap_max": 12
                         },
                         "5": {
-                            "ap-min": 11,
-                            "ap-max": 13
+                            "ap_min": 11,
+                            "ap_max": 13
                         },
                         "6": {
-                            "ap-min": 12,
-                            "ap-max": 14
+                            "ap_min": 12,
+                            "ap_max": 14
                         },
                         "7": {
-                            "ap-min": 13,
-                            "ap-max": 15
+                            "ap_min": 13,
+                            "ap_max": 15
                         },
                         "8": {
-                            "ap-min": 14,
-                            "ap-max": 16
+                            "ap_min": 14,
+                            "ap_max": 16
                         },
                         "9": {
-                            "ap-min": 15,
-                            "ap-max": 17
+                            "ap_min": 15,
+                            "ap_max": 17
                         },
                         "10": {
-                            "ap-min": 16,
-                            "ap-max": 18
+                            "ap_min": 16,
+                            "ap_max": 18
                         },
                         "11": {
-                            "ap-min": 17,
-                            "ap-max": 19
+                            "ap_min": 17,
+                            "ap_max": 19
                         },
                         "12": {
-                            "ap-min": 18,
-                            "ap-max": 20
+                            "ap_min": 18,
+                            "ap_max": 20
                         },
                         "13": {
-                            "ap-min": 19,
-                            "ap-max": 21
+                            "ap_min": 19,
+                            "ap_max": 21
                         },
                         "14": {
-                            "ap-min": 20,
-                            "ap-max": 22
+                            "ap_min": 20,
+                            "ap_max": 22
                         },
                         "15": {
-                            "ap-min": 21,
-                            "ap-max": 23
+                            "ap_min": 21,
+                            "ap_max": 23
                         },
                         "16": {
-                            "ap-min": 23,
-                            "ap-max": 25
+                            "ap_min": 23,
+                            "ap_max": 25
                         },
                         "17": {
-                            "ap-min": 25,
-                            "ap-max": 27
+                            "ap_min": 25,
+                            "ap_max": 27
                         },
                         "18": {
-                            "ap-min": 30,
-                            "ap-max": 32
+                            "ap_min": 30,
+                            "ap_max": 32
                         },
                         "19": {
-                            "ap-min": 32,
-                            "ap-max": 34
+                            "ap_min": 32,
+                            "ap_max": 34
                         },
                         "20": {
-                            "ap-min": 34,
-                            "ap-max": 36
+                            "ap_min": 34,
+                            "ap_max": 36
                         }
                     }
                 },
@@ -13209,24 +13258,24 @@ var BDOdatabase = {
                         "14": {},
                         "15": {},
                         "16": {
-                            "ap-min": 4,
-                            "ap-max": 4
+                            "ap_min": 4,
+                            "ap_max": 4
                         },
                         "17": {
-                            "ap-min": 5,
-                            "ap-max": 5
+                            "ap_min": 5,
+                            "ap_max": 5
                         },
                         "18": {
-                            "ap-min": 9,
-                            "ap-max": 9
+                            "ap_min": 9,
+                            "ap_max": 9
                         },
                         "19": {
-                            "ap-min": 10,
-                            "ap-max": 10
+                            "ap_min": 10,
+                            "ap_max": 10
                         },
                         "20": {
-                            "ap-min": 11,
-                            "ap-max": 11
+                            "ap_min": 11,
+                            "ap_max": 11
                         }
                     }
                 },
@@ -13241,84 +13290,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 7,
-                            "ap-max": 9
+                            "ap_min": 7,
+                            "ap_max": 9
                         },
                         "2": {
-                            "ap-min": 8,
-                            "ap-max": 10
+                            "ap_min": 8,
+                            "ap_max": 10
                         },
                         "3": {
-                            "ap-min": 9,
-                            "ap-max": 11
+                            "ap_min": 9,
+                            "ap_max": 11
                         },
                         "4": {
-                            "ap-min": 10,
-                            "ap-max": 12
+                            "ap_min": 10,
+                            "ap_max": 12
                         },
                         "5": {
-                            "ap-min": 11,
-                            "ap-max": 13
+                            "ap_min": 11,
+                            "ap_max": 13
                         },
                         "6": {
-                            "ap-min": 12,
-                            "ap-max": 14
+                            "ap_min": 12,
+                            "ap_max": 14
                         },
                         "7": {
-                            "ap-min": 13,
-                            "ap-max": 15
+                            "ap_min": 13,
+                            "ap_max": 15
                         },
                         "8": {
-                            "ap-min": 14,
-                            "ap-max": 16
+                            "ap_min": 14,
+                            "ap_max": 16
                         },
                         "9": {
-                            "ap-min": 15,
-                            "ap-max": 17
+                            "ap_min": 15,
+                            "ap_max": 17
                         },
                         "10": {
-                            "ap-min": 16,
-                            "ap-max": 18
+                            "ap_min": 16,
+                            "ap_max": 18
                         },
                         "11": {
-                            "ap-min": 18,
-                            "ap-max": 20
+                            "ap_min": 18,
+                            "ap_max": 20
                         },
                         "12": {
-                            "ap-min": 20,
-                            "ap-max": 22
+                            "ap_min": 20,
+                            "ap_max": 22
                         },
                         "13": {
-                            "ap-min": 22,
-                            "ap-max": 24
+                            "ap_min": 22,
+                            "ap_max": 24
                         },
                         "14": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "15": {
-                            "ap-min": 26,
-                            "ap-max": 28
+                            "ap_min": 26,
+                            "ap_max": 28
                         },
                         "16": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "17": {
-                            "ap-min": 32,
-                            "ap-max": 34
+                            "ap_min": 32,
+                            "ap_max": 34
                         },
                         "18": {
-                            "ap-min": 38,
-                            "ap-max": 40
+                            "ap_min": 38,
+                            "ap_max": 40
                         },
                         "19": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "20": {
-                            "ap-min": 44,
-                            "ap-max": 46
+                            "ap_min": 44,
+                            "ap_max": 46
                         }
                     }
                 }
@@ -13379,28 +13428,28 @@ var BDOdatabase = {
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 5,
+                            "ap_min": 2,
+                            "ap_max": 5,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 6,
+                            "ap_min": 3,
+                            "ap_max": 6,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 7,
+                            "ap_min": 4,
+                            "ap_max": 7,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 8,
+                            "ap_min": 5,
+                            "ap_max": 8,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 9,
+                            "ap_min": 6,
+                            "ap_max": 9,
                             "dp": 32
                         }
                     }
@@ -13414,84 +13463,84 @@ var BDOdatabase = {
                     "item_effects": {},
                     "enhancement": {
                         "1": {
-                            "ap-min": 7,
-                            "ap-max": 9
+                            "ap_min": 7,
+                            "ap_max": 9
                         },
                         "2": {
-                            "ap-min": 8,
-                            "ap-max": 10
+                            "ap_min": 8,
+                            "ap_max": 10
                         },
                         "3": {
-                            "ap-min": 9,
-                            "ap-max": 11
+                            "ap_min": 9,
+                            "ap_max": 11
                         },
                         "4": {
-                            "ap-min": 10,
-                            "ap-max": 12
+                            "ap_min": 10,
+                            "ap_max": 12
                         },
                         "5": {
-                            "ap-min": 11,
-                            "ap-max": 13
+                            "ap_min": 11,
+                            "ap_max": 13
                         },
                         "6": {
-                            "ap-min": 12,
-                            "ap-max": 14
+                            "ap_min": 12,
+                            "ap_max": 14
                         },
                         "7": {
-                            "ap-min": 13,
-                            "ap-max": 15
+                            "ap_min": 13,
+                            "ap_max": 15
                         },
                         "8": {
-                            "ap-min": 14,
-                            "ap-max": 16
+                            "ap_min": 14,
+                            "ap_max": 16
                         },
                         "9": {
-                            "ap-min": 15,
-                            "ap-max": 17
+                            "ap_min": 15,
+                            "ap_max": 17
                         },
                         "10": {
-                            "ap-min": 16,
-                            "ap-max": 18
+                            "ap_min": 16,
+                            "ap_max": 18
                         },
                         "11": {
-                            "ap-min": 17,
-                            "ap-max": 19
+                            "ap_min": 17,
+                            "ap_max": 19
                         },
                         "12": {
-                            "ap-min": 18,
-                            "ap-max": 20
+                            "ap_min": 18,
+                            "ap_max": 20
                         },
                         "13": {
-                            "ap-min": 19,
-                            "ap-max": 21
+                            "ap_min": 19,
+                            "ap_max": 21
                         },
                         "14": {
-                            "ap-min": 20,
-                            "ap-max": 22
+                            "ap_min": 20,
+                            "ap_max": 22
                         },
                         "15": {
-                            "ap-min": 21,
-                            "ap-max": 23
+                            "ap_min": 21,
+                            "ap_max": 23
                         },
                         "16": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "17": {
-                            "ap-min": 27,
-                            "ap-max": 29
+                            "ap_min": 27,
+                            "ap_max": 29
                         },
                         "18": {
-                            "ap-min": 33,
-                            "ap-max": 35
+                            "ap_min": 33,
+                            "ap_max": 35
                         },
                         "19": {
-                            "ap-min": 36,
-                            "ap-max": 38
+                            "ap_min": 36,
+                            "ap_max": 38
                         },
                         "20": {
-                            "ap-min": 39,
-                            "ap-max": 41
+                            "ap_min": 39,
+                            "ap_max": 41
                         }
                     }
                 },
@@ -13550,28 +13599,28 @@ var BDOdatabase = {
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 4,
+                            "ap_min": 2,
+                            "ap_max": 4,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 5,
+                            "ap_min": 3,
+                            "ap_max": 5,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 6,
+                            "ap_min": 4,
+                            "ap_max": 6,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 7,
+                            "ap_min": 5,
+                            "ap_max": 7,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 8,
+                            "ap_min": 6,
+                            "ap_max": 8,
                             "dp": 32
                         }
                     }
@@ -13587,84 +13636,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "2": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "3": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "4": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "5": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "6": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "7": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "8": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "9": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "10": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "11": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "12": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "13": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "14": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "15": {
-                            "ap-min": 3,
-                            "ap-max": 3
+                            "ap_min": 3,
+                            "ap_max": 3
                         },
                         "16": {
-                            "ap-min": 4,
-                            "ap-max": 4
+                            "ap_min": 4,
+                            "ap_max": 4
                         },
                         "17": {
-                            "ap-min": 5,
-                            "ap-max": 5
+                            "ap_min": 5,
+                            "ap_max": 5
                         },
                         "18": {
-                            "ap-min": 9,
-                            "ap-max": 9
+                            "ap_min": 9,
+                            "ap_max": 9
                         },
                         "19": {
-                            "ap-min": 10,
-                            "ap-max": 10
+                            "ap_min": 10,
+                            "ap_max": 10
                         },
                         "20": {
-                            "ap-min": 11,
-                            "ap-max": 11
+                            "ap_min": 11,
+                            "ap_max": 11
                         }
                     }
                 },
@@ -13726,28 +13775,28 @@ var BDOdatabase = {
                             "dp": 18
                         },
                         "16": {
-                            "ap-min": 1,
-                            "ap-max": 1,
+                            "ap_min": 1,
+                            "ap_max": 1,
                             "dp": 20
                         },
                         "17": {
-                            "ap-min": 2,
-                            "ap-max": 2,
+                            "ap_min": 2,
+                            "ap_max": 2,
                             "dp": 22
                         },
                         "18": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 27
                         },
                         "19": {
-                            "ap-min": 4,
-                            "ap-max": 4,
+                            "ap_min": 4,
+                            "ap_max": 4,
                             "dp": 29
                         },
                         "20": {
-                            "ap-min": 5,
-                            "ap-max": 5,
+                            "ap_min": 5,
+                            "ap_max": 5,
                             "dp": 31
                         }
                     }
@@ -13763,84 +13812,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 7,
-                            "ap-max": 9
+                            "ap_min": 7,
+                            "ap_max": 9
                         },
                         "2": {
-                            "ap-min": 8,
-                            "ap-max": 10
+                            "ap_min": 8,
+                            "ap_max": 10
                         },
                         "3": {
-                            "ap-min": 9,
-                            "ap-max": 11
+                            "ap_min": 9,
+                            "ap_max": 11
                         },
                         "4": {
-                            "ap-min": 10,
-                            "ap-max": 12
+                            "ap_min": 10,
+                            "ap_max": 12
                         },
                         "5": {
-                            "ap-min": 11,
-                            "ap-max": 13
+                            "ap_min": 11,
+                            "ap_max": 13
                         },
                         "6": {
-                            "ap-min": 12,
-                            "ap-max": 14
+                            "ap_min": 12,
+                            "ap_max": 14
                         },
                         "7": {
-                            "ap-min": 13,
-                            "ap-max": 15
+                            "ap_min": 13,
+                            "ap_max": 15
                         },
                         "8": {
-                            "ap-min": 14,
-                            "ap-max": 16
+                            "ap_min": 14,
+                            "ap_max": 16
                         },
                         "9": {
-                            "ap-min": 15,
-                            "ap-max": 17
+                            "ap_min": 15,
+                            "ap_max": 17
                         },
                         "10": {
-                            "ap-min": 16,
-                            "ap-max": 18
+                            "ap_min": 16,
+                            "ap_max": 18
                         },
                         "11": {
-                            "ap-min": 18,
-                            "ap-max": 20
+                            "ap_min": 18,
+                            "ap_max": 20
                         },
                         "12": {
-                            "ap-min": 20,
-                            "ap-max": 22
+                            "ap_min": 20,
+                            "ap_max": 22
                         },
                         "13": {
-                            "ap-min": 22,
-                            "ap-max": 24
+                            "ap_min": 22,
+                            "ap_max": 24
                         },
                         "14": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "15": {
-                            "ap-min": 26,
-                            "ap-max": 28
+                            "ap_min": 26,
+                            "ap_max": 28
                         },
                         "16": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "17": {
-                            "ap-min": 32,
-                            "ap-max": 34
+                            "ap_min": 32,
+                            "ap_max": 34
                         },
                         "18": {
-                            "ap-min": 38,
-                            "ap-max": 40
+                            "ap_min": 38,
+                            "ap_max": 40
                         },
                         "19": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "20": {
-                            "ap-min": 44,
-                            "ap-max": 46
+                            "ap_min": 44,
+                            "ap_max": 46
                         }
                     }
                 }
@@ -13905,28 +13954,28 @@ var BDOdatabase = {
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 4,
+                            "ap_min": 2,
+                            "ap_max": 4,
                             "dp": 20
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 5,
+                            "ap_min": 3,
+                            "ap_max": 5,
                             "dp": 21
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 6,
+                            "ap_min": 4,
+                            "ap_max": 6,
                             "dp": 25
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 7,
+                            "ap_min": 5,
+                            "ap_max": 7,
                             "dp": 26
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 8,
+                            "ap_min": 6,
+                            "ap_max": 8,
                             "dp": 27
                         }
                     }
@@ -13986,28 +14035,28 @@ var BDOdatabase = {
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 5,
+                            "ap_min": 2,
+                            "ap_max": 5,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 6,
+                            "ap_min": 3,
+                            "ap_max": 6,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 7,
+                            "ap_min": 4,
+                            "ap_max": 7,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 8,
+                            "ap_min": 5,
+                            "ap_max": 8,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 9,
+                            "ap_min": 6,
+                            "ap_max": 9,
                             "dp": 32
                         }
                     }
@@ -14067,28 +14116,28 @@ var BDOdatabase = {
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 2,
-                            "ap-max": 4,
+                            "ap_min": 2,
+                            "ap_max": 4,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 3,
-                            "ap-max": 5,
+                            "ap_min": 3,
+                            "ap_max": 5,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 4,
-                            "ap-max": 6,
+                            "ap_min": 4,
+                            "ap_max": 6,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 5,
-                            "ap-max": 7,
+                            "ap_min": 5,
+                            "ap_max": 7,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 6,
-                            "ap-max": 8,
+                            "ap_min": 6,
+                            "ap_max": 8,
                             "dp": 32
                         }
                     }
@@ -14152,28 +14201,28 @@ var BDOdatabase = {
                             "dp": 22
                         },
                         "16": {
-                            "ap-min": 1,
-                            "ap-max": 1,
+                            "ap_min": 1,
+                            "ap_max": 1,
                             "dp": 24
                         },
                         "17": {
-                            "ap-min": 2,
-                            "ap-max": 2,
+                            "ap_min": 2,
+                            "ap_max": 2,
                             "dp": 26
                         },
                         "18": {
-                            "ap-min": 3,
-                            "ap-max": 3,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 31
                         },
                         "19": {
-                            "ap-min": 4,
-                            "ap-max": 4,
+                            "ap_min": 4,
+                            "ap_max": 4,
                             "dp": 33
                         },
                         "20": {
-                            "ap-min": 5,
-                            "ap-max": 5,
+                            "ap_min": 5,
+                            "ap_max": 5,
                             "dp": 35
                         }
                     }
@@ -14191,84 +14240,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 5,
-                            "ap-max": 7
+                            "ap_min": 5,
+                            "ap_max": 7
                         },
                         "2": {
-                            "ap-min": 5,
-                            "ap-max": 8
+                            "ap_min": 5,
+                            "ap_max": 8
                         },
                         "3": {
-                            "ap-min": 5,
-                            "ap-max": 9
+                            "ap_min": 5,
+                            "ap_max": 9
                         },
                         "4": {
-                            "ap-min": 5,
-                            "ap-max": 10
+                            "ap_min": 5,
+                            "ap_max": 10
                         },
                         "5": {
-                            "ap-min": 6,
-                            "ap-max": 11
+                            "ap_min": 6,
+                            "ap_max": 11
                         },
                         "6": {
-                            "ap-min": 6,
-                            "ap-max": 12
+                            "ap_min": 6,
+                            "ap_max": 12
                         },
                         "7": {
-                            "ap-min": 6,
-                            "ap-max": 13
+                            "ap_min": 6,
+                            "ap_max": 13
                         },
                         "8": {
-                            "ap-min": 6,
-                            "ap-max": 14
+                            "ap_min": 6,
+                            "ap_max": 14
                         },
                         "9": {
-                            "ap-min": 6,
-                            "ap-max": 15
+                            "ap_min": 6,
+                            "ap_max": 15
                         },
                         "10": {
-                            "ap-min": 7,
-                            "ap-max": 16
+                            "ap_min": 7,
+                            "ap_max": 16
                         },
                         "11": {
-                            "ap-min": 7,
-                            "ap-max": 17
+                            "ap_min": 7,
+                            "ap_max": 17
                         },
                         "12": {
-                            "ap-min": 7,
-                            "ap-max": 18
+                            "ap_min": 7,
+                            "ap_max": 18
                         },
                         "13": {
-                            "ap-min": 7,
-                            "ap-max": 19
+                            "ap_min": 7,
+                            "ap_max": 19
                         },
                         "14": {
-                            "ap-min": 7,
-                            "ap-max": 20
+                            "ap_min": 7,
+                            "ap_max": 20
                         },
                         "15": {
-                            "ap-min": 8,
-                            "ap-max": 21
+                            "ap_min": 8,
+                            "ap_max": 21
                         },
                         "16": {
-                            "ap-min": 11,
-                            "ap-max": 24
+                            "ap_min": 11,
+                            "ap_max": 24
                         },
                         "17": {
-                            "ap-min": 14,
-                            "ap-max": 27
+                            "ap_min": 14,
+                            "ap_max": 27
                         },
                         "18": {
-                            "ap-min": 20,
-                            "ap-max": 33
+                            "ap_min": 20,
+                            "ap_max": 33
                         },
                         "19": {
-                            "ap-min": 23,
-                            "ap-max": 36
+                            "ap_min": 23,
+                            "ap_max": 36
                         },
                         "20": {
-                            "ap-min": 26,
-                            "ap-max": 39
+                            "ap_min": 26,
+                            "ap_max": 39
                         }
                     }
                 },
@@ -14283,84 +14332,84 @@ var BDOdatabase = {
                     },
                     "enhancement": {
                         "1": {
-                            "ap-min": 7,
-                            "ap-max": 9
+                            "ap_min": 7,
+                            "ap_max": 9
                         },
                         "2": {
-                            "ap-min": 8,
-                            "ap-max": 10
+                            "ap_min": 8,
+                            "ap_max": 10
                         },
                         "3": {
-                            "ap-min": 9,
-                            "ap-max": 11
+                            "ap_min": 9,
+                            "ap_max": 11
                         },
                         "4": {
-                            "ap-min": 10,
-                            "ap-max": 12
+                            "ap_min": 10,
+                            "ap_max": 12
                         },
                         "5": {
-                            "ap-min": 11,
-                            "ap-max": 13
+                            "ap_min": 11,
+                            "ap_max": 13
                         },
                         "6": {
-                            "ap-min": 12,
-                            "ap-max": 14
+                            "ap_min": 12,
+                            "ap_max": 14
                         },
                         "7": {
-                            "ap-min": 13,
-                            "ap-max": 15
+                            "ap_min": 13,
+                            "ap_max": 15
                         },
                         "8": {
-                            "ap-min": 14,
-                            "ap-max": 16
+                            "ap_min": 14,
+                            "ap_max": 16
                         },
                         "9": {
-                            "ap-min": 15,
-                            "ap-max": 17
+                            "ap_min": 15,
+                            "ap_max": 17
                         },
                         "10": {
-                            "ap-min": 16,
-                            "ap-max": 18
+                            "ap_min": 16,
+                            "ap_max": 18
                         },
                         "11": {
-                            "ap-min": 18,
-                            "ap-max": 20
+                            "ap_min": 18,
+                            "ap_max": 20
                         },
                         "12": {
-                            "ap-min": 20,
-                            "ap-max": 22
+                            "ap_min": 20,
+                            "ap_max": 22
                         },
                         "13": {
-                            "ap-min": 22,
-                            "ap-max": 24
+                            "ap_min": 22,
+                            "ap_max": 24
                         },
                         "14": {
-                            "ap-min": 24,
-                            "ap-max": 26
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "15": {
-                            "ap-min": 26,
-                            "ap-max": 28
+                            "ap_min": 26,
+                            "ap_max": 28
                         },
                         "16": {
-                            "ap-min": 29,
-                            "ap-max": 31
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "17": {
-                            "ap-min": 32,
-                            "ap-max": 34
+                            "ap_min": 32,
+                            "ap_max": 34
                         },
                         "18": {
-                            "ap-min": 38,
-                            "ap-max": 40
+                            "ap_min": 38,
+                            "ap_max": 40
                         },
                         "19": {
-                            "ap-min": 41,
-                            "ap-max": 43
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "20": {
-                            "ap-min": 44,
-                            "ap-max": 46
+                            "ap_min": 44,
+                            "ap_max": 46
                         }
                     }
                 }

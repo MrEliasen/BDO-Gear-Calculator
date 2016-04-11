@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-08 23:52:45
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-10 11:22:24
+* @Last Modified time: 2016-04-11 23:38:50
 */
 
 
@@ -23,54 +23,66 @@ var BDOcalculator = {
         this.gear = {
             "main-weapon": {
                 "enhancement": 0,
+                "item_name": "",
                 "item": {}
             },
             "secondary-weapon": {
                 "enhancement": 0,
+                "item_name": "",
                 "item": {}
             },
             "helmet": {
                 "enhancement": 0,
+                "item_name": "",
                 "item": {}
             },
             "armor": {
                 "enhancement": 0,
+                "item_name": "",
                 "item": {}
             },
             "gloves": {
                 "enhancement": 0,
+                "item_name": "",
                 "item": {}
             },
             "shoes": {
                 "enhancement": 0,
+                "item_name": "",
                 "item": {}
             },
             "rings": {
                 "1": {
                     "enhancement": 0,
+                    "item_name": "",
                     "item": {}
                 },
                 "2": {
                     "enhancement": 0,
+                    "item_name": "",
                     "item": {}
                 }
             },
             "earrings": {
                 "1": {
                     "enhancement": 0,
+                    "item_name": "",
                     "item": {}
                 },
                 "2": {
                     "enhancement": 0,
+                    "item_name": "",
                     "item": {}
                 }
             },
             "necklace": {
                 "enhancement": 0,
+                "item_name": "",
                 "item": {}
             },
             "belt": {
                 "enhancement": 0,
+                "item_name": "",
                 "item": {}
             }
         };
@@ -78,18 +90,20 @@ var BDOcalculator = {
         this.reset(); 
     },
 
-    setGear: function (itemObj, type, item_no, enhancement, callback) {
+    setGear: function (itemObj, type, item_no, item_name, callback) {
         callback = (typeof callback === "function" ? callback : function() {});
 
         if (typeof itemObj === "undefined") {
             itemObj = {};
         }
 
-        if ($.inArray(type, ["rings", "earrings"]) !== -1) {
-            this.gear[type][item_no].item = itemObj;
+        if ($.inArray(type, ["ring", "earring"]) !== -1) {
+            this.gear[type + "s"][item_no].item = itemObj;
+            this.gear[type + "s"][item_no].item_name = item_name;
         } else {
             if (typeof this.gear[type].item !== "undefined") {
                 this.gear[type].item = itemObj;
+                this.gear[type].item_name = item_name;
             }
         }
 
@@ -99,8 +113,8 @@ var BDOcalculator = {
     setEnchantmentLevel: function(type, item_no, level, callback) {
         callback = (typeof callback === "function" ? callback : function() {});
 
-        if ($.inArray(type, ["rings", "earrings"]) !== -1) {
-            this.gear[type][item_no].enhancement = String(level);
+        if ($.inArray(type, ["ring", "earring"]) !== -1) {
+            this.gear[type + "s"][item_no].enhancement = String(level);
         } else {
             this.gear[type].enhancement = String(level);
         }
@@ -217,7 +231,18 @@ var BDOcalculator = {
         this.sets[setName].push(itemType);
     },
 
-    getItemStat: function(itemObj, stat_key, getEffect) {
+    getItemStat: function(itemObj, stat_key, getEffect, enhancement_level) {
+        var getEffect = (typeof getEffect === "undefined" ? false : getEffect),
+            stat = (getEffect ? itemObj.item_effects[stat_key] : itemObj[stat_key]);
+
+        if (String(enhancement_level) !== "0" && typeof itemObj.enhancement[String(enhancement_level)][stat_key] !== 'undefined') {
+            stat = itemObj.enhancement[String(enhancement_level)][stat_key];
+        }
+
+        return stat;
+    },
+
+    getGearStat: function(itemObj, stat_key, getEffect) {
         var getEffect = (typeof getEffect === "undefined" ? false : true),
             stat = (getEffect ? itemObj.item.item_effects[stat_key] : itemObj.item[stat_key]);
 
@@ -257,7 +282,7 @@ var BDOcalculator = {
                             continue;
                         }
 
-                        this.addStat(assec_stat, this.getItemStat(accessory, assec_stat));
+                        this.addStat(assec_stat, this.getGearStat(accessory, assec_stat));
                     }
 
                     // Loop item effects
@@ -266,7 +291,7 @@ var BDOcalculator = {
                             continue;
                         }
 
-                        this.addStat(effect_key, this.getItemStat(accessory, effect_key, true));
+                        this.addStat(effect_key, this.getGearStat(accessory, effect_key, true));
                     }
                 }
             } else {
@@ -278,7 +303,7 @@ var BDOcalculator = {
 
                         var gear_obj = this.gear[gear_key].item;
 
-                        this.addStat(stat_key, this.getItemStat(this.gear[gear_key], stat_key));
+                        this.addStat(stat_key, this.getGearStat(this.gear[gear_key], stat_key));
                     }
 
                     for (var effect_key in this.gear[gear_key].item.item_effects) {
@@ -286,7 +311,7 @@ var BDOcalculator = {
                             continue;
                         }
 
-                        this.addStat(effect_key, this.getItemStat(this.gear[gear_key], effect_key, true));
+                        this.addStat(effect_key, this.getGearStat(this.gear[gear_key], effect_key, true));
                     }
 
                     this.addToSets(this.gear[gear_key].item.set, gear_key);
@@ -295,7 +320,7 @@ var BDOcalculator = {
                     switch (gear_key) {
                         case "main-weapon":
                         case "secondary-weapon":
-                            this.addStat("ap", this.getItemStat(this.gear[gear_key], "ap_min") + '-' + this.getItemStat(this.gear[gear_key], "ap_max"));
+                            this.addStat("ap", this.getGearStat(this.gear[gear_key], "ap_min") + '-' + this.getGearStat(this.gear[gear_key], "ap_max"));
                             break;
                     }
                 }
@@ -311,14 +336,26 @@ var BDOcalculator = {
 
             var obj = this.stats[key];
 
-            if (key !== "special") {
-                $('#stats').append('<li><strong>' + obj.title + ':</strong> ' + (key === "ap" ? obj.min + ' ~ ' + obj.max : obj.total) + '' + obj.symbol + '</li>');
-            } else {
-                $('#stats').append('<li><strong>' + obj.title + ':</strong></li>');
-                
-                for (var i = obj.specials.length - 1; i >= 0; i--) {
-                    $('#stats').append('<li>' + obj.specials[i] + '</li>');
-                }
+            switch (key) {
+                case "special":
+                    $('#stats').append('<li><strong>' + obj.title + ':</strong></li>');
+                    
+                    for (var i = obj.specials.length - 1; i >= 0; i--) {
+                        $('#stats').append('<li>' + obj.specials[i] + '</li>');
+                    }
+                    break;
+
+                case "ap":
+                    $('.stat-ap span').text(obj.min + ' ~ ' + obj.max);
+                    break;
+
+                case "dp":
+                    $('.stat-dp span').text(obj.total);
+                    break;
+
+                default:
+                    $('#stats').append('<li><strong>' + obj.title + ':</strong> ' + (key === "ap" ? obj.min + ' ~ ' + obj.max : obj.total) + '' + obj.symbol + '</li>');
+                    break;
             }
         }
     }

@@ -27,8 +27,7 @@ div.enhancement {
   position: relative;
   width: 100%;
   max-width: 480px;
-  min-height: 415px;
-  outline: 1px solid red; }
+  min-height: 415px; }
 
 #equipment .gear-slot {
   position: absolute;
@@ -41,67 +40,80 @@ div.enhancement {
 #equipment .helmet {
   top: 0px;
   left: 50%;
-  margin-left: -88px; }
+  margin-left: -88px;
+  background: url("../images/48/helmet.png") no-repeat center center; }
 
 #equipment .armor {
   top: 0px;
   left: 50%;
-  margin-left: 24px; }
+  margin-left: 24px;
+  background: url("../images/48/armor.png") no-repeat center center; }
 
 #equipment .earring1 {
   top: 70px;
   left: 50%;
-  margin-left: -164px; }
+  margin-left: -164px;
+  background: url("../images/48/earring.png") no-repeat center center; }
 
 #equipment .ring1 {
   top: 70px;
   left: 50%;
-  margin-left: 100px; }
+  margin-left: 100px;
+  background: url("../images/48/ring.png") no-repeat center center; }
 
 #equipment .ring2 {
   top: 142px;
   left: 50%;
-  margin-left: 134px; }
+  margin-left: 134px;
+  background: url("../images/48/ring.png") no-repeat center center; }
 
 #equipment .earring2 {
   top: 142px;
   left: 50%;
-  margin-left: -198px; }
+  margin-left: -198px;
+  background: url("../images/48/earring.png") no-repeat center center; }
 
 #equipment .shoes {
   top: 213px;
   left: 50%;
-  margin-left: -198px; }
+  margin-left: -198px;
+  background: url("../images/48/shoes.png") no-repeat center center; }
 
 #equipment .gloves {
   top: 213px;
   left: 50%;
-  margin-left: 134px; }
+  margin-left: 134px;
+  background: url("../images/48/gloves.png") no-repeat center center; }
 
 #equipment .belt {
   top: 284px;
   left: 50%;
-  margin-left: -164px; }
+  margin-left: -164px;
+  background: url("../images/48/belt.png") no-repeat center center; }
 
 #equipment .necklace {
   top: 284px;
   left: 50%;
-  margin-left: 100px; }
+  margin-left: 100px;
+  background: url("../images/48/necklace.png") no-repeat center center; }
 
 #equipment .main-weapon {
   top: 349px;
   left: 50%;
-  margin-left: -88px; }
+  margin-left: -88px;
+  background: url("../images/48/longsword.png") no-repeat center center; }
 
 #equipment .secondary-weapon {
   top: 349px;
   left: 50%;
-  margin-left: 24px; }
+  margin-left: 24px;
+  background: url("../images/48/shield.png") no-repeat center center; }
 
 #equipment .stat-ap {
   top: 142px;
   left: 50%;
-  margin-left: -32px; }
+  margin-left: -60px;
+  width: 120px; }
 
 #equipment .stat-dp {
   top: 213px;
@@ -118,3 +130,67 @@ div.enhancement {
 #equipment .stat-dp span {
   display: block;
   font-size: 20px; }
+
+.item-details {
+  position: relative;
+  padding: 5px 8px;
+  background: #272727;
+  color: #fff;
+  margin-bottom: 15px;
+  border-radius: 5px; }
+
+.item-details.selected {
+  border: 4px double #00FF2B; }
+
+.item-details .item-name strong {
+  font-size: 18px; }
+
+.item-details .item-icon {
+  display: inline-block;
+  vertical-align: top; }
+
+.item-details .item-icon img {
+  vertical-align: baseline; }
+
+.item-details .item-stats {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold; }
+
+.item-details .item-choose {
+  position: absolute;
+  right: 8px;
+  top: 5px; }
+
+.item-details .item-gems,
+.item-details .item-effects,
+.item-details .item-set-effects,
+.item-details .item-enhancement-effects,
+.item-details .item-enhancement-level {
+  margin-top: 8px; }
+
+.item-details .item-gems > div,
+.item-details .item-effects > div,
+.item-details .item-set-effects > div,
+.item-details .item-enhancement-effects > div {
+  color: #e9bd23; }
+
+.item-details .item-gems > div::before,
+.item-details .item-effects > div::before,
+.item-details .item-set-effects > div::before,
+.item-details .item-enhancement-effects > div::before {
+  content: "- ";
+  color: #fff; }
+
+.item-details .item-effects strong {
+  display: inline-block; }
+
+.item-details .item-set-effects strong {
+  display: block; }
+
+.item-details .item-set-effects span {
+  color: #fff; }
+
+.item-details .item-enhancement-level strong {
+  display: block; }

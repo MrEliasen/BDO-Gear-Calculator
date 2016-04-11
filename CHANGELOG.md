@@ -1,3 +1,10 @@
+## 0.2.0 (2016-12-04)
+
+Features:
+
+  - Complete UI overhaul. This is an ongoing process.
+
+
 ## 0.1.1 (2016-09-04)
 
 Features:
