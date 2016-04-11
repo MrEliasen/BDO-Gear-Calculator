@@ -11,7 +11,7 @@ See [the changelog](https://github.com/MrEliasen/BDO-Gear-Calculator/blob/master
 
 ## Status
 
-The code should work, but the item database is being built (this is the boring and time consuming part). The missing items are primarity Main and Off hand weapons (only added few berserker weapons for testing).
+Most core items have been added. Missing: Gems and redesign.
 
 
 ## Hidden Stats

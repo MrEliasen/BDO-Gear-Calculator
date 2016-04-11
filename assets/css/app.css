@@ -5,7 +5,6 @@
 #player-class {
   min-width: 220px; }
 
-#equipment,
 #stats {
   list-style: none;
   margin: 0px;
@@ -22,3 +21,100 @@ div.enhancement {
 
 .inline-text {
   line-height: 28px; }
+
+/* New UI */
+#equipment {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  min-height: 415px;
+  outline: 1px solid red; }
+
+#equipment .gear-slot {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border: 1px solid gray;
+  bottom: 0px;
+  right: 0px; }
+
+#equipment .helmet {
+  top: 0px;
+  left: 50%;
+  margin-left: -88px; }
+
+#equipment .armor {
+  top: 0px;
+  left: 50%;
+  margin-left: 24px; }
+
+#equipment .earring1 {
+  top: 70px;
+  left: 50%;
+  margin-left: -164px; }
+
+#equipment .ring1 {
+  top: 70px;
+  left: 50%;
+  margin-left: 100px; }
+
+#equipment .ring2 {
+  top: 142px;
+  left: 50%;
+  margin-left: 134px; }
+
+#equipment .earring2 {
+  top: 142px;
+  left: 50%;
+  margin-left: -198px; }
+
+#equipment .shoes {
+  top: 213px;
+  left: 50%;
+  margin-left: -198px; }
+
+#equipment .gloves {
+  top: 213px;
+  left: 50%;
+  margin-left: 134px; }
+
+#equipment .belt {
+  top: 284px;
+  left: 50%;
+  margin-left: -164px; }
+
+#equipment .necklace {
+  top: 284px;
+  left: 50%;
+  margin-left: 100px; }
+
+#equipment .main-weapon {
+  top: 349px;
+  left: 50%;
+  margin-left: -88px; }
+
+#equipment .secondary-weapon {
+  top: 349px;
+  left: 50%;
+  margin-left: 24px; }
+
+#equipment .stat-ap {
+  top: 142px;
+  left: 50%;
+  margin-left: -32px; }
+
+#equipment .stat-dp {
+  top: 213px;
+  left: 50%;
+  margin-left: -32px; }
+
+#equipment .stat-ap,
+#equipment .stat-dp {
+  text-align: center; }
+
+#equipment .stat-ap strong,
+#equipment .stat-dp strong,
+#equipment .stat-ap span,
+#equipment .stat-dp span {
+  display: block;
+  font-size: 20px; }
