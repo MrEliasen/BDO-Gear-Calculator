@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 21:40:17
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-12 17:11:23
+* @Last Modified time: 2016-04-12 17:51:36
 */
 
 /* Data from http://bddatabase.net */
@@ -377,6 +377,17 @@ var BDOdatabase = {
                     }
                 }
             ]
+        },
+        "Giath-Bheg-Muskan-RedNose" : {
+            "pieces": {
+                "3": {
+                    "stam": 200
+                },
+                "4": {
+                    "as": 1,
+                    "cs": 1
+                }
+            }
         },
         "Rosar": {
             "pieces": {},
@@ -1076,6 +1087,78 @@ var BDOdatabase = {
                         "dp": 73
                     }
                 }
+            },
+            "Giath’s Helmet": {
+                "set": "Giath-Bheg-Muskan-RedNose",
+                "dp": 4,
+                "rarity": "rare",
+                "gems": 2,
+                "item_effects": {
+                    "hp": 100
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 7
+                    },
+                    "2": {
+                        "dp": 10
+                    },
+                    "3": {
+                        "dp": 13
+                    },
+                    "4": {
+                        "dp": 16
+                    },
+                    "5": {
+                        "dp": 19
+                    },
+                    "6": {
+                        "dp": 22
+                    },
+                    "7": {
+                        "dp": 25
+                    },
+                    "8": {
+                        "dp": 28
+                    },
+                    "9": {
+                        "dp": 31
+                    },
+                    "10": {
+                        "dp": 34
+                    },
+                    "11": {
+                        "dp": 37
+                    },
+                    "12": {
+                        "dp": 40
+                    },
+                    "13": {
+                        "dp": 43
+                    },
+                    "14": {
+                        "dp": 46
+                    },
+                    "15": {
+                        "dp": 49
+                    },
+                    "16": {
+                        "dp": 54
+                    },
+                    "17": {
+                        "dp": 59
+                    },
+                    "18": {
+                        "dp": 67
+                    },
+                    "19": {
+                        "dp": 72
+                    },
+                    "20": {
+                        "dp": 77
+                    }
+                }
             }
         },
         "armor": {
@@ -1748,6 +1831,151 @@ var BDOdatabase = {
                         "dp": 80
                     }
                 }
+            },
+            "Red Nose’s Armor": {
+                "set": "Giath-Bheg-Muskan-RedNose",
+                "dp": 6,
+                "rarity": "rare",
+                "gems": 2,
+                "item_effects": {
+                    "hprc": 100,
+                    "mpwpsp": 100
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 9
+                    },
+                    "2": {
+                        "dp": 12
+                    },
+                    "3": {
+                        "dp": 15
+                    },
+                    "4": {
+                        "dp": 18
+                    },
+                    "5": {
+                        "dp": 21
+                    },
+                    "6": {
+                        "dp": 25
+                    },
+                    "7": {
+                        "dp": 29
+                    },
+                    "8": {
+                        "dp": 33
+                    },
+                    "9": {
+                        "dp": 37
+                    },
+                    "10": {
+                        "dp": 41
+                    },
+                    "11": {
+                        "dp": 45
+                    },
+                    "12": {
+                        "dp": 49
+                    },
+                    "13": {
+                        "dp": 53
+                    },
+                    "14": {
+                        "dp": 57
+                    },
+                    "15": {
+                        "dp": 61
+                    },
+                    "16": {
+                        "dp": 66
+                    },
+                    "17": {
+                        "dp": 71
+                    },
+                    "18": {
+                        "dp": 79
+                    },
+                    "19": {
+                        "dp": 84
+                    },
+                    "20": {
+                        "dp": 89
+                    }
+                }
+            },
+            "Hebetate Tree Spirit's Armor": {
+                "set": "Giath-Bheg-Muskan-RedNose",
+                "dp": 6,
+                "rarity": "rare",
+                "gems": 2,
+                "item_effects": {
+                    "hp": 200
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 9
+                    },
+                    "2": {
+                        "dp": 12
+                    },
+                    "3": {
+                        "dp": 15
+                    },
+                    "4": {
+                        "dp": 18
+                    },
+                    "5": {
+                        "dp": 21
+                    },
+                    "6": {
+                        "dp": 25
+                    },
+                    "7": {
+                        "dp": 29
+                    },
+                    "8": {
+                        "dp": 33
+                    },
+                    "9": {
+                        "dp": 37
+                    },
+                    "10": {
+                        "dp": 41
+                    },
+                    "11": {
+                        "dp": 45
+                    },
+                    "12": {
+                        "dp": 49
+                    },
+                    "13": {
+                        "dp": 53
+                    },
+                    "14": {
+                        "dp": 57
+                    },
+                    "15": {
+                        "dp": 61
+                    },
+                    "16": {
+                        "dp": 66
+                    },
+                    "17": {
+                        "dp": 71
+                    },
+                    "18": {
+                        "dp": 79
+                    },
+                    "19": {
+                        "dp": 84
+                    },
+                    "20": {
+                        "dp": 89
+                    }
+                }
             }
         },
         "shoes": {
@@ -2413,6 +2641,76 @@ var BDOdatabase = {
                     },
                     "20": {
                         "dp": 61
+                    }
+                }
+            },
+            "Muskan's Shoes": {
+                "set": "Giath-Bheg-Muskan-RedNose",
+                "dp": 4,
+                "rarity": "rare",
+                "gems": 2,
+                "item_effects": {},
+                "enhancement_text": "Increased Evasion & effect increases during Enhancement",
+                "enhancement": {
+                    "1": {
+                        "dp": 7
+                    },
+                    "2": {
+                        "dp": 10
+                    },
+                    "3": {
+                        "dp": 13
+                    },
+                    "4": {
+                        "dp": 16
+                    },
+                    "5": {
+                        "dp": 19
+                    },
+                    "6": {
+                        "dp": 22
+                    },
+                    "7": {
+                        "dp": 25
+                    },
+                    "8": {
+                        "dp": 28
+                    },
+                    "9": {
+                        "dp": 31
+                    },
+                    "10": {
+                        "dp": 34
+                    },
+                    "11": {
+                        "dp": 37
+                    },
+                    "12": {
+                        "dp": 40
+                    },
+                    "13": {
+                        "dp": 43
+                    },
+                    "14": {
+                        "dp": 46
+                    },
+                    "15": {
+                        "dp": 49
+                    },
+                    "16": {
+                        "dp": 54
+                    },
+                    "17": {
+                        "dp": 59
+                    },
+                    "18": {
+                        "dp": 67
+                    },
+                    "19": {
+                        "dp": 72
+                    },
+                    "20": {
+                        "dp": 77
                     }
                 }
             }
@@ -3081,6 +3379,76 @@ var BDOdatabase = {
                     },
                     "20": {
                         "dp": 61
+                    }
+                }
+            },
+            "Bheg's Gloves": {
+                "set": "Giath-Bheg-Muskan-RedNose",
+                "dp": 2,
+                "rarity": "rare",
+                "gems": 2,
+                "item_effects": {},
+                "enhancement_text": "Increased Accuracy & effect increases during Enhancement",
+                "enhancement": {
+                    "1": {
+                        "dp": 4
+                    },
+                    "2": {
+                        "dp": 6
+                    },
+                    "3": {
+                        "dp": 8
+                    },
+                    "4": {
+                        "dp": 10
+                    },
+                    "5": {
+                        "dp": 12
+                    },
+                    "6": {
+                        "dp": 14
+                    },
+                    "7": {
+                        "dp": 16
+                    },
+                    "8": {
+                        "dp": 18
+                    },
+                    "9": {
+                        "dp": 20
+                    },
+                    "10": {
+                        "dp": 22
+                    },
+                    "11": {
+                        "dp": 24
+                    },
+                    "12": {
+                        "dp": 26
+                    },
+                    "13": {
+                        "dp": 28
+                    },
+                    "14": {
+                        "dp": 30
+                    },
+                    "15": {
+                        "dp": 32
+                    },
+                    "16": {
+                        "dp": 37
+                    },
+                    "17": {
+                        "dp": 42
+                    },
+                    "18": {
+                        "dp": 50
+                    },
+                    "19": {
+                        "dp": 55
+                    },
+                    "20": {
+                        "dp": 60
                     }
                 }
             }

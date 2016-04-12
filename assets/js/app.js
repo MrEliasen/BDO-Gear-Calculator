@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-12 17:12:39
+* @Last Modified time: 2016-04-12 17:30:58
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -89,7 +89,7 @@
         stat_element.appendTo(item_element);
 
         // item choose button
-        item_element.append('<button class="btn btn-sm btn-primary item-choose" data-enh="0" data-item="' + key + '" data-itemset="' + item_itemset + '" data-type="' + item_type + '" data-itemno="' + item_no + '">Choose</button>');
+        item_element.append('<button class="btn btn-sm btn-primary item-choose" data-enh="' + enhancement_level + '" data-item="' + key + '" data-itemset="' + item_itemset + '" data-type="' + item_type + '" data-itemno="' + item_no + '">Choose</button>');
 
         // item gems
         item_element.append('<div class="item-gems">'+
