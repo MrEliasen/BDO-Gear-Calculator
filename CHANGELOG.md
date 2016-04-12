@@ -1,3 +1,10 @@
+## 0.2.1 (2016-12-04)
+
+Features:
+
+  - Added missing earrings.
+
+
 ## 0.2.0 (2016-12-04)
 
 Features:

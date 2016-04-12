@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 21:40:17
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-11 22:08:28
+* @Last Modified time: 2016-04-12 17:11:23
 */
 
 /* Data from http://bddatabase.net */
@@ -164,6 +164,11 @@ var BDOdatabase = {
         },
         "jh": {
             "title": "Jump Height",
+            "total": 0,
+            "symbol": ""
+        },
+        "bsr": {
+            "title": "Black Spirit's Rage",
             "total": 0,
             "symbol": ""
         },
@@ -413,6 +418,7 @@ var BDOdatabase = {
                     "sr": 2,
                     "dr": 2
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 7
@@ -484,6 +490,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "dr": 2
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -555,6 +562,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "ev": 0
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 11
@@ -579,6 +587,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -648,6 +657,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -717,6 +727,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -786,6 +797,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -857,6 +869,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "gr": 0
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -928,6 +941,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "kb": 0
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -999,6 +1013,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "kd": 0
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -1072,6 +1087,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "hp": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 11
@@ -1141,6 +1157,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 10
@@ -1213,6 +1230,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "ev": 0
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 13
@@ -1237,6 +1255,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 10
@@ -1306,6 +1325,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 10
@@ -1375,6 +1395,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 10
@@ -1444,6 +1465,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 10
@@ -1517,6 +1539,7 @@ var BDOdatabase = {
                     "wpar": 5,
                     "spar": 5
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 10
@@ -1589,6 +1612,7 @@ var BDOdatabase = {
                     "hp": 20,
                     "mpwpsp": 20
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 12
@@ -1661,6 +1685,7 @@ var BDOdatabase = {
                     "hpar": 5,
                     "wgt": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 12
@@ -1734,6 +1759,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "ms": 1
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 4
@@ -1803,6 +1829,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -1874,6 +1901,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "ev": 0
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 8
@@ -1898,6 +1926,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -1967,6 +1996,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -2036,6 +2066,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -2105,6 +2136,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -2176,6 +2208,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "ms": 2
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -2247,6 +2280,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "ev": 0
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -2318,6 +2352,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "end": 200
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 5
@@ -2392,6 +2427,7 @@ var BDOdatabase = {
                     "as": 1,
                     "cs": 1
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 4
@@ -2461,6 +2497,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -2532,6 +2569,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "ev": 0
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 8
@@ -2556,6 +2594,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -2625,6 +2664,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -2694,6 +2734,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -2763,6 +2804,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 2,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -2834,6 +2876,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "chr": 1
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -2905,6 +2948,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "acc": 2
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 5
@@ -2976,6 +3020,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "dmgaes": 2
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 5
@@ -3049,6 +3094,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "dmgth": 2
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dmgth": 3
@@ -3073,6 +3119,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 3
@@ -3090,6 +3137,598 @@ var BDOdatabase = {
                         "ap": 8
                     }
                 }
+            },
+            "Talis Earring": {
+                "dp": 2,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 3
+                    },
+                    "2": {
+                        "dp": 4
+                    },
+                    "3": {
+                        "dp": 5
+                    },
+                    "4": {
+                        "dp": 6
+                    },
+                    "5": {
+                        "dp": 8
+                    }
+                }
+            },
+            "Star Diamond Earring": {
+                "dp": 3,
+                "ap": 3,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Ocean Sapphire Earring": {
+                "dp": 3,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "mpwpsp": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Kalis Earring": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "acc": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "acc": 3
+                    },
+                    "2": {
+                        "acc": 4
+                    },
+                    "3": {
+                        "acc": 5
+                    },
+                    "4": {
+                        "acc": 6
+                    },
+                    "5": {
+                        "acc": 8
+                    }
+                }
+            },
+            "Hesus Earring": {
+                "dp": 1,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 2
+                    },
+                    "2": {
+                        "dp": 3
+                    },
+                    "3": {
+                        "dp": 4
+                    },
+                    "4": {
+                        "dp": 5
+                    },
+                    "5": {
+                        "dp": 7
+                    }
+                }
+            },
+            "Gold Topaz Earring": {
+                "dp": 3,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "stam": 60
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Forest Emerald Earring": {
+                "dp": 3,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "hprc": 3,
+                    "mprc": 3,
+                    "wprc": 3,
+                    "sprc": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Elisha Earring": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "mpwpsp": 15
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Earring of Dim Magical Power": {
+                "dp": 0,
+                "ap": 3,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Earring of Concentrated Magical Power": {
+                "dp": 0,
+                "ap": 4,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Blood Ruby Earrings": {
+                "dp": 3,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "hp": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Witch's Earring": {
+                "dp": 5,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 7
+                    },
+                    "2": {
+                        "ap": 9
+                    },
+                    "3": {
+                        "ap": 11
+                    },
+                    "4": {
+                        "ap": 13
+                    },
+                    "5": {
+                        "ap": 15
+                    }
+                }
+            },
+            "Tungrade Earring": {
+                "dp": 6,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "bsr": 10
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 8
+                    },
+                    "2": {
+                        "ap": 10
+                    },
+                    "3": {
+                        "ap": 12
+                    },
+                    "4": {
+                        "ap": 14
+                    },
+                    "5": {
+                        "ap": 16
+                    }
+                }
+            },
+            "Translucent Ocean Sapphire Earring": {
+                "dp": 4,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "mpwpsp": 40
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Token of Friendship": {
+                "dp": 5,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "hp": 20
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 7,
+                        "hp": 35
+                    },
+                    "2": {
+                        "dp": 9,
+                        "hp": 50
+                    },
+                    "3": {
+                        "dp": 11,
+                        "hp": 65
+                    },
+                    "4": {
+                        "dp": 13,
+                        "hp": 80
+                    },
+                    "5": {
+                        "dp": 15,
+                        "hp": 95
+                    }
+                }
+            },
+            "Starry Night Diamond Earring": {
+                "dp": 4,
+                "ap": 4,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Gold Topaz Earrings": {
+                "dp": 4,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "stam": 80
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sealed Spirit's Earring": {
+                "dp": 4,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "hp": 10
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "hp": 20,
+                        "dp": 5
+                    },
+                    "2": {
+                        "hp": 30,
+                        "dp": 6
+                    }
+                }
+            },
+            "Ridell Earring": {
+                "dp": 4,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "acc": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 6,
+                        "acc": 2
+                    },
+                    "2": {
+                        "dp": 7,
+                        "acc": 3
+                    },
+                    "3": {
+                        "dp": 8,
+                        "acc": 4
+                    },
+                    "4": {
+                        "dp": 9,
+                        "acc": 5
+                    },
+                    "5": {
+                        "dp": 10,
+                        "acc": 6
+                    }
+                }
+            },
+            "Red Coral Earring": {
+                "dp": 0,
+                "ap": 2,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "acc": 3,
+                    "end": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 4,
+                        "acc": 4,
+                        "end": 50
+                    },
+                    "2": {
+                        "ap": 6,
+                        "acc": 5,
+                        "end": 100
+                    },
+                    "3": {
+                        "ap": 8,
+                        "acc": 6,
+                        "end": 50
+                    },
+                    "4": {
+                        "ap": 10,
+                        "acc": 7,
+                        "end": 50
+                    },
+                    "5": {
+                        "ap": 12,
+                        "acc": 8,
+                        "end": 50
+                    }
+                }
+            },
+            "Placid Forest Emerald Earring": {
+                "dp": 4,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "hprc": 4,
+                    "mprc": 4,
+                    "wprc": 4,
+                    "sprc": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Mesto Earring": {
+                "dp": 0,
+                "ap": 4,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "acc": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 5,
+                        "acc": 2
+                    },
+                    "2": {
+                        "ap": 6,
+                        "acc": 3
+                    },
+                    "3": {
+                        "ap": 7,
+                        "acc": 4
+                    },
+                    "4": {
+                        "ap": 8,
+                        "acc": 5
+                    },
+                    "5": {
+                        "ap": 9,
+                        "acc": 6
+                    }
+                }
+            },
+            "Fugitive Khalk's Earring": {
+                "dp": 0,
+                "ap": 5,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "end": 50,
+                    "mpwpsp": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 7,
+                        "end": 70
+                    },
+                    "2": {
+                        "ap": 9,
+                        "end": 90
+                    },
+                    "3": {
+                        "ap": 11,
+                        "end": 110
+                    },
+                    "4": {
+                        "ap": 13,
+                        "end": 130
+                    },
+                    "5": {
+                        "ap": 15,
+                        "end": 150
+                    }
+                }
+            },
+            "Earring of Sealed Magical Power": {
+                "dp": 0,
+                "ap": 5,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 6
+                    },
+                    "2": {
+                        "ap": 7
+                    },
+                    "3": {
+                        "ap": 8
+                    },
+                    "4": {
+                        "ap": 9
+                    },
+                    "5": {
+                        "ap": 10
+                    }
+                }
+            },
+            "Dark Blood Ruby Earrings": {
+                "dp": 4,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "hp": 40
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Blue Whale Molar Earring": {
+                "dp": 5,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "hp": 100
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 7
+                    },
+                    "2": {
+                        "ap": 9
+                    },
+                    "3": {
+                        "ap": 11
+                    },
+                    "4": {
+                        "ap": 13
+                    },
+                    "5": {
+                        "ap": 15
+                    }
+                }
+            },
+            "Blue Coral Earring": {
+                "dp": 0,
+                "ap": 4,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "mpwpsp": 25
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 6
+                    },
+                    "2": {
+                        "ap": 8
+                    },
+                    "3": {
+                        "ap": 10
+                    },
+                    "4": {
+                        "ap": 12
+                    },
+                    "5": {
+                        "ap": 14
+                    }
+                }
+            },
+            "Topaz Earrings of Regeneration": {
+                "dp": 5,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "stam": 100
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sapphire Earring of Storms": {
+                "dp": 5,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "mpwpsp": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Emerald Earring of Tranquility": {
+                "dp": 5,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "hprc": 5,
+                    "mprc": 5,
+                    "wprc": 5,
+                    "sprc": 5
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Diamond Earring of Fortitude": {
+                "dp": 5,
+                "ap": 5,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Corrupt Ruby Earrings": {
+                "dp": 5,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "hp": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {}
             }
         },
         "rings": {
@@ -3101,6 +3740,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "dmgth": 2
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dmgth": 3
@@ -3125,6 +3765,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -3152,6 +3793,7 @@ var BDOdatabase = {
                     "ap": 3,
                     "hp": 30
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Ring of Good Deeds": {
@@ -3162,6 +3804,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "acc": 1
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 3,
@@ -3191,6 +3834,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Ring of Concentrated Magical Power": {
@@ -3199,6 +3843,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Ocean Sapphire Ring": {
@@ -3210,6 +3855,7 @@ var BDOdatabase = {
                     "dmgtdh": 3,
                     "hp": 30
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Ljurik's Ring": {
@@ -3220,6 +3866,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "hp": 20
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Kalis Ring": {
@@ -3230,6 +3877,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "acc": 2
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "acc": 3
@@ -3254,6 +3902,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 2
@@ -3281,6 +3930,7 @@ var BDOdatabase = {
                     "dmgaes": 20,
                     "hp": 30
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Forest Emerald Ring": {
@@ -3292,6 +3942,7 @@ var BDOdatabase = {
                     "acc": 3,
                     "hp": 30
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Elisha Ring": {
@@ -3302,6 +3953,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "hp": 15
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "hp": 30
@@ -3329,6 +3981,7 @@ var BDOdatabase = {
                     "dmgth": 3,
                     "hp": 30
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Bares Ring": {
@@ -3337,6 +3990,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 3
@@ -3364,6 +4018,7 @@ var BDOdatabase = {
                     "dmgtdh": 4,
                     "hp": 40
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Starry Night Diamond Ring": {
@@ -3375,6 +4030,7 @@ var BDOdatabase = {
                     "ap": 4,
                     "hp": 40
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Shrine Guardian Token": {
@@ -3385,6 +4041,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "hp": 20
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 7,
@@ -3417,6 +4074,7 @@ var BDOdatabase = {
                     "dmgth": 4,
                     "hp": 40
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Sealed Spirit's Ring": {
@@ -3427,6 +4085,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "acc": 1
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 5,
@@ -3446,6 +4105,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "mpwpsp": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Sahazad's Ring of Monarch": {
@@ -3456,6 +4116,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "hp": 25
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Ring of Sealed Magical Power": {
@@ -3464,6 +4125,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 6
@@ -3490,6 +4152,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "stam": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 5,
@@ -3522,6 +4185,7 @@ var BDOdatabase = {
                     "acc": 4,
                     "hp": 40
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Outlaw's Ring": {
@@ -3532,6 +4196,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "stam": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 4,
@@ -3564,6 +4229,7 @@ var BDOdatabase = {
                     "acc": 1,
                     "hp": 25
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "acc": 2,
@@ -3593,6 +4259,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 7
@@ -3619,6 +4286,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "hp": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Dark Blood Ruby Ring": {
@@ -3630,6 +4298,7 @@ var BDOdatabase = {
                     "dmgth": 4,
                     "hp": 40
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Blue Coral Ring": {
@@ -3640,6 +4309,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "mpwpsp": 25
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 6,
@@ -3671,6 +4341,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "mpwpsp": 25
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Corrupt Ruby Ring": {
@@ -3682,6 +4353,7 @@ var BDOdatabase = {
                     "dmgth": 5,
                     "hp": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Diamond Ring of Fortitude": {
@@ -3693,6 +4365,7 @@ var BDOdatabase = {
                     "ap": 5,
                     "hp": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Emerald Ring of Tranquility": {
@@ -3704,6 +4377,7 @@ var BDOdatabase = {
                     "acc": 5,
                     "hp": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Sapphire Ring of Storms": {
@@ -3715,6 +4389,7 @@ var BDOdatabase = {
                     "dmgtdh": 5,
                     "hp": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Topaz Ring of Regeneration": {
@@ -3726,6 +4401,7 @@ var BDOdatabase = {
                     "dmgaes": 5,
                     "hp": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Ring of Crescent Guardian": {
@@ -3734,6 +4410,7 @@ var BDOdatabase = {
                 "rarity": "epic",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 8
@@ -3761,6 +4438,7 @@ var BDOdatabase = {
                     "hp": 25,
                     "mpwpsp": 25
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 8,
@@ -3794,6 +4472,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "dmgth": 4
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dmgth": 6
@@ -3818,6 +4497,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -3844,6 +4524,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "acc": 4
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "acc": 6
@@ -3868,6 +4549,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Necklace of Concentrated Magical Power": {
@@ -3876,6 +4558,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Hesus Necklace": {
@@ -3884,6 +4567,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 4
@@ -3911,6 +4595,7 @@ var BDOdatabase = {
                     "hprc": 2,
                     "mprc": 2
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "hprc": 4,
@@ -3940,6 +4625,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 6
@@ -3964,6 +4650,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 6,
@@ -3993,6 +4680,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 6
@@ -4019,6 +4707,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "acc": 3
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 8,
@@ -4050,6 +4739,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "kb": 25
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Starry Night Diamond Necklace": {
@@ -4060,6 +4750,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "rta": 8
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Shining Gold Topaz Necklace": {
@@ -4070,6 +4761,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "kb": 25
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Dark Blood Ruby Necklace": {
@@ -4080,6 +4772,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "gr": 25
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Placid Forest Emerald Necklace": {
@@ -4090,6 +4783,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "sr": 25
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Ogre Ring": {
@@ -4098,6 +4792,7 @@ var BDOdatabase = {
                 "rarity": "epic",
                 "gems": 0,
                 "item_effects": {},
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 15
@@ -4124,6 +4819,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "gr": 30
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Diamond Necklace of Fortitude": {
@@ -4134,6 +4830,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "rta": 10
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Emerald Necklace of Tranquility": {
@@ -4144,6 +4841,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "sr": 30
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Sapphire Necklace of Storms": {
@@ -4154,6 +4852,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "kb": 30
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Topaz Necklace of Regeneration": {
@@ -4164,6 +4863,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "kd": 30
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             }
         },
@@ -4177,6 +4877,7 @@ var BDOdatabase = {
                     "dmgth": 2,
                     "wgt": 40
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dmgth": 3
@@ -4203,6 +4904,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "wgt": 40
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -4230,6 +4932,7 @@ var BDOdatabase = {
                     "wgt": 40,
                     "acc": 2
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "acc": 3
@@ -4256,6 +4959,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "wgt": 30
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 3
@@ -4283,6 +4987,7 @@ var BDOdatabase = {
                     "wgt": 20,
                     "hp": 20
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "hp": 30
@@ -4309,6 +5014,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "wgt": 40
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 3
@@ -4336,6 +5042,7 @@ var BDOdatabase = {
                     "wgt": 80,
                     "acc": 1
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 7,
@@ -4368,6 +5075,7 @@ var BDOdatabase = {
                     "wgt": 70,
                     "stam": 100
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Sturdy Rhutum Elite Fighter Belt": {
@@ -4378,6 +5086,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "wgt": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Rhutum Elite Belt": {
@@ -4388,6 +5097,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "wgt": 60
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "dp": 6
@@ -4415,6 +5125,7 @@ var BDOdatabase = {
                     "wgt": 70,
                     "mpwpsp": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Emerald Belt of Tranquility": {
@@ -4429,6 +5140,7 @@ var BDOdatabase = {
                     "wprc": 5,
                     "sprc": 5
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Diamond Belt of Fortitude": {
@@ -4440,6 +5152,7 @@ var BDOdatabase = {
                     "wgt": 70,
                     "dmgaes": 5
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Corrupt Ruby Belt": {
@@ -4451,6 +5164,7 @@ var BDOdatabase = {
                     "wgt": 70,
                     "hp": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {}
             },
             "Belt of Shultz the Gladiator": {
@@ -4461,6 +5175,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "wgt": 50
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 5,
@@ -4492,6 +5207,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "wgt": 80
                 },
+                "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 8
@@ -4522,6 +5238,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -4612,6 +5329,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Seleth Axe": {
@@ -4623,6 +5341,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -4713,6 +5432,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -4808,6 +5528,7 @@ var BDOdatabase = {
                         "hp": -100,
                         "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -4898,6 +5619,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -4988,6 +5710,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 17,
@@ -5083,6 +5806,7 @@ var BDOdatabase = {
                         "wgt": -25,
                         "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -5175,6 +5899,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgtdh": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -5265,6 +5990,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Bares Axe": {
@@ -5276,6 +6002,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgaes": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
@@ -5369,6 +6096,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "AP does not decrease in the rain."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -5461,6 +6189,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "chr": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -5554,6 +6283,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "Enhancement Limit increase"
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -5646,6 +6376,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "as": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -5740,6 +6471,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -5830,6 +6562,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Seleth Longbow": {
@@ -5841,6 +6574,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -5931,6 +6665,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -6026,6 +6761,7 @@ var BDOdatabase = {
                         "hp": -100,
                         "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -6116,6 +6852,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -6206,6 +6943,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 17,
@@ -6301,6 +7039,7 @@ var BDOdatabase = {
                         "wgt": -25,
                         "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -6393,6 +7132,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgtdh": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -6483,6 +7223,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Bares Longbow": {
@@ -6494,6 +7235,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgaes": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
@@ -6587,6 +7329,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "AP does not decrease in the rain."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -6679,6 +7422,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "chr": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -6772,6 +7516,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "Enhancement Limit increase"
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -6864,6 +7609,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "as": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -6958,6 +7704,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -7048,6 +7795,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Seleth Amulet": {
@@ -7059,6 +7807,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -7149,6 +7898,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -7244,6 +7994,7 @@ var BDOdatabase = {
                         "hp": -100,
                         "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -7334,6 +8085,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -7424,6 +8176,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 17,
@@ -7519,6 +8272,7 @@ var BDOdatabase = {
                         "wgt": -25,
                         "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -7611,6 +8365,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgtdh": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -7701,6 +8456,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Bares Amulet": {
@@ -7712,6 +8468,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgaes": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
@@ -7805,6 +8562,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "AP does not decrease in the rain."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -7897,6 +8655,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "chr": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -7990,6 +8749,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "Enhancement Limit increase"
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -8082,6 +8842,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "cs": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -8176,6 +8937,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -8266,6 +9028,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Seleth Shortsword": {
@@ -8277,6 +9040,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -8367,6 +9131,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -8462,6 +9227,7 @@ var BDOdatabase = {
                         "hp": -100,
                         "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -8552,6 +9318,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -8642,6 +9409,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 17,
@@ -8737,6 +9505,7 @@ var BDOdatabase = {
                         "wgt": -25,
                         "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -8829,6 +9598,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgtdh": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -8919,6 +9689,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Bares Shortsword": {
@@ -8930,6 +9701,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgaes": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
@@ -9023,6 +9795,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "AP does not decrease in the rain."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -9115,6 +9888,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "chr": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -9208,6 +9982,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "Enhancement Limit increase"
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -9300,6 +10075,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "as": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -9394,6 +10170,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -9484,6 +10261,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Seleth Longsword": {
@@ -9495,6 +10273,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -9585,6 +10364,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -9680,6 +10460,7 @@ var BDOdatabase = {
                         "hp": -100,
                         "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -9770,6 +10551,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -9860,6 +10642,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 17,
@@ -9955,6 +10738,7 @@ var BDOdatabase = {
                         "wgt": -25,
                         "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -10047,6 +10831,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgtdh": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -10137,6 +10922,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Bares Longsword": {
@@ -10148,6 +10934,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgaes": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
@@ -10241,6 +11028,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "AP does not decrease in the rain."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -10333,6 +11121,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "chr": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -10426,6 +11215,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "Enhancement Limit increase"
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -10519,6 +11309,7 @@ var BDOdatabase = {
                         "as": 3,
                         "cs": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -10613,6 +11404,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -10703,6 +11495,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Seleth Staff": {
@@ -10714,6 +11507,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgth": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -10804,6 +11598,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -10899,6 +11694,7 @@ var BDOdatabase = {
                         "hp": -100,
                         "special": "Max HP -100 & 5% chance to regain 10 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -10989,6 +11785,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 21,
@@ -11079,6 +11876,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 17,
@@ -11174,6 +11972,7 @@ var BDOdatabase = {
                         "wgt": -25,
                         "special": "Weight Limit -25 LT & 5% chance to heal 5 HP on attack."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -11266,6 +12065,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgtdh": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 14,
@@ -11356,6 +12156,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {}
                 },
                 "Bares Staff": {
@@ -11367,6 +12168,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "dmgaes": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
@@ -11460,6 +12262,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "AP does not decrease in the rain."
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 18,
@@ -11552,6 +12355,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "chr": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -11645,6 +12449,7 @@ var BDOdatabase = {
                         "acc": 5,
                         "special": "Enhancement Limit increase"
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
@@ -11737,6 +12542,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "cs": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
@@ -11836,6 +12642,7 @@ var BDOdatabase = {
                         "dr": 5,
                         "hp": 50
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 8
@@ -11921,6 +12728,7 @@ var BDOdatabase = {
                         "ev": 2,
                         "dr": 2
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 5
@@ -12002,6 +12810,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 1,
@@ -12116,6 +12925,7 @@ var BDOdatabase = {
                         "ev": 1,
                         "dr": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 5,
@@ -12207,6 +13017,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 5,
@@ -12304,6 +13115,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "ar": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 7,
@@ -12396,6 +13208,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 7,
@@ -12487,6 +13300,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 5
@@ -12571,6 +13385,7 @@ var BDOdatabase = {
                         "ev": 3,
                         "hp": 50
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 3,
@@ -12682,6 +13497,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 5
@@ -12764,6 +13580,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "acc": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {},
                         "2": {},
@@ -12811,6 +13628,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "ar": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 7,
@@ -12904,6 +13722,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 5
@@ -12988,6 +13807,7 @@ var BDOdatabase = {
                         "ev": 3,
                         "hp": 50
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 4
@@ -13069,6 +13889,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 5
@@ -13149,6 +13970,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 7,
@@ -13241,6 +14063,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "acc": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {},
                         "2": {},
@@ -13288,6 +14111,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "ar": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 7,
@@ -13381,6 +14205,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 5
@@ -13461,6 +14286,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 7,
@@ -13552,6 +14378,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 5
@@ -13634,6 +14461,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "acc": 5
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 3,
@@ -13728,6 +14556,7 @@ var BDOdatabase = {
                         "ev": 3,
                         "hp": 50
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 4
@@ -13810,6 +14639,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "ar": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 7,
@@ -13907,6 +14737,7 @@ var BDOdatabase = {
                         "ev": 2,
                         "dr": 2
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 5
@@ -13988,6 +14819,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 5
@@ -14069,6 +14901,7 @@ var BDOdatabase = {
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 5
@@ -14154,6 +14987,7 @@ var BDOdatabase = {
                         "dr": 5,
                         "hp": 50
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "dp": 8
@@ -14238,6 +15072,7 @@ var BDOdatabase = {
                         "ev": 1,
                         "dr": 3
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 5,
@@ -14330,6 +15165,7 @@ var BDOdatabase = {
                     "item_effects": {
                         "ar": 10
                     },
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
                             "ap_min": 7,

@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-11 23:56:22
+* @Last Modified time: 2016-04-12 17:12:39
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -177,7 +177,7 @@
         // item enhancement effects
         item_element.append('<div class="item-enhancement-effects">'+
                                 '<strong>Enhancement Effects:</strong>'+
-                                '<div>' + (typeof item.enhancement_effects === 'undefined' ? 'Info Missing..' : item.enhancement_effects) + '</div>'+
+                                '<div>' + (typeof item.enhancement_text === 'undefined' || item.enhancement_text === "" ? 'Info Missing..' : item.enhancement_text) + '</div>'+
                             '</div>');
 
         // item icon
