@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 21:40:17
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-14 02:29:39
+* @Last Modified time: 2016-04-14 02:42:51
 */
 
 /* Data from http://bddatabase.net */
@@ -228,7 +228,7 @@ var BDOdatabase = {
         "chr": {
             "title": "Critical Hit Rate",
             "total": 0,
-            "symbol": "%",
+            "symbol": "",
             "target": ".ench-stats"
         },
         "lk": {
@@ -868,7 +868,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Hystria": {
-                "rarity": "epic",
+                "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
                 "item_effects": {
@@ -877,7 +877,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Hystria": {
-                "rarity": "epic",
+                "rarity": "legendary",
                 "shatter_chance": "",
                 "incompatible": [],
                 "item_effects": {
@@ -887,7 +887,7 @@ var BDOdatabase = {
                 }
             },
             "Red Battlefield Crystal: Adamantine": {
-                "rarity": "epic",
+                "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
                 "item_effects": {
@@ -896,7 +896,7 @@ var BDOdatabase = {
                 }
             },
             "Red Battlefield Crystal: Hysteria": {
-                "rarity": "epic",
+                "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
                 "item_effects": {
@@ -1336,7 +1336,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "hp": 100,
                     "wgt": 20,
-                    "dmth": 2
+                    "dmgth": 2
                 }
             }
         },

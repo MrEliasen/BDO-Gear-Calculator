@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-14 02:33:05
+* @Last Modified time: 2016-04-14 02:42:32
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -107,6 +107,7 @@
                 if (stat_key === "special") {
                     stat_element.append('<strong>' + BDOdatabase.stats[stat_key].title + ':</strong><div>' + item.item_effects.special + '</div>');
                 } else {
+                    console.log(stat_key);
                     stat_element.append('<div>' + BDOdatabase.stats[stat_key].title + ' ' + item.item_effects[stat_key] + BDOdatabase.stats[stat_key].symbol + '</div>');
                 }
             }

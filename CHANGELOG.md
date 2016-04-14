@@ -1,3 +1,12 @@
+## 0.3.1.1 (2016-14-04)
+
+Bug Fixes:
+
+  - Fixed wrong rarity on a couple of crystals (Thanks /user/l7arkSpirit!).
+  - Fixed Critical Hit Rate being displayed as % (Thanks /user/l7arkSpirit!).
+  - Fixed issue with armor crystals now being selectable (Thanks /user/l7arkSpirit!).
+
+
 ## 0.3.1 (2016-14-04)
 
 Features:
