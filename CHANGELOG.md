@@ -1,3 +1,14 @@
+## 0.3.1 (2016-14-04)
+
+Features:
+
+  - Added Musa/Maehwa items and classes.
+
+Changes:
+
+  - Enhancement slider now updates as you slide instead on on release.
+
+
 ## 0.3.0.1 (2016-14-04)
 
 Changes:
@@ -9,7 +20,7 @@ Bug Fixes:
   - Fixed a bug where gem slots would show when changing class.
 
 
-## 0.3.0.1 (2016-14-04)
+## 0.3.0 (2016-14-04)
 
 Features:
 

@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-14 01:15:06
+* @Last Modified time: 2016-04-14 02:33:05
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -374,7 +374,7 @@
                         formatter: function(value) {
                             return '+' + value;
                         }
-                    }).on("slideStop", function(e) {
+                    }).on("change", function(e) {
                         var itemPlate = $(e.target).closest('.item-details'),
                             button = $(e.target).closest('.item-details').find('.item-choose'),
                             item_key = button.attr('data-item'),
@@ -386,7 +386,7 @@
                             item = item[item_key];
 
                         // set the enhancement value
-                        button.attr('data-enh', e.value);
+                        button.attr('data-enh', e.value.newValue);
 
                         // item effects
                         var stat_element = $('<div class="item-effects"/>');
@@ -404,7 +404,7 @@
                                     if (typeof BDOdatabase.stats[stat_key] === 'boolean') {
                                         stat_element.append('<div>' + BDOdatabase.stats[stat_key].title + BDOdatabase.stats[stat_key].symbol + '</div>');
                                     } else {
-                                        stat_element.append('<div>' + BDOdatabase.stats[stat_key].title + ' ' + BDOcalculator.getItemStat(item, stat_key, true, e.value) + BDOdatabase.stats[stat_key].symbol + '</div>');
+                                        stat_element.append('<div>' + BDOdatabase.stats[stat_key].title + ' ' + BDOcalculator.getItemStat(item, stat_key, true, e.value.newValue) + BDOdatabase.stats[stat_key].symbol + '</div>');
                                     }
                                 }
                             }
@@ -418,13 +418,13 @@
                         stat_element = $('<div class="item-stats"/>');
 
                         if (typeof item.ap !== 'undefined') {
-                            stat_element.append('<div>AP: ' + BDOcalculator.getItemStat(item, "ap", false, e.value) + '</div>');
+                            stat_element.append('<div>AP: ' + BDOcalculator.getItemStat(item, "ap", false, e.value.newValue) + '</div>');
                         }
                         if (typeof item.ap_min !== 'undefined') {
-                            stat_element.append('<div>AP: ' + BDOcalculator.getItemStat(item, "ap_min", false, e.value) + '~' + BDOcalculator.getItemStat(item, "ap_max", false, e.value) + '</div>');
+                            stat_element.append('<div>AP: ' + BDOcalculator.getItemStat(item, "ap_min", false, e.value.newValue) + '~' + BDOcalculator.getItemStat(item, "ap_max", false, e.value.newValue) + '</div>');
                         }
                         if (typeof item.dp !== 'undefined') {
-                            stat_element.append('<div>DP: ' + BDOcalculator.getItemStat(item, "dp", false, e.value) + '</div>');
+                            stat_element.append('<div>DP: ' + BDOcalculator.getItemStat(item, "dp", false, e.value.newValue) + '</div>');
                         }
 
                         itemPlate.find('.item-stats').replaceWith(stat_element);
