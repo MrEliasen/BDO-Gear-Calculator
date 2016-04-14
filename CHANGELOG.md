@@ -1,3 +1,9 @@
+## 0.3.1.2 (2016-14-04)
+
+Bug Fixes:
+
+  - Fixed wrong base stats for Witch's Earring (Thanks StoneSlayer!)
+
 ## 0.3.1.1 (2016-14-04)
 
 Bug Fixes:

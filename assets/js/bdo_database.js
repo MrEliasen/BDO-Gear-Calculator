@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 21:40:17
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-14 02:42:51
+* @Last Modified time: 2016-04-14 12:06:10
 */
 
 /* Data from http://bddatabase.net */
@@ -5209,8 +5209,8 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Witch's Earring": {
-                "dp": 5,
-                "ap": 0,
+                "dp": 0,
+                "ap": 5,
                 "rarity": "rare",
                 "gems": 0,
                 "item_effects": {},
