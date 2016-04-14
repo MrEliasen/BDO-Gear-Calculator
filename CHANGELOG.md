@@ -1,4 +1,15 @@
-## 0.3.0 (2016-14-04)
+## 0.3.0.1 (2016-14-04)
+
+Changes:
+
+  - Made the border around gear thicker.
+
+Bug Fixes:
+
+  - Fixed a bug where gem slots would show when changing class.
+
+
+## 0.3.0.1 (2016-14-04)
 
 Features:
 

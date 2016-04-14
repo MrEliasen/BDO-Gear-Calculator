@@ -1,7 +1,7 @@
 {
     "name": "BDO-Calculator",
     "description": "A calculator for all the things (at some point maybe?) in BDO.",
-    "version": "0.1.0",
+    "version": "0.3.1",
     "author": "Mark Eliasen <hello@sirmre.com>",
     "contributors": [
         {

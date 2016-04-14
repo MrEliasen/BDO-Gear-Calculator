@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-14 01:02:46
+* @Last Modified time: 2016-04-14 01:15:06
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -38,7 +38,7 @@
 
     function resetGearslotItem (item_type, item_no) {
         $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr('style', '');
-        $('#equipment .gem-slot.' + item_type + '1, .gem-slot.' + item_type + '1').attr('style', '').hide();
+        $('#equipment .gem-slot.' + item_type + '1, .gem-slot.' + item_type + '2').attr('style', '').hide();
     }
 
     function setGearslotItem (item, item_type, item_no, item_itemset) {
