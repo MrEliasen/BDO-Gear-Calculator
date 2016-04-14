@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 21:40:17
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-12 17:51:36
+* @Last Modified time: 2016-04-14 00:31:06
 */
 
 /* Data from http://bddatabase.net */
@@ -27,169 +27,400 @@ var BDOdatabase = {
             "total": 0,
             "symbol": ""
         },
+        "atk": {
+            "title": "Attack",
+            "total": 0,
+            "symbol": "",
+            "target": ".offence-stats"
+        },
+        "map": {
+            "title": "Magic AP",
+            "total": 0,
+            "symbol": "",
+            "target": ".offence-stats"
+        },
+        "mlap": {
+            "title": "Melee AP",
+            "total": 0,
+            "symbol": "",
+            "target": ".offence-stats"
+        },
+        "rap": {
+            "title": "Ranged AP",
+            "total": 0,
+            "symbol": "",
+            "target": ".offence-stats"
+        },
+        "aaad": {
+            "title": "Additional Air Attack Damage",
+            "total": 0,
+            "symbol": "",
+            "target": ".extra-stats"
+        },
+        "abad": {
+            "title": "Additional Back Attack Damage",
+            "total": 0,
+            "symbol": "",
+            "target": ".extra-stats"
+        },
+        "acad": {
+            "title": "Additional Counter Attack Damage",
+            "total": 0,
+            "symbol": "",
+            "target": ".extra-stats"
+        },
+        "achd": {
+            "title": "Additional Critical Hit Damage",
+            "total": 0,
+            "symbol": "",
+            "target": ".extra-stats"
+        },
+        "adad": {
+            "title": "Additional Down Attack Damage",
+            "total": 0,
+            "symbol": "",
+            "target": ".extra-stats"
+        },
         "hp": {
             "title": "Health",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".survive-stats"
         },
         "mpwpsp": {
             "title": "MP/WP/SP",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".survive-stats"
         },
         "hprc": {
             "title": "HP recovery",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".survive-stats"
         },
         "wprc": {
             "title": "WP recovery",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".survive-stats"
         },
         "sprc": {
             "title": "SP recovery",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".survive-stats"
         },
         "mprc": {
             "title": "MP recovery",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".survive-stats"
         },
         "mpar": {
             "title": "MP Auto Recovery",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".survive-stats"
         },
         "wpar": {
             "title": "WP Auto Recovery",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".survive-stats"
         },
         "spar": {
             "title": "SP Auto Recovery",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".survive-stats"
+        },
+        "hprcoa": {
+            "title": "HP Recovery On Attack",
+            "total": 0,
+            "symbol": "",
+            "target": ".survive-stats"
+        },
+        "mpwpsprcoa": {
+            "title": "MP/WP/SP Recovery On Attack",
+            "total": 0,
+            "symbol": "",
+            "target": ".survive-stats"
         },
         "hpar": {
             "title": "HP Auto Recovery",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".survive-stats"
         },
         "dr": {
             "title": "Damage Reduction",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".defense-stats"
         },
         "sr": {
             "title": "Stun Resistance",
             "total": 0,
-            "symbol": "%"
+            "symbol": "%",
+            "target": ".resist-stats"
         },
         "gr": {
             "title": "Grapple Resistance",
             "total": 0,
-            "symbol": "%"
+            "symbol": "%",
+            "target": ".resist-stats"
         },
         "kb": {
             "title": "Knowback/Floating Resistance",
             "total": 0,
-            "symbol": "%"
+            "symbol": "%",
+            "target": ".resist-stats"
         },
         "kd": {
             "title": "Knockdown/Bound Resistance",
             "total": 0,
-            "symbol": "%"
+            "symbol": "%",
+            "target": ".resist-stats"
+        },
+        "ssfr": {
+            "title": "Stun/Stiffness/Freezing Resistance",
+            "total": 0,
+            "symbol": "%",
+            "target": ".resist-stats"
+        },
+        "frfr": {
+            "title": "Faint/Rigidity/Freezing Resistance",
+            "total": 0,
+            "symbol": "%",
+            "target": ".resist-stats"
         },
         "ar": {
             "title": "All Resistances",
             "total": 0,
-            "symbol": "%"
+            "symbol": "%",
+            "target": ".resist-stats"
         },
         "rta": {
             "title": "Resistance to All Status Abnormalities",
             "total": 0,
-            "symbol": "%"
+            "symbol": "%",
+            "target": ".resist-stats"
         },
         "as": {
             "title": "Attack Speed",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".ench-stats"
         },
         "cs": {
             "title": "Casting Speed",
             "total": 0,
-            "symbol": ""
-        },
-        "lk": {
-            "title": "Luck",
-            "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".ench-stats"
         },
         "ms": {
             "title": "Movement Speed",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".ench-stats"
         },
         "chr": {
             "title": "Critical Hit Rate",
             "total": 0,
-            "symbol": "%"
+            "symbol": "%",
+            "target": ".ench-stats"
+        },
+        "lk": {
+            "title": "Luck",
+            "total": 0,
+            "symbol": "",
+            "target": ".ench-stats"
         },
         "acc": {
             "title": "Accuracy",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".offence-stats"
         },
         "ev": {
             "title": "Evasion",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".defense-stats"
         },
         "end": {
             "title": "Endurance",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".general-stats"
         },
         "stam": {
             "title": "Stamina",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".general-stats"
+        },
+        "energy": {
+            "title": "Energy",
+            "total": 0,
+            "symbol": "",
+            "target": ".general-stats"
+        },
+        "bg": {
+            "title": "Breath Gauge",
+            "total": 0,
+            "symbol": "sec",
+            "target": ".general-stats"
         },
         "wgt": {
             "title": "Weight Limit",
             "total": 0,
-            "symbol": ""
+            "symbol": "LT",
+            "target": ".general-stats"
         },
         "jh": {
             "title": "Jump Height",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".general-stats"
         },
         "bsr": {
             "title": "Black Spirit's Rage",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": "general-stats"
+        },
+        "drr": {
+            "title": "Durability Reduction Resistance",
+            "total": 0,
+            "symbol": "%",
+            "target": ".general-stats"
         },
         "dmgtdh": {
             "title": "Damage To Demihumans",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".extra-stats"
         },
         "dmgth": {
             "title": "Damage To Humans",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".extra-stats"
+        },
+        "dmgtb": {
+            "title": "Damage To Beasts",
+            "total": 0,
+            "symbol": "",
+            "target": ".extra-stats"
         },
         "dmgaes": {
             "title": "Damage Against Every Species",
             "total": 0,
-            "symbol": ""
+            "symbol": "",
+            "target": ".extra-stats"
         },
-        "special": {
+        "adafm": {
+            "title": "Additional Damage Against \"Ferocious\" Monsters",
+            "total": 0,
+            "symbol": "",
+            "target": ".extra-stats"
+        },
+        "iar": {
+            "title": "Ignore All Resistance",
+            "total": 0,
+            "symbol": "%",
+            "target": ".offence-stats"
+        },
+        "igr": {
+            "title": "Ignore Grapple Resistance",
+            "total": 0,
+            "symbol": "%",
+            "target": ".offence-stats"
+        },
+        "ikbr": {
+            "title": "Ignore Knockback Resistance",
+            "total": 0,
+            "symbol": "%",
+            "target": ".offence-stats"
+        },
+        "ikdr": {
+            "title": "Ignore Knockdown Resistance",
+            "total": 0,
+            "symbol": "%",
+            "target": ".offence-stats"
+        },
+        "isr": {
+            "title": "Ignore Stun Resistance",
+            "total": 0,
+            "symbol": "%",
+            "target": ".offence-stats"
+        },
+        "asad": {
+            "title": "Additional Speed Attack Damage",
+            "total": 0,
+            "symbol": "%",
+            "target": ".offence-stats"
+        },
+        "cbexp": {
+            "title": "Combat EXP",
+            "total": 0,
+            "symbol": "%",
+            "target": ".general-stats"
+        },
+        "vr": {
+            "title": "Vision Range",
+            "total": 0,
+            "symbol": "m",
+            "target": ".general-stats"
+        },
+        "spcev": {
+            "title": "Special Attack Evasion",
+            "total": 0,
+            "symbol": "%",
+            "target": ".defense-stats"
+        },
+        "mgdr": {
+            "title": "Magic Damage Reduction",
+            "total": 0,
+            "symbol": "",
+            "target": ".defense-stats"
+        },
+        "mldr": {
+            "title": "Melee Damage Reduction",
+            "total": 0,
+            "symbol": "",
+            "target": ".defense-stats"
+        },
+        "rdr": {
+            "title": "Ranged Damage Reduction",
+            "total": 0,
+            "symbol": "",
+            "target": ".defense-stats"
+        },
+        "swev": {
+            "title": "Siege Weapon Evasion",
+            "total": 0,
+            "symbol": "",
+            "target": ".defense-stats"
+        },
+        "fdmg": {
+            "title": "Fall Damage Reduction",
+            "total": 0,
+            "symbol": "%",
+            "target": ".general-stats"
+        },
+        "fdr": {
+            "title": "Fall Damage Reduction (unknown additional amount)",
+            "active": false,
+            "symbol": "",
+            "target": ".general-stats"
+        },
+        "special": { // this one must be the last one of the list. Short version: I am lazy. Longer version: Effects like fdr is added to it, so if it runs before eg. fdr, then it wont show as an active effect.
             "title": "Gear Specials",
-            "specials": []
+            "specials": [],
+            "target": ".special-stats"
         }
     },
     "rarities": {
@@ -416,6 +647,1305 @@ var BDOdatabase = {
                     }
                 }
             ]
+        }
+    },
+    "gems": {
+        "all": {
+            "Magic Crystal of Abundance - Armor": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dr": 1
+                }
+            },
+            "Magic Crystal of Abundance - Relaxation": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "adafm": 1
+                }
+            },
+            "Magic Crystal of Infinity - Armor": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dr": 2
+                }
+            },
+            "Magic Crystal of Perfection": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "lk": 1
+                }
+            },
+            "Ancient Magic Crystal of Perfection": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "lk": 2
+                }
+            }
+        },
+        "shoes" : {
+            "Magic Crystal of Nature - Adamantine": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "kb": 5
+                }
+            },
+            "Magic Crystal of Nature - Ascension": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "jh": 25
+                }
+            },
+            "Magic Crystal of Nature - Energy": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "stam": 100
+                }
+            },
+            "Magic Crystal of Nature - Falling": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "fdmg": 10
+                }
+            },
+            "Magic Crystal of Nature - Swiftness": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "ms": 1
+                }
+            },
+            "Magic Crystal of Infinity - Adamantine": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "kb": 10
+                }
+            },
+            "Magic Crystal of Infinity - Ascension": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "jh": 35
+                }
+            },
+            "Magic Crystal of Infinity - Energy (Stamina)": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "stam": 150
+                }
+            },
+            "Magic Crystal of Infinity - Energy": {
+                "rarity": "rare",
+                "shatter_chance": "very high",
+                "incompatible": [],
+                "item_effects": {
+                    "energy": 10
+                }
+            },
+            "Magic Crystal of Infinity - Falling": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "fdmg": 15
+                }
+            },
+            "Magic Crystal of Infinity - Submergence": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "bg": 15
+                }
+            },
+            "Magic Crystal of Infinity - Swiftness": {
+                "rarity": "rare",
+                "shatter_chance": "very high",
+                "incompatible": [],
+                "item_effects": {
+                    "ms": 2
+                }
+            },
+            "Black Magic Crystal - Adamantine": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "kb": 10,
+                    "kd": 10
+                }
+            },
+            "Black Magic Crystal - Ascension": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "jh": 35,
+                    "kb": 10
+                }
+            },
+            "Black Magic Crystal - Energy": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "stam": 250
+                }
+            },
+            "Black Magic Crystal - Falling": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "fdmg": 15,
+                    "kb": 10
+                }
+            },
+            "Black Magic Crystal - Swiftness": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "ms": 2,
+                    "kb": 5
+                }
+            },
+            "Ancient Magic Crystal of Nature - Adamantine": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "kd": 25
+                }
+            },
+            "Ancient Magic Crystal of Nature - Mass": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "wgt": 50
+                }
+            },
+            "Ancient Magic Crystal of Nature - Swiftness": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "ms": 2
+                }
+            },
+            "Ancient Magic Crystal - Hystria": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "wgt": 20,
+                    "ms": 1
+                }
+            },
+            "Black Magic Crystal - Hystria": {
+                "rarity": "epic",
+                "shatter_chance": "",
+                "incompatible": [],
+                "item_effects": {
+                    "wgt": 20,
+                    "ms": 1,
+                    "end": 150
+                }
+            },
+            "Red Battlefield Crystal: Adamantine": {
+                "rarity": "epic",
+                "shatter_chance": "might",
+                "incompatible": [],
+                "item_effects": {
+                    "kd": 25,
+                    "frfr": 5
+                }
+            },
+            "Red Battlefield Crystal: Hysteria": {
+                "rarity": "epic",
+                "shatter_chance": "might",
+                "incompatible": [],
+                "item_effects": {
+                    "wgt": 20,
+                    "ms": 1,
+                    "dmgth": 2
+                }
+            }
+        },
+        "gloves": {
+            "Magic Crystal of the Sun - Assault": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 1
+                }
+            },
+            "Magic Crystal of the Sun - Boulder": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "wgt": 10
+                }
+            },
+            "Magic Crystal of the Sun - Precision": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "acc": 1
+                }
+            },
+            "Magic Crystal of the Sun - Sturdiness": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "gr": 5
+                }
+            },
+            "Magic Crystal of the Sun - Valor": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "chr": 1
+                }
+            },
+            "Magic Crystal of Infinity - Assault": {
+                "rarity": "rare",
+                "shatter_chance": "very high",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 2
+                }
+            },
+            "Magic Crystal of Infinity - Magic Attack": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "map": 2
+                }
+            },
+            "Magic Crystal of Infinity - Melee Attack": {
+                "rarity": "rare",
+                "shatter_chance": "very high",
+                "incompatible": [],
+                "item_effects": {
+                    "mlap": 2
+                }
+            },
+            "Magic Crystal of Infinity - Precision": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "acc": 2
+                }
+            },
+            "Magic Crystal of Infinity - Ranged Attack": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "rap": 2
+                }
+            },
+            "Magic Crystal of Infinity - Strength": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "wgt": 15
+                }
+            },
+            "Magic Crystal of Infinity - Sturdiness": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "gr": 10
+                }
+            },
+            "Magic Crystal of Infinity - Valor": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "chr": 2
+                }
+            },
+            "Black Magic Crystal - Assault": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 2,
+                    "gr": 5
+                }
+            },
+            "Black Magic Crystal - Boulder": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "wgt": 15,
+                    "gr": 5
+                }
+            },
+            "Black Magic Crystal - Precision": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "acc": 2,
+                    "gr": 5
+                }
+            },
+            "Black Magic Crystal - Sturdiness": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "gr": 5,
+                    "kb": 5
+                }
+            },
+            "Black Magic Crystal - Valor": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "chr": 2,
+                    "gr": 5
+                }
+            },
+            "Ancient Magic Crystal of the Sun - Assault": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 2
+                }
+            },
+            "Ancient Magic Crystal of the Sun - Sturdiness": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "gr": 25,
+                    "fdr": true
+                }
+            },
+            "Ancient Magic Crystal of the Sun - Valor": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "chr": 2
+                }
+            },
+            "Ancient Magic Crystal - Viper": {
+                "rarity": "legendary",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 1,
+                    "cs": 1
+                }
+            },
+            "Black Magic Crystal - Viper": {
+                "rarity": "legendary",
+                "shatter_chance": "",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 1,
+                    "cs": 1,
+                    "acc": 2
+                }
+            },
+            "Red Battlefield Crystal: Viper": {
+                "rarity": "legendary",
+                "shatter_chance": "might",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 1,
+                    "cs": 1,
+                    "dmgth": 2
+                }
+            }
+        },
+        "armor": {
+            "Magic Crystal of Abundance - Healing": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "hprc": 2
+                }
+            },
+            "Magic Crystal of Abundance - Patience": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "mpwpsp": 25
+                }
+            },
+            "Magic Crystal of Abundance - Resonance": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "mprc": 2,
+                    "wprc": 2,
+                    "sprc": 2
+                }
+            },
+            "Magic Crystal of Abundance - Vigor": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 25
+                }
+            },
+            "Magic Crystal of Infinity - Evasion": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "spcev": 10
+                }
+            },
+            "Magic Crystal of Infinity - Heal": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "hprc": 3
+                }
+            },
+            "Magic Crystal of Infinity - Magic Defense": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "mgdr": 2
+                }
+            },
+            "Magic Crystal of Infinity - Melee Defense": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "mldr": 2
+                }
+            },
+            "Magic Crystal of Infinity - Patience": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "mpwpsp": 35
+                }
+            },
+            "Magic Crystal of Infinity - Ranged Defense": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "rdr": 2
+                }
+            },
+            "Magic Crystal of Infinity - Resonance": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "mprc": 3,
+                    "sprc": 3,
+                    "wprc": 3
+                }
+            },
+            "Magic Crystal of Infinity - Siege": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "swev": 10
+                }
+            },
+            "Magic Crystal of Infinity - Vigor": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 35
+                }
+            },
+            "Ancient Magic Crystal - Healing": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 50,
+                    "hprc": 3
+                }
+            },
+            "Black Magic Crystal - Armor": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dr": 2,
+                    "ssfr": 10
+                }
+            },
+            "Black Magic Crystal - Healing": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "hpar": 2
+                }
+            },
+            "Black Magic Crystal - Patience": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "mpwpsp": 50,
+                    "ssfr": 10
+                }
+            },
+            "Black Magic Crystal - Resonance": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "mpar": 5,
+                    "wpar": 5,
+                    "spar": 5
+                }
+            },
+            "Black Magic Crystal - Vigor": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 50,
+                    "ssfr": 10
+                }
+            },
+            "Ancient Magic Crystal of Abundance - Armor": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "dr": 5
+                }
+            },
+            "Ancient Magic Crystal of Abundance - Patience": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "mpwpsp": 100
+                }
+            },
+            "Ancient Magic Crystal of Abundance - Resonance": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "mpwpsp": 50,
+                    "mprc": 3,
+                    "wprc": 3,
+                    "sprc": 3
+
+                }
+            },
+            "Ancient Magic Crystal of Abundance - Vigor": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 100
+                }
+            },
+            "Ancient Magic Crystal - Cobelinus": {
+                "rarity": "legendary",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 100,
+                    "wgt": 20
+                }
+            },
+            "Black Magic Crystal - Cobelinus": {
+                "rarity": "legendary",
+                "shatter_chance": "",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 100,
+                    "wgt": 20,
+                    "dr": 2
+                }
+            },
+            "Red Battlefield Crystal: Comeliness": {
+                "rarity": "legendary",
+                "shatter_chance": "might",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 100,
+                    "wgt": 20,
+                    "dmth": 2
+                }
+            }
+        },
+        "helmet": {
+            "Magic Crystal of Enchantment - Agility": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "ev": 1
+                }
+            },
+            "Magic Crystal of Enchantment - Experience": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "cbexp": 5
+                }
+            },
+            "Magic Crystal of Enchantment - Intimidation": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "kd": 5
+                }
+            },
+            "Magic Crystal of Enchantment - Memory": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "cs": 1
+                }
+            },
+            "Magic Crystal of Enchantment - Vision": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "vr": 10
+                }
+            },
+            "Magic Crystal of Infinity - Agility": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "ev": 2
+                }
+            },
+            "Magic Crystal of Infinity - Experience": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "cbexp": 10
+                }
+            },
+            "Magic Crystal of Infinity - Intimidation": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "kd": 10
+                }
+            },
+            "Magic Crystal of Infinity - Memory": {
+                "rarity": "rare",
+                "shatter_chance": "very high",
+                "incompatible": [],
+                "item_effects": {
+                    "cs": 2
+                }
+            },
+            "Magic Crystal of Infinity - Vision": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "vr": 15
+                }
+            },
+            "Black Magic Crystal - Agility": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "ev": 2,
+                    "kd": 5
+                }
+            },
+            "Black Magic Crystal - Experience": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "cbexp": 10,
+                    "kd": 5
+                }
+            },
+            "Black Magic Crystal - Intimidation": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "kd": 10,
+                    "ssfr": 5
+                }
+            },
+            "Black Magic Crystal - Memory": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "cs": 2,
+                    "kd": 5
+                }
+            },
+            "Black Magic Crystal - Vision": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "vr": 15,
+                    "kd": 5
+                }
+            },
+            "Ancient Magic Crystal of Enchantment - Agility": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "ev": 5
+                }
+            },
+            "Ancient Magic Crystal of Enchantment - Intimidation": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "ev": 3,
+                    "kd": 25
+                }
+            },
+            "Ancient Magic Crystal of the Sun - Memory": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "cs": 2
+                }
+            },
+            "Ancient Magic Crystal of Enchantment - Vision": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "vr": 10,
+                    "ev": 3
+                }
+            },
+            "Ancient Magic Crystal - Harphia": {
+                "rarity": "legendary",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 50,
+                    "hprc": 5
+                }
+            },
+            "Black Magic Crystal - Harphia": {
+                "rarity": "legendary",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 50,
+                    "hprc": 5,
+                    "ev": 2
+                }
+            },
+            "Red Battlefield Crystal: Harsha": {
+                "rarity": "legendary",
+                "shatter_chance": "might",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 50,
+                    "hprc": 5,
+                    "dmgth": 2
+                }
+            }
+        },
+        "secondary-weapon" : {
+            "Magic Crystal of Infinity - Air Attack": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "aaad": 1
+                }
+            },
+            "Magic Crystal of Infinity - Back Attack": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "abad": 1
+                }
+            },
+            "Magic Crystal of Infinity - Counter Attack": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "acad": 1
+                }
+            },
+            "Magic Crystal of Infinity - Critical": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "achd": 1
+                }
+            },
+            "Magic Crystal of Infinity - Down Attack": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "adad": 1
+                }
+            },
+            "Magic Crystal of Infinity - Ignore Grapple Resistance": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "igr": 10
+                }
+            },
+            "Magic Crystal of Infinity - Ignore Knockback Resistance": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "ikbr": 10
+                }
+            },
+            "Magic Crystal of Infinity - Ignore Knockdown Resistance": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "ikdr": 10
+                }
+            },
+            "Magic Crystal of Infinity - Ignore Stun Resistance": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "isr": 10
+                }
+            },
+            "Magic Crystal of Infinity - Speed Attack": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "asad": 10
+                }
+            },
+            "Awakened Spirit's Crystal": {
+                "rarity": "legendary",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 150,
+                    "ap": 5
+                }
+            },
+            "Black Spirit Crystal": {
+                "rarity": "legendary",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 100,
+                    "ap": 5
+                }
+            },
+            "Red Spirit Crystal": {
+                "rarity": "legendary",
+                "shatter_chance": "might",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 100,
+                    "atk": 5,
+                    "dmgth": 3
+                }
+            }
+        },
+        "main-weapon": {
+            "Magic Crystal of Crimson Flame - Precision": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "acc": 1
+                }
+            },
+            "Magic Crystal of Crimson Flame - Power": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "ap": 1
+                }
+            },
+            "Magic Crystal of Crimson Flame - Carnage (Demihumans)": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgtdh": 1
+                }
+            },
+            "Magic Crystal of Crimson Flame - Carnage (Humans)": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgth": 1
+                }
+            },
+            "Magic Crystal of Crimson Flame - Carnage (Beasts)": {
+                "rarity": "uncommon",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgtb": 1
+                }
+            },
+            "Magic Crystal of Infinity - Absorption": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "hprcoa": 1
+                }
+            },
+            "Magic Crystal of Infinity - Carnage (Demihumans)": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgtdh": 1
+                }
+            },
+            "Magic Crystal of Infinity - Carnage (Humans)": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgth": 1
+                }
+            },
+            "Magic Crystal of Infinity - Carnage (Beasts)": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgtb": 1
+                }
+            },
+            "Magic Crystal of Infinity - Durability": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "drr": 10
+                }
+            },
+            "Magic Crystal of Infinity - Extraction": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "mpwpsprcoa": 1
+                }
+            },
+            "Magic Crystal of Infinity - Power": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "ap": 2
+                }
+            },
+            "Magic Crystal of Infinity - Precision": {
+                "rarity": "rare",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "acc": 2
+                }
+            },
+            "Ancient Magic Crystal of Crimson Flame - Carnage": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgtb": 4
+                }
+            },
+            "Ancient Magic Crystal of Crimson Flame - Demihuman": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgtdh": 4
+                }
+            },
+            "Ancient Magic Crystal of Crimson Flame - Human": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgth": 4
+                }
+            },
+            "Ancient Magic Crystal of Crimson Flame - Power": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "ap": 5
+                }
+            },
+            "Black Magic Crystal - Carnage (Beasts)": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgtb": 2,
+                    "iar": 10
+                }
+            },
+            "Black Magic Crystal - Carnage (Humans)": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgth": 2,
+                    "iar": 10
+                }
+            },
+            "Black Magic Crystal - Carnage (Demihuman)": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "dmgtdh": 2,
+                    "iar": 10
+                }
+            },
+
+            "Black Magic Crystal - Power": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "atk": 2,
+                    "iar": 10
+                }
+            },
+            "Black Magic Crystal - Precision": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "acc": 2,
+                    "iar": 10
+                }
+            },
+            "Magic Crystal - Agony": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "chr": 2,
+                    "as": -1
+                }
+            },
+            "Magic Crystal - Crimson Flame": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [
+                    "Ancient Magic Crystal - Crimson Flame"
+                ],
+                "item_effects": {
+                    "chr": 1
+                }
+            },
+            "Magic Crystal - Destruction": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 1
+                }
+            },
+            "Magic Crystal - Enchantment": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "cs": 1
+                }
+            },
+            "Magic Crystal - Meditation": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "cs": 2,
+                    "chr": -1
+                }
+            },
+            "Magic Crystal - Temptation": {
+                "rarity": "epic",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 2,
+                    "chr": -1
+                }
+            },
+            "Ancient Magic Crystal - Agony": {
+                "rarity": "legendary",
+                "shatter_chance": "very low",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 1,
+                    "cs": 1
+                }
+            },
+            "Ancient Magic Crystal - Carmae": {
+                "rarity": "legendary",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "chr": 1,
+                    "as": 1
+                }
+            },
+            "Ancient Magic Crystal - Crimson Flame": {
+                "rarity": "legendary",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "chr": 2
+                }
+            },
+            "Ancient Magic Crystal - Destruction": {
+                "rarity": "legendary",
+                "shatter_chance": "very low",
+                "incompatible": [],
+                "item_effects": {
+                    "as": 2
+                }
+            },
+            "Ancient Magic Crystal - Enchantment": {
+                "rarity": "legendary",
+                "shatter_chance": "very low",
+                "incompatible": [],
+                "item_effects": {
+                    "cs": 2
+                }
+            },
+            "Ancient Magic Crystal - Temptation": {
+                "rarity": "legendary",
+                "shatter_chance": "very low",
+                "incompatible": [],
+                "item_effects": {
+                    "cs": 1,
+                    "chr": 1
+                }
+            },
+            "Black Magic Crystal - Carmae": {
+                "rarity": "legendary",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "chr": 1,
+                    "as": 1,
+                    "ap": 2
+                }
+            },
+            "Red Battlefield Crystal: Carmae": {
+                "rarity": "legendary",
+                "shatter_chance": "might",
+                "incompatible": [],
+                "item_effects": {
+                    "chr": 1,
+                    "as": 1,
+                    "dmgth": 3
+                }
+            },
+            "Red Battlefield Crystal: Power": {
+                "rarity": "legendary",
+                "shatter_chance": "might",
+                "incompatible": [],
+                "item_effects": {
+                    "atk": 5,
+                    "dmgth": 2
+                }
+            }
         }
     },
     "items": {

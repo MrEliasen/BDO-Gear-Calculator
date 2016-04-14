@@ -33,7 +33,6 @@
                     <h1>BDO Calculator</h1>
                     <p>Mix and match gear and see the results.</p>
                     <p>This is an open source project. You can get a copy of the source code here: <a href="https://github.com/MrEliasen/BDO-Gear-Calculator" target="_blank">https://github.com/MrEliasen/BDO-Gear-Calculator</a>. Please see the <a href="https://github.com/MrEliasen/BDO-Gear-Calculator/blob/master/README.md" target="_blank">README for details about outstanding features and data.</a></p>
-                    <hr>
                 </div>
             </div>
             <div id="player-class-section" class="row">
@@ -48,17 +47,35 @@
                 <dir class="col-md-10">
                     <div id="equipment">
                         <div class="gear-slot helmet" data-itemset="helmets" data-type="helmet"></div>
+                        <div class="gem-slot helmet1" data-type="helmet" data-item="1"></div>
+                        <div class="gem-slot helmet2" data-type="helmet" data-item="2"></div>
+
                         <div class="gear-slot armor" data-itemset="armor" data-type="armor"></div>
+                        <div class="gem-slot armor1" data-type="armor" data-item="1"></div>
+                        <div class="gem-slot armor2" data-type="armor" data-item="2"></div>
+
                         <div class="gear-slot shoes" data-itemset="shoes" data-type="shoes"></div>
+                        <div class="gem-slot shoes1" data-type="shoes" data-item="1"></div>
+                        <div class="gem-slot shoes2" data-type="shoes" data-item="2"></div>
+
                         <div class="gear-slot gloves" data-itemset="gloves" data-type="gloves"></div>
+                        <div class="gem-slot gloves1" data-type="gloves" data-item="1"></div>
+                        <div class="gem-slot gloves2" data-type="gloves" data-item="2"></div>
+
                         <div class="gear-slot ring1" data-itemset="rings" data-type="ring" data-item="1"></div>
                         <div class="gear-slot ring2" data-itemset="rings" data-type="ring" data-item="2"></div>
                         <div class="gear-slot earring1" data-itemset="earrings" data-type="earring" data-item="1"></div>
                         <div class="gear-slot earring2" data-itemset="earrings" data-type="earring" data-item="2"></div>
                         <div class="gear-slot belt" data-itemset="belts" data-type="belt"></div>
                         <div class="gear-slot necklace" data-itemset="necklaces" data-type="necklace"></div>
+
                         <div class="gear-slot main-weapon" data-itemset="main-weapons" data-type="main-weapon"></div>
+                        <div class="gem-slot main-weapon1" data-type="main-weapon" data-item="1"></div>
+                        <div class="gem-slot main-weapon2" data-type="main-weapon" data-item="2"></div>
+
                         <div class="gear-slot secondary-weapon" data-itemset="secondary-weapons" data-type="secondary-weapon"></div>
+                        <div class="gem-slot secondary-weapon1" data-type="secondary-weapon" data-item="1"></div>
+                        <div class="gem-slot secondary-weapon2" data-type="secondary-weapon" data-item="2"></div>
 
                         <div class="gear-slot stat-ap">
                             <strong>AP</strong>
@@ -70,8 +87,31 @@
                         </div>
                     </div>
                 </dir>
-                <div class="col-md-8 col-md-offset-2">
-                    <ul id="stats"></ul>
+                <div class="col-sm-11 col-md-6 col-md-offset-1">
+                    <legend class="stats-title">Enhancement</legend>
+                    <ul class="stats ench-stats"></ul>
+
+                    <legend class="stats-title">Extra Damage</legend>
+                    <ul class="stats extra-stats"></ul>
+
+                    <legend class="stats-title">Offensive</legend>
+                    <ul class="stats offence-stats"></ul>
+
+                    <legend class="stats-title">Defensive</legend>
+                    <ul class="stats defense-stats"></ul>
+                </div>
+                <div class="col-sm-12 col-sm-offset-1 col-md-6 col-md-offset-1">
+                    <legend class="stats-title">Resistance</legend>
+                    <ul class="stats resist-stats"></ul>
+
+                    <legend class="stats-title">Survivability</legend>
+                    <ul class="stats survive-stats"></ul>
+
+                    <legend class="stats-title">General</legend>
+                    <ul class="stats general-stats"></ul>
+
+                    <legend class="stats-title">Gear Specials</legend>
+                    <ul class="stats special-stats"></ul>
                 </div>
             </div>
         </div>

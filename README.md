@@ -4,7 +4,7 @@ BDO Gear Calculator
 A gear/equipment calculator for Black Desert Online ([Demo Here](https://www.sirmre.com/bdo-gear-calculator)).
 
 
-## Current Version: 0.2.2
+## Current Version: 0.3.0
 
 See [the changelog](https://github.com/MrEliasen/BDO-Gear-Calculator/blob/master/CHANGELOG.md) for details.
 
@@ -13,9 +13,7 @@ See [the changelog](https://github.com/MrEliasen/BDO-Gear-Calculator/blob/master
 
 The following data/features are still outstanding/being developed.
 
-  - Database is missing crystals.
   - Ability to choose rarity for items.
-  - Ability to choose crystals for items.
   - Missing enhancement information for items.
   - Due to copyright reasons, I cannot include any materials like item icons(as it would be considered distribution of copyrigted material). However I will investigate what options I have.
 

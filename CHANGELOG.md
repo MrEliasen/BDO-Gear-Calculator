@@ -1,3 +1,14 @@
+## 0.3.0 (2016-14-04)
+
+Features:
+
+  - Added gem system (Thanks to /user/l7arkSpirit on reddit for the gems design idea).
+
+Bug Fixes:
+
+  - Fixed some minor display errors.
+
+
 ## 0.2.2 (2016-12-04)
 
 Features:
@@ -24,10 +35,6 @@ Features:
 Features:
 
   - Enhancement level dropdown will update based on the max enhancement level available for selected item.
-
-Items:
-
-  - All core items should now have been added.
 
 Bug Fixes:
 

@@ -5,10 +5,14 @@
 #player-class {
   min-width: 220px; }
 
-#stats {
+.stats {
   list-style: none;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  padding-bottom: 20px; }
+
+legend.stats-title {
+  margin: 0 0 5px 0; }
 
 .select2-container {
   width: 100%; }
@@ -25,6 +29,7 @@ div.enhancement {
 /* New UI */
 #equipment {
   position: relative;
+  margin: 0 auto;
   width: 100%;
   max-width: 480px;
   min-height: 415px; }
@@ -37,17 +42,50 @@ div.enhancement {
   bottom: 0px;
   right: 0px; }
 
+#equipment .gem-slot {
+  display: none;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  bottom: 0px;
+  right: 0px;
+  background-image: url("../images/48/gem.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80%; }
+
 #equipment .helmet {
   top: 0px;
   left: 50%;
   margin-left: -88px;
   background: url("../images/48/helmet.png") no-repeat center center; }
 
+#equipment .gem-slot.helmet1 {
+  top: 0px;
+  left: 50%;
+  margin-left: -122px; }
+
+#equipment .gem-slot.helmet2 {
+  top: 34px;
+  left: 50%;
+  margin-left: -122px; }
+
 #equipment .armor {
   top: 0px;
   left: 50%;
   margin-left: 24px;
   background: url("../images/48/armor.png") no-repeat center center; }
+
+#equipment .gem-slot.armor1 {
+  top: 0px;
+  left: 50%;
+  margin-left: 92px; }
+
+#equipment .gem-slot.armor2 {
+  top: 34px;
+  left: 50%;
+  margin-left: 92px; }
 
 #equipment .earring1 {
   top: 70px;
@@ -79,11 +117,31 @@ div.enhancement {
   margin-left: -198px;
   background: url("../images/48/shoes.png") no-repeat center center; }
 
+#equipment .gem-slot.shoes1 {
+  top: 213px;
+  left: 50%;
+  margin-left: -232px; }
+
+#equipment .gem-slot.shoes2 {
+  top: 247px;
+  left: 50%;
+  margin-left: -232px; }
+
 #equipment .gloves {
   top: 213px;
   left: 50%;
   margin-left: 134px;
   background: url("../images/48/gloves.png") no-repeat center center; }
+
+#equipment .gem-slot.gloves1 {
+  top: 213px;
+  left: 50%;
+  margin-left: 202px; }
+
+#equipment .gem-slot.gloves2 {
+  top: 247px;
+  left: 50%;
+  margin-left: 202px; }
 
 #equipment .belt {
   top: 284px;
@@ -103,11 +161,31 @@ div.enhancement {
   margin-left: -88px;
   background: url("../images/48/longsword.png") no-repeat center center; }
 
+#equipment .gem-slot.main-weapon1 {
+  top: 416px;
+  left: 50%;
+  margin-left: -88px; }
+
+#equipment .gem-slot.main-weapon2 {
+  top: 416px;
+  left: 50%;
+  margin-left: -54px; }
+
 #equipment .secondary-weapon {
   top: 349px;
   left: 50%;
   margin-left: 24px;
   background: url("../images/48/shield.png") no-repeat center center; }
+
+#equipment .gem-slot.secondary-weapon1 {
+  top: 416px;
+  left: 50%;
+  margin-left: 24px; }
+
+#equipment .gem-slot.secondary-weapon2 {
+  top: 416px;
+  left: 50%;
+  margin-left: 58px; }
 
 #equipment .stat-ap {
   top: 142px;
@@ -143,7 +221,9 @@ div.enhancement {
   border: 4px double #00FF2B; }
 
 .item-details .item-name strong {
-  font-size: 18px; }
+  font-size: 18px;
+  margin-right: 65px;
+  display: block; }
 
 .item-details .item-icon {
   display: inline-block;
