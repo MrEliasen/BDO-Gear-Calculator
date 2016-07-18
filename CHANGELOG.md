@@ -1,8 +1,25 @@
+## 0.3.2 (2016-15-04)
+
+Features:
+
+  - Added shareable links. You can now share you setup/build with others.
+  - Add hover tooltips on gear slots.
+
+Changes:
+
+  - Refactored a large part of the app.js code.
+
+Bug Fixes:
+
+  - removed console.log from debugging.
+
+
 ## 0.3.1.2 (2016-14-04)
 
 Bug Fixes:
 
   - Fixed wrong base stats for Witch's Earring (Thanks StoneSlayer!)
+
 
 ## 0.3.1.1 (2016-14-04)
 
