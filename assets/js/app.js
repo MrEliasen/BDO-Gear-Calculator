@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-15 03:03:08
+* @Last Modified time: 2016-08-05 11:58:36
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -99,7 +99,7 @@
                 parseInt(BDOcalculator.gear.necklace.enhancement)
             ],
             [
-                Object.keys(BDOdatabase.items["main-weapons"]).indexOf(BDOcalculator.gear["main-weapon"].item_name),
+                Object.keys(BDOdatabase.items["main-weapons"][player_class]).indexOf(BDOcalculator.gear["main-weapon"].item_name),
                 parseInt(BDOcalculator.gear["main-weapon"].enhancement),
                 [
                     Object.keys(BDOdatabase.gems["main-weapon"]).indexOf(BDOcalculator.gear["main-weapon"].gems["1"].gem_name),
@@ -107,7 +107,7 @@
                 ]
             ],
             [
-                Object.keys(BDOdatabase.items["secondary-weapons"]).indexOf(BDOcalculator.gear["secondary-weapon"].item_name),
+                Object.keys(BDOdatabase.items["secondary-weapons"][player_class]).indexOf(BDOcalculator.gear["secondary-weapon"].item_name),
                 parseInt(BDOcalculator.gear["secondary-weapon"].enhancement),
                 [
                     Object.keys(BDOdatabase.gems["secondary-weapon"]).indexOf(BDOcalculator.gear["secondary-weapon"].gems["1"].gem_name),
@@ -149,7 +149,7 @@
             return;
         }
 
-        player_class = BDOdatabase.classes[gear[0]];
+        player_class = BDOdatabase.classes[gear[0]].toLowerCase();
         BDOcalculator.init();
 
         var c = gear.length - 1;
@@ -177,7 +177,11 @@
                     addItem(item_name, item_type.slice(0, -1), item_type, i + 1, gear[n][i][1], false);
                 }
             } else {
-                item_name = item_list[gear[n][0]];
+                if (item_type === "main-weapon" || item_type === "secondary-weapon") {
+                    item_name = Object.keys(item[player_class])[gear[n][0]];
+                } else {
+                    item_name = item_list[gear[n][0]];
+                }
 
                 if (item_name === "" || typeof item_name === "undefined") {
                     continue;

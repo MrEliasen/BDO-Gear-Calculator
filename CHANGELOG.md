@@ -1,3 +1,10 @@
+## 0.3.3 (2016-05-08)
+
+Bug Fixes:
+
+  - Fixed the issue with sharelinks not saving primary and secondary weapons.
+
+
 ## 0.3.2 (2016-18-07)
 
 Features:
