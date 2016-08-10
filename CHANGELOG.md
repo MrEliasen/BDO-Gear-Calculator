@@ -1,3 +1,10 @@
+## 0.3.3.1 (2016-10-08)
+
+Bug Fixes:
+
+  - Fixed the issue where gems which fits all slots would not should on the list.
+
+
 ## 0.3.3 (2016-05-08)
 
 Bug Fixes:

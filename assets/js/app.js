@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-08-05 11:58:36
+* @Last Modified time: 2016-08-10 14:21:20
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -658,12 +658,8 @@
             var list = $('<div/>'),
                 item_type = $(this).attr('data-type'),
                 item_no = $(this).attr('data-item'),
-                items_list = BDOdatabase.gems[item_type],
+                items_list = $.extend({}, BDOdatabase.gems.all, BDOdatabase.gems[item_type]),
                 c = 1;
-
-            if (typeof items_list.all !== "undefined") {
-                items_list = items_list.all.concat(items_list);
-            }
 
             // reset the modal body
             $('#gearlist .modal-body .row').html('');
