@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-08-10 14:21:20
+* @Last Modified time: 2016-07-11 16:14:20
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -280,7 +280,12 @@
                 item = item[player_class.toLowerCase()];
             }
         } else {
-            item = item[item_type];
+			if (typeof item[item_type][item_name] === 'undefined') {
+				item = item["all"];
+			}
+			else {
+				item = item[item_type];
+			}
         }
 
         item = item[item_name];
