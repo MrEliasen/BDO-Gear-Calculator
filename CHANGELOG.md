@@ -1,3 +1,10 @@
+## 0.3.3.2 (2016-11-07)
+
+Bug Fixes:
+
+  - Fixed the issue where gems which fits all slots would not work and throw an uncaught type error.
+
+
 ## 0.3.3.1 (2016-10-08)
 
 Bug Fixes:
