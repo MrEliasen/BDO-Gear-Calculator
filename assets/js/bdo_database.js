@@ -17638,18 +17638,6 @@ var BDOdatabase = {
                     }
                 }
             },
-            "Topaz Belt of Regeneration": {
-                "dp": 0,
-                "ap": 0,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "wgt": 70,
-                    "stam": 100
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
             "Sturdy Rhutum Elite Fighter Belt": {
                 "dp": 3,
                 "ap": 0,
@@ -17688,86 +17676,36 @@ var BDOdatabase = {
                     }
                 }
             },
-            "Sapphire Belt of Storms": {
-                "dp": 0,
-                "ap": 0,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "wgt": 70,
-                    "mpwpsp": 50
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
-            "Emerald Belt of Tranquility": {
-                "dp": 0,
-                "ap": 0,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "wgt": 70,
-                    "hprc": 5,
-                    "mprc": 5,
-                    "wprc": 5,
-                    "sprc": 5
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
-            "Diamond Belt of Fortitude": {
-                "dp": 0,
-                "ap": 0,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "wgt": 70,
-                    "dmgaes": 5
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
-            "Corrupt Ruby Belt": {
-                "dp": 0,
-                "ap": 0,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "wgt": 70,
-                    "hp": 50
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
             "Belt of Shultz the Gladiator": {
                 "dp": 0,
                 "ap": 3,
                 "rarity": "rare",
                 "gems": 0,
                 "item_effects": {
-                    "wgt": 50
+                    "wgt": 60,
+                    "stam": 50
                 },
                 "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 5,
-                        "wgt": 60
+                        "wgt": 70
                     },
                     "2": {
                         "ap": 7,
-                        "wgt": 70
+                        "wgt": 80
                     },
                     "3": {
                         "ap": 9,
-                        "wgt": 80
+                        "wgt": 90
                     },
                     "4": {
                         "ap": 11,
-                        "wgt": 90
+                        "wgt": 100
                     },
                     "5": {
                         "ap": 13,
-                        "wgt": 100
+                        "wgt": 110
                     }
                 }
             },
@@ -17795,6 +17733,87 @@ var BDOdatabase = {
                     },
                     "5": {
                         "ap": 20
+                    }
+                }
+            },
+            "Centaur's Belt": {
+                "dp": 5,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "hp": 25,
+                    "wgt": 80
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "hp": 50,
+                        "dp": 8
+                    },
+                    "2": {
+                        "hp": 75,
+                        "dp": 11
+                    },
+                    "3": {
+                        "hp": 100,
+                        "dp": 14
+                    },
+                    "4": {
+                        "hp": 125,
+                        "dp": 17
+                    },
+                    "5": {
+                        "hp": 150,
+                        "dp": 20
+                    }
+                }
+            },
+            "Jarette's Belt": {
+                "set": "Jarette",
+                "dp": 0,
+                "ap": 4,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Ancient Weapon Core": {
+                "set": "Core",
+                "dp": 4,
+                "ap": 4,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 60,
+                },
+                "enhancement_text": "Set effect enabled when equipped with “Ancient Guardian's  Seal”",
+                "enhancement": {
+                    "1": {
+                        "ap": 5,
+                        "dp": 5,
+                        "wgt": 70
+                    },
+                    "2": {
+                        "ap": 6,
+                        "dp": 6,
+                        "wgt": 80
+                    },
+                    "3": {
+                        "ap": 7,
+                        "dp": 7,
+                        "wgt": 90
+                    },
+                    "4": {
+                        "ap": 8,
+                        "dp": 8,
+                        "wgt": 100
+                    },
+                    "5": {
+                        "ap": 9,
+                        "dp": 9,
+                        "wgt": 110
                     }
                 }
             }
