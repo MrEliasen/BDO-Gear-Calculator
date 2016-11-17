@@ -4,7 +4,7 @@ BDO Gear Calculator
 A gear/equipment calculator for Black Desert Online ([Demo Here](https://www.sirmre.com/bdo-gear-calculator)).
 
 
-## Current Version: 0.3.3.2
+## Current Version: 0.3.3.3
 
 See [the changelog](https://github.com/MrEliasen/BDO-Gear-Calculator/blob/master/CHANGELOG.md) for details.
 
@@ -34,6 +34,12 @@ Please open a new issue "ticket" [here](https://github.com/MrEliasen/bdo-calcula
 The data/information used to make this calculator comes from:
 
  * [BDDatabase.net](http://bddatabase.net).
+
+
+## Contributors
+
+[SirMrE](https://github.com/SirMrE);
+[Shadowtrance](https://github.com/Shadowtrance);
 
 
 ## Copyright & License
