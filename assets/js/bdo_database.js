@@ -45627,6 +45627,418 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Theos Ornamental Knot of Crimson Flame": {
+                    "set": "Theos",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 8,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 5,
+                        "hp": 50,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 9
+                        },
+                        "2": {
+                            "dp": 10
+                        },
+                        "3": {
+                            "dp": 11
+                        },
+                        "4": {
+                            "dp": 12
+                        },
+                        "5": {
+                            "dp": 13
+                        },
+                        "6": {
+                            "dp": 14
+                        },
+                        "7": {
+                            "dp": 15
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 16
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 17
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 18
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 19
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 20
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 21
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 22
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 23
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 25
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 27
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 32
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 34
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 36
+                        }
+                    }
+                },
+                "Theos Ornamental Knot of Destruction": {
+                    "set": "Theos",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 8,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 5,
+                        "hp": 50,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 9
+                        },
+                        "2": {
+                            "dp": 10
+                        },
+                        "3": {
+                            "dp": 11
+                        },
+                        "4": {
+                            "dp": 12
+                        },
+                        "5": {
+                            "dp": 13
+                        },
+                        "6": {
+                            "dp": 14
+                        },
+                        "7": {
+                            "dp": 15
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 16
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 17
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 18
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 19
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 20
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 21
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 22
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 23
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 25
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 27
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 32
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 34
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 36
+                        }
+                    }
+                },
+                "Theos Ornamental Knot of Temptation": {
+                    "set": "Theos",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 8,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 5,
+                        "hp": 50,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 9
+                        },
+                        "2": {
+                            "dp": 10
+                        },
+                        "3": {
+                            "dp": 11
+                        },
+                        "4": {
+                            "dp": 12
+                        },
+                        "5": {
+                            "dp": 13
+                        },
+                        "6": {
+                            "dp": 14
+                        },
+                        "7": {
+                            "dp": 15
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 16
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 17
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 18
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 19
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 20
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 21
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 22
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 23
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 25
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 27
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 32
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 34
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 36
+                        }
+                    }
+                },
+                "Ultimate Theos Ornamental Knot": {
+                    "set": "Theos",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 8,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 5,
+                        "hp": 100,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 9
+                        },
+                        "2": {
+                            "dp": 10
+                        },
+                        "3": {
+                            "dp": 11
+                        },
+                        "4": {
+                            "dp": 12
+                        },
+                        "5": {
+                            "dp": 13
+                        },
+                        "6": {
+                            "dp": 14
+                        },
+                        "7": {
+                            "dp": 15
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 16
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 17
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 18
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 19
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 20
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 21
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 22
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 23
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 25
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 27
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 32
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 34
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 36
+                        }
+                    }
+                },
                 "Saiyer Ornamental Knot": {
                     "set": "Saiyer",
                     "ap_min": 1,
@@ -45709,6 +46121,418 @@ var BDOdatabase = {
                         "20": {
                             "ap_min": 6,
                             "ap_max": 8,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Saiyer Ornamental Knot of Crimson Flame": {
+                    "set": "Saiyer",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "ev": 2,
+                        "dr": 2,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Saiyer Ornamental Knot of Destruction": {
+                    "set": "Saiyer",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "ev": 2,
+                        "dr": 2,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Saiyer Ornamental Knot of Temptation": {
+                    "set": "Saiyer",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "ev": 2,
+                        "dr": 2,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Saiyer Ornamental Knot": {
+                    "set": "Saiyer",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "ev": 2,
+                        "dr": 2,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
                             "dp": 32
                         }
                     }
@@ -45825,6 +46649,462 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Rosar Ornamental Knot of Crimson Flame": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Ornamental Knot of Destruction": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Ornamental Knot of Temptation": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Rosar Ornamental Knot": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 7
+                        },
+                        "2": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 8
+                        },
+                        "3": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 9
+                        },
+                        "4": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 10
+                        },
+                        "5": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 11
+                        },
+                        "6": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "7": {
+                            "ap_min": 1,
+                            "ap_max": 4,
+                            "dp": 13
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 14
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 15
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 16
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 17
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 19
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 20
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 34
+                        }
+                    }
+                },
                 "Oros Ornamental Knot": {
                     "set": "Oros",
                     "ap_min": 4,
@@ -45835,6 +47115,390 @@ var BDOdatabase = {
                     "item_effects": {
                         "ev": 1,
                         "dr": 3
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 11,
+                            "ap_max": 24
+                        },
+                        "17": {
+                            "ap_min": 14,
+                            "ap_max": 27
+                        },
+                        "18": {
+                            "ap_min": 20,
+                            "ap_max": 33
+                        },
+                        "19": {
+                            "ap_min": 23,
+                            "ap_max": 36
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 39
+                        }
+                    }
+                },
+                "Oros Ornamental Knot of Crimson Flame": {
+                    "set": "Oros",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 2,
+                        "dr": 3,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 11,
+                            "ap_max": 24
+                        },
+                        "17": {
+                            "ap_min": 14,
+                            "ap_max": 27
+                        },
+                        "18": {
+                            "ap_min": 20,
+                            "ap_max": 33
+                        },
+                        "19": {
+                            "ap_min": 23,
+                            "ap_max": 36
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 39
+                        }
+                    }
+                },
+                "Oros Ornamental Knot of Destruction": {
+                    "set": "Oros",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 2,
+                        "dr": 3,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 11,
+                            "ap_max": 24
+                        },
+                        "17": {
+                            "ap_min": 14,
+                            "ap_max": 27
+                        },
+                        "18": {
+                            "ap_min": 20,
+                            "ap_max": 33
+                        },
+                        "19": {
+                            "ap_min": 23,
+                            "ap_max": 36
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 39
+                        }
+                    }
+                },
+                "Oros Ornamental Knot of Temptation": {
+                    "set": "Oros",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 2,
+                        "dr": 3,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 11,
+                            "ap_max": 24
+                        },
+                        "17": {
+                            "ap_min": 14,
+                            "ap_max": 27
+                        },
+                        "18": {
+                            "ap_min": 20,
+                            "ap_max": 33
+                        },
+                        "19": {
+                            "ap_min": 23,
+                            "ap_max": 36
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 39
+                        }
+                    }
+                },
+                "Ultimate Oros Ornamental Knot": {
+                    "set": "Oros",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 2,
+                        "dr": 3,
+                        "assad": 1
                     },
                     "enhancement_text": "",
                     "enhancement": {
@@ -46017,6 +47681,402 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Krea Ornamental Knot of Crimson Flame": {
+                    "set": "Krea",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 22,
+                            "dp": 6
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 23,
+                            "dp": 7
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 27,
+                            "dp": 8
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 28,
+                            "dp": 9
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 29,
+                            "dp": 10
+                        }
+                    }
+                },
+                "Krea Ornamental Knot of Destruction": {
+                    "set": "Krea",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 22,
+                            "dp": 6
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 23,
+                            "dp": 7
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 27,
+                            "dp": 8
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 28,
+                            "dp": 9
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 29,
+                            "dp": 10
+                        }
+                    }
+                },
+                "Krea Ornamental Knot of Temptation": {
+                    "set": "Krea",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 22,
+                            "dp": 6
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 23,
+                            "dp": 7
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 27,
+                            "dp": 8
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 28,
+                            "dp": 9
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 29,
+                            "dp": 10
+                        }
+                    }
+                },
+                "Ultimate Krea Ornamental Knot": {
+                    "set": "Krea",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 22,
+                            "dp": 6
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 23,
+                            "dp": 7
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 27,
+                            "dp": 8
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 28,
+                            "dp": 9
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 29,
+                            "dp": 10
+                        }
+                    }
+                },
                 "Nouver Ornamental Knot": {
                     "set": "Nouver",
                     "ap_min": 6,
@@ -46107,6 +48167,114 @@ var BDOdatabase = {
                         "20": {
                             "ap_min": 44,
                             "ap_max": 46
+                        }
+                    }
+                },
+                "Kutum Ornamental Knot": {
+                    "set": "Kutum",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "iar": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 6,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 7,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 5
+                        },
+                        "8": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 6
+                        },
+                        "9": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 7
+                        },
+                        "10": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 8
+                        },
+                        "11": {
+                            "ap_min": 15,
+                            "ap_max": 17,
+                            "dp": 9
+                        },
+                        "12": {
+                            "ap_min": 16,
+                            "ap_max": 18,
+                            "dp": 10
+                        },
+                        "13": {
+                            "ap_min": 17,
+                            "ap_max": 19,
+                            "dp": 11
+                        },
+                        "14": {
+                            "ap_min": 18,
+                            "ap_max": 20,
+                            "dp": 12
+                        },
+                        "15": {
+                            "ap_min": 19,
+                            "ap_max": 21,
+                            "dp": 13
+                        },
+                        "16": {
+                            "ap_min": 20,
+                            "ap_max": 22,
+                            "dp": 15
+                        },
+                        "17": {
+                            "ap_min": 21,
+                            "ap_max": 23,
+                            "dp": 17
+                        },
+                        "18": {
+                            "ap_min": 24,
+                            "ap_max": 27,
+                            "dp": 20
+                        },
+                        "19": {
+                            "ap_min": 25,
+                            "ap_max": 28,
+                            "dp": 22
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 29,
+                            "dp": 24
                         }
                     }
                 }
@@ -46203,6 +48371,378 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Steel Dagger of Crimson Flame": {
+                    "set": "Steel",
+                    "ap_min": 7,
+                    "ap_max": 7,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 22
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Steel Dagger of Destruction": {
+                    "set": "Steel",
+                    "ap_min": 7,
+                    "ap_max": 7,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 22
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Steel Dagger of Temptation": {
+                    "set": "Steel",
+                    "ap_min": 7,
+                    "ap_max": 7,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 22
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Ultimate Steel Dagger": {
+                    "set": "Steel",
+                    "ap_min": 7,
+                    "ap_max": 7,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 22
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        },
+                    }
+                },
                 "Rosar Dagger": {
                     "set": "Rosar",
                     "ap_min": 1,
@@ -46282,6 +48822,406 @@ var BDOdatabase = {
                             "ap_min": 6,
                             "ap_max": 9,
                             "dp": 32
+                        }
+                    }
+                },
+                "Rosar Dagger of Crimson Flame": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Dagger of Destruction": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Dagger of Temptation": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Rosar Dagger": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 7
+                        },
+                        "2": {
+                            "dp": 8
+                        },
+                        "3": {
+                            "dp": 9
+                        },
+                        "4": {
+                            "dp": 10
+                        },
+                        "5": {
+                            "dp": 11
+                        },
+                        "6": {
+                            "dp": 12
+                        },
+                        "7": {
+                            "dp": 13
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 14
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 15
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 16
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 17
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 19
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 20
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 34
                         }
                     }
                 },
@@ -46400,6 +49340,474 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Parrying Dagger of Crimson Flame": {
+                    "set": "Parrying",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Parrying Dagger of Destruction": {
+                    "set": "Parrying",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Parrying Dagger of Temptation": {
+                    "set": "Parrying",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Parrying Dagger": {
+                    "set": "Parrying",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 100,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
                 "Krea Dagger": {
                     "set": "Krea",
                     "ap_min": 1,
@@ -46482,6 +49890,406 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Krea Dagger of Crimson Flame": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Dagger of Destruction": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Dagger of Temptation": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Krea Dagger": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 34
+                        }
+                    }
+                },
                 "Bronze Dagger": {
                     "set": "Bronze",
                     "ap_min": 3,
@@ -46500,14 +50308,38 @@ var BDOdatabase = {
                         "5": {},
                         "6": {},
                         "7": {},
-                        "8": {},
-                        "9": {},
-                        "10": {},
-                        "11": {},
-                        "12": {},
-                        "13": {},
-                        "14": {},
-                        "15": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
                         "16": {
                             "ap_min": 4,
                             "ap_max": 4
@@ -46527,6 +50359,298 @@ var BDOdatabase = {
                         "20": {
                             "ap_min": 11,
                             "ap_max": 11
+                        }
+                    }
+                },
+                "Bronze Dagger of Crimson Flame": {
+                    "set": "Bronze",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        }
+                    }
+                },
+                "Bronze Dagger of Destruction": {
+                    "set": "Bronze",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        }
+                    }
+                },
+                "Bronze Dagger of Temptation": {
+                    "set": "Bronze",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        }
+                    }
+                },
+                "Ultimate Bronze Dagger": {
+                    "set": "Bronze",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "asad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19
                         }
                     }
                 },
@@ -46622,6 +50746,114 @@ var BDOdatabase = {
                             "ap_max": 46
                         }
                     }
+                },
+                "Kutum Dagger": {
+                    "set": "Kutum",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "iar": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 6,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 7,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 5
+                        },
+                        "8": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 6
+                        },
+                        "9": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 7
+                        },
+                        "10": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 8
+                        },
+                        "11": {
+                            "ap_min": 15,
+                            "ap_max": 17,
+                            "dp": 9
+                        },
+                        "12": {
+                            "ap_min": 16,
+                            "ap_max": 18,
+                            "dp": 10
+                        },
+                        "13": {
+                            "ap_min": 17,
+                            "ap_max": 19,
+                            "dp": 11
+                        },
+                        "14": {
+                            "ap_min": 18,
+                            "ap_max": 20,
+                            "dp": 12
+                        },
+                        "15": {
+                            "ap_min": 19,
+                            "ap_max": 21,
+                            "dp": 13
+                        },
+                        "16": {
+                            "ap_min": 20,
+                            "ap_max": 22,
+                            "dp": 15
+                        },
+                        "17": {
+                            "ap_min": 21,
+                            "ap_max": 23,
+                            "dp": 17
+                        },
+                        "18": {
+                            "ap_min": 24,
+                            "ap_max": 27,
+                            "dp": 20
+                        },
+                        "19": {
+                            "ap_min": 25,
+                            "ap_max": 28,
+                            "dp": 22
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 29,
+                            "dp": 24
+                        }
+                    }
                 }
             },
             "sorceress" :{
@@ -46704,6 +50936,406 @@ var BDOdatabase = {
                             "ap_min": 6,
                             "ap_max": 9,
                             "dp": 32
+                        }
+                    }
+                },
+                "Rosar Talisman of Crimson Flame": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Talisman of Destruction": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Talisman of Temptation": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Rosar Talisman": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 7
+                        },
+                        "2": {
+                            "dp": 8
+                        },
+                        "3": {
+                            "dp": 9
+                        },
+                        "4": {
+                            "dp": 10
+                        },
+                        "5": {
+                            "dp": 11
+                        },
+                        "6": {
+                            "dp": 12
+                        },
+                        "7": {
+                            "dp": 13
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 14
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 15
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 16
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 17
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 19
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 20
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 34
                         }
                     }
                 },
@@ -46792,6 +51424,418 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Rhik Talisman of Crimson Flame": {
+                    "set": "Rhik",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rhik Talisman of Destruction": {
+                    "set": "Rhik",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rhik Talisman of Temptation": {
+                    "set": "Rhik",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Rhik Talisman": {
+                    "set": "Rhik",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 100,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 32
+                        }
+                    }
+                },
                 "Krea Talisman": {
                     "set": "Krea",
                     "ap_min": 1,
@@ -46871,6 +51915,406 @@ var BDOdatabase = {
                             "ap_min": 6,
                             "ap_max": 8,
                             "dp": 32
+                        }
+                    }
+                },
+                "Krea Talisman of Crimson Flame": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Talisman of Destruction": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Talisman of Temptation": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Krea Talisman": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 34
                         }
                     }
                 },
@@ -46965,6 +52409,398 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Jubre Talisman of Crimson Flame": {
+                    "set": "Jubre",
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 0,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 13
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 14
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 15
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 16
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 17
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 18
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 19
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 20
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 21
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 22
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 24
+                        },
+                        "16": {
+                            "ap_min": 24,
+                            "ap_max": 26
+                        },
+                        "17": {
+                            "ap_min": 26,
+                            "ap_max": 28,
+                            "dp": 2,
+                        },
+                        "18": {
+                            "ap_min": 31,
+                            "ap_max": 33,
+                            "dp": 3,
+                        },
+                        "19": {
+                            "ap_min": 33,
+                            "ap_max": 35,
+                            "dp": 4,
+                        },
+                        "20": {
+                            "ap_min": 35,
+                            "ap_max": 37,
+                            "dp": 5,
+                        },
+                    }
+                },
+                "Jubre Talisman of Destruction": {
+                    "set": "Jubre",
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 0,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 13
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 14
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 15
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 16
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 17
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 18
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 19
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 20
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 21
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 22
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 24
+                        },
+                        "16": {
+                            "ap_min": 24,
+                            "ap_max": 26
+                        },
+                        "17": {
+                            "ap_min": 26,
+                            "ap_max": 28,
+                            "dp": 2,
+                        },
+                        "18": {
+                            "ap_min": 31,
+                            "ap_max": 33,
+                            "dp": 3,
+                        },
+                        "19": {
+                            "ap_min": 33,
+                            "ap_max": 35,
+                            "dp": 4,
+                        },
+                        "20": {
+                            "ap_min": 35,
+                            "ap_max": 37,
+                            "dp": 5,
+                        },
+                    }
+                },
+                "Jubre Talisman of Temptation": {
+                    "set": "Jubre",
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 0,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 13
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 14
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 15
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 16
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 17
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 18
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 19
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 20
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 21
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 22
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 24
+                        },
+                        "16": {
+                            "ap_min": 24,
+                            "ap_max": 26
+                        },
+                        "17": {
+                            "ap_min": 26,
+                            "ap_max": 28,
+                            "dp": 2,
+                        },
+                        "18": {
+                            "ap_min": 31,
+                            "ap_max": 33,
+                            "dp": 3,
+                        },
+                        "19": {
+                            "ap_min": 33,
+                            "ap_max": 35,
+                            "dp": 4,
+                        },
+                        "20": {
+                            "ap_min": 35,
+                            "ap_max": 37,
+                            "dp": 5,
+                        },
+                    }
+                },
+                "Ultimate Jubre Talisman": {
+                    "set": "Jubre",
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 0,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 13
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 14
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 15
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 16
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 17
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 18
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 19
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 20
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 21
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 22
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 24
+                        },
+                        "16": {
+                            "ap_min": 24,
+                            "ap_max": 26
+                        },
+                        "17": {
+                            "ap_min": 26,
+                            "ap_max": 28,
+                            "dp": 2,
+                        },
+                        "18": {
+                            "ap_min": 31,
+                            "ap_max": 33,
+                            "dp": 3,
+                        },
+                        "19": {
+                            "ap_min": 33,
+                            "ap_max": 35,
+                            "dp": 4,
+                        },
+                        "20": {
+                            "ap_min": 35,
+                            "ap_max": 37,
+                            "dp": 5,
+                        },
+                    }
+                },
                 "Helrick Talisman": {
                     "set": "Helrick",
                     "ap_min": 3,
@@ -46983,14 +52819,38 @@ var BDOdatabase = {
                         "5": {},
                         "6": {},
                         "7": {},
-                        "8": {},
-                        "9": {},
-                        "10": {},
-                        "11": {},
-                        "12": {},
-                        "13": {},
-                        "14": {},
-                        "15": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
                         "16": {
                             "ap_min": 4,
                             "ap_max": 4
@@ -47010,6 +52870,319 @@ var BDOdatabase = {
                         "20": {
                             "ap_min": 11,
                             "ap_max": 11
+                        }
+                    }
+                },
+                "Helrick Talisman of Crimson Flame": {
+                    "set": "Helrick",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Helrick Talisman of Destruction": {
+                    "set": "Helrick",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Helrick Talisman of Temptation": {
+                    "set": "Helrick",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Ultimate Helrick Talisman": {
+                    "set": "Helrick",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 0,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     }
                 },
@@ -47105,6 +53278,114 @@ var BDOdatabase = {
                             "ap_max": 46
                         }
                     }
+                },
+                "Kutum Talisman": {
+                    "set": "Kutum",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "iar": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 6,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 7,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 5
+                        },
+                        "8": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 6
+                        },
+                        "9": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 7
+                        },
+                        "10": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 8
+                        },
+                        "11": {
+                            "ap_min": 15,
+                            "ap_max": 17,
+                            "dp": 9
+                        },
+                        "12": {
+                            "ap_min": 16,
+                            "ap_max": 18,
+                            "dp": 10
+                        },
+                        "13": {
+                            "ap_min": 17,
+                            "ap_max": 19,
+                            "dp": 11
+                        },
+                        "14": {
+                            "ap_min": 18,
+                            "ap_max": 20,
+                            "dp": 12
+                        },
+                        "15": {
+                            "ap_min": 19,
+                            "ap_max": 21,
+                            "dp": 13
+                        },
+                        "16": {
+                            "ap_min": 20,
+                            "ap_max": 22,
+                            "dp": 15
+                        },
+                        "17": {
+                            "ap_min": 21,
+                            "ap_max": 23,
+                            "dp": 17
+                        },
+                        "18": {
+                            "ap_min": 24,
+                            "ap_max": 27,
+                            "dp": 20
+                        },
+                        "19": {
+                            "ap_min": 25,
+                            "ap_max": 28,
+                            "dp": 22
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 29,
+                            "dp": 24
+                        }
+                    }
                 }
             },
             "tamer" :{
@@ -47187,6 +53468,406 @@ var BDOdatabase = {
                             "ap_min": 6,
                             "ap_max": 9,
                             "dp": 32
+                        }
+                    }
+                },
+                "Rosar Trinket of Crimson Flame": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Trinket of Destruction": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Trinket of Temptation": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Rosar Trinket": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 7
+                        },
+                        "2": {
+                            "dp": 8
+                        },
+                        "3": {
+                            "dp": 9
+                        },
+                        "4": {
+                            "dp": 10
+                        },
+                        "5": {
+                            "dp": 11
+                        },
+                        "6": {
+                            "dp": 12
+                        },
+                        "7": {
+                            "dp": 13
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 14
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 15
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 16
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 17
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 19
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 20
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 34
                         }
                     }
                 },
@@ -47281,6 +53962,378 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Needle Trinket of Crimson Flame": {
+                    "set": "Needle",
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 13
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 14
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 15
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 16
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 17
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 18
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 19
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 20
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 21
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 22
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 24
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 27
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 30
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 36
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 39
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 42
+                        }
+                    }
+                },
+                "Needle Trinket of Destruction": {
+                    "set": "Needle",
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 13
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 14
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 15
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 16
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 17
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 18
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 19
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 20
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 21
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 22
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 24
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 27
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 30
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 36
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 39
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 42
+                        }
+                    }
+                },
+                "Needle Trinket of Temptation": {
+                    "set": "Needle",
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 13
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 14
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 15
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 16
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 17
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 18
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 19
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 20
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 21
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 22
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 24
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 27
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 30
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 36
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 39
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 42
+                        }
+                    }
+                },
+                "Ultimate Needle Trinket": {
+                    "set": "Needle",
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 13
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 14
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 15
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 16
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 17
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 18
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 19
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 20
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 21
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 22
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 24
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 27
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 30
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 36
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 39
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 42
+                        }
+                    }
+                },
                 "Krea Trinket": {
                     "set": "Krea",
                     "ap_min": 1,
@@ -47313,53 +54366,469 @@ var BDOdatabase = {
                             "dp": 11
                         },
                         "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
                             "dp": 12
                         },
                         "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
                             "dp": 13
                         },
                         "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
                             "dp": 14
                         },
                         "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
                             "dp": 15
                         },
                         "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
                             "dp": 16
                         },
                         "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
                             "dp": 17
                         },
                         "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
                             "dp": 18
                         },
                         "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
                             "dp": 19
                         },
                         "16": {
-                            "ap_min": 2,
-                            "ap_max": 4,
+                            "ap_min": 10,
+                            "ap_max": 12,
                             "dp": 21
                         },
                         "17": {
-                            "ap_min": 3,
-                            "ap_max": 5,
+                            "ap_min": 11,
+                            "ap_max": 13,
                             "dp": 23
                         },
                         "18": {
-                            "ap_min": 4,
-                            "ap_max": 6,
+                            "ap_min": 12,
+                            "ap_max": 14,
                             "dp": 28
                         },
                         "19": {
-                            "ap_min": 5,
-                            "ap_max": 7,
+                            "ap_min": 13,
+                            "ap_max": 15,
                             "dp": 30
                         },
                         "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Trinket of Crimson Flame": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
                             "ap_min": 6,
                             "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
                             "dp": 32
+                        }
+                    }
+                },
+                "Krea Trinket of Destruction": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Trinket of Temptation": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Krea Trinket": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 34
                         }
                     }
                 },
@@ -47374,65 +54843,44 @@ var BDOdatabase = {
                     },
                     "enhancement_text": "",
                     "enhancement": {
-                        "1": {
-                            "ap_min": 3,
-                            "ap_max": 3
-                        },
-                        "2": {
-                            "ap_min": 3,
-                            "ap_max": 3
-                        },
-                        "3": {
-                            "ap_min": 3,
-                            "ap_max": 3
-                        },
-                        "4": {
-                            "ap_min": 3,
-                            "ap_max": 3
-                        },
-                        "5": {
-                            "ap_min": 3,
-                            "ap_max": 3
-                        },
-                        "6": {
-                            "ap_min": 3,
-                            "ap_max": 3
-                        },
-                        "7": {
-                            "ap_min": 3,
-                            "ap_max": 3
-                        },
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
                         "8": {
-                            "ap_min": 3,
-                            "ap_max": 3
+                            "ap_min": 4,
+                            "ap_max": 4
                         },
                         "9": {
-                            "ap_min": 3,
-                            "ap_max": 3
+                            "ap_min": 5,
+                            "ap_max": 5
                         },
                         "10": {
-                            "ap_min": 3,
-                            "ap_max": 3
+                            "ap_min": 6,
+                            "ap_max": 6
                         },
                         "11": {
-                            "ap_min": 3,
-                            "ap_max": 3
+                            "ap_min": 7,
+                            "ap_max": 7
                         },
                         "12": {
-                            "ap_min": 3,
-                            "ap_max": 3
+                            "ap_min": 8,
+                            "ap_max": 8
                         },
                         "13": {
-                            "ap_min": 3,
-                            "ap_max": 3
+                            "ap_min": 9,
+                            "ap_max": 9
                         },
                         "14": {
-                            "ap_min": 3,
-                            "ap_max": 3
+                            "ap_min": 10,
+                            "ap_max": 10
                         },
                         "15": {
-                            "ap_min": 3,
-                            "ap_max": 3
+                            "ap_min": 11,
+                            "ap_max": 11
                         },
                         "16": {
                             "ap_min": 4,
@@ -47456,13 +54904,326 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Incense Trinket of Crimson Flame": {
+                    "set": "Incense",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Incense Trinket of Destruction": {
+                    "set": "Incense",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Incense Trinket of Temptation": {
+                    "set": "Incense",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Ultimate Incense Trinket": {
+                    "set": "Incense",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 0,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
                 "Blade Trinket": {
                     "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 3,
                     "rarity": "uncommon",
-                    "gems": 1,
+                    "gems": 2,
                     "item_effects": {
                         "ev": 3,
                         "hp": 50
@@ -47538,6 +55299,418 @@ var BDOdatabase = {
                             "ap_min": 5,
                             "ap_max": 5,
                             "dp": 31
+                        }
+                    }
+                },
+                "Blade Trinket of Crimson Flame": {
+                    "set": "Blade",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Blade Trinket of Destruction": {
+                    "set": "Blade",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Blade Trinket of Temptation": {
+                    "set": "Blade",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Blade Trinket": {
+                    "set": "Blade",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 100,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 32
                         }
                     }
                 },
@@ -47633,6 +55806,114 @@ var BDOdatabase = {
                             "ap_max": 46
                         }
                     }
+                },
+                "Kutum Trinket": {
+                    "set": "Kutum",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "iar": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 6,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 7,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 5
+                        },
+                        "8": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 6
+                        },
+                        "9": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 7
+                        },
+                        "10": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 8
+                        },
+                        "11": {
+                            "ap_min": 15,
+                            "ap_max": 17,
+                            "dp": 9
+                        },
+                        "12": {
+                            "ap_min": 16,
+                            "ap_max": 18,
+                            "dp": 10
+                        },
+                        "13": {
+                            "ap_min": 17,
+                            "ap_max": 19,
+                            "dp": 11
+                        },
+                        "14": {
+                            "ap_min": 18,
+                            "ap_max": 20,
+                            "dp": 12
+                        },
+                        "15": {
+                            "ap_min": 19,
+                            "ap_max": 21,
+                            "dp": 13
+                        },
+                        "16": {
+                            "ap_min": 20,
+                            "ap_max": 22,
+                            "dp": 15
+                        },
+                        "17": {
+                            "ap_min": 21,
+                            "ap_max": 23,
+                            "dp": 17
+                        },
+                        "18": {
+                            "ap_min": 24,
+                            "ap_max": 27,
+                            "dp": 20
+                        },
+                        "19": {
+                            "ap_min": 25,
+                            "ap_max": 28,
+                            "dp": 22
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 29,
+                            "dp": 24
+                        }
+                    }
                 }
             },
             "valkyrie" :{
@@ -47672,52 +55953,480 @@ var BDOdatabase = {
                             "dp": 11
                         },
                         "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
                             "dp": 12
                         },
                         "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
                             "dp": 13
                         },
                         "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
                             "dp": 14
                         },
                         "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
                             "dp": 15
                         },
                         "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
                             "dp": 16
                         },
                         "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
                             "dp": 17
                         },
                         "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
                             "dp": 18
                         },
                         "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
                             "dp": 19
                         },
                         "16": {
-                            "ap_min": 2,
-                            "ap_max": 4,
+                            "ap_min": 10,
+                            "ap_max": 12,
                             "dp": 20
                         },
                         "17": {
-                            "ap_min": 3,
-                            "ap_max": 5,
+                            "ap_min": 11,
+                            "ap_max": 13,
                             "dp": 21
                         },
                         "18": {
-                            "ap_min": 4,
-                            "ap_max": 6,
+                            "ap_min": 12,
+                            "ap_max": 14,
                             "dp": 25
                         },
                         "19": {
-                            "ap_min": 5,
-                            "ap_max": 7,
+                            "ap_min": 13,
+                            "ap_max": 15,
                             "dp": 26
                         },
                         "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 27
+                        }
+                    }
+                },
+                "Vangertz Shield of Crimson Flame": {
+                    "set": "Vangertz",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "ev": 2,
+                        "dr": 2,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
                             "ap_min": 6,
                             "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 20
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 26
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 27
+                        }
+                    }
+                },
+                "Vangertz Shield of Destruction": {
+                    "set": "Vangertz",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "ev": 2,
+                        "dr": 2,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 20
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 26
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 27
+                        }
+                    }
+                },
+                "Vangertz Shield of Temptation": {
+                    "set": "Vangertz",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "ev": 2,
+                        "dr": 2,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 20
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 26
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 27
+                        }
+                    }
+                },
+                "Ultimate Vangertz Shield": {
+                    "set": "Vangertz",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "ev": 2,
+                        "dr": 2,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 20
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 26
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
                             "dp": 27
                         }
                     }
@@ -47804,6 +56513,406 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Rosar Shield of Crimson Flame": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Shield of Destruction": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Shield of Temptation": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Rosar Shield": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 7
+                        },
+                        "2": {
+                            "dp": 8
+                        },
+                        "3": {
+                            "dp": 9
+                        },
+                        "4": {
+                            "dp": 10
+                        },
+                        "5": {
+                            "dp": 11
+                        },
+                        "6": {
+                            "dp": 12
+                        },
+                        "7": {
+                            "dp": 13
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 14
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 15
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 16
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 17
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 19
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 20
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 34
+                        }
+                    }
+                },
                 "Krea Shield": {
                     "set": "Krea",
                     "ap_min": 1,
@@ -47836,53 +56945,469 @@ var BDOdatabase = {
                             "dp": 11
                         },
                         "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
                             "dp": 12
                         },
                         "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
                             "dp": 13
                         },
                         "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
                             "dp": 14
                         },
                         "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
                             "dp": 15
                         },
                         "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
                             "dp": 16
                         },
                         "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
                             "dp": 17
                         },
                         "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
                             "dp": 18
                         },
                         "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
                             "dp": 19
                         },
                         "16": {
-                            "ap_min": 2,
-                            "ap_max": 4,
+                            "ap_min": 10,
+                            "ap_max": 12,
                             "dp": 21
                         },
                         "17": {
-                            "ap_min": 3,
-                            "ap_max": 5,
+                            "ap_min": 11,
+                            "ap_max": 13,
                             "dp": 23
                         },
                         "18": {
-                            "ap_min": 4,
-                            "ap_max": 6,
+                            "ap_min": 12,
+                            "ap_max": 14,
                             "dp": 28
                         },
                         "19": {
-                            "ap_min": 5,
-                            "ap_max": 7,
+                            "ap_min": 13,
+                            "ap_max": 15,
                             "dp": 30
                         },
                         "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Shield of Crimson Flame": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
                             "ap_min": 6,
                             "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
                             "dp": 32
+                        }
+                    }
+                },
+                "Krea Shield of Destruction": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Shield of Temptation": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Krea Shield": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 34
                         }
                     }
                 },
@@ -47972,6 +57497,418 @@ var BDOdatabase = {
                         }
                     }
                 },
+                "Kite Shield of Crimson Flame": {
+                    "set": "Kite",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 8,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 5,
+                        "hp": 100,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 9
+                        },
+                        "2": {
+                            "dp": 10
+                        },
+                        "3": {
+                            "dp": 11
+                        },
+                        "4": {
+                            "dp": 12
+                        },
+                        "5": {
+                            "dp": 13
+                        },
+                        "6": {
+                            "dp": 14
+                        },
+                        "7": {
+                            "dp": 15
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 16
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 17
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 18
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 19
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 20
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 21
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 22
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 23
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 25
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 27
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 32
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 34
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 36
+                        }
+                    }
+                },
+                "Kite Shield of Destruction": {
+                    "set": "Kite",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 8,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 5,
+                        "hp": 100,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 9
+                        },
+                        "2": {
+                            "dp": 10
+                        },
+                        "3": {
+                            "dp": 11
+                        },
+                        "4": {
+                            "dp": 12
+                        },
+                        "5": {
+                            "dp": 13
+                        },
+                        "6": {
+                            "dp": 14
+                        },
+                        "7": {
+                            "dp": 15
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 16
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 17
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 18
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 19
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 20
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 21
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 22
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 23
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 25
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 27
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 32
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 34
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 36
+                        }
+                    }
+                },
+                "Kite Shield of Temptation": {
+                    "set": "Kite",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 8,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 5,
+                        "hp": 100,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 9
+                        },
+                        "2": {
+                            "dp": 10
+                        },
+                        "3": {
+                            "dp": 11
+                        },
+                        "4": {
+                            "dp": 12
+                        },
+                        "5": {
+                            "dp": 13
+                        },
+                        "6": {
+                            "dp": 14
+                        },
+                        "7": {
+                            "dp": 15
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 16
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 17
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 18
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 19
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 20
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 21
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 22
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 23
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 25
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 27
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 32
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 34
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 36
+                        }
+                    }
+                },
+                "Ultimate Kite Shield": {
+                    "set": "Kite",
+                    "ap_min": 0,
+                    "ap_max": 0,
+                    "dp": 8,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 5,
+                        "hp": 100,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 9
+                        },
+                        "2": {
+                            "dp": 10
+                        },
+                        "3": {
+                            "dp": 11
+                        },
+                        "4": {
+                            "dp": 12
+                        },
+                        "5": {
+                            "dp": 13
+                        },
+                        "6": {
+                            "dp": 14
+                        },
+                        "7": {
+                            "dp": 15
+                        },
+                        "8": {
+                            "ap_min": 1,
+                            "ap_max": 1,
+                            "dp": 16
+                        },
+                        "9": {
+                            "ap_min": 2,
+                            "ap_max": 2,
+                            "dp": 17
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 18
+                        },
+                        "11": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 19
+                        },
+                        "12": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 20
+                        },
+                        "13": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 21
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 22
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 23
+                        },
+                        "16": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 25
+                        },
+                        "17": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 27
+                        },
+                        "18": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 32
+                        },
+                        "19": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 34
+                        },
+                        "20": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 36
+                        }
+                    }
+                },
                 "Axion Shield": {
                     "set": "Axion",
                     "ap_min": 4,
@@ -47982,6 +57919,390 @@ var BDOdatabase = {
                     "item_effects": {
                         "ev": 1,
                         "dr": 3
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 11,
+                            "ap_max": 24
+                        },
+                        "17": {
+                            "ap_min": 14,
+                            "ap_max": 27
+                        },
+                        "18": {
+                            "ap_min": 20,
+                            "ap_max": 33
+                        },
+                        "19": {
+                            "ap_min": 23,
+                            "ap_max": 36
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 39
+                        }
+                    }
+                },
+                "Axion Shield of Crimson Flame": {
+                    "set": "Axion",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 1,
+                        "dr": 3,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 11,
+                            "ap_max": 24
+                        },
+                        "17": {
+                            "ap_min": 14,
+                            "ap_max": 27
+                        },
+                        "18": {
+                            "ap_min": 20,
+                            "ap_max": 33
+                        },
+                        "19": {
+                            "ap_min": 23,
+                            "ap_max": 36
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 39
+                        }
+                    }
+                },
+                "Axion Shield of Destruction": {
+                    "set": "Axion",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 1,
+                        "dr": 3,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 11,
+                            "ap_max": 24
+                        },
+                        "17": {
+                            "ap_min": 14,
+                            "ap_max": 27
+                        },
+                        "18": {
+                            "ap_min": 20,
+                            "ap_max": 33
+                        },
+                        "19": {
+                            "ap_min": 23,
+                            "ap_max": 36
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 39
+                        }
+                    }
+                },
+                "Axion Shield of Temptation": {
+                    "set": "Axion",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 1,
+                        "dr": 3,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 5,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 5,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 5,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 6,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 6,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 6,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 6,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 6,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 7,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 7,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 7,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 8,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 11,
+                            "ap_max": 24
+                        },
+                        "17": {
+                            "ap_min": 14,
+                            "ap_max": 27
+                        },
+                        "18": {
+                            "ap_min": 20,
+                            "ap_max": 33
+                        },
+                        "19": {
+                            "ap_min": 23,
+                            "ap_max": 36
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 39
+                        }
+                    }
+                },
+                "Ultimate Axion Shield": {
+                    "set": "Axion",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 5,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 1,
+                        "dr": 3,
+                        "assad": 1
                     },
                     "enhancement_text": "",
                     "enhancement": {
@@ -48159,421 +58480,1949 @@ var BDOdatabase = {
                             "ap_max": 46
                         }
                     }
+                },
+                "Kutum Shield": {
+                    "set": "Kutum",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "iar": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 6,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 7,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 5
+                        },
+                        "8": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 6
+                        },
+                        "9": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 7
+                        },
+                        "10": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 8
+                        },
+                        "11": {
+                            "ap_min": 15,
+                            "ap_max": 17,
+                            "dp": 9
+                        },
+                        "12": {
+                            "ap_min": 16,
+                            "ap_max": 18,
+                            "dp": 10
+                        },
+                        "13": {
+                            "ap_min": 17,
+                            "ap_max": 19,
+                            "dp": 11
+                        },
+                        "14": {
+                            "ap_min": 18,
+                            "ap_max": 20,
+                            "dp": 12
+                        },
+                        "15": {
+                            "ap_min": 19,
+                            "ap_max": 21,
+                            "dp": 13
+                        },
+                        "16": {
+                            "ap_min": 20,
+                            "ap_max": 22,
+                            "dp": 15
+                        },
+                        "17": {
+                            "ap_min": 21,
+                            "ap_max": 23,
+                            "dp": 17
+                        },
+                        "18": {
+                            "ap_min": 24,
+                            "ap_max": 27,
+                            "dp": 20
+                        },
+                        "19": {
+                            "ap_min": 25,
+                            "ap_max": 28,
+                            "dp": 22
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 29,
+                            "dp": 24
+                        }
+                    }
                 }
             },
             "musa" :{
                 "Black Horn Warrior Bow": {
                     "set": "Black Warrior",
-                    "ap_min": 10,
-                    "ap_max": 14,
+                    "ap_min": 3,
+                    "ap_max": 3,
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {
                         "acc": 5
                     },
-                    "enhancement_text": "Increased Accuracy",
+                    "enhancement_text": "",
                     "enhancement": {
-                        "1": {
-                            "ap-min": 14,
-                            "ap-max": 18
-                        },
-                        "2": {
-                            "ap-min": 17,
-                            "ap-max": 21
-                        },
-                        "3": {
-                            "ap-min": 20,
-                            "ap-max": 24
-                        },
-                        "4": {
-                            "ap-min": 22,
-                            "ap-max": 26
-                        },
-                        "5": {
-                            "ap-min": 24,
-                            "ap-max": 28
-                        },
-                        "6": {
-                            "ap-min": 27,
-                            "ap-max": 31
-                        },
-                        "7": {
-                            "ap-min": 30,
-                            "ap-max": 34
-                        },
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
                         "8": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 4,
+                            "ap_max": 4
                         },
                         "9": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 5,
+                            "ap_max": 5
                         },
                         "10": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 6,
+                            "ap_max": 6
                         },
                         "11": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 7,
+                            "ap_max": 7
                         },
                         "12": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 8,
+                            "ap_max": 8
                         },
                         "13": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 9,
+                            "ap_max": 9
                         },
                         "14": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 10,
+                            "ap_max": 10
                         },
                         "15": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 11,
+                            "ap_max": 11
                         },
                         "16": {
-                            "ap-min": 70,
-                            "ap-max": 74
+                            "ap_min": 4,
+                            "ap_max": 4
                         },
                         "17": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 5,
+                            "ap_max": 5
                         },
                         "18": {
-                            "ap-min": 86,
-                            "ap-max": 90
+                            "ap_min": 9,
+                            "ap_max": 9
                         },
                         "19": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 10,
+                            "ap_max": 10
                         },
                         "20": {
-                            "ap-min": 102,
-                            "ap-max": 106
+                            "ap_min": 11,
+                            "ap_max": 11
+                        }
+                    }
+                },
+                "Black Horn Warrior Bow of Crimson Flame": {
+                    "set": "Black Warrior",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Black Horn Warrior Bow of Destruction": {
+                    "set": "Black Warrior",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Black Horn Warrior Bow of Temptation": {
+                    "set": "Black Warrior",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Ultimate Black Horn Warrior Bow": {
+                    "set": "Black Warrior",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 0,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     }
                 },
                 "Krea Horn Bow": {
                     "set": "Krea",
-                    "ap_min": 17,
-                    "ap_max": 19,
+                    "ap_min": 1,
+                    "ap_max": 3,
                     "dp": 4,
                     "rarity": "uncommon",
-                    "gems": 1,
+                    "gems": 2,
                     "item_effects": {},
-                    "enhancement_text": "Increased Evasion",
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 23,
                             "dp": 5
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 26,
                             "dp": 6
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 29,
                             "dp": 7
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 31,
                             "dp": 8
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 33,
                             "dp": 9
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 36,
                             "dp": 10
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 39,
                             "dp": 11
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 43,
+                            "ap_min": 2,
+                            "ap_max": 4,
                             "dp": 12
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 47,
+                            "ap_min": 3,
+                            "ap_max": 5,
                             "dp": 13
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 51,
+                            "ap_min": 4,
+                            "ap_max": 6,
                             "dp": 14
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 55,
+                            "ap_min": 5,
+                            "ap_max": 7,
                             "dp": 15
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 59,
+                            "ap_min": 6,
+                            "ap_max": 8,
                             "dp": 16
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 63,
+                            "ap_min": 7,
+                            "ap_max": 9,
                             "dp": 17
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 67,
+                            "ap_min": 8,
+                            "ap_max": 10,
                             "dp": 18
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 71,
+                            "ap_min": 9,
+                            "ap_max": 11,
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 79,
+                            "ap_min": 10,
+                            "ap_max": 12,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 87,
+                            "ap_min": 11,
+                            "ap_max": 13,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 93,
-                            "ap-max": 95,
+                            "ap_min": 12,
+                            "ap_max": 14,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 101,
-                            "ap-max": 103,
+                            "ap_min": 13,
+                            "ap_max": 15,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 109,
-                            "ap-max": 111,
+                            "ap_min": 14,
+                            "ap_max": 16,
                             "dp": 32
+                        }
+                    }
+                },
+                "Krea Horn Bow of Crimson Flame": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Horn Bow of Destruction": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Horn Bow of Temptation": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Krea Horn Bow": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 34
                         }
                     }
                 },
                 "Rosar Horn Bow": {
                     "set": "Rosar",
-                    "ap_min": 17,
-                    "ap_max": 20,
+                    "ap_min": 1,
+                    "ap_max": 4,
                     "dp": 4,
                     "rarity": "uncommon",
                     "gems": 2,
                     "item_effects": {},
-                    "enhancement_text": "Evasion Increase",
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
-                            "ap-min": 21,
-                            "ap-max": 24,
                             "dp": 5
                         },
                         "2": {
-                            "ap-min": 24,
-                            "ap-max": 27,
                             "dp": 6
                         },
                         "3": {
-                            "ap-min": 27,
-                            "ap-max": 30,
                             "dp": 7
                         },
                         "4": {
-                            "ap-min": 29,
-                            "ap-max": 32,
                             "dp": 8
                         },
                         "5": {
-                            "ap-min": 31,
-                            "ap-max": 34,
                             "dp": 9
                         },
                         "6": {
-                            "ap-min": 34,
-                            "ap-max": 37,
                             "dp": 10
                         },
                         "7": {
-                            "ap-min": 37,
-                            "ap-max": 40,
                             "dp": 11
                         },
                         "8": {
-                            "ap-min": 41,
-                            "ap-max": 44,
                             "dp": 12
                         },
                         "9": {
-                            "ap-min": 45,
-                            "ap-max": 48,
                             "dp": 13
                         },
                         "10": {
-                            "ap-min": 49,
-                            "ap-max": 52,
                             "dp": 14
                         },
                         "11": {
-                            "ap-min": 53,
-                            "ap-max": 56,
                             "dp": 15
                         },
                         "12": {
-                            "ap-min": 57,
-                            "ap-max": 60,
                             "dp": 16
                         },
                         "13": {
-                            "ap-min": 61,
-                            "ap-max": 64,
                             "dp": 17
                         },
                         "14": {
-                            "ap-min": 65,
-                            "ap-max": 68,
                             "dp": 18
                         },
                         "15": {
-                            "ap-min": 69,
-                            "ap-max": 72,
                             "dp": 19
                         },
                         "16": {
-                            "ap-min": 77,
-                            "ap-max": 80,
+                            "ap_min": 2,
+                            "ap_max": 5,
                             "dp": 21
                         },
                         "17": {
-                            "ap-min": 85,
-                            "ap-max": 88,
+                            "ap_min": 3,
+                            "ap_max": 6,
                             "dp": 23
                         },
                         "18": {
-                            "ap-min": 93,
-                            "ap-max": 96,
+                            "ap_min": 4,
+                            "ap_max": 7,
                             "dp": 28
                         },
                         "19": {
-                            "ap-min": 101,
-                            "ap-max": 104,
+                            "ap_min": 5,
+                            "ap_max": 8,
                             "dp": 30
                         },
                         "20": {
-                            "ap-min": 109,
-                            "ap-max": 112,
+                            "ap_min": 6,
+                            "ap_max": 9,
                             "dp": 32
+                        }
+                    }
+                },
+                "Rosar Horn Bow of Crimson Flame": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Horn Bow of Destruction": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Horn Bow of Temptation": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Rosar Horn Bow": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 7
+                        },
+                        "2": {
+                            "dp": 8
+                        },
+                        "3": {
+                            "dp": 9
+                        },
+                        "4": {
+                            "dp": 10
+                        },
+                        "5": {
+                            "dp": 11
+                        },
+                        "6": {
+                            "dp": 12
+                        },
+                        "7": {
+                            "dp": 13
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 14
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 15
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 16
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 17
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 19
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 20
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 34
                         }
                     }
                 },
                 "White Horn Bow": {
                     "set": "White",
-                    "ap_min": 14,
-                    "ap_max": 18,
+                    "ap_min": 6,
+                    "ap_max": 6,
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},
-                    "enhancement_text": "Increased AP",
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 7,
+                            "ap_max": 7
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 8,
+                            "ap_max": 8
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 9,
+                            "ap_max": 9
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 10,
+                            "ap_max": 10
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 11,
+                            "ap_max": 11
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 12,
+                            "ap_max": 12
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 13,
+                            "ap_max": 13
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 14,
+                            "ap_max": 14
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 15,
+                            "ap_max": 15
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 16,
+                            "ap_max": 16
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 17,
+                            "ap_max": 17
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 18,
+                            "ap_max": 18
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 19,
+                            "ap_max": 19
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 20,
+                            "ap_max": 20
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 21,
+                            "ap_max": 21
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 24,
+                            "ap_max": 24
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 27,
+                            "ap_max": 27
                         },
                         "18": {
-                            "ap-min": 93,
-                            "ap-max": 97
+                            "ap_min": 33,
+                            "ap_max": 33
                         },
                         "19": {
-                            "ap-min": 101,
-                            "ap-max": 105
+                            "ap_min": 36,
+                            "ap_max": 36
                         },
                         "20": {
-                            "ap-min": 109,
-                            "ap-max": 113
+                            "ap_min": 39,
+                            "ap_max": 39
                         }
+                    }
+                },
+                "White Horn Bow of Crimson Flame": {
+                    "set": "White",
+                    "ap_min": 7,
+                    "ap_max": 7,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 22
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "White Horn Bow of Destruction": {
+                    "set": "White",
+                    "ap_min": 7,
+                    "ap_max": 7,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 22
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "White Horn Bow of Temptation": {
+                    "set": "White",
+                    "ap_min": 7,
+                    "ap_max": 7,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 22
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Ultimate White Horn Bow": {
+                    "set": "White",
+                    "ap_min": 7,
+                    "ap_max": 7,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "2": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "3": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "4": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "5": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "6": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "7": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "8": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "9": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "10": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "12": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "13": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "14": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "15": {
+                            "ap_min": 22,
+                            "ap_max": 22
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        },
                     }
                 },
                 "White Horn Warrior Bow": {
                     "set": "White Warrior",
-                    "ap_min": 13,
-                    "ap_max": 24,
+                    "ap_min": 3,
+                    "ap_max": 3,
                     "dp": 3,
                     "rarity": "uncommon",
                     "gems": 1,
@@ -48581,211 +60430,6013 @@ var BDOdatabase = {
                         "ev": 3,
                         "hp": 50
                     },
-                    "enhancement_text": "Increased Evasion",
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
-                            "ap-min": 17,
-                            "ap-max": 28,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 4
                         },
                         "2": {
-                            "ap-min": 20,
-                            "ap-max": 31,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 5
                         },
                         "3": {
-                            "ap-min": 23,
-                            "ap-max": 34,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 6
                         },
                         "4": {
-                            "ap-min": 25,
-                            "ap-max": 36,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 7
                         },
                         "5": {
-                            "ap-min": 27,
-                            "ap-max": 38,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 8
                         },
                         "6": {
-                            "ap-min": 30,
-                            "ap-max": 41,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 9
                         },
                         "7": {
-                            "ap-min": 33,
-                            "ap-max": 44,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 10
                         },
                         "8": {
-                            "ap-min": 37,
-                            "ap-max": 48,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 11
                         },
                         "9": {
-                            "ap-min": 41,
-                            "ap-max": 52,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 12
                         },
                         "10": {
-                            "ap-min": 45,
-                            "ap-max": 56,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 13
                         },
                         "11": {
-                            "ap-min": 49,
-                            "ap-max": 60,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 14
                         },
                         "12": {
-                            "ap-min": 53,
-                            "ap-max": 64,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 15
                         },
                         "13": {
-                            "ap-min": 57,
-                            "ap-max": 68,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 16
                         },
                         "14": {
-                            "ap-min": 61,
-                            "ap-max": 72,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 17
                         },
                         "15": {
-                            "ap-min": 65,
-                            "ap-max": 76,
+                            "ap_min": 3,
+                            "ap_max": 3,
                             "dp": 18
                         },
                         "16": {
-                            "ap-min": 73,
-                            "ap-max": 84,
+                            "ap_min": 4,
+                            "ap_max": 4,
                             "dp": 20
                         },
                         "17": {
-                            "ap-min": 81,
-                            "ap-max": 92,
+                            "ap_min": 5,
+                            "ap_max": 5,
                             "dp": 22
                         },
                         "18": {
-                            "ap-min": 89,
-                            "ap-max": 100,
+                            "ap_min": 6,
+                            "ap_max": 6,
                             "dp": 27
                         },
                         "19": {
-                            "ap-min": 97,
-                            "ap-max": 108,
+                            "ap_min": 7,
+                            "ap_max": 7,
                             "dp": 29
                         },
                         "20": {
-                            "ap-min": 105,
-                            "ap-max": 116,
+                            "ap_min": 8,
+                            "ap_max": 8,
                             "dp": 31
+                        }
+                    }
+                },
+                "White Horn Warrior Bow of Crimson Flame": {
+                    "set": "White Warrior",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "hp": 50,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "White Horn Warrior Bow of Destruction": {
+                    "set": "White Warrior",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "hp": 50,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "White Horn Warrior Bow of Temptation": {
+                    "set": "White Warrior",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "hp": 50,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate White Horn Warrior Bow": {
+                    "set": "White Warrior",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "hp": 100,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
                         }
                     }
                 },
                 "Nouver Horn Bow": {
                     "set": "Nouver",
-                    "ap_min": 14,
-                    "ap_max": 18,
-                    "rarity": "uncommon",
+                    "ap_min": 6,
+                    "ap_max": 8,
+                    "rarity": "epic",
                     "gems": 2,
                     "item_effects": {
                         "ar": 10
                     },
-                    "enhancement_text": "Attack Increase",
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
-                            "ap-min": 18,
-                            "ap-max": 22
+                            "ap_min": 7,
+                            "ap_max": 9
                         },
                         "2": {
-                            "ap-min": 21,
-                            "ap-max": 25
+                            "ap_min": 8,
+                            "ap_max": 10
                         },
                         "3": {
-                            "ap-min": 24,
-                            "ap-max": 28
+                            "ap_min": 9,
+                            "ap_max": 11
                         },
                         "4": {
-                            "ap-min": 26,
-                            "ap-max": 30
+                            "ap_min": 10,
+                            "ap_max": 12
                         },
                         "5": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 11,
+                            "ap_max": 13
                         },
                         "6": {
-                            "ap-min": 31,
-                            "ap-max": 35
+                            "ap_min": 12,
+                            "ap_max": 14
                         },
                         "7": {
-                            "ap-min": 34,
-                            "ap-max": 38
+                            "ap_min": 13,
+                            "ap_max": 15
                         },
                         "8": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 14,
+                            "ap_max": 16
                         },
                         "9": {
-                            "ap-min": 42,
-                            "ap-max": 46
+                            "ap_min": 15,
+                            "ap_max": 17
                         },
                         "10": {
-                            "ap-min": 46,
-                            "ap-max": 50
+                            "ap_min": 16,
+                            "ap_max": 18
                         },
                         "11": {
-                            "ap-min": 50,
-                            "ap-max": 54
+                            "ap_min": 18,
+                            "ap_max": 20
                         },
                         "12": {
-                            "ap-min": 54,
-                            "ap-max": 58
+                            "ap_min": 20,
+                            "ap_max": 22
                         },
                         "13": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 22,
+                            "ap_max": 24
                         },
                         "14": {
-                            "ap-min": 62,
-                            "ap-max": 66
+                            "ap_min": 24,
+                            "ap_max": 26
                         },
                         "15": {
-                            "ap-min": 66,
-                            "ap-max": 70
+                            "ap_min": 26,
+                            "ap_max": 28
                         },
                         "16": {
-                            "ap-min": 74,
-                            "ap-max": 78
+                            "ap_min": 29,
+                            "ap_max": 31
                         },
                         "17": {
-                            "ap-min": 82,
-                            "ap-max": 86
+                            "ap_min": 32,
+                            "ap_max": 34
                         },
                         "18": {
-                            "ap-min": 93,
-                            "ap-max": 97
+                            "ap_min": 38,
+                            "ap_max": 40
                         },
                         "19": {
-                            "ap-min": 101,
-                            "ap-max": 105
+                            "ap_min": 41,
+                            "ap_max": 43
                         },
                         "20": {
-                            "ap-min": 109,
-                            "ap-max": 113
+                            "ap_min": 44,
+                            "ap_max": 46
+                        }
+                    }
+                },
+                "Kutum Horn Bow": {
+                    "set": "Kutum",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "iar": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 6,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 7,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 5
+                        },
+                        "8": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 6
+                        },
+                        "9": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 7
+                        },
+                        "10": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 8
+                        },
+                        "11": {
+                            "ap_min": 15,
+                            "ap_max": 17,
+                            "dp": 9
+                        },
+                        "12": {
+                            "ap_min": 16,
+                            "ap_max": 18,
+                            "dp": 10
+                        },
+                        "13": {
+                            "ap_min": 17,
+                            "ap_max": 19,
+                            "dp": 11
+                        },
+                        "14": {
+                            "ap_min": 18,
+                            "ap_max": 20,
+                            "dp": 12
+                        },
+                        "15": {
+                            "ap_min": 19,
+                            "ap_max": 21,
+                            "dp": 13
+                        },
+                        "16": {
+                            "ap_min": 20,
+                            "ap_max": 22,
+                            "dp": 15
+                        },
+                        "17": {
+                            "ap_min": 21,
+                            "ap_max": 23,
+                            "dp": 17
+                        },
+                        "18": {
+                            "ap_min": 24,
+                            "ap_max": 27,
+                            "dp": 20
+                        },
+                        "19": {
+                            "ap_min": 25,
+                            "ap_max": 28,
+                            "dp": 22
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 29,
+                            "dp": 24
                         }
                     }
                 }
-            }
+            },
+            "ninja" :{
+                "Estique Shuriken": {
+                    "set": "Estique",
+                    "ap_min": 5,
+                    "ap_max": 5,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement_text": "Increased AP",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 24,
+                            "ap_max": 24
+                        },
+                        "17": {
+                            "ap_min": 27,
+                            "ap_max": 27
+                        },
+                        "18": {
+                            "ap_min": 33,
+                            "ap_max": 33
+                        },
+                        "19": {
+                            "ap_min": 36,
+                            "ap_max": 36
+                        },
+                        "20": {
+                            "ap_min": 39,
+                            "ap_max": 39
+                        }
+                    }
+                },
+                "Estique Shuriken of Crimson Flame": {
+                    "set": "Estique",
+                    "ap_min": 6,
+                    "ap_max": 6,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "Increased AP",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Estique Shuriken of Destruction": {
+                    "set": "Estique",
+                    "ap_min": 6,
+                    "ap_max": 6,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "Increased AP",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Estique Shuriken of Temptation": {
+                    "set": "Estique",
+                    "ap_min": 6,
+                    "ap_max": 6,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "Increased AP",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Ultimate Estique Shuriken": {
+                    "set": "Estique",
+                    "ap_min": 6,
+                    "ap_max": 6,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "Increased AP",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Krea Shuriken": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Shuriken of Crimson Flame": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Shuriken of Destruction": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Shuriken of Temptation": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Krea Shuriken": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 34
+                        }
+                    }
+                },
+                "Quitar Shuriken": {
+                    "set": "Quitar",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "17": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "18": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "19": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "20": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        }
+                    }
+                },
+                "Quitar Shuriken of Crimson Flame": {
+                    "set": "Quitar",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Quitar Shuriken of Destruction": {
+                    "set": "Quitar",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Quitar Shuriken of Temptation": {
+                    "set": "Quitar",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Ultimate Quitar Shuriken": {
+                    "set": "Quitar",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 0,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Rosar Shuriken": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Shuriken of Crimson Flame": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Shuriken of Destruction": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Shuriken of Temptation": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Rosar Shuriken": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 7
+                        },
+                        "2": {
+                            "dp": 8
+                        },
+                        "3": {
+                            "dp": 9
+                        },
+                        "4": {
+                            "dp": 10
+                        },
+                        "5": {
+                            "dp": 11
+                        },
+                        "6": {
+                            "dp": 12
+                        },
+                        "7": {
+                            "dp": 13
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 14
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 15
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 16
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 17
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 19
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 20
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 34
+                        }
+                    }
+                },
+                "Tadd Shuriken": {
+                    "set": "Tadd",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 3,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "hp": 50
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 4
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "8": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 12
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 13
+                        },
+                        "11": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 14
+                        },
+                        "12": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 15
+                        },
+                        "13": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 16
+                        },
+                        "14": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 17
+                        },
+                        "15": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 18
+                        },
+                        "16": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 20
+                        },
+                        "17": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 22
+                        },
+                        "18": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 27
+                        },
+                        "19": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 29
+                        },
+                        "20": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 31
+                        }
+                    }
+                },
+                "Tadd Shuriken of Crimson Flame": {
+                    "set": "Tadd",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Tadd Shuriken of Destruction": {
+                    "set": "Tadd",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Tadd Shuriken of Temptation": {
+                    "set": "Tadd",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Tadd Shuriken": {
+                    "set": "Tadd",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 100,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Nouver Shuriken": {
+                    "set": "Nouver",
+                    "ap_min": 6,
+                    "ap_max": 8,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "ar": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 9
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 13
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 14
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 15
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 16
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 17
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 18
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 20
+                        },
+                        "12": {
+                            "ap_min": 20,
+                            "ap_max": 22
+                        },
+                        "13": {
+                            "ap_min": 22,
+                            "ap_max": 24
+                        },
+                        "14": {
+                            "ap_min": 24,
+                            "ap_max": 26
+                        },
+                        "15": {
+                            "ap_min": 26,
+                            "ap_max": 28
+                        },
+                        "16": {
+                            "ap_min": 29,
+                            "ap_max": 31
+                        },
+                        "17": {
+                            "ap_min": 32,
+                            "ap_max": 34
+                        },
+                        "18": {
+                            "ap_min": 38,
+                            "ap_max": 40
+                        },
+                        "19": {
+                            "ap_min": 41,
+                            "ap_max": 43
+                        },
+                        "20": {
+                            "ap_min": 44,
+                            "ap_max": 46
+                        }
+                    }
+                },
+                "Kutum Shuriken": {
+                    "set": "Kutum",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "iar": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 6,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 7,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 5
+                        },
+                        "8": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 6
+                        },
+                        "9": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 7
+                        },
+                        "10": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 8
+                        },
+                        "11": {
+                            "ap_min": 15,
+                            "ap_max": 17,
+                            "dp": 9
+                        },
+                        "12": {
+                            "ap_min": 16,
+                            "ap_max": 18,
+                            "dp": 10
+                        },
+                        "13": {
+                            "ap_min": 17,
+                            "ap_max": 19,
+                            "dp": 11
+                        },
+                        "14": {
+                            "ap_min": 18,
+                            "ap_max": 20,
+                            "dp": 12
+                        },
+                        "15": {
+                            "ap_min": 19,
+                            "ap_max": 21,
+                            "dp": 13
+                        },
+                        "16": {
+                            "ap_min": 20,
+                            "ap_max": 22,
+                            "dp": 15
+                        },
+                        "17": {
+                            "ap_min": 21,
+                            "ap_max": 23,
+                            "dp": 17
+                        },
+                        "18": {
+                            "ap_min": 24,
+                            "ap_max": 27,
+                            "dp": 20
+                        },
+                        "19": {
+                            "ap_min": 25,
+                            "ap_max": 28,
+                            "dp": 22
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 29,
+                            "dp": 24
+                        }
+                    }
+                }
+            },
+            "kunoichi" :{
+                "Estique Kunai": {
+                    "set": "Estique",
+                    "ap_min": 5,
+                    "ap_max": 5,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement_text": "Increased AP",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 24,
+                            "ap_max": 24
+                        },
+                        "17": {
+                            "ap_min": 27,
+                            "ap_max": 27
+                        },
+                        "18": {
+                            "ap_min": 33,
+                            "ap_max": 33
+                        },
+                        "19": {
+                            "ap_min": 36,
+                            "ap_max": 36
+                        },
+                        "20": {
+                            "ap_min": 39,
+                            "ap_max": 39
+                        }
+                    }
+                },
+                "Estique Kunai of Crimson Flame": {
+                    "set": "Estique",
+                    "ap_min": 6,
+                    "ap_max": 6,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "Increased AP",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Estique Kunai of Destruction": {
+                    "set": "Estique",
+                    "ap_min": 6,
+                    "ap_max": 6,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "Increased AP",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Estique Kunai of Temptation": {
+                    "set": "Estique",
+                    "ap_min": 6,
+                    "ap_max": 6,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "Increased AP",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Ultimate Estique Kunai": {
+                    "set": "Estique",
+                    "ap_min": 6,
+                    "ap_max": 6,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "Increased AP",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 13
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 14
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 15
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 16
+                        },
+                        "11": {
+                            "ap_min": 17,
+                            "ap_max": 17
+                        },
+                        "12": {
+                            "ap_min": 18,
+                            "ap_max": 18
+                        },
+                        "13": {
+                            "ap_min": 19,
+                            "ap_max": 19
+                        },
+                        "14": {
+                            "ap_min": 20,
+                            "ap_max": 20
+                        },
+                        "15": {
+                            "ap_min": 21,
+                            "ap_max": 21
+                        },
+                        "16": {
+                            "ap_min": 25,
+                            "ap_max": 25
+                        },
+                        "17": {
+                            "ap_min": 28,
+                            "ap_max": 28
+                        },
+                        "18": {
+                            "ap_min": 34,
+                            "ap_max": 34
+                        },
+                        "19": {
+                            "ap_min": 37,
+                            "ap_max": 37
+                        },
+                        "20": {
+                            "ap_min": 40,
+                            "ap_max": 40
+                        }
+                    }
+                },
+                "Krea Kunai": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Kunai of Crimson Flame": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Kunai of Destruction": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Krea Kunai of Temptation": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Krea Kunai": {
+                    "set": "Krea",
+                    "ap_min": 1,
+                    "ap_max": 3,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 11,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 12,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 34
+                        }
+                    }
+                },
+                "Quitar Kunai": {
+                    "set": "Quitar",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "17": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "18": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "19": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "20": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        }
+                    }
+                },
+                "Quitar Kunai of Crimson Flame": {
+                    "set": "Quitar",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Quitar Kunai of Destruction": {
+                    "set": "Quitar",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Quitar Kunai of Temptation": {
+                    "set": "Quitar",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Ultimate Quitar Kunai": {
+                    "set": "Quitar",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 0,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 7,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {},
+                        "2": {},
+                        "3": {},
+                        "4": {},
+                        "5": {},
+                        "6": {},
+                        "7": {},
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
+                        },
+                        "18": {
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
+                        },
+                        "19": {
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
+                        },
+                        "20": {
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
+                        }
+                    }
+                },
+                "Rosar Kunai": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "dp": 12
+                        },
+                        "9": {
+                            "dp": 13
+                        },
+                        "10": {
+                            "dp": 14
+                        },
+                        "11": {
+                            "dp": 15
+                        },
+                        "12": {
+                            "dp": 16
+                        },
+                        "13": {
+                            "dp": 17
+                        },
+                        "14": {
+                            "dp": 18
+                        },
+                        "15": {
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Kunai of Crimson Flame": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Kunai of Destruction": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Rosar Kunai of Temptation": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 5
+                        },
+                        "2": {
+                            "dp": 6
+                        },
+                        "3": {
+                            "dp": 7
+                        },
+                        "4": {
+                            "dp": 8
+                        },
+                        "5": {
+                            "dp": 9
+                        },
+                        "6": {
+                            "dp": 10
+                        },
+                        "7": {
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Rosar Kunai": {
+                    "set": "Rosar",
+                    "ap_min": 1,
+                    "ap_max": 4,
+                    "dp": 6,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "dp": 7
+                        },
+                        "2": {
+                            "dp": 8
+                        },
+                        "3": {
+                            "dp": 9
+                        },
+                        "4": {
+                            "dp": 10
+                        },
+                        "5": {
+                            "dp": 11
+                        },
+                        "6": {
+                            "dp": 12
+                        },
+                        "7": {
+                            "dp": 13
+                        },
+                        "8": {
+                            "ap_min": 2,
+                            "ap_max": 5,
+                            "dp": 14
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 6,
+                            "dp": 15
+                        },
+                        "10": {
+                            "ap_min": 4,
+                            "ap_max": 7,
+                            "dp": 16
+                        },
+                        "11": {
+                            "ap_min": 5,
+                            "ap_max": 8,
+                            "dp": 17
+                        },
+                        "12": {
+                            "ap_min": 6,
+                            "ap_max": 9,
+                            "dp": 18
+                        },
+                        "13": {
+                            "ap_min": 7,
+                            "ap_max": 10,
+                            "dp": 19
+                        },
+                        "14": {
+                            "ap_min": 8,
+                            "ap_max": 11,
+                            "dp": 20
+                        },
+                        "15": {
+                            "ap_min": 9,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "16": {
+                            "ap_min": 10,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "17": {
+                            "ap_min": 11,
+                            "ap_max": 14,
+                            "dp": 25
+                        },
+                        "18": {
+                            "ap_min": 12,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "19": {
+                            "ap_min": 13,
+                            "ap_max": 16,
+                            "dp": 32
+                        },
+                        "20": {
+                            "ap_min": 14,
+                            "ap_max": 17,
+                            "dp": 34
+                        }
+                    }
+                },
+                "Tadd Kunai": {
+                    "set": "Tadd",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 3,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "hp": 50
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 4
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "8": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "9": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 12
+                        },
+                        "10": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 13
+                        },
+                        "11": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 14
+                        },
+                        "12": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 15
+                        },
+                        "13": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 16
+                        },
+                        "14": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 17
+                        },
+                        "15": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 18
+                        },
+                        "16": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 20
+                        },
+                        "17": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 22
+                        },
+                        "18": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 27
+                        },
+                        "19": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 29
+                        },
+                        "20": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 31
+                        }
+                    }
+                },
+                "Tadd Kunai of Crimson Flame": {
+                    "set": "Tadd",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "abad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Tadd Kunai of Destruction": {
+                    "set": "Tadd",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "adad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Tadd Kunai of Temptation": {
+                    "set": "Tadd",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 50,
+                        "aaad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Ultimate Tadd Kunai": {
+                    "set": "Tadd",
+                    "ap_min": 3,
+                    "ap_max": 3,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "ev": 3,
+                        "dr": 1,
+                        "hp": 100,
+                        "assad": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 5
+                        },
+                        "2": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 6
+                        },
+                        "3": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 7
+                        },
+                        "4": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 8
+                        },
+                        "5": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 9
+                        },
+                        "6": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 10
+                        },
+                        "7": {
+                            "ap_min": 3,
+                            "ap_max": 3,
+                            "dp": 11
+                        },
+                        "8": {
+                            "ap_min": 4,
+                            "ap_max": 4,
+                            "dp": 12
+                        },
+                        "9": {
+                            "ap_min": 5,
+                            "ap_max": 5,
+                            "dp": 13
+                        },
+                        "10": {
+                            "ap_min": 6,
+                            "ap_max": 6,
+                            "dp": 14
+                        },
+                        "11": {
+                            "ap_min": 7,
+                            "ap_max": 7,
+                            "dp": 15
+                        },
+                        "12": {
+                            "ap_min": 8,
+                            "ap_max": 8,
+                            "dp": 16
+                        },
+                        "13": {
+                            "ap_min": 9,
+                            "ap_max": 9,
+                            "dp": 17
+                        },
+                        "14": {
+                            "ap_min": 10,
+                            "ap_max": 10,
+                            "dp": 18
+                        },
+                        "15": {
+                            "ap_min": 11,
+                            "ap_max": 11,
+                            "dp": 19
+                        },
+                        "16": {
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 21
+                        },
+                        "17": {
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 23
+                        },
+                        "18": {
+                            "ap_min": 14,
+                            "ap_max": 14,
+                            "dp": 28
+                        },
+                        "19": {
+                            "ap_min": 15,
+                            "ap_max": 15,
+                            "dp": 30
+                        },
+                        "20": {
+                            "ap_min": 16,
+                            "ap_max": 16,
+                            "dp": 32
+                        }
+                    }
+                },
+                "Nouver Kunai": {
+                    "set": "Nouver",
+                    "ap_min": 6,
+                    "ap_max": 8,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "ar": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 7,
+                            "ap_max": 9
+                        },
+                        "2": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "3": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "4": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "5": {
+                            "ap_min": 11,
+                            "ap_max": 13
+                        },
+                        "6": {
+                            "ap_min": 12,
+                            "ap_max": 14
+                        },
+                        "7": {
+                            "ap_min": 13,
+                            "ap_max": 15
+                        },
+                        "8": {
+                            "ap_min": 14,
+                            "ap_max": 16
+                        },
+                        "9": {
+                            "ap_min": 15,
+                            "ap_max": 17
+                        },
+                        "10": {
+                            "ap_min": 16,
+                            "ap_max": 18
+                        },
+                        "11": {
+                            "ap_min": 18,
+                            "ap_max": 20
+                        },
+                        "12": {
+                            "ap_min": 20,
+                            "ap_max": 22
+                        },
+                        "13": {
+                            "ap_min": 22,
+                            "ap_max": 24
+                        },
+                        "14": {
+                            "ap_min": 24,
+                            "ap_max": 26
+                        },
+                        "15": {
+                            "ap_min": 26,
+                            "ap_max": 28
+                        },
+                        "16": {
+                            "ap_min": 29,
+                            "ap_max": 31
+                        },
+                        "17": {
+                            "ap_min": 32,
+                            "ap_max": 34
+                        },
+                        "18": {
+                            "ap_min": 38,
+                            "ap_max": 40
+                        },
+                        "19": {
+                            "ap_min": 41,
+                            "ap_max": 43
+                        },
+                        "20": {
+                            "ap_min": 44,
+                            "ap_max": 46
+                        }
+                    }
+                },
+                "Kutum Kunai": {
+                    "set": "Kutum",
+                    "ap_min": 4,
+                    "ap_max": 6,
+                    "dp": 4,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "iar": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 5,
+                            "ap_max": 7
+                        },
+                        "2": {
+                            "ap_min": 6,
+                            "ap_max": 8
+                        },
+                        "3": {
+                            "ap_min": 7,
+                            "ap_max": 9
+                        },
+                        "4": {
+                            "ap_min": 8,
+                            "ap_max": 10
+                        },
+                        "5": {
+                            "ap_min": 9,
+                            "ap_max": 11
+                        },
+                        "6": {
+                            "ap_min": 10,
+                            "ap_max": 12
+                        },
+                        "7": {
+                            "ap_min": 11,
+                            "ap_max": 13,
+                            "dp": 5
+                        },
+                        "8": {
+                            "ap_min": 12,
+                            "ap_max": 14,
+                            "dp": 6
+                        },
+                        "9": {
+                            "ap_min": 13,
+                            "ap_max": 15,
+                            "dp": 7
+                        },
+                        "10": {
+                            "ap_min": 14,
+                            "ap_max": 16,
+                            "dp": 8
+                        },
+                        "11": {
+                            "ap_min": 15,
+                            "ap_max": 17,
+                            "dp": 9
+                        },
+                        "12": {
+                            "ap_min": 16,
+                            "ap_max": 18,
+                            "dp": 10
+                        },
+                        "13": {
+                            "ap_min": 17,
+                            "ap_max": 19,
+                            "dp": 11
+                        },
+                        "14": {
+                            "ap_min": 18,
+                            "ap_max": 20,
+                            "dp": 12
+                        },
+                        "15": {
+                            "ap_min": 19,
+                            "ap_max": 21,
+                            "dp": 13
+                        },
+                        "16": {
+                            "ap_min": 20,
+                            "ap_max": 22,
+                            "dp": 15
+                        },
+                        "17": {
+                            "ap_min": 21,
+                            "ap_max": 23,
+                            "dp": 17
+                        },
+                        "18": {
+                            "ap_min": 24,
+                            "ap_max": 27,
+                            "dp": 20
+                        },
+                        "19": {
+                            "ap_min": 25,
+                            "ap_max": 28,
+                            "dp": 22
+                        },
+                        "20": {
+                            "ap_min": 26,
+                            "ap_max": 29,
+                            "dp": 24
+                        }
+                    }
+                }
+            },
         }
     },
     init: function() {
         this.items["main-weapons"].warrior = this.items["main-weapons"].valkyrie;
         this.items["main-weapons"].wizard = this.items["main-weapons"].witch;
         this.items["main-weapons"].maehwa = this.items["main-weapons"].musa;
-
+        this.items["main-weapons"].ninja = this.items["main-weapons"].tamer;
+        this.items["main-weapons"].kunoichi = this.items["main-weapons"].tamer;
+        
         this.items["secondary-weapons"].warrior = this.items["secondary-weapons"].valkyrie;
         this.items["secondary-weapons"].witch = this.items["secondary-weapons"].ranger;
         this.items["secondary-weapons"].wizard = this.items["secondary-weapons"].ranger;
