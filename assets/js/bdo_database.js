@@ -16976,17 +16976,6 @@ var BDOdatabase = {
                 "enhancement_text": "",
                 "enhancement": {}
             },
-            "Starry Night Diamond Necklace": {
-                "dp": 0,
-                "ap": 4,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "rta": 8
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
             "Shining Gold Topaz Necklace": {
                 "dp": 0,
                 "ap": 4,
@@ -17056,17 +17045,6 @@ var BDOdatabase = {
                 "enhancement_text": "",
                 "enhancement": {}
             },
-            "Diamond Necklace of Fortitude": {
-                "dp": 0,
-                "ap": 5,
-                "rarity": "epic",
-                "gems": 0,
-                "item_effects": {
-                    "rta": 10
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
             "Emerald Necklace of Tranquility": {
                 "dp": 0,
                 "ap": 5,
@@ -17099,6 +17077,366 @@ var BDOdatabase = {
                 },
                 "enhancement_text": "",
                 "enhancement": {}
+            },
+            "Manos Topaz Necklace": {
+                "dp": 0,
+                "ap": 6,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "kd": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 9,
+                        "kd": 32
+                    },
+                    "2": {
+                        "ap": 12,
+                        "kd": 34
+                    },
+                    "3": {
+                        "ap": 15,
+                        "kd": 36
+                    },
+                    "4": {
+                        "ap": 18,
+                        "kd": 38
+                    },
+                    "5": {
+                        "ap": 21,
+                        "kd": 40
+                    }
+                }
+            },
+            "Manos Ruby Necklace": {
+                "dp": 0,
+                "ap": 6,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "gr": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 9,
+                        "gr": 32
+                    },
+                    "2": {
+                        "ap": 12,
+                        "gr": 34
+                    },
+                    "3": {
+                        "ap": 15,
+                        "gr": 36
+                    },
+                    "4": {
+                        "ap": 18,
+                        "gr": 38
+                    },
+                    "5": {
+                        "ap": 21,
+                        "gr": 40
+                    }
+                }
+            },
+            "Manos Sapphire Necklace": {
+                "dp": 0,
+                "ap": 6,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "kb": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 9,
+                        "kb": 32
+                    },
+                    "2": {
+                        "ap": 12,
+                        "kb": 34
+                    },
+                    "3": {
+                        "ap": 15,
+                        "kb": 36
+                    },
+                    "4": {
+                        "ap": 18,
+                        "kb": 38
+                    },
+                    "5": {
+                        "ap": 21,
+                        "kb": 40
+                    }
+                }
+            },
+            "Manos Emerald Necklace": {
+                "dp": 0,
+                "ap": 6,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "ssfr": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 9,
+                        "ssfr": 32
+                    },
+                    "2": {
+                        "ap": 12,
+                        "ssfr": 34
+                    },
+                    "3": {
+                        "ap": 15,
+                        "ssfr": 36
+                    },
+                    "4": {
+                        "ap": 18,
+                        "ssfr": 38
+                    },
+                    "5": {
+                        "ap": 21,
+                        "ssfr": 40
+                    }
+                }
+            },
+            "Manos Diamond Necklace": {
+                "dp": 0,
+                "ap": 6,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "rta": 10
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 9,
+                        "rta": 10
+                    },
+                    "2": {
+                        "ap": 12,
+                        "rta": 12
+                    },
+                    "3": {
+                        "ap": 15,
+                        "rta": 13
+                    },
+                    "4": {
+                        "ap": 18,
+                        "rta": 14
+                    },
+                    "5": {
+                        "ap": 21,
+                        "rta": 15
+                    }
+                }
+            },
+            "Jarette's Necklace": {
+                "set": "Jarette",
+                "dp": 0,
+                "ap": 7,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Ancient Guardian's Seal": {
+                "set": "Core",
+                "dp": 3,
+                "ap": 6,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "Set effect enabled when equipped with “Ancient Weapon Core”",
+                "enhancement": {
+                    "1": {
+                        "ap": 8,
+                        "dp": 4
+                    },
+                    "2": {
+                        "ap": 10,
+                        "dp": 5
+                    },
+                    "3": {
+                        "ap": 12,
+                        "dp": 6
+                    },
+                    "4": {
+                        "ap": 14,
+                        "dp": 7
+                    },
+                    "5": {
+                        "ap": 16,
+                        "dp": 8
+                    }
+                }
+            },
+            "Bensho's Necklace": {
+                "dp": 10,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 13
+                    },
+                    "2": {
+                        "dp": 16
+                    },
+                    "3": {
+                        "dp": 19
+                    },
+                    "4": {
+                        "dp": 22
+                    },
+                    "5": {
+                        "dp": 25
+                    }
+                }
+            },
+            "Laytenn’s Power Stone": {
+                "dp": 0,
+                "ap": 10,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 15
+                    },
+                    "2": {
+                        "ap": 20
+                    },
+                    "3": {
+                        "ap": 25
+                    },
+                    "4": {
+                        "ap": 30
+                    },
+                    "5": {
+                        "ap": 35
+                    }
+                }
+            },
+            "Serap's Necklace": {
+                "dp": 0,
+                "ap": 8,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "hp": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 12
+                    },
+                    "2": {
+                        "ap": 16
+                    },
+                    "3": {
+                        "ap": 20
+                    },
+                    "4": {
+                        "ap": 24
+                    },
+                    "5": {
+                        "ap": 28
+                    }
+                }
+            },
+            "Sicil's Necklace": {
+                "dp": 3,
+                "ap": 7,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 10,
+                        "dp": 5
+                    },
+                    "2": {
+                        "ap": 13,
+                        "dp": 7
+                    },
+                    "3": {
+                        "ap": 16,
+                        "dp": 9
+                    },
+                    "4": {
+                        "ap": 19,
+                        "dp": 11
+                    },
+                    "5": {
+                        "ap": 22,
+                        "dp": 13
+                    }
+                }
+            },
+            "Tungrad Necklace": {
+                "dp": 0,
+                "ap": 10,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "bsr": 20
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 15
+                    },
+                    "2": {
+                        "ap": 20
+                    },
+                    "3": {
+                        "ap": 25
+                    },
+                    "4": {
+                        "ap": 30
+                    },
+                    "5": {
+                        "ap": 35
+                    }
+                }
+            },
+            "Necklace of Shultz the Gladiator": {
+                "dp": 0,
+                "ap": 7,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 10
+                    },
+                    "2": {
+                        "ap": 13
+                    },
+                    "3": {
+                        "ap": 16
+                    },
+                    "4": {
+                        "ap": 19
+                    },
+                    "5": {
+                        "ap": 22
+                    }
+                }
             }
         },
         "belts": {
