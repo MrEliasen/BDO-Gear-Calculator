@@ -38,8 +38,8 @@ The data/information used to make this calculator comes from:
 
 ## Contributors
 
-[SirMrE](https://github.com/SirMrE);
-[Shadowtrance](https://github.com/Shadowtrance);
+[MrEliasen](https://github.com/MrEliasen)    
+[Shadowtrance](https://github.com/Shadowtrance)
 
 
 ## Copyright & License
