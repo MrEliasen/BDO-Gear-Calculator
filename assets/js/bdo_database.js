@@ -15268,15 +15268,6 @@ var BDOdatabase = {
                     }
                 }
             },
-            "Star Diamond Earring": {
-                "dp": 3,
-                "ap": 3,
-                "rarity": "uncommon",
-                "gems": 0,
-                "item_effects": {},
-                "enhancement_text": "",
-                "enhancement": {}
-            },
             "Ocean Sapphire Earring": {
                 "dp": 3,
                 "ap": 0,
@@ -15430,33 +15421,6 @@ var BDOdatabase = {
                     }
                 }
             },
-            "Tungrade Earring": {
-                "dp": 6,
-                "ap": 0,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "bsr": 10
-                },
-                "enhancement_text": "",
-                "enhancement": {
-                    "1": {
-                        "ap": 8
-                    },
-                    "2": {
-                        "ap": 10
-                    },
-                    "3": {
-                        "ap": 12
-                    },
-                    "4": {
-                        "ap": 14
-                    },
-                    "5": {
-                        "ap": 16
-                    }
-                }
-            },
             "Translucent Ocean Sapphire Earring": {
                 "dp": 4,
                 "ap": 0,
@@ -15500,15 +15464,6 @@ var BDOdatabase = {
                     }
                 }
             },
-            "Starry Night Diamond Earring": {
-                "dp": 4,
-                "ap": 4,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {},
-                "enhancement_text": "",
-                "enhancement": {}
-            },
             "Shining Gold Topaz Earrings": {
                 "dp": 4,
                 "ap": 0,
@@ -15519,26 +15474,6 @@ var BDOdatabase = {
                 },
                 "enhancement_text": "",
                 "enhancement": {}
-            },
-            "Sealed Spirit's Earring": {
-                "dp": 4,
-                "ap": 0,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "hp": 10
-                },
-                "enhancement_text": "",
-                "enhancement": {
-                    "1": {
-                        "hp": 20,
-                        "dp": 5
-                    },
-                    "2": {
-                        "hp": 30,
-                        "dp": 6
-                    }
-                }
             },
             "Ridell Earring": {
                 "dp": 4,
@@ -15579,34 +15514,34 @@ var BDOdatabase = {
                 "gems": 0,
                 "item_effects": {
                     "acc": 3,
-                    "end": 50
+                    "stam": 50
                 },
                 "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 4,
                         "acc": 4,
-                        "end": 50
+                        "stam": 50
                     },
                     "2": {
                         "ap": 6,
                         "acc": 5,
-                        "end": 100
+                        "stam": 50
                     },
                     "3": {
                         "ap": 8,
                         "acc": 6,
-                        "end": 50
+                        "stam": 50
                     },
                     "4": {
                         "ap": 10,
                         "acc": 7,
-                        "end": 50
+                        "stam": 50
                     },
                     "5": {
                         "ap": 12,
                         "acc": 8,
-                        "end": 50
+                        "stam": 50
                     }
                 }
             },
@@ -15656,39 +15591,6 @@ var BDOdatabase = {
                     }
                 }
             },
-            "Fugitive Khalk's Earring": {
-                "dp": 0,
-                "ap": 5,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "end": 50,
-                    "mpwpsp": 50
-                },
-                "enhancement_text": "",
-                "enhancement": {
-                    "1": {
-                        "ap": 7,
-                        "end": 70
-                    },
-                    "2": {
-                        "ap": 9,
-                        "end": 90
-                    },
-                    "3": {
-                        "ap": 11,
-                        "end": 110
-                    },
-                    "4": {
-                        "ap": 13,
-                        "end": 130
-                    },
-                    "5": {
-                        "ap": 15,
-                        "end": 150
-                    }
-                }
-            },
             "Earring of Sealed Magical Power": {
                 "dp": 0,
                 "ap": 5,
@@ -15698,19 +15600,24 @@ var BDOdatabase = {
                 "enhancement_text": "",
                 "enhancement": {
                     "1": {
-                        "ap": 6
+                        "ap": 6,
+                        "dp": 1
                     },
                     "2": {
-                        "ap": 7
+                        "ap": 7,
+                        "dp": 2
                     },
                     "3": {
-                        "ap": 8
+                        "ap": 8,
+                        "dp": 3
                     },
                     "4": {
-                        "ap": 9
+                        "ap": 9,
+                        "dp": 4
                     },
                     "5": {
-                        "ap": 10
+                        "ap": 10,
+                        "dp": 5
                     }
                 }
             },
@@ -15815,15 +15722,6 @@ var BDOdatabase = {
                 "enhancement_text": "",
                 "enhancement": {}
             },
-            "Diamond Earring of Fortitude": {
-                "dp": 5,
-                "ap": 5,
-                "rarity": "epic",
-                "gems": 0,
-                "item_effects": {},
-                "enhancement_text": "",
-                "enhancement": {}
-            },
             "Corrupt Ruby Earrings": {
                 "dp": 5,
                 "ap": 0,
@@ -15834,6 +15732,182 @@ var BDOdatabase = {
                 },
                 "enhancement_text": "",
                 "enhancement": {}
+            },
+            "Jarette's Earring": {
+                "set": "Jarette",
+                "dp": 0,
+                "ap": 4,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Manos Ruby Earrings": {
+                "dp": 6,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "hp": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 9
+                    },
+                    "2": {
+                        "dp": 12
+                    },
+                    "3": {
+                        "dp": 15
+                    },
+                    "4": {
+                        "dp": 18
+                    },
+                    "5": {
+                        "dp": 21
+                    }
+                }
+            },
+            "Manos Sapphire Earrings": {
+                "dp": 6,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "mpwpsp": 100
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 9
+                    },
+                    "2": {
+                        "dp": 12
+                    },
+                    "3": {
+                        "dp": 15
+                    },
+                    "4": {
+                        "dp": 18
+                    },
+                    "5": {
+                        "dp": 21
+                    }
+                }
+            },
+            "Manos Topaz Earrings": {
+                "dp": 6,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "stam": 100
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 9
+                    },
+                    "2": {
+                        "dp": 12
+                    },
+                    "3": {
+                        "dp": 15
+                    },
+                    "4": {
+                        "dp": 18
+                    },
+                    "5": {
+                        "dp": 21
+                    }
+                }
+            },
+            "Manos Emerald Earrings": {
+                "dp": 6,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "hprc": 5,
+                    "mprc": 5,
+                    "wprc": 5,
+                    "sprc": 5
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 9
+                    },
+                    "2": {
+                        "dp": 12
+                    },
+                    "3": {
+                        "dp": 15
+                    },
+                    "4": {
+                        "dp": 18
+                    },
+                    "5": {
+                        "dp": 21
+                    }
+                }
+            },
+            "Tungrade Earring": {
+                "dp": 0,
+                "ap": 7,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "bsr": 10
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 9
+                    },
+                    "2": {
+                        "ap": 11
+                    },
+                    "3": {
+                        "ap": 13
+                    },
+                    "4": {
+                        "ap": 15
+                    },
+                    "5": {
+                        "ap": 17
+                    }
+                }
+            },
+            "Fugitive Khalk's Earring": {
+                "dp": 0,
+                "ap": 5,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "stam": 50,
+                    "mpwpsp": 50 
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 7
+                    },
+                    "2": {
+                        "ap": 9
+                    },
+                    "3": {
+                        "ap": 11
+                    },
+                    "4": {
+                        "ap": 13
+                    },
+                    "5": {
+                        "ap": 15
+                    }
+                }
             }
         },
         "rings": {
