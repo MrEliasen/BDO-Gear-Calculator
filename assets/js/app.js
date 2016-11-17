@@ -692,5 +692,24 @@
 
             $('#gearlist').modal();
         });
+
+        //Copy share link to clipboard / tooltip setup
+        new Clipboard('#copy-button');
+
+        // Initialize the tooltip.
+        $('#copy-button').tooltip();
+
+        $('#copy-button').bind('click', function() {
+            $('#copy-button').trigger('copied', ['Copied!']);
+        });
+
+        // Handler for updating the tooltip message.
+        $('#copy-button').bind('copied', function(event, message) {
+            $(this).attr('title', message)
+            .tooltip('fixTitle')
+            .tooltip('show')
+            .attr('title', "Copy Link")
+            .tooltip('fixTitle');
+        });
     });
 })(jQuery);

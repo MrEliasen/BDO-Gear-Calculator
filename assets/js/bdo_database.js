@@ -13,7 +13,7 @@
 /* jslint unused: false */
 
 var BDOdatabase = {
-    "max_gear_enhancement": 15,
+    "max_gear_enhancement": 20,
     "max_acc_enhancement": 5,
     "stats": {
         "ap": {
@@ -77,6 +77,12 @@ var BDOdatabase = {
         },
         "adad": {
             "title": "Additional Down Attack Damage",
+            "total": 0,
+            "symbol": "",
+            "target": ".extra-stats"
+        },
+        "assad": {
+            "title": "Additional Special Attack Damage",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
@@ -159,6 +165,24 @@ var BDOdatabase = {
             "symbol": "",
             "target": ".defense-stats"
         },
+        "lrdr": {
+            "title": "Long Range Damage Reduction",
+            "total": 0,
+            "symbol": "",
+            "target": ".defense-stats"
+        },
+        "crdr": {
+            "title": "Close Range Damage Reduction",
+            "total": 0,
+            "symbol": "",
+            "target": ".defense-stats"
+        },
+        "mdr": {
+            "title": "Magic Damage Reduction",
+            "total": 0,
+            "symbol": "",
+            "target": ".defense-stats"
+        },
         "sr": {
             "title": "Stun Resistance",
             "total": 0,
@@ -172,7 +196,7 @@ var BDOdatabase = {
             "target": ".resist-stats"
         },
         "kb": {
-            "title": "Knowback/Floating Resistance",
+            "title": "Knockback/Floating Resistance",
             "total": 0,
             "symbol": "%",
             "target": ".resist-stats"
@@ -248,12 +272,6 @@ var BDOdatabase = {
             "total": 0,
             "symbol": "",
             "target": ".defense-stats"
-        },
-        "end": {
-            "title": "Endurance",
-            "total": 0,
-            "symbol": "",
-            "target": ".general-stats"
         },
         "stam": {
             "title": "Stamina",
@@ -424,11 +442,11 @@ var BDOdatabase = {
         }
     },
     "rarities": {
-        "common": "#ffffff",
-        "uncommon": "#5ff369",
-        "rare": "#0391c4",
-        "epic": "#f6c232",
-        "legendary": "#d36300"
+        "common": "#ffffff",     //white
+        "uncommon": "#5ff369",   //green
+        "rare": "#0391c4",       //blue
+        "epic": "#f6c232",       //yellow
+        "legendary": "#d36300"   //orange
     },
     "classes": [
         "Berserker",
@@ -440,7 +458,9 @@ var BDOdatabase = {
         "Witch",
         "Wizard",
         "Musa",
-        "Maehwa"
+        "Maehwa",
+        "Ninja",
+        "Kunoichi"
     ],
     "class_weapons": {
         "berserker": {
@@ -457,7 +477,7 @@ var BDOdatabase = {
         },
         "tamer": {
             "main-weapon": "Shortsword",
-            "secondary-weapon": "Shortbow"
+            "secondary-weapon": "Trinket"
         },
         "valkyrie": {
             "main-weapon": "Longsword",
@@ -482,6 +502,14 @@ var BDOdatabase = {
         "maehwa": {
             "main-weapon": "Blade",
             "secondary-weapon": "Short Bow"
+        },
+        "ninja": {
+            "main-weapon": "Shortsword",
+            "secondary-weapon": "Shuriken"
+        },
+        "kunoichi": {
+            "main-weapon": "Shortsword",
+            "secondary-weapon": "Kunai"
         }
     },
     "set_effects": {
@@ -534,7 +562,7 @@ var BDOdatabase = {
             "pieces": {
                 "2": {
                     "ms": 1,
-                    "jh": 0
+                    "jh": 1
                 },
                 "3": {
                     "ms": 2
@@ -556,7 +584,7 @@ var BDOdatabase = {
         "Zereth": {
             "pieces": {
                 "2": {
-                    "end": 200
+                    "stam": 200
                 },
                 "3": {
                     "dmgaes": 5
@@ -657,6 +685,23 @@ var BDOdatabase = {
                     }
                 }
             ]
+        },
+        "Jarette": {
+            "pieces": {
+                "4": {
+                    "ap": 5
+                },
+                "6": {
+                    "ap": 10
+                }
+            }
+        },
+        "Core": {
+            "pieces": {
+                "2": {
+                    "acc": 5
+                }
+            }
         }
     },
     "gems": {
