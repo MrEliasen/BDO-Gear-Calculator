@@ -6,7 +6,7 @@
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
-* @Last Modified time: 2016-11-17 12:19:33
+* @Last Modified time: 2016-11-17 12:50:29
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -36,8 +36,8 @@
 
     // little hacky, I know.
     function getGemType (item, slot) {
-        var gemName = BDOcalculator.gear.helmet.gems[slot].gem_name,
-            itemGems = Object.keys(BDOdatabase.gems.helmet),
+        var gemName = BDOcalculator.gear[item].gems[slot].gem_name,
+            itemGems = Object.keys(BDOdatabase.gems[item]),
             allGems  = Object.keys(BDOdatabase.gems.all);
 
         if (gemName && allGems.indexOf(gemName) !== -1) {
