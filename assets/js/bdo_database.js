@@ -15963,18 +15963,6 @@ var BDOdatabase = {
                     }
                 }
             },
-            "Star Diamond Ring": {
-                "dp": 0,
-                "ap": 3,
-                "rarity": "uncommon",
-                "gems": 0,
-                "item_effects": {
-                    "ap": 3,
-                    "hp": 30
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
             "Ring of Good Deeds": {
                 "dp": 0,
                 "ap": 2,
@@ -16033,17 +16021,6 @@ var BDOdatabase = {
                 "item_effects": {
                     "dmgtdh": 3,
                     "hp": 30
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
-            "Ljurik's Ring": {
-                "dp": 2,
-                "ap": 0,
-                "rarity": "uncommon",
-                "gems": 0,
-                "item_effects": {
-                    "hp": 20
                 },
                 "enhancement_text": "",
                 "enhancement": {}
@@ -16200,18 +16177,6 @@ var BDOdatabase = {
                 "enhancement_text": "",
                 "enhancement": {}
             },
-            "Starry Night Diamond Ring": {
-                "dp": 0,
-                "ap": 4,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "ap": 4,
-                    "hp": 40
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
             "Shrine Guardian Token": {
                 "dp": 5,
                 "ap": 0,
@@ -16255,26 +16220,6 @@ var BDOdatabase = {
                 },
                 "enhancement_text": "",
                 "enhancement": {}
-            },
-            "Sealed Spirit's Ring": {
-                "dp": 0,
-                "ap": 4,
-                "rarity": "rare",
-                "gems": 0,
-                "item_effects": {
-                    "acc": 1
-                },
-                "enhancement_text": "",
-                "enhancement": {
-                    "1": {
-                        "ap": 5,
-                        "acc": 2
-                    },
-                    "2": {
-                        "ap": 6,
-                        "acc": 3
-                    }
-                }
             },
             "Saya's Ring of Eternity": {
                 "dp": 7,
@@ -16535,18 +16480,6 @@ var BDOdatabase = {
                 "enhancement_text": "",
                 "enhancement": {}
             },
-            "Diamond Ring of Fortitude": {
-                "dp": 0,
-                "ap": 5,
-                "rarity": "epic",
-                "gems": 0,
-                "item_effects": {
-                    "ap": 5,
-                    "hp": 50
-                },
-                "enhancement_text": "",
-                "enhancement": {}
-            },
             "Emerald Ring of Tranquility": {
                 "dp": 0,
                 "ap": 0,
@@ -16638,6 +16571,128 @@ var BDOdatabase = {
                     "5": {
                         "dp": 20,
                         "hp": 100
+                    }
+                }
+            },
+            "Jarette's Ring": {
+                "set": "Jarette",
+                "dp": 0,
+                "ap": 4,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Manos Emerald Ring": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "acc": 5,
+                    "hp": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "acc": 6
+                    },
+                    "2": {
+                        "acc": 9
+                    },
+                    "3": {
+                        "acc": 12
+                    },
+                    "4": {
+                        "acc": 15
+                    },
+                    "5": {
+                        "acc": 18
+                    }
+                }
+            },
+            "Manos Sapphire Ring": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "dmgtdh": 5,
+                    "hp": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dmgtdh": 9
+                    },
+                    "2": {
+                        "dmgtdh": 12
+                    },
+                    "3": {
+                        "dmgtdh": 15
+                    },
+                    "4": {
+                        "dmgtdh": 18
+                    },
+                    "5": {
+                        "dmgtdh": 21
+                    }
+                }
+            },
+            "Manos Topaz Ring": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "dmgaes": 6,
+                    "hp": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dmgaes": 9
+                    },
+                    "2": {
+                        "dmgaes": 12
+                    },
+                    "3": {
+                        "dmgaes": 15
+                    },
+                    "4": {
+                        "dmgaes": 18
+                    },
+                    "5": {
+                        "dmgaes": 21
+                    }
+                }
+            },
+            "Manos Ruby Ring": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "dmgth": 6,
+                    "hp": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dmgth": 9
+                    },
+                    "2": {
+                        "dmgth": 12
+                    },
+                    "3": {
+                        "dmgth": 15
+                    },
+                    "4": {
+                        "dmgth": 18
+                    },
+                    "5": {
+                        "dmgth": 21
                     }
                 }
             }
