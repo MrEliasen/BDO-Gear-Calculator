@@ -714,14 +714,6 @@ var BDOdatabase = {
                     "dr": 1
                 }
             },
-            "Magic Crystal of Abundance - Relaxation": {
-                "rarity": "uncommon",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "adafm": 1
-                }
-            },
             "Magic Crystal of Infinity - Armor": {
                 "rarity": "rare",
                 "shatter_chance": "high",
@@ -736,14 +728,6 @@ var BDOdatabase = {
                 "incompatible": [],
                 "item_effects": {
                     "lk": 1
-                }
-            },
-            "Ancient Magic Crystal of Perfection": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "lk": 2
                 }
             }
         },
@@ -896,22 +880,6 @@ var BDOdatabase = {
                     "kd": 25
                 }
             },
-            "Ancient Magic Crystal of Nature - Mass": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "wgt": 50
-                }
-            },
-            "Ancient Magic Crystal of Nature - Swiftness": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "ms": 2
-                }
-            },
             "Ancient Magic Crystal - Hystria": {
                 "rarity": "legendary",
                 "shatter_chance": "low",
@@ -928,7 +896,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "wgt": 20,
                     "ms": 1,
-                    "end": 150
+                    "stam": 150
                 }
             },
             "Red Battlefield Crystal: Adamantine": {
@@ -940,7 +908,7 @@ var BDOdatabase = {
                     "frfr": 5
                 }
             },
-            "Red Battlefield Crystal: Hysteria": {
+            "Red Battlefield Crystal: Hystria": {
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -1065,15 +1033,6 @@ var BDOdatabase = {
                     "gr": 5
                 }
             },
-            "Black Magic Crystal - Boulder": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "wgt": 15,
-                    "gr": 5
-                }
-            },
             "Black Magic Crystal - Precision": {
                 "rarity": "epic",
                 "shatter_chance": "high",
@@ -1099,31 +1058,6 @@ var BDOdatabase = {
                 "item_effects": {
                     "chr": 2,
                     "gr": 5
-                }
-            },
-            "Ancient Magic Crystal of the Sun - Assault": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "as": 2
-                }
-            },
-            "Ancient Magic Crystal of the Sun - Sturdiness": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "gr": 25,
-                    "fdr": true
-                }
-            },
-            "Ancient Magic Crystal of the Sun - Valor": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "chr": 2
                 }
             },
             "Ancient Magic Crystal - Viper": {
@@ -1274,51 +1208,6 @@ var BDOdatabase = {
                     "hprc": 3
                 }
             },
-            "Black Magic Crystal - Armor": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "dr": 2,
-                    "ssfr": 10
-                }
-            },
-            "Black Magic Crystal - Healing": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "hpar": 2
-                }
-            },
-            "Black Magic Crystal - Patience": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "mpwpsp": 50,
-                    "ssfr": 10
-                }
-            },
-            "Black Magic Crystal - Resonance": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "mpar": 5,
-                    "wpar": 5,
-                    "spar": 5
-                }
-            },
-            "Black Magic Crystal - Vigor": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "hp": 50,
-                    "ssfr": 10
-                }
-            },
             "Ancient Magic Crystal of Abundance - Armor": {
                 "rarity": "epic",
                 "shatter_chance": "low",
@@ -1355,13 +1244,13 @@ var BDOdatabase = {
                     "hp": 100
                 }
             },
-            "Ancient Magic Crystal - Cobelinus": {
-                "rarity": "legendary",
-                "shatter_chance": "low",
+            "Black Magic Crystal - Armor": {
+                "rarity": "epic",
+                "shatter_chance": "high",
                 "incompatible": [],
                 "item_effects": {
-                    "hp": 100,
-                    "wgt": 20
+                    "dr": 2,
+                    "ssfr": 10
                 }
             },
             "Black Magic Crystal - Cobelinus": {
@@ -1372,6 +1261,24 @@ var BDOdatabase = {
                     "hp": 100,
                     "wgt": 20,
                     "dr": 2
+                }
+            },
+            "Black Magic Crystal - Vigor": {
+                "rarity": "epic",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 50,
+                    "ssfr": 10
+                }
+            },
+            "Ancient Magic Crystal - Cobelinus": {
+                "rarity": "legendary",
+                "shatter_chance": "low",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 100,
+                    "wgt": 20
                 }
             },
             "Red Battlefield Crystal: Comeliness": {
@@ -1475,15 +1382,6 @@ var BDOdatabase = {
                     "kd": 5
                 }
             },
-            "Black Magic Crystal - Experience": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "cbexp": 10,
-                    "kd": 5
-                }
-            },
             "Black Magic Crystal - Intimidation": {
                 "rarity": "epic",
                 "shatter_chance": "high",
@@ -1511,40 +1409,6 @@ var BDOdatabase = {
                     "kd": 5
                 }
             },
-            "Ancient Magic Crystal of Enchantment - Agility": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "ev": 5
-                }
-            },
-            "Ancient Magic Crystal of Enchantment - Intimidation": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "ev": 3,
-                    "kd": 25
-                }
-            },
-            "Ancient Magic Crystal of the Sun - Memory": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "cs": 2
-                }
-            },
-            "Ancient Magic Crystal of Enchantment - Vision": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "vr": 10,
-                    "ev": 3
-                }
-            },
             "Ancient Magic Crystal - Harphia": {
                 "rarity": "legendary",
                 "shatter_chance": "low",
@@ -1564,7 +1428,7 @@ var BDOdatabase = {
                     "ev": 2
                 }
             },
-            "Red Battlefield Crystal: Harsha": {
+            "Red Battlefield Crystal: Harphia": {
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -1790,73 +1654,12 @@ var BDOdatabase = {
                     "acc": 2
                 }
             },
-            "Ancient Magic Crystal of Crimson Flame - Carnage": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "dmgtb": 4
-                }
-            },
-            "Ancient Magic Crystal of Crimson Flame - Demihuman": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "dmgtdh": 4
-                }
-            },
-            "Ancient Magic Crystal of Crimson Flame - Human": {
-                "rarity": "epic",
-                "shatter_chance": "low",
-                "incompatible": [],
-                "item_effects": {
-                    "dmgth": 4
-                }
-            },
             "Ancient Magic Crystal of Crimson Flame - Power": {
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
                 "item_effects": {
                     "ap": 5
-                }
-            },
-            "Black Magic Crystal - Carnage (Beasts)": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "dmgtb": 2,
-                    "iar": 10
-                }
-            },
-            "Black Magic Crystal - Carnage (Humans)": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "dmgth": 2,
-                    "iar": 10
-                }
-            },
-            "Black Magic Crystal - Carnage (Demihuman)": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "dmgtdh": 2,
-                    "iar": 10
-                }
-            },
-
-            "Black Magic Crystal - Power": {
-                "rarity": "epic",
-                "shatter_chance": "high",
-                "incompatible": [],
-                "item_effects": {
-                    "atk": 2,
-                    "iar": 10
                 }
             },
             "Black Magic Crystal - Precision": {
@@ -1921,12 +1724,12 @@ var BDOdatabase = {
                     "chr": -1
                 }
             },
-            "Ancient Magic Crystal - Agony": {
+            "Ancient Magic Crystal - Addis": {
                 "rarity": "legendary",
-                "shatter_chance": "very low",
+                "shatter_chance": "low",
                 "incompatible": [],
                 "item_effects": {
-                    "as": 1,
+                    "chr": 1,
                     "cs": 1
                 }
             },
@@ -1989,6 +1792,16 @@ var BDOdatabase = {
                 "item_effects": {
                     "chr": 1,
                     "as": 1,
+                    "dmgth": 3
+                }
+            },
+            "Red Battlefield Crystal: Addis": {
+                "rarity": "legendary",
+                "shatter_chance": "might",
+                "incompatible": [],
+                "item_effects": {
+                    "chr": 1,
+                    "cs": 1,
                     "dmgth": 3
                 }
             },
