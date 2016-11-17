@@ -1,8 +1,22 @@
+## 0.3.3.3 (2016-11-17)
+
+Features:
+
+  - Added Ninja and Kunoichi classes. (Shadowtrance)
+  - Enhancement level up to +20 now for applicable items. (Shadowtrance)
+  - Small additions to main page, copy link button mainly. (Shadowtrance)
+  - Copy to clipboard and tooltip added to app.js. (Shadowtrance)
+  - Kunai (kunoichi) and Shuriken (Ninja) images added. (Shadowtrance)
+  - Huge item database update (basically every item available currently). Hopefully no issues here, there A LOT to add. :) (Shadowtrance)
+  - Crystal clean up in item database, corrected some, removed some that don't exist in game in any region that i know of yet. (Shadowtrance)
+  - Fixed saving and loading of "all" crystals for items. (SirMrE)
+
+
 ## 0.3.3.2 (2016-11-07)
 
 Bug Fixes:
 
-  - Fixed the issue where gems which fits all slots would not work and throw an uncaught type error.
+  - Fixed the issue where gems which fits all slots would not work and throw an uncaught type error. (Shadowtrance)
 
 
 ## 0.3.3.1 (2016-10-08)

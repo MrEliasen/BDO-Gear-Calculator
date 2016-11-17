@@ -30,12 +30,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-24">
-                    <h1>BDO Calculator <small>v. 0.3.3.2</small></h1>
+                    <h1>BDO Calculator <small>v. 0.3.3.3</small></h1>
                     <p>Mix and match gear and see the results.</p>
-                    <p>This is an open source project. You can get a copy of the source code here: <a href="https://github.com/MrEliasen/BDO-Gear-Calculator" target="_blank">https://github.com/MrEliasen/BDO-Gear-Calculator</a>.<br>Please see the <a href="https://github.com/MrEliasen/BDO-Gear-Calculator/blob/master/README.md" target="_blank">README for details about outstanding features and data.</a></p>
+
+                    <h4><a data-toggle="collapse" href="#todocollapse1">TODO</a></h4>
+                    <div id="todocollapse1" class="panel-collapse collapse">
+                        <p><b>Currently not working: 
+                            <ul style="list-style-type:disc">
+                                <li>Jarrette's accessories set bonus.</li>
+                            </ul>
+                        </b></p>
+                        <p><b>To be added: 
+                            <ul style="list-style-type:disc">
+                                <li>Display Enchantment level of item</li>
+                                <li>Awakening Weapons</li>
+                                <li>List of equipped items</li>
+                            </ul>
+                        </b></p>
+                    </div>
+
+                    <p>This is an open source project. You can get a copy of the source code here: <a href="https://github.com/MrEliasen/BDO-Gear-Calculator" target="_blank">https://github.com/MrEliasen/BDO-Gear-Calculator</a>.<br>Please see the <a href="https://github.com/MrEliasen/BDO-Gear-Calculator/blob/master/README.md" target="_blank">README for details about outstanding features and data.</a> Click the <b>copy</b> button to copy your link to the clipboard.</p>
                 </div>
             </div>
             <div id="player-class-section" class="row">
+                <div class="col-xs-24">
+                    <hr>
+                    <p><b>Note: Set Bonus AP such as Grunil as well as AP crystals are added to the AP calculation you see here.</b></p>
+                </div>
                 <div class="col-xs-24 col-sm-10 col-md-8">
                     <select id="player-class" data-itemset="classes" placeholder="Choose Class"></select>
                 </div>
@@ -43,6 +64,9 @@
                     <div class="input-group input-group-sm">
                         <span class="input-group-addon" id="save-link-label">Share Link:</span>
                         <input id="share-link" type="text" class="form-control" aria-describedby="save-link-label">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" id="copy-button" data-toggle="tooltip" data-placement="right" data-clipboard-target="#share-link" title="Copy Link">Copy</button>
+                        </span>
                     </div>
                 </div>
                 <div class="col-xs-24">
@@ -87,6 +111,7 @@
                             <strong>AP</strong>
                             <span>0</span>
                         </div>
+
                         <div class="gear-slot stat-dp">
                             <strong>DP</strong>
                             <span>0</span>
@@ -149,6 +174,9 @@
 
         <!-- slider -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/bootstrap-slider.min.js" integrity="sha384-cJO8+Tf29/+2gG4gFG4aEZTw8yqEOn0JpSPgYtU0Culv2r8k3H9B0y0nqH7AG4yi" crossorigin="anonymous"></script>
+
+        <!-- clipboard -->
+        <script src="assets/js/clipboard.min.js"></script>
 
         <!-- The actual "app" js -->
         <script type="text/javascript" src="assets/js/bdo_database.js"></script>

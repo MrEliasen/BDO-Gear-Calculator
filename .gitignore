@@ -44,5 +44,6 @@ $RECYCLE.BIN/
 
 # General CodeKit files to ignore
 config.codekit
+config.codekit3
 .codekit-cache
 *.sass-cache
